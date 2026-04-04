@@ -90,6 +90,9 @@ extern void Baker__ctor_m297CCC59709BAB24F9E620CE663280593E34EB20 (void);
 extern void ResolutionSetup_Start_m6EA03816752FAA9AFE117B2606352265DFEF2AC9 (void);
 extern void ResolutionSetup__ctor_m1A293D9152CC9DAABF0FE35BD4AC220FF3D33B79 (void);
 extern void EntityInstantiation__ctor_m752B63A0644A7986E6FA54D2588687F928B26553 (void);
+extern void TrackSwitch_Awake_m28171E46F43C7F9BC9F97F60989AAA29EBCB346D (void);
+extern void TrackSwitch_Update_m2F7A48622DA220F66A2AA19EA7309E6640C85D21 (void);
+extern void TrackSwitch__ctor_mFDFB6C59ABBC37B855FB73396B0A713CEF8CBA35 (void);
 extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
 extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
@@ -103,7 +106,7 @@ extern void __UnmanagedPostProcessorOutput__1221673671587648887_EarlyInit_mD2405
 extern void __JobReflectionRegistrationOutput__1221673671587648887_CreateJobReflectionData_m1F483A9B7E258CE82A38F403CB25E2A8E08B8C7D (void);
 extern void __JobReflectionRegistrationOutput__1221673671587648887_EarlyInit_m0E9D8082FECF3A06E063A71B0013E9029931CC67 (void);
 extern void U24BurstDirectCallInitializer_Initialize_mEF7ADDE21FD36F58CC60A0C133130336CB43F5E3 (void);
-static Il2CppMethodPointer s_methodPointers[90] = 
+static Il2CppMethodPointer s_methodPointers[93] = 
 {
 	AudioSamplerSystem_OnCreate_m35443011FA8D060F499EFB7F60A2211BE4BE77DD,
 	AudioSamplerSystem_OnUpdate_mD3761D198BD58A5C624EE7AE89F2360B3375026E,
@@ -182,6 +185,9 @@ static Il2CppMethodPointer s_methodPointers[90] =
 	ResolutionSetup_Start_m6EA03816752FAA9AFE117B2606352265DFEF2AC9,
 	ResolutionSetup__ctor_m1A293D9152CC9DAABF0FE35BD4AC220FF3D33B79,
 	EntityInstantiation__ctor_m752B63A0644A7986E6FA54D2588687F928B26553,
+	TrackSwitch_Awake_m28171E46F43C7F9BC9F97F60989AAA29EBCB346D,
+	TrackSwitch_Update_m2F7A48622DA220F66A2AA19EA7309E6640C85D21,
+	TrackSwitch__ctor_mFDFB6C59ABBC37B855FB73396B0A713CEF8CBA35,
 	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
 	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
@@ -289,7 +295,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[45] =
 	{ 0x06000045, TypeHandle___AssignHandles_mC84CD74969A327E2F39891B6FC9A2AD1BE4C8274_AdjustorThunk },
 	{ 0x06000046, TypeHandle_Update_m62FA92C3B1C996D7D2E00258E6170AEBE90A0BA4_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[90] = 
+static const int32_t s_InvokerIndices[93] = 
 {
 	31350,
 	31350,
@@ -370,6 +376,9 @@ static const int32_t s_InvokerIndices[90] =
 	31350,
 	31350,
 	31350,
+	31350,
+	31350,
+	31350,
 	54849,
 	31350,
 	54767,
@@ -395,7 +404,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	90,
+	93,
 	s_methodPointers,
 	45,
 	s_adjustorThunks,

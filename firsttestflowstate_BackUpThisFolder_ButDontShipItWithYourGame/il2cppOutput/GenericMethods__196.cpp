@@ -12213,7 +12213,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisP
 		return (int32_t)L_0;
 	}
 }
-// Method Definition Index: 115751
+// Method Definition Index: 115766
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m5B6CC1D65A88A7944C5EC7175D8CFC7E8229CE30_gshared_inline (bool* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -12221,7 +12221,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisBool
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115751
+// Method Definition Index: 115766
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisContentFileId_t630F8A1A207C9248EE434BA833823A2D5C384FD7_m01D2486E5139DD8D56B5A959FBDD5892F83B5C23_gshared_inline (ContentFileId_t630F8A1A207C9248EE434BA833823A2D5C384FD7* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -12229,7 +12229,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisCont
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115751
+// Method Definition Index: 115766
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisEntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8_m982C8C3F5794345811F8A479DE3F462251F37154_gshared_inline (EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -12237,7 +12237,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisEnti
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115751
+// Method Definition Index: 115766
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisHash128_t2EA8F45F10BC2DF40B0CE9AE04F222072EB1345B_m7A606DE415BC6DEB945A3BBC065BFD14C7EACFE5_gshared_inline (Hash128_t2EA8F45F10BC2DF40B0CE9AE04F222072EB1345B* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -12245,7 +12245,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisHash
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115751
+// Method Definition Index: 115766
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisHash128_t93367F504B687578F893CDBCD13FB95AC8A87A40_m7A6B39371150C251F04C80361EE992A5B067F78A_gshared_inline (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -12253,7 +12253,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisHash
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115751
+// Method Definition Index: 115766
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m8544D06F32E3436CE779A52F9FF3B72256EBAFAC_gshared_inline (int32_t* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -12261,7 +12261,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisInt3
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115751
+// Method Definition Index: 115766
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mE7633848AE991A764B88582BA7288CD89F95F83A_gshared_inline (int32_t* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -12269,7 +12269,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisInt3
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115751
+// Method Definition Index: 115766
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisRigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD_mEEF30E06512C0B10EE66BC10707C0275A405C575_gshared_inline (RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -12277,7 +12277,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisRigi
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115751
+// Method Definition Index: 115766
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisUInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_mFAC58C9127FC43F35561DF7E5179BF7D2E6174B1_gshared_inline (uint32_t* ___0_thing, const RuntimeMethod* method) 
 {
 	{

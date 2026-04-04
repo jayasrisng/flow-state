@@ -237,7 +237,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Bounds_set_extents_m09496358
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115715
+// Method Definition Index: 115730
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tE6EE359807020395783BF21F2D65885D54C9D106 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mA5D6210AC655CC6D0F6F8C100E720EA5A59DF5F4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -271,7 +271,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tE6EE359807020395783BF21F2D658
 		return L_6;
 	}
 }
-// Method Definition Index: 115716
+// Method Definition Index: 115731
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m55BFB59AACFE59F84E5E0891908933D3E9867A42 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t0A89192FAE987150EC7D417985509958D0D1F854* __this, const RuntimeMethod* method) 
 {
 	{
@@ -357,7 +357,7 @@ IL2CPP_EXTERN_C void MonoScriptData_tE6EE359807020395783BF21F2D65885D54C9D106_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115717
+// Method Definition Index: 115732
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AABB_t54A6237E1BDC0F6978DE1AF7D387C4EE19A7F56A AABBExtensions_ToAABB_m114C0B27B7220867C5A98B31D8EF1FBEBFF54028 (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___0_bounds, const RuntimeMethod* method) 
 {
 	AABB_t54A6237E1BDC0F6978DE1AF7D387C4EE19A7F56A V_0;
@@ -379,7 +379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AABB_t54A6237E1BDC0F6978DE1AF7D387C4EE19A7F56
 		return L_4;
 	}
 }
-// Method Definition Index: 115718
+// Method Definition Index: 115733
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 AABBExtensions_ToBounds_mB3871B4AFB6B4D5EC0F9862416BE1CB7FBE9987A (AABB_t54A6237E1BDC0F6978DE1AF7D387C4EE19A7F56A ___0_aabb, const RuntimeMethod* method) 
 {
 	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 V_0;

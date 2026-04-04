@@ -21127,7 +21127,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 115580
+// Method Definition Index: 115595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ProfilerUtility_GetProfilerMarkerDataType_TisIl2CppFullySharedGenericAny_m52FCF8AA54650C16BCF4EEC8F21C66757AEB72B1_gshared (const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
