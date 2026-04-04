@@ -4,9 +4,7 @@ Flowstate VR is a Unity XR prototype focused on immersive rhythm/music interacti
 
 ## Demo Video
 
-- Local demo file in this repo: [`docs/demo/hog-hacks-vr-demo.mp4`](docs/demo/hog-hacks-vr-demo.mp4)
-
-<video src="docs/demo/hog-hacks-vr-demo.mp4" controls width="900"></video>
+https://github.com/user-attachments/assets/221e2f25-0f10-4195-b18b-62727408e56e
 
 ## Tech Stack
 
