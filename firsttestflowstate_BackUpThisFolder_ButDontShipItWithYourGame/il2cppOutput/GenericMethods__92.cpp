@@ -69,6 +69,17 @@ struct InvokerActionInvoker2<T1*, T2*>
 		method->invoker_method(methodPtr, method, obj, params, params[1]);
 	}
 };
+template <typename T1, typename T2, typename T3, typename T4, typename T5>
+struct InvokerActionInvoker5;
+template <typename T1, typename T2, typename T3, typename T4, typename T5>
+struct InvokerActionInvoker5<T1*, T2, T3, T4, T5*>
+{
+	static inline void Invoke (Il2CppMethodPointer methodPtr, const RuntimeMethod* method, void* obj, T1* p1, T2 p2, T3 p3, T4 p4, T5* p5)
+	{
+		void* params[5] = { p1, &p2, &p3, &p4, p5 };
+		method->invoker_method(methodPtr, method, obj, params, params[4]);
+	}
+};
 template <typename R, typename T1, typename T2, typename T3>
 struct InvokerFuncInvoker3;
 template <typename R, typename T1, typename T2, typename T3>
@@ -370,6 +381,16 @@ struct DefaultComparer_1_tDC9E374055B5960DC3C993B8F7E076BDAF69E196
 		uint8_t DefaultComparer_1_t4A26F5A7B2EFA2BDABB2F6FA752896E1F6506114__padding[1];
 	};
 };
+struct DefaultComparer_1_t36A5D26718DC069E500FA44AF7D2B8E88AA12D05 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DefaultComparer_1_t4A26F5A7B2EFA2BDABB2F6FA752896E1F6506114__padding[1];
+	};
+};
 struct DefaultComparer_1_t11AF19F6CA8017E9989874EDBA72B91588759722 
 {
 	union
@@ -390,6 +411,26 @@ struct DefaultComparer_1_tEF107D31BF531E9C6C2E5207B2597051F6AFD178
 		uint8_t DefaultComparer_1_t4A26F5A7B2EFA2BDABB2F6FA752896E1F6506114__padding[1];
 	};
 };
+struct DefaultComparer_1_t02AD340C288BF4B85EF243AD6A6F31D50FB64DF1 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DefaultComparer_1_t4A26F5A7B2EFA2BDABB2F6FA752896E1F6506114__padding[1];
+	};
+};
+struct DefaultComparer_1_tAF888E4C12A7FC955734E6CA0FBE38F650304CED 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DefaultComparer_1_t4A26F5A7B2EFA2BDABB2F6FA752896E1F6506114__padding[1];
+	};
+};
 struct DefaultComparer_1_tC1A019F89436303DBF74FE9A5AEBA7CCBE80F4A8 
 {
 	union
@@ -401,6 +442,16 @@ struct DefaultComparer_1_tC1A019F89436303DBF74FE9A5AEBA7CCBE80F4A8
 	};
 };
 struct DefaultComparer_1_tEC0A8479FB1CF517AE3FA8C9BB154F3086646BF4 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DefaultComparer_1_t4A26F5A7B2EFA2BDABB2F6FA752896E1F6506114__padding[1];
+	};
+};
+struct DefaultComparer_1_t1EF5888609A1523CEAEF96E15805049F7F6B096A 
 {
 	union
 	{
@@ -450,7 +501,47 @@ struct DefaultComparer_1_t1267744F40E78AC60B232E07670884E601399EA1
 		uint8_t DefaultComparer_1_t4A26F5A7B2EFA2BDABB2F6FA752896E1F6506114__padding[1];
 	};
 };
+struct DefaultComparer_1_tE151CB42B189B96417CECFCB8F3CEC934E69DDF9 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DefaultComparer_1_t4A26F5A7B2EFA2BDABB2F6FA752896E1F6506114__padding[1];
+	};
+};
 struct DefaultComparer_1_tD07824236715FC1D65B300401894B79FB0041522 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DefaultComparer_1_t4A26F5A7B2EFA2BDABB2F6FA752896E1F6506114__padding[1];
+	};
+};
+struct DefaultComparer_1_tA4990DED8395C231A6E1FCE76973DE65CCC687F2 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DefaultComparer_1_t4A26F5A7B2EFA2BDABB2F6FA752896E1F6506114__padding[1];
+	};
+};
+struct DefaultComparer_1_t88999DF154C1BA44C8C5F5A7CCF98CB22DF55EF6 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DefaultComparer_1_t4A26F5A7B2EFA2BDABB2F6FA752896E1F6506114__padding[1];
+	};
+};
+struct DefaultComparer_1_t8DCB88CAFF97B61FD081E505659F57B1F4B11E65 
 {
 	union
 	{
@@ -1527,9 +1618,33 @@ struct U3CscreenRelativeTransitionHeightsU3Ee__FixedBuffer_t3C930A601B8249105638
 		uint8_t U3CscreenRelativeTransitionHeightsU3Ee__FixedBuffer_t3C930A601B8249105638E6F0B9F03AE94B6E7D86__padding[32];
 	};
 };
+struct ActiveComparer_tF3D9FC659EF5E4F55F9D1682722BD389311C23AA 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t ActiveComparer_tF3D9FC659EF5E4F55F9D1682722BD389311C23AA__padding[1];
+	};
+};
+struct EventComparer_tEA09DEC85C72EFA869F4C5C810861513BF4F795B 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t EventComparer_tEA09DEC85C72EFA869F4C5C810861513BF4F795B__padding[1];
+	};
+};
 struct EntityOffsetInfo_tAA68D1FC74ADF57FB76987377354ED848C7CC9D1 
 {
 	int32_t ___Offset;
+};
+struct CompareVertices_tBF5146956E132D358E4D41A3FF37B558974314E9 
+{
+	int32_t ___SortAxis;
 };
 struct U3CNumFreeLeafSlotsU3Ee__FixedBuffer_t6E2719E8945D405AC5268B620578ECECF7618831 
 {
@@ -2394,12 +2509,6 @@ struct NativeArray_1_tD56410DBC76FE586AED3038208F0DFA1C8B475F7
 	int32_t ___m_Length;
 	int32_t ___m_AllocatorLabel;
 };
-struct NativeArray_1_t4106F3B25F6591F7AB0D0F9D4E2D58455CF8F3B2 
-{
-	void* ___m_Buffer;
-	int32_t ___m_Length;
-	int32_t ___m_AllocatorLabel;
-};
 struct NativeArray_1_tD0093E2DF25D74C3CA2D06076D73AFD4864857F2 
 {
 	void* ___m_Buffer;
@@ -2424,43 +2533,7 @@ struct NativeArray_1_t79E8144C5D612D579D7297B75D2348BF3851077C
 	int32_t ___m_Length;
 	int32_t ___m_AllocatorLabel;
 };
-struct NativeArray_1_t15482D9F7CC02501EED5F540239814F47FD7ABF0 
-{
-	void* ___m_Buffer;
-	int32_t ___m_Length;
-	int32_t ___m_AllocatorLabel;
-};
-struct NativeArray_1_t1FB3867BA63BC3856F2E0457D4276346E1305555 
-{
-	void* ___m_Buffer;
-	int32_t ___m_Length;
-	int32_t ___m_AllocatorLabel;
-};
 struct NativeArray_1_tC1AAE4397CFABA02C0FDE6A3D0EC20A6601B8837 
-{
-	void* ___m_Buffer;
-	int32_t ___m_Length;
-	int32_t ___m_AllocatorLabel;
-};
-struct NativeArray_1_t01308121EFD97CCBB266560A0061E4E6D975EBE4 
-{
-	void* ___m_Buffer;
-	int32_t ___m_Length;
-	int32_t ___m_AllocatorLabel;
-};
-struct NativeArray_1_tC84345605578F2A44B69D41B2B42610F4D8FE9F9 
-{
-	void* ___m_Buffer;
-	int32_t ___m_Length;
-	int32_t ___m_AllocatorLabel;
-};
-struct NativeArray_1_tB84406A553A3882573C46548953DE4FE573B3596 
-{
-	void* ___m_Buffer;
-	int32_t ___m_Length;
-	int32_t ___m_AllocatorLabel;
-};
-struct NativeArray_1_t2C4AD2E83609A978E7153BB6B247ADA94E077417 
 {
 	void* ___m_Buffer;
 	int32_t ___m_Length;
@@ -2472,19 +2545,7 @@ struct NativeArray_1_tEA1CDFF3990541CCE5DB2228D58782D33425EB0A
 	int32_t ___m_Length;
 	int32_t ___m_AllocatorLabel;
 };
-struct NativeArray_1_tF78A77C5286C0DD4C505D5D75EAA3ACB12B625E6 
-{
-	void* ___m_Buffer;
-	int32_t ___m_Length;
-	int32_t ___m_AllocatorLabel;
-};
 struct NativeArray_1_tDD46A51F0126572E950A002BEA88A5476AEAB178 
-{
-	void* ___m_Buffer;
-	int32_t ___m_Length;
-	int32_t ___m_AllocatorLabel;
-};
-struct NativeArray_1_tA10D74F04B7C6C29AC3C9A8C331B8ED44ABCFB53 
 {
 	void* ___m_Buffer;
 	int32_t ___m_Length;
@@ -2532,12 +2593,6 @@ struct NativeArray_1_t2EEECA85F68E04F186DCCC2DCAB0CE2F1C24CC81
 	int32_t ___m_Length;
 	int32_t ___m_AllocatorLabel;
 };
-struct NativeArray_1_tE14EC68A3468927E8107E875446A79D116B04603 
-{
-	void* ___m_Buffer;
-	int32_t ___m_Length;
-	int32_t ___m_AllocatorLabel;
-};
 struct NativeArray_1_t862C4A7005AE8D9DDACD9AD5F80100FDABF7553F 
 {
 	void* ___m_Buffer;
@@ -2545,18 +2600,6 @@ struct NativeArray_1_t862C4A7005AE8D9DDACD9AD5F80100FDABF7553F
 	int32_t ___m_AllocatorLabel;
 };
 struct NativeArray_1_tBEE3484B4ABC271CFAB65039F1439061D5DF806A 
-{
-	void* ___m_Buffer;
-	int32_t ___m_Length;
-	int32_t ___m_AllocatorLabel;
-};
-struct NativeArray_1_t305B9B37751B179420F66305AA26D74C3A0DED53 
-{
-	void* ___m_Buffer;
-	int32_t ___m_Length;
-	int32_t ___m_AllocatorLabel;
-};
-struct NativeArray_1_t60C2883F9133642CF381234B3DD254605DD4F0A5 
 {
 	void* ___m_Buffer;
 	int32_t ___m_Length;
@@ -5963,6 +6006,10 @@ struct ColliderBlobInstance_t3C4B63E63BE0F24BACF2534F4650E24E4B34F6A4
 	BlobAssetReference_1_tC953AE1B35DBBA1A1A3BFCE8018409EFAE532602 ___Collider;
 	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___Entity;
 };
+struct CompareAreaDescending_t66FFF10221C06D41847D010560C295AD361E63D1 
+{
+	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___Areas;
+};
 struct EntityComponentPair_tBBE23DA40B93DACBF79EAEC5BBD21D35E287A7FD 
 {
 	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___Entity;
@@ -6308,6 +6355,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_Heapify_TisIntPtr_t_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_Swap_TisIntPtr_t_mD2CEC4D1848FEDE96AF8D2C4F8B39892EF43FE31_gshared (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_Heapify_TisTypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C_TisDefaultComparer_1_tECAA8A95A131A47E5B6CC9FF62A97B4F1CBBC8AF_m0579280F64923C9B4F1867C5AEE16997727980F3_gshared (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, DefaultComparer_1_tECAA8A95A131A47E5B6CC9FF62A97B4F1CBBC8AF ___4_comp, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_Swap_TisTypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C_mF3FC43C09A27F27A90621F4972D9A270611759A1_gshared (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_Heapify_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_TisDefaultComparer_1_tE151CB42B189B96417CECFCB8F3CEC934E69DDF9_mA1D6086C38D6952AA634FBC9BED57D65A58F68BA_gshared (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, DefaultComparer_1_tE151CB42B189B96417CECFCB8F3CEC934E69DDF9 ___4_comp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_Swap_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m20CFAAEF92F2BF57192AC6AC6672D34DB0378730_gshared (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_Heapify_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_TisActiveComparer_tF3D9FC659EF5E4F55F9D1682722BD389311C23AA_m1DB8637532087D9DDA1D1FA160D8396B23EE30D2_gshared (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, ActiveComparer_tF3D9FC659EF5E4F55F9D1682722BD389311C23AA ___4_comp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_Swap_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m7823FBF7870907C0FBB1EAA0FADD3DCF95A52217_gshared (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_Heapify_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_TisEventComparer_tEA09DEC85C72EFA869F4C5C810861513BF4F795B_m0E63AE9C4FFB1E0893D9A562072BAFF57BFF74A3_gshared (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, EventComparer_tEA09DEC85C72EFA869F4C5C810861513BF4F795B ___4_comp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_Swap_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m559DA77F56AD4E1B2E028B54702A892A46109FA1_gshared (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_Heapify_Tisfloat4_t89D9A294E7A79BD81BFBDD18654508532958555E_TisCompareVertices_tBF5146956E132D358E4D41A3FF37B558974314E9_m4ABC9A9BA52E0C6D1FFA92E40497E094E1639DDE_gshared (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, CompareVertices_tBF5146956E132D358E4D41A3FF37B558974314E9 ___4_comp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_Swap_Tisfloat4_t89D9A294E7A79BD81BFBDD18654508532958555E_m325EE260F238EBD337ED31BD791BC7B354C40E1A_gshared (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_Heapify_TisNodeInsertionData_tA223377E6BFBECF220DD833063BBAC8DBF9CC10E_TisDefaultComparer_1_tA4990DED8395C231A6E1FCE76973DE65CCC687F2_mED591F3719852FEF8539213171034326FCE20E37_gshared (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, DefaultComparer_1_tA4990DED8395C231A6E1FCE76973DE65CCC687F2 ___4_comp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_Swap_TisNodeInsertionData_tA223377E6BFBECF220DD833063BBAC8DBF9CC10E_m8B91240B32BFCDDDB53D7208665805D269D98923_gshared (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_Heapify_TisChildInstance_t75CC80E6BE0201559FF42B4771BAA74D167C6AE2_TisDefaultComparer_1_t88999DF154C1BA44C8C5F5A7CCF98CB22DF55EF6_m162FF829FDF2B94020562025AC4BBF0301C740C9_gshared (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, DefaultComparer_1_t88999DF154C1BA44C8C5F5A7CCF98CB22DF55EF6 ___4_comp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_Swap_TisChildInstance_t75CC80E6BE0201559FF42B4771BAA74D167C6AE2_m6FF3FC6CA27CD3B579EEA0AD5089B5E4876337F1_gshared (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_Heapify_TisChunkAndEnabledMask_tC0D980F7FEF198C0867996F17431F70A674490D9_TisDefaultComparer_1_t8DCB88CAFF97B61FD081E505659F57B1F4B11E65_m6D61CEF0AE3D1FC6E091894CC48E2893C1B9F476_gshared (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, DefaultComparer_1_t8DCB88CAFF97B61FD081E505659F57B1F4B11E65 ___4_comp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_Swap_TisChunkAndEnabledMask_tC0D980F7FEF198C0867996F17431F70A674490D9_m01133F1BD515F0E547212608337EDA5B16BBEAAE_gshared (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapifyStruct_TisBatchCreateInfo_t15C4620EEBE83EE2A60F4B3A6141A82942786EB2_TisDefaultComparer_1_t36A5D26718DC069E500FA44AF7D2B8E88AA12D05_mF889776D399A940B04E0BA8B2165CF69ED971246_gshared (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t* ___3_lo, DefaultComparer_1_t36A5D26718DC069E500FA44AF7D2B8E88AA12D05 ___4_comp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_SwapStruct_TisBatchCreateInfo_t15C4620EEBE83EE2A60F4B3A6141A82942786EB2_m6316A37B32D6BB13AFD17645D8501B150A46DF8E_gshared (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapifyStruct_TisBlobAssetPtr_tC182EB799C9F1828CD9B90D00118B27E21BD4B61_TisBlobAssetPtrHashComparer_t2CA698BC333D44DFCCB933D796EDA1F54559A562_mE56E86F5F3335CADEF0F800B4C9062C769D92364_gshared (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t* ___3_lo, BlobAssetPtrHashComparer_t2CA698BC333D44DFCCB933D796EDA1F54559A562 ___4_comp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_SwapStruct_TisBlobAssetPtr_tC182EB799C9F1828CD9B90D00118B27E21BD4B61_m0FB954CEE708D4777EB70D2117AA41160A0FD537_gshared (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapifyStruct_TisEntity_t56176FC78C475061A82383D9E0CEE352C6C52ABD_TisDefaultComparer_1_t02AD340C288BF4B85EF243AD6A6F31D50FB64DF1_m84FCF32B5A2B2E5BFAEDA6410D698E235C143AEF_gshared (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t* ___3_lo, DefaultComparer_1_t02AD340C288BF4B85EF243AD6A6F31D50FB64DF1 ___4_comp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_SwapStruct_TisEntity_t56176FC78C475061A82383D9E0CEE352C6C52ABD_m387A72DAAA63D7071344C59C9C32EDD4FDC7ED40_gshared (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapifyStruct_TisEntityGuid_tAB9B163B73754C5D863D5E88B8E5A1D239433877_TisDefaultComparer_1_tAF888E4C12A7FC955734E6CA0FBE38F650304CED_mC56CCEC71E1B92A6B0B8E1F4F6CE290B21F5D4D8_gshared (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t* ___3_lo, DefaultComparer_1_tAF888E4C12A7FC955734E6CA0FBE38F650304CED ___4_comp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_SwapStruct_TisEntityGuid_tAB9B163B73754C5D863D5E88B8E5A1D239433877_mE9BF71C08C1FDE49668A035C68CFC932732DA7AB_gshared (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapifyStruct_TisEntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8_TisDefaultComparer_1_tC1A019F89436303DBF74FE9A5AEBA7CCBE80F4A8_m84E435B36881F1BF1C49BC94F2B7BDB61FEB512C_gshared (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t* ___3_lo, DefaultComparer_1_tC1A019F89436303DBF74FE9A5AEBA7CCBE80F4A8 ___4_comp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_SwapStruct_TisEntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8_mB4CAE2AEAA345E2E169E4633C3DD7031114A4C20_gshared (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapifyStruct_TisIndexedInt_t24BCB89B541376CF44EFAC03B879082052E960F7_TisDefaultComparer_1_t1EF5888609A1523CEAEF96E15805049F7F6B096A_m53329E32289298CB006B2527998583C51D21A6D5_gshared (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t* ___3_lo, DefaultComparer_1_t1EF5888609A1523CEAEF96E15805049F7F6B096A ___4_comp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_SwapStruct_TisIndexedInt_t24BCB89B541376CF44EFAC03B879082052E960F7_mCE90238E6E6B4BC53BBCF121FE711DE422437D4E_gshared (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapifyStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisDefaultComparer_1_t612242F4555E59390215CE9BFA23C8ECB894D939_mBE131CA1F0F0E1C912D3925340BC453B9D595194_gshared (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t* ___3_lo, DefaultComparer_1_t612242F4555E59390215CE9BFA23C8ECB894D939 ___4_comp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_SwapStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m7893AFE45F18176042CC91EAABA973BA33E1D68F_gshared (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapifyStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisCompareAreaDescending_t66FFF10221C06D41847D010560C295AD361E63D1_mE20570970771A1E67074CDE65C0F96B1611A7747_gshared (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t* ___3_lo, CompareAreaDescending_t66FFF10221C06D41847D010560C295AD361E63D1 ___4_comp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapifyStruct_TisTypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C_TisDefaultComparer_1_tECAA8A95A131A47E5B6CC9FF62A97B4F1CBBC8AF_m7DBA83A7C7530F9D42E0E75A520BD6F4C34EADF4_gshared (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t* ___3_lo, DefaultComparer_1_tECAA8A95A131A47E5B6CC9FF62A97B4F1CBBC8AF ___4_comp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_SwapStruct_TisTypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C_m5DBEEE6CCD6CE0B1113EEA7CA2CC4ED25D4F7069_gshared (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mEA927D1405F8410976953A49C12817C90D673A4B_gshared_inline (UnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mBBBB6ADF90EB8069F43019BE5FB327F903FB8260_gshared_inline (UnsafeList_1_t47D64DE9FDF8B0F6EE5FA9CD2B38D0F8EC7DB97C* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m6264E22C88449817C06DF23F54528E78BA3B5CA5_gshared_inline (UnsafeList_1_t97A3723151ED14D12B29330A1AD266BF0DD6AC60* __this, const RuntimeMethod* method) ;
@@ -6925,6 +7003,130 @@ inline void NativeSortExtension_Swap_TisTypeIndex_t18365699387F045FB6E4ED39554CD
 {
 	((  void (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeSortExtension_Swap_TisTypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C_mF3FC43C09A27F27A90621F4972D9A270611759A1_gshared)(___0_array, ___1_lhs, ___2_rhs, method);
 }
+inline void NativeSortExtension_Heapify_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_TisDefaultComparer_1_tE151CB42B189B96417CECFCB8F3CEC934E69DDF9_mA1D6086C38D6952AA634FBC9BED57D65A58F68BA (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, DefaultComparer_1_tE151CB42B189B96417CECFCB8F3CEC934E69DDF9 ___4_comp, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, int32_t, DefaultComparer_1_tE151CB42B189B96417CECFCB8F3CEC934E69DDF9, const RuntimeMethod*))NativeSortExtension_Heapify_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_TisDefaultComparer_1_tE151CB42B189B96417CECFCB8F3CEC934E69DDF9_mA1D6086C38D6952AA634FBC9BED57D65A58F68BA_gshared)(___0_array, ___1_i, ___2_n, ___3_lo, ___4_comp, method);
+}
+inline void NativeSortExtension_Swap_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m20CFAAEF92F2BF57192AC6AC6672D34DB0378730 (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeSortExtension_Swap_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m20CFAAEF92F2BF57192AC6AC6672D34DB0378730_gshared)(___0_array, ___1_lhs, ___2_rhs, method);
+}
+inline void NativeSortExtension_Heapify_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_TisActiveComparer_tF3D9FC659EF5E4F55F9D1682722BD389311C23AA_m1DB8637532087D9DDA1D1FA160D8396B23EE30D2 (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, ActiveComparer_tF3D9FC659EF5E4F55F9D1682722BD389311C23AA ___4_comp, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, int32_t, ActiveComparer_tF3D9FC659EF5E4F55F9D1682722BD389311C23AA, const RuntimeMethod*))NativeSortExtension_Heapify_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_TisActiveComparer_tF3D9FC659EF5E4F55F9D1682722BD389311C23AA_m1DB8637532087D9DDA1D1FA160D8396B23EE30D2_gshared)(___0_array, ___1_i, ___2_n, ___3_lo, ___4_comp, method);
+}
+inline void NativeSortExtension_Swap_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m7823FBF7870907C0FBB1EAA0FADD3DCF95A52217 (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeSortExtension_Swap_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m7823FBF7870907C0FBB1EAA0FADD3DCF95A52217_gshared)(___0_array, ___1_lhs, ___2_rhs, method);
+}
+inline void NativeSortExtension_Heapify_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_TisEventComparer_tEA09DEC85C72EFA869F4C5C810861513BF4F795B_m0E63AE9C4FFB1E0893D9A562072BAFF57BFF74A3 (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, EventComparer_tEA09DEC85C72EFA869F4C5C810861513BF4F795B ___4_comp, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, int32_t, EventComparer_tEA09DEC85C72EFA869F4C5C810861513BF4F795B, const RuntimeMethod*))NativeSortExtension_Heapify_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_TisEventComparer_tEA09DEC85C72EFA869F4C5C810861513BF4F795B_m0E63AE9C4FFB1E0893D9A562072BAFF57BFF74A3_gshared)(___0_array, ___1_i, ___2_n, ___3_lo, ___4_comp, method);
+}
+inline void NativeSortExtension_Swap_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m559DA77F56AD4E1B2E028B54702A892A46109FA1 (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeSortExtension_Swap_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m559DA77F56AD4E1B2E028B54702A892A46109FA1_gshared)(___0_array, ___1_lhs, ___2_rhs, method);
+}
+inline void NativeSortExtension_Heapify_Tisfloat4_t89D9A294E7A79BD81BFBDD18654508532958555E_TisCompareVertices_tBF5146956E132D358E4D41A3FF37B558974314E9_m4ABC9A9BA52E0C6D1FFA92E40497E094E1639DDE (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, CompareVertices_tBF5146956E132D358E4D41A3FF37B558974314E9 ___4_comp, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, int32_t, CompareVertices_tBF5146956E132D358E4D41A3FF37B558974314E9, const RuntimeMethod*))NativeSortExtension_Heapify_Tisfloat4_t89D9A294E7A79BD81BFBDD18654508532958555E_TisCompareVertices_tBF5146956E132D358E4D41A3FF37B558974314E9_m4ABC9A9BA52E0C6D1FFA92E40497E094E1639DDE_gshared)(___0_array, ___1_i, ___2_n, ___3_lo, ___4_comp, method);
+}
+inline void NativeSortExtension_Swap_Tisfloat4_t89D9A294E7A79BD81BFBDD18654508532958555E_m325EE260F238EBD337ED31BD791BC7B354C40E1A (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeSortExtension_Swap_Tisfloat4_t89D9A294E7A79BD81BFBDD18654508532958555E_m325EE260F238EBD337ED31BD791BC7B354C40E1A_gshared)(___0_array, ___1_lhs, ___2_rhs, method);
+}
+inline void NativeSortExtension_Heapify_TisNodeInsertionData_tA223377E6BFBECF220DD833063BBAC8DBF9CC10E_TisDefaultComparer_1_tA4990DED8395C231A6E1FCE76973DE65CCC687F2_mED591F3719852FEF8539213171034326FCE20E37 (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, DefaultComparer_1_tA4990DED8395C231A6E1FCE76973DE65CCC687F2 ___4_comp, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, int32_t, DefaultComparer_1_tA4990DED8395C231A6E1FCE76973DE65CCC687F2, const RuntimeMethod*))NativeSortExtension_Heapify_TisNodeInsertionData_tA223377E6BFBECF220DD833063BBAC8DBF9CC10E_TisDefaultComparer_1_tA4990DED8395C231A6E1FCE76973DE65CCC687F2_mED591F3719852FEF8539213171034326FCE20E37_gshared)(___0_array, ___1_i, ___2_n, ___3_lo, ___4_comp, method);
+}
+inline void NativeSortExtension_Swap_TisNodeInsertionData_tA223377E6BFBECF220DD833063BBAC8DBF9CC10E_m8B91240B32BFCDDDB53D7208665805D269D98923 (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeSortExtension_Swap_TisNodeInsertionData_tA223377E6BFBECF220DD833063BBAC8DBF9CC10E_m8B91240B32BFCDDDB53D7208665805D269D98923_gshared)(___0_array, ___1_lhs, ___2_rhs, method);
+}
+inline void NativeSortExtension_Heapify_TisChildInstance_t75CC80E6BE0201559FF42B4771BAA74D167C6AE2_TisDefaultComparer_1_t88999DF154C1BA44C8C5F5A7CCF98CB22DF55EF6_m162FF829FDF2B94020562025AC4BBF0301C740C9 (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, DefaultComparer_1_t88999DF154C1BA44C8C5F5A7CCF98CB22DF55EF6 ___4_comp, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, int32_t, DefaultComparer_1_t88999DF154C1BA44C8C5F5A7CCF98CB22DF55EF6, const RuntimeMethod*))NativeSortExtension_Heapify_TisChildInstance_t75CC80E6BE0201559FF42B4771BAA74D167C6AE2_TisDefaultComparer_1_t88999DF154C1BA44C8C5F5A7CCF98CB22DF55EF6_m162FF829FDF2B94020562025AC4BBF0301C740C9_gshared)(___0_array, ___1_i, ___2_n, ___3_lo, ___4_comp, method);
+}
+inline void NativeSortExtension_Swap_TisChildInstance_t75CC80E6BE0201559FF42B4771BAA74D167C6AE2_m6FF3FC6CA27CD3B579EEA0AD5089B5E4876337F1 (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeSortExtension_Swap_TisChildInstance_t75CC80E6BE0201559FF42B4771BAA74D167C6AE2_m6FF3FC6CA27CD3B579EEA0AD5089B5E4876337F1_gshared)(___0_array, ___1_lhs, ___2_rhs, method);
+}
+inline void NativeSortExtension_Heapify_TisChunkAndEnabledMask_tC0D980F7FEF198C0867996F17431F70A674490D9_TisDefaultComparer_1_t8DCB88CAFF97B61FD081E505659F57B1F4B11E65_m6D61CEF0AE3D1FC6E091894CC48E2893C1B9F476 (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, DefaultComparer_1_t8DCB88CAFF97B61FD081E505659F57B1F4B11E65 ___4_comp, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, int32_t, DefaultComparer_1_t8DCB88CAFF97B61FD081E505659F57B1F4B11E65, const RuntimeMethod*))NativeSortExtension_Heapify_TisChunkAndEnabledMask_tC0D980F7FEF198C0867996F17431F70A674490D9_TisDefaultComparer_1_t8DCB88CAFF97B61FD081E505659F57B1F4B11E65_m6D61CEF0AE3D1FC6E091894CC48E2893C1B9F476_gshared)(___0_array, ___1_i, ___2_n, ___3_lo, ___4_comp, method);
+}
+inline void NativeSortExtension_Swap_TisChunkAndEnabledMask_tC0D980F7FEF198C0867996F17431F70A674490D9_m01133F1BD515F0E547212608337EDA5B16BBEAAE (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeSortExtension_Swap_TisChunkAndEnabledMask_tC0D980F7FEF198C0867996F17431F70A674490D9_m01133F1BD515F0E547212608337EDA5B16BBEAAE_gshared)(___0_array, ___1_lhs, ___2_rhs, method);
+}
+inline void NativeSortExtension_HeapifyStruct_TisBatchCreateInfo_t15C4620EEBE83EE2A60F4B3A6141A82942786EB2_TisDefaultComparer_1_t36A5D26718DC069E500FA44AF7D2B8E88AA12D05_mF889776D399A940B04E0BA8B2165CF69ED971246 (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t* ___3_lo, DefaultComparer_1_t36A5D26718DC069E500FA44AF7D2B8E88AA12D05 ___4_comp, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, int32_t*, DefaultComparer_1_t36A5D26718DC069E500FA44AF7D2B8E88AA12D05, const RuntimeMethod*))NativeSortExtension_HeapifyStruct_TisBatchCreateInfo_t15C4620EEBE83EE2A60F4B3A6141A82942786EB2_TisDefaultComparer_1_t36A5D26718DC069E500FA44AF7D2B8E88AA12D05_mF889776D399A940B04E0BA8B2165CF69ED971246_gshared)(___0_array, ___1_i, ___2_n, ___3_lo, ___4_comp, method);
+}
+inline void NativeSortExtension_SwapStruct_TisBatchCreateInfo_t15C4620EEBE83EE2A60F4B3A6141A82942786EB2_m6316A37B32D6BB13AFD17645D8501B150A46DF8E (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeSortExtension_SwapStruct_TisBatchCreateInfo_t15C4620EEBE83EE2A60F4B3A6141A82942786EB2_m6316A37B32D6BB13AFD17645D8501B150A46DF8E_gshared)(___0_array, ___1_lhs, ___2_rhs, method);
+}
+inline void NativeSortExtension_HeapifyStruct_TisBlobAssetPtr_tC182EB799C9F1828CD9B90D00118B27E21BD4B61_TisBlobAssetPtrHashComparer_t2CA698BC333D44DFCCB933D796EDA1F54559A562_mE56E86F5F3335CADEF0F800B4C9062C769D92364 (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t* ___3_lo, BlobAssetPtrHashComparer_t2CA698BC333D44DFCCB933D796EDA1F54559A562 ___4_comp, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, int32_t*, BlobAssetPtrHashComparer_t2CA698BC333D44DFCCB933D796EDA1F54559A562, const RuntimeMethod*))NativeSortExtension_HeapifyStruct_TisBlobAssetPtr_tC182EB799C9F1828CD9B90D00118B27E21BD4B61_TisBlobAssetPtrHashComparer_t2CA698BC333D44DFCCB933D796EDA1F54559A562_mE56E86F5F3335CADEF0F800B4C9062C769D92364_gshared)(___0_array, ___1_i, ___2_n, ___3_lo, ___4_comp, method);
+}
+inline void NativeSortExtension_SwapStruct_TisBlobAssetPtr_tC182EB799C9F1828CD9B90D00118B27E21BD4B61_m0FB954CEE708D4777EB70D2117AA41160A0FD537 (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeSortExtension_SwapStruct_TisBlobAssetPtr_tC182EB799C9F1828CD9B90D00118B27E21BD4B61_m0FB954CEE708D4777EB70D2117AA41160A0FD537_gshared)(___0_array, ___1_lhs, ___2_rhs, method);
+}
+inline void NativeSortExtension_HeapifyStruct_TisEntity_t56176FC78C475061A82383D9E0CEE352C6C52ABD_TisDefaultComparer_1_t02AD340C288BF4B85EF243AD6A6F31D50FB64DF1_m84FCF32B5A2B2E5BFAEDA6410D698E235C143AEF (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t* ___3_lo, DefaultComparer_1_t02AD340C288BF4B85EF243AD6A6F31D50FB64DF1 ___4_comp, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, int32_t*, DefaultComparer_1_t02AD340C288BF4B85EF243AD6A6F31D50FB64DF1, const RuntimeMethod*))NativeSortExtension_HeapifyStruct_TisEntity_t56176FC78C475061A82383D9E0CEE352C6C52ABD_TisDefaultComparer_1_t02AD340C288BF4B85EF243AD6A6F31D50FB64DF1_m84FCF32B5A2B2E5BFAEDA6410D698E235C143AEF_gshared)(___0_array, ___1_i, ___2_n, ___3_lo, ___4_comp, method);
+}
+inline void NativeSortExtension_SwapStruct_TisEntity_t56176FC78C475061A82383D9E0CEE352C6C52ABD_m387A72DAAA63D7071344C59C9C32EDD4FDC7ED40 (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeSortExtension_SwapStruct_TisEntity_t56176FC78C475061A82383D9E0CEE352C6C52ABD_m387A72DAAA63D7071344C59C9C32EDD4FDC7ED40_gshared)(___0_array, ___1_lhs, ___2_rhs, method);
+}
+inline void NativeSortExtension_HeapifyStruct_TisEntityGuid_tAB9B163B73754C5D863D5E88B8E5A1D239433877_TisDefaultComparer_1_tAF888E4C12A7FC955734E6CA0FBE38F650304CED_mC56CCEC71E1B92A6B0B8E1F4F6CE290B21F5D4D8 (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t* ___3_lo, DefaultComparer_1_tAF888E4C12A7FC955734E6CA0FBE38F650304CED ___4_comp, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, int32_t*, DefaultComparer_1_tAF888E4C12A7FC955734E6CA0FBE38F650304CED, const RuntimeMethod*))NativeSortExtension_HeapifyStruct_TisEntityGuid_tAB9B163B73754C5D863D5E88B8E5A1D239433877_TisDefaultComparer_1_tAF888E4C12A7FC955734E6CA0FBE38F650304CED_mC56CCEC71E1B92A6B0B8E1F4F6CE290B21F5D4D8_gshared)(___0_array, ___1_i, ___2_n, ___3_lo, ___4_comp, method);
+}
+inline void NativeSortExtension_SwapStruct_TisEntityGuid_tAB9B163B73754C5D863D5E88B8E5A1D239433877_mE9BF71C08C1FDE49668A035C68CFC932732DA7AB (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeSortExtension_SwapStruct_TisEntityGuid_tAB9B163B73754C5D863D5E88B8E5A1D239433877_mE9BF71C08C1FDE49668A035C68CFC932732DA7AB_gshared)(___0_array, ___1_lhs, ___2_rhs, method);
+}
+inline void NativeSortExtension_HeapifyStruct_TisEntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8_TisDefaultComparer_1_tC1A019F89436303DBF74FE9A5AEBA7CCBE80F4A8_m84E435B36881F1BF1C49BC94F2B7BDB61FEB512C (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t* ___3_lo, DefaultComparer_1_tC1A019F89436303DBF74FE9A5AEBA7CCBE80F4A8 ___4_comp, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, int32_t*, DefaultComparer_1_tC1A019F89436303DBF74FE9A5AEBA7CCBE80F4A8, const RuntimeMethod*))NativeSortExtension_HeapifyStruct_TisEntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8_TisDefaultComparer_1_tC1A019F89436303DBF74FE9A5AEBA7CCBE80F4A8_m84E435B36881F1BF1C49BC94F2B7BDB61FEB512C_gshared)(___0_array, ___1_i, ___2_n, ___3_lo, ___4_comp, method);
+}
+inline void NativeSortExtension_SwapStruct_TisEntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8_mB4CAE2AEAA345E2E169E4633C3DD7031114A4C20 (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeSortExtension_SwapStruct_TisEntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8_mB4CAE2AEAA345E2E169E4633C3DD7031114A4C20_gshared)(___0_array, ___1_lhs, ___2_rhs, method);
+}
+inline void NativeSortExtension_HeapifyStruct_TisIndexedInt_t24BCB89B541376CF44EFAC03B879082052E960F7_TisDefaultComparer_1_t1EF5888609A1523CEAEF96E15805049F7F6B096A_m53329E32289298CB006B2527998583C51D21A6D5 (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t* ___3_lo, DefaultComparer_1_t1EF5888609A1523CEAEF96E15805049F7F6B096A ___4_comp, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, int32_t*, DefaultComparer_1_t1EF5888609A1523CEAEF96E15805049F7F6B096A, const RuntimeMethod*))NativeSortExtension_HeapifyStruct_TisIndexedInt_t24BCB89B541376CF44EFAC03B879082052E960F7_TisDefaultComparer_1_t1EF5888609A1523CEAEF96E15805049F7F6B096A_m53329E32289298CB006B2527998583C51D21A6D5_gshared)(___0_array, ___1_i, ___2_n, ___3_lo, ___4_comp, method);
+}
+inline void NativeSortExtension_SwapStruct_TisIndexedInt_t24BCB89B541376CF44EFAC03B879082052E960F7_mCE90238E6E6B4BC53BBCF121FE711DE422437D4E (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeSortExtension_SwapStruct_TisIndexedInt_t24BCB89B541376CF44EFAC03B879082052E960F7_mCE90238E6E6B4BC53BBCF121FE711DE422437D4E_gshared)(___0_array, ___1_lhs, ___2_rhs, method);
+}
+inline void NativeSortExtension_HeapifyStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisDefaultComparer_1_t612242F4555E59390215CE9BFA23C8ECB894D939_mBE131CA1F0F0E1C912D3925340BC453B9D595194 (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t* ___3_lo, DefaultComparer_1_t612242F4555E59390215CE9BFA23C8ECB894D939 ___4_comp, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, int32_t*, DefaultComparer_1_t612242F4555E59390215CE9BFA23C8ECB894D939, const RuntimeMethod*))NativeSortExtension_HeapifyStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisDefaultComparer_1_t612242F4555E59390215CE9BFA23C8ECB894D939_mBE131CA1F0F0E1C912D3925340BC453B9D595194_gshared)(___0_array, ___1_i, ___2_n, ___3_lo, ___4_comp, method);
+}
+inline void NativeSortExtension_SwapStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m7893AFE45F18176042CC91EAABA973BA33E1D68F (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeSortExtension_SwapStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m7893AFE45F18176042CC91EAABA973BA33E1D68F_gshared)(___0_array, ___1_lhs, ___2_rhs, method);
+}
+inline void NativeSortExtension_HeapifyStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisCompareAreaDescending_t66FFF10221C06D41847D010560C295AD361E63D1_mE20570970771A1E67074CDE65C0F96B1611A7747 (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t* ___3_lo, CompareAreaDescending_t66FFF10221C06D41847D010560C295AD361E63D1 ___4_comp, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, int32_t*, CompareAreaDescending_t66FFF10221C06D41847D010560C295AD361E63D1, const RuntimeMethod*))NativeSortExtension_HeapifyStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisCompareAreaDescending_t66FFF10221C06D41847D010560C295AD361E63D1_mE20570970771A1E67074CDE65C0F96B1611A7747_gshared)(___0_array, ___1_i, ___2_n, ___3_lo, ___4_comp, method);
+}
+inline void NativeSortExtension_HeapifyStruct_TisTypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C_TisDefaultComparer_1_tECAA8A95A131A47E5B6CC9FF62A97B4F1CBBC8AF_m7DBA83A7C7530F9D42E0E75A520BD6F4C34EADF4 (void* ___0_array, int32_t ___1_i, int32_t ___2_n, int32_t* ___3_lo, DefaultComparer_1_tECAA8A95A131A47E5B6CC9FF62A97B4F1CBBC8AF ___4_comp, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, int32_t*, DefaultComparer_1_tECAA8A95A131A47E5B6CC9FF62A97B4F1CBBC8AF, const RuntimeMethod*))NativeSortExtension_HeapifyStruct_TisTypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C_TisDefaultComparer_1_tECAA8A95A131A47E5B6CC9FF62A97B4F1CBBC8AF_m7DBA83A7C7530F9D42E0E75A520BD6F4C34EADF4_gshared)(___0_array, ___1_i, ___2_n, ___3_lo, ___4_comp, method);
+}
+inline void NativeSortExtension_SwapStruct_TisTypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C_m5DBEEE6CCD6CE0B1113EEA7CA2CC4ED25D4F7069 (void* ___0_array, int32_t ___1_lhs, int32_t ___2_rhs, const RuntimeMethod* method)
+{
+	((  void (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeSortExtension_SwapStruct_TisTypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C_m5DBEEE6CCD6CE0B1113EEA7CA2CC4ED25D4F7069_gshared)(___0_array, ___1_lhs, ___2_rhs, method);
+}
 inline int32_t UnsafeList_1_get_Length_mEA927D1405F8410976953A49C12817C90D673A4B_inline (UnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718* __this, const RuntimeMethod* method)
 {
 	return ((  int32_t (*) (UnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718*, const RuntimeMethod*))UnsafeList_1_get_Length_mEA927D1405F8410976953A49C12817C90D673A4B_gshared_inline)(__this, method);
@@ -6949,584 +7151,6 @@ inline int32_t UnsafeList_1_get_Length_m33B6B84F4FE870EEB76A3E5D94630F4A5B759E12
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThrowHelper_ThrowArgumentOutOfRangeException_mD7D90276EDCDF9394A8EA635923E3B48BB71BD56 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___0_handle, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThrowHelper_ThrowInvalidTypeWithPointersNotSupported_m5707DE408588F6EAC3FC7D10F9520308CF8C8CCF (Type_t* ___0_targetType, const RuntimeMethod* method) ;
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tB28FD75B6B99A6D0CD55F2F0A08313348B969124 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisBlobAssetReference_1_tC953AE1B35DBBA1A1A3BFCE8018409EFAE532602_m25791515F2688A64AACF853D37D90AB30D11C09A_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_tB28FD75B6B99A6D0CD55F2F0A08313348B969124 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_tB28FD75B6B99A6D0CD55F2F0A08313348B969124));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_tB28FD75B6B99A6D0CD55F2F0A08313348B969124 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tD56410DBC76FE586AED3038208F0DFA1C8B475F7 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisEnumerator_t37839615D82C9BDB7D4A9DC4A5D719BBF9CF423D_m9B3E3544C0D4F687C5B091D7823D2CD43F6585D7_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_tD56410DBC76FE586AED3038208F0DFA1C8B475F7 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_tD56410DBC76FE586AED3038208F0DFA1C8B475F7));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_tD56410DBC76FE586AED3038208F0DFA1C8B475F7 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t4106F3B25F6591F7AB0D0F9D4E2D58455CF8F3B2 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisNativeArray_1_t6C2613A1D4A03EFEE59BBADBC529386D1205D01C_mAF382A366E520DB45C5DBCBE9CCABDFA3BA76ADC_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_t4106F3B25F6591F7AB0D0F9D4E2D58455CF8F3B2 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_t4106F3B25F6591F7AB0D0F9D4E2D58455CF8F3B2));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_t4106F3B25F6591F7AB0D0F9D4E2D58455CF8F3B2 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tD0093E2DF25D74C3CA2D06076D73AFD4864857F2 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisUnityObjectRef_1_tBDC2904A7324F2A71AB50EBABF5FA731EF2FA0C6_mB266D6426BC887EAD488F5E1316C31D0CB266AFA_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_tD0093E2DF25D74C3CA2D06076D73AFD4864857F2 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_tD0093E2DF25D74C3CA2D06076D73AFD4864857F2));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_tD0093E2DF25D74C3CA2D06076D73AFD4864857F2 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t6E902610E0CD21805BE2405EC94AEAF19C7C5C4B NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisUnsafeList_1_t769331BED675661167C96D796BC01151B80BCF83_m2225BAAA945D1CA7C07F3960220B42454D890796_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_t6E902610E0CD21805BE2405EC94AEAF19C7C5C4B V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_t6E902610E0CD21805BE2405EC94AEAF19C7C5C4B));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_t6E902610E0CD21805BE2405EC94AEAF19C7C5C4B L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t487272F249C63B1600FFDBF2211DFE04431F10C0 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisUnsafeList_1_tC8912F7F078006BA1573ED1A2596ADC7D193B050_m7AA05B8ACDF5F19A53838D0D37435F9586772C6D_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_t487272F249C63B1600FFDBF2211DFE04431F10C0 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_t487272F249C63B1600FFDBF2211DFE04431F10C0));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_t487272F249C63B1600FFDBF2211DFE04431F10C0 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t79E8144C5D612D579D7297B75D2348BF3851077C NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisUnsafeList_1_t239C74D869DA59B0CA5E63716E71208DEC68A70B_mE8EE59BAF71B91030955FD46C8747E4F53AE94D4_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_t79E8144C5D612D579D7297B75D2348BF3851077C V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_t79E8144C5D612D579D7297B75D2348BF3851077C));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_t79E8144C5D612D579D7297B75D2348BF3851077C L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t15482D9F7CC02501EED5F540239814F47FD7ABF0 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisUnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718_m0E8727A5959F88745FF036FF318F621512659EA2_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_t15482D9F7CC02501EED5F540239814F47FD7ABF0 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_t15482D9F7CC02501EED5F540239814F47FD7ABF0));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_t15482D9F7CC02501EED5F540239814F47FD7ABF0 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t1FB3867BA63BC3856F2E0457D4276346E1305555 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisUnsafeList_1_t397F41512917228ECAF62EA4D11C9E3FB7F0697C_m49F9D7CE26386E907F97B18CA974857CF3695A32_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_t1FB3867BA63BC3856F2E0457D4276346E1305555 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_t1FB3867BA63BC3856F2E0457D4276346E1305555));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_t1FB3867BA63BC3856F2E0457D4276346E1305555 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tC1AAE4397CFABA02C0FDE6A3D0EC20A6601B8837 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisUnsafeList_1_tC512AB26A525DF3622FBF1917719AEBFF48AAB27_m84A6AC2B83B6D290B33B7958EDEE26AC349CC418_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_tC1AAE4397CFABA02C0FDE6A3D0EC20A6601B8837 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_tC1AAE4397CFABA02C0FDE6A3D0EC20A6601B8837));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_tC1AAE4397CFABA02C0FDE6A3D0EC20A6601B8837 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t01308121EFD97CCBB266560A0061E4E6D975EBE4 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisUnsafeList_1_tEC05B902270714B5B358D35A42E55F8EBB2B1665_m52FAB92F3D2C5BB7036AF0D6FE59A9411781A687_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_t01308121EFD97CCBB266560A0061E4E6D975EBE4 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_t01308121EFD97CCBB266560A0061E4E6D975EBE4));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_t01308121EFD97CCBB266560A0061E4E6D975EBE4 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tC84345605578F2A44B69D41B2B42610F4D8FE9F9 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisValueTuple_2_t7750C62AD4EA55033C68DC92A8665D9651757E31_mE54BEA98CEC882E10880EBBF84AF9CD63B30834A_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_tC84345605578F2A44B69D41B2B42610F4D8FE9F9 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_tC84345605578F2A44B69D41B2B42610F4D8FE9F9));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_tC84345605578F2A44B69D41B2B42610F4D8FE9F9 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tB84406A553A3882573C46548953DE4FE573B3596 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisValueTuple_2_t4AC646C9C23C301CF4A194630005998BC4D1619F_m15001C1CD2CCE9E8EA3E2E03F09FAF9E3776A9E9_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_tB84406A553A3882573C46548953DE4FE573B3596 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_tB84406A553A3882573C46548953DE4FE573B3596));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_tB84406A553A3882573C46548953DE4FE573B3596 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t2C4AD2E83609A978E7153BB6B247ADA94E077417 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisValueTuple_4_t1F73182D6C35AB70117495F0B2EDFBB466034CFA_m25635B60329424206F25E29304161ECFA6C4D6FA_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_t2C4AD2E83609A978E7153BB6B247ADA94E077417 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_t2C4AD2E83609A978E7153BB6B247ADA94E077417));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_t2C4AD2E83609A978E7153BB6B247ADA94E077417 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tEA1CDFF3990541CCE5DB2228D58782D33425EB0A NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisAABB_tE57BAC64D9F8465BBFCC4A9C66AF4E884166982A_mEB3D2BB4CFA0D631BDB2CAA17AE55DCCDA833E4F_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_tEA1CDFF3990541CCE5DB2228D58782D33425EB0A V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_tEA1CDFF3990541CCE5DB2228D58782D33425EB0A));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_tEA1CDFF3990541CCE5DB2228D58782D33425EB0A L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tF78A77C5286C0DD4C505D5D75EAA3ACB12B625E6 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisAabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853_mB6A92FEE1B5AA29A31CE93B62C491739F24A5C4F_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_tF78A77C5286C0DD4C505D5D75EAA3ACB12B625E6 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_tF78A77C5286C0DD4C505D5D75EAA3ACB12B625E6));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_tF78A77C5286C0DD4C505D5D75EAA3ACB12B625E6 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tDD46A51F0126572E950A002BEA88A5476AEAB178 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisAdditionalEntitiesBakingData_t16B67AE176CF0186E6E62B375C8B59BFB902D4E1_m6F10B54676877F1CAAED6F31D55A14BF64A69C2F_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_tDD46A51F0126572E950A002BEA88A5476AEAB178 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_tDD46A51F0126572E950A002BEA88A5476AEAB178));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_tDD46A51F0126572E950A002BEA88A5476AEAB178 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tA10D74F04B7C6C29AC3C9A8C331B8ED44ABCFB53 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisAdditionalEntityParent_tAE181BBE81275FA5C723368D022C27195FAC1D3E_m9E0EE8F612AEE24F824A966BCADB0AFAA8C8406F_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_tA10D74F04B7C6C29AC3C9A8C331B8ED44ABCFB53 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_tA10D74F04B7C6C29AC3C9A8C331B8ED44ABCFB53));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_tA10D74F04B7C6C29AC3C9A8C331B8ED44ABCFB53 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t1C8257743EF39D51A4BC038FBD02D4BCAF84C478 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisAmplitudeSample_tD9536E28BFE3A74BC958C0CB22EEC84E7C180E08_mEA89601F73F762C0F2AB6D77BFC4F658DE90DB71_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_t1C8257743EF39D51A4BC038FBD02D4BCAF84C478 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_t1C8257743EF39D51A4BC038FBD02D4BCAF84C478));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_t1C8257743EF39D51A4BC038FBD02D4BCAF84C478 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t44EB3A133DF22EE1B584A5B212FD6518CD42B27F NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisArchetypeChunk_tF9C2266ECFAB3A9C58EADE74121F80C845F0CCC5_m49C2ACECAE39B30C5514FA23CFED0C0D5C41CB4B_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_t44EB3A133DF22EE1B584A5B212FD6518CD42B27F V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_t44EB3A133DF22EE1B584A5B212FD6518CD42B27F));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_t44EB3A133DF22EE1B584A5B212FD6518CD42B27F L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t46B9F7CE5C44BBD1192CDAA1CEFDE32AA0CFD5C0 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisArchetypePropertyOverride_t1CBD7473E378B647BE981355D2964B81F92150CB_m85764CC05F1417CFA5731A4489ABCCD731D4C09D_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_t46B9F7CE5C44BBD1192CDAA1CEFDE32AA0CFD5C0 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_t46B9F7CE5C44BBD1192CDAA1CEFDE32AA0CFD5C0));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_t46B9F7CE5C44BBD1192CDAA1CEFDE32AA0CFD5C0 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t04DF635C0FEAB264F763F4B942D6A669F0B1F1C1 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisAspectType_t6A9CA46F1F278FED7D2104D35AB5D472E6F8DB50_mA9C9588258C6B41D0A826363A69EA9A5002006EB_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_t04DF635C0FEAB264F763F4B942D6A669F0B1F1C1 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_t04DF635C0FEAB264F763F4B942D6A669F0B1F1C1));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_t04DF635C0FEAB264F763F4B942D6A669F0B1F1C1 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t39BA841475121E3F8A81F9BCA6646FD6FD6A32A8 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisAttachmentDescriptor_tBAC9B26B50BB0838C5C0CC22BB296F9DFF41276E_mCCC659A0584F7EE8CA5829A8B2B312E741DDB36D_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_t39BA841475121E3F8A81F9BCA6646FD6FD6A32A8 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_t39BA841475121E3F8A81F9BCA6646FD6FD6A32A8));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_t39BA841475121E3F8A81F9BCA6646FD6FD6A32A8 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t1709CD62C8DAE5DE2F9B2D7D37E6E260F39FF73D NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisBRGRenderMeshArray_t195C9BD91929A15832922FD9D195021199DB8FD9_m2F231415DFDAF96984062C3D0DB73F7E7127A70D_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_t1709CD62C8DAE5DE2F9B2D7D37E6E260F39FF73D V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_t1709CD62C8DAE5DE2F9B2D7D37E6E260F39FF73D));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_t1709CD62C8DAE5DE2F9B2D7D37E6E260F39FF73D L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t2EEECA85F68E04F186DCCC2DCAB0CE2F1C24CC81 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisBakeStaticRoot_t20056F2B05BA4C4704568DBD928A33F69F6795F4_mFABA33F22C447D0150CE3DFDDB27CFD3052777A4_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_t2EEECA85F68E04F186DCCC2DCAB0CE2F1C24CC81 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_t2EEECA85F68E04F186DCCC2DCAB0CE2F1C24CC81));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_t2EEECA85F68E04F186DCCC2DCAB0CE2F1C24CC81 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tE14EC68A3468927E8107E875446A79D116B04603 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisBakerState_tBC848FEE87649807B5BE06ED28CA889DEB5059C7_m370A08EA1CDECF4DB9EAB80AEF1B9F593A156AD9_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_tE14EC68A3468927E8107E875446A79D116B04603 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_tE14EC68A3468927E8107E875446A79D116B04603));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_tE14EC68A3468927E8107E875446A79D116B04603 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t862C4A7005AE8D9DDACD9AD5F80100FDABF7553F NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisBatchCreateInfo_t15C4620EEBE83EE2A60F4B3A6141A82942786EB2_mE3CC6FA674117B09AFBBC3BACA05124A5B66D3A9_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_t862C4A7005AE8D9DDACD9AD5F80100FDABF7553F V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_t862C4A7005AE8D9DDACD9AD5F80100FDABF7553F));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_t862C4A7005AE8D9DDACD9AD5F80100FDABF7553F L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tBEE3484B4ABC271CFAB65039F1439061D5DF806A NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisBatchCullingOutputDrawCommands_t61DD68A8D702A9468AF6D5DDF4529CE7BD5A636D_m80E640F909CF44B11BAA14373E8DA1D738DE6976_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_tBEE3484B4ABC271CFAB65039F1439061D5DF806A V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_tBEE3484B4ABC271CFAB65039F1439061D5DF806A));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_tBEE3484B4ABC271CFAB65039F1439061D5DF806A L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t305B9B37751B179420F66305AA26D74C3A0DED53 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisBatchFilterSettings_t24CAFF037E8C667ABC0B23D55D6CC7125947CDE2_m9A801781CB7C53E65CB881810CFF86D9D54F0147_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_t305B9B37751B179420F66305AA26D74C3A0DED53 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_t305B9B37751B179420F66305AA26D74C3A0DED53));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_t305B9B37751B179420F66305AA26D74C3A0DED53 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t60C2883F9133642CF381234B3DD254605DD4F0A5 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisBatchID_t884E3C204D1F4C18FFD2361FC14A1E64CFBD8770_m5CD57FB361E6EBF62A47AA548A0FFE1C0B6506AF_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_t60C2883F9133642CF381234B3DD254605DD4F0A5 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_t60C2883F9133642CF381234B3DD254605DD4F0A5));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_t60C2883F9133642CF381234B3DD254605DD4F0A5 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tBC73A8C580B890E0A51E85E9ACC74FBD7596F5D8 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisBatchInfo_tB688FB92123EA5763ADC1EC7914E64CBE88CD115_m83E4595E4EDA42A004B7D66FBA81FE6F43F4DE98_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_tBC73A8C580B890E0A51E85E9ACC74FBD7596F5D8 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_tBC73A8C580B890E0A51E85E9ACC74FBD7596F5D8));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_tBC73A8C580B890E0A51E85E9ACC74FBD7596F5D8 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tB7D9C79EBF3AEA35F54C11110B41E68AE0A214F6 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisBatchMaterialID_tF9E95833BB1C35A6D14D47CF4EC8A6EB7D15D65C_mBFB234403D303902894FFB4EB54A5E18967E992C_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_tB7D9C79EBF3AEA35F54C11110B41E68AE0A214F6 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_tB7D9C79EBF3AEA35F54C11110B41E68AE0A214F6));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_tB7D9C79EBF3AEA35F54C11110B41E68AE0A214F6 L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tEA040FDD2CB69B729E8DE418234DFE2D79A4A1ED NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisBatchMaterialMeshSubMesh_t27466F10F34C75AB783307C2C6D83C84B08F52F2_m237A2347D1D80E7070D6A6BC45299A73EEFC73F3_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_tEA040FDD2CB69B729E8DE418234DFE2D79A4A1ED V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_tEA040FDD2CB69B729E8DE418234DFE2D79A4A1ED));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_tEA040FDD2CB69B729E8DE418234DFE2D79A4A1ED L_3 = V_0;
-		return L_3;
-	}
-}
-// Method Definition Index: 49570
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t79AF901C035FC0E2DB95A6C857E2A6FE26138AF6 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisBatchMeshID_t34167B7C1D0503C43A01A7BD213DFC367525D2A0_mABF002C9E74D0CFDDB4DAEE69757C412C86587B3_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
-{
-	NativeArray_1_t79AF901C035FC0E2DB95A6C857E2A6FE26138AF6 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		il2cpp_codegen_initobj((&V_0), sizeof(NativeArray_1_t79AF901C035FC0E2DB95A6C857E2A6FE26138AF6));
-		void* L_0 = ___0_dataPointer;
-		(&V_0)->___m_Buffer = L_0;
-		int32_t L_1 = ___1_length;
-		(&V_0)->___m_Length = L_1;
-		int32_t L_2 = ___2_allocator;
-		(&V_0)->___m_AllocatorLabel = L_2;
-		NativeArray_1_t79AF901C035FC0E2DB95A6C857E2A6FE26138AF6 L_3 = V_0;
-		return L_3;
-	}
-}
 // Method Definition Index: 49570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tBA3BE43F038965FA2630078B48CAF84974B63B4D NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisBlendShapeWeight_t1C25C923D3E59C3027096C3A28F0B3BA31BBAF1E_mD884984B14D5B42CFD479135C1D3617FB4BF0F04_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
 {
@@ -25497,6 +25121,1422 @@ IL_003e:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:738>
+		return;
+	}
+}
+// Method Definition Index: 78823
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapSort_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_TisDefaultComparer_1_tE151CB42B189B96417CECFCB8F3CEC934E69DDF9_m64966317ECC8D7CDB0D08299D54C0515AFA10BC7_gshared (void* ___0_array, int32_t ___1_lo, int32_t ___2_hi, DefaultComparer_1_tE151CB42B189B96417CECFCB8F3CEC934E69DDF9 ___3_comp, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:726>
+		int32_t L_0 = ___2_hi;
+		int32_t L_1 = ___1_lo;
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_2 = V_0;
+		V_1 = ((int32_t)(L_2/2));
+		goto IL_001a;
+	}
+
+IL_000c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:730>
+		void* L_3 = ___0_array;
+		int32_t L_4 = V_1;
+		int32_t L_5 = V_0;
+		int32_t L_6 = ___1_lo;
+		DefaultComparer_1_tE151CB42B189B96417CECFCB8F3CEC934E69DDF9 L_7 = ___3_comp;
+		NativeSortExtension_Heapify_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_TisDefaultComparer_1_tE151CB42B189B96417CECFCB8F3CEC934E69DDF9_mA1D6086C38D6952AA634FBC9BED57D65A58F68BA(L_3, L_4, L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_8 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_8, 1));
+	}
+
+IL_001a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_9 = V_1;
+		if ((((int32_t)L_9) >= ((int32_t)1)))
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_10 = V_0;
+		V_2 = L_10;
+		goto IL_003e;
+	}
+
+IL_0022:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:735>
+		void* L_11 = ___0_array;
+		int32_t L_12 = ___1_lo;
+		int32_t L_13 = ___1_lo;
+		int32_t L_14 = V_2;
+		NativeSortExtension_Swap_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m20CFAAEF92F2BF57192AC6AC6672D34DB0378730(L_11, L_12, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_13, L_14)), 1)), il2cpp_rgctx_method(method->rgctx_data, 2));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:736>
+		void* L_15 = ___0_array;
+		int32_t L_16 = V_2;
+		int32_t L_17 = ___1_lo;
+		DefaultComparer_1_tE151CB42B189B96417CECFCB8F3CEC934E69DDF9 L_18 = ___3_comp;
+		NativeSortExtension_Heapify_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_TisDefaultComparer_1_tE151CB42B189B96417CECFCB8F3CEC934E69DDF9_mA1D6086C38D6952AA634FBC9BED57D65A58F68BA(L_15, 1, ((int32_t)il2cpp_codegen_subtract(L_16, 1)), L_17, L_18, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_19 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_19, 1));
+	}
+
+IL_003e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_20 = V_2;
+		if ((((int32_t)L_20) > ((int32_t)1)))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:738>
+		return;
+	}
+}
+// Method Definition Index: 78823
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapSort_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_TisActiveComparer_tF3D9FC659EF5E4F55F9D1682722BD389311C23AA_mC7889E64AB70C508749FF7769C180D3BED4BC4CF_gshared (void* ___0_array, int32_t ___1_lo, int32_t ___2_hi, ActiveComparer_tF3D9FC659EF5E4F55F9D1682722BD389311C23AA ___3_comp, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:726>
+		int32_t L_0 = ___2_hi;
+		int32_t L_1 = ___1_lo;
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_2 = V_0;
+		V_1 = ((int32_t)(L_2/2));
+		goto IL_001a;
+	}
+
+IL_000c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:730>
+		void* L_3 = ___0_array;
+		int32_t L_4 = V_1;
+		int32_t L_5 = V_0;
+		int32_t L_6 = ___1_lo;
+		ActiveComparer_tF3D9FC659EF5E4F55F9D1682722BD389311C23AA L_7 = ___3_comp;
+		NativeSortExtension_Heapify_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_TisActiveComparer_tF3D9FC659EF5E4F55F9D1682722BD389311C23AA_m1DB8637532087D9DDA1D1FA160D8396B23EE30D2(L_3, L_4, L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_8 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_8, 1));
+	}
+
+IL_001a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_9 = V_1;
+		if ((((int32_t)L_9) >= ((int32_t)1)))
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_10 = V_0;
+		V_2 = L_10;
+		goto IL_003e;
+	}
+
+IL_0022:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:735>
+		void* L_11 = ___0_array;
+		int32_t L_12 = ___1_lo;
+		int32_t L_13 = ___1_lo;
+		int32_t L_14 = V_2;
+		NativeSortExtension_Swap_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m7823FBF7870907C0FBB1EAA0FADD3DCF95A52217(L_11, L_12, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_13, L_14)), 1)), il2cpp_rgctx_method(method->rgctx_data, 2));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:736>
+		void* L_15 = ___0_array;
+		int32_t L_16 = V_2;
+		int32_t L_17 = ___1_lo;
+		ActiveComparer_tF3D9FC659EF5E4F55F9D1682722BD389311C23AA L_18 = ___3_comp;
+		NativeSortExtension_Heapify_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_TisActiveComparer_tF3D9FC659EF5E4F55F9D1682722BD389311C23AA_m1DB8637532087D9DDA1D1FA160D8396B23EE30D2(L_15, 1, ((int32_t)il2cpp_codegen_subtract(L_16, 1)), L_17, L_18, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_19 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_19, 1));
+	}
+
+IL_003e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_20 = V_2;
+		if ((((int32_t)L_20) > ((int32_t)1)))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:738>
+		return;
+	}
+}
+// Method Definition Index: 78823
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapSort_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_TisEventComparer_tEA09DEC85C72EFA869F4C5C810861513BF4F795B_m52C7968B61CD160CE7276D6768B010C26565185A_gshared (void* ___0_array, int32_t ___1_lo, int32_t ___2_hi, EventComparer_tEA09DEC85C72EFA869F4C5C810861513BF4F795B ___3_comp, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:726>
+		int32_t L_0 = ___2_hi;
+		int32_t L_1 = ___1_lo;
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_2 = V_0;
+		V_1 = ((int32_t)(L_2/2));
+		goto IL_001a;
+	}
+
+IL_000c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:730>
+		void* L_3 = ___0_array;
+		int32_t L_4 = V_1;
+		int32_t L_5 = V_0;
+		int32_t L_6 = ___1_lo;
+		EventComparer_tEA09DEC85C72EFA869F4C5C810861513BF4F795B L_7 = ___3_comp;
+		NativeSortExtension_Heapify_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_TisEventComparer_tEA09DEC85C72EFA869F4C5C810861513BF4F795B_m0E63AE9C4FFB1E0893D9A562072BAFF57BFF74A3(L_3, L_4, L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_8 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_8, 1));
+	}
+
+IL_001a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_9 = V_1;
+		if ((((int32_t)L_9) >= ((int32_t)1)))
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_10 = V_0;
+		V_2 = L_10;
+		goto IL_003e;
+	}
+
+IL_0022:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:735>
+		void* L_11 = ___0_array;
+		int32_t L_12 = ___1_lo;
+		int32_t L_13 = ___1_lo;
+		int32_t L_14 = V_2;
+		NativeSortExtension_Swap_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m559DA77F56AD4E1B2E028B54702A892A46109FA1(L_11, L_12, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_13, L_14)), 1)), il2cpp_rgctx_method(method->rgctx_data, 2));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:736>
+		void* L_15 = ___0_array;
+		int32_t L_16 = V_2;
+		int32_t L_17 = ___1_lo;
+		EventComparer_tEA09DEC85C72EFA869F4C5C810861513BF4F795B L_18 = ___3_comp;
+		NativeSortExtension_Heapify_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_TisEventComparer_tEA09DEC85C72EFA869F4C5C810861513BF4F795B_m0E63AE9C4FFB1E0893D9A562072BAFF57BFF74A3(L_15, 1, ((int32_t)il2cpp_codegen_subtract(L_16, 1)), L_17, L_18, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_19 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_19, 1));
+	}
+
+IL_003e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_20 = V_2;
+		if ((((int32_t)L_20) > ((int32_t)1)))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:738>
+		return;
+	}
+}
+// Method Definition Index: 78823
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapSort_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericAny_m161F46C88A71F876EBED90282ED530DCA0E9A657_gshared (void* ___0_array, int32_t ___1_lo, int32_t ___2_hi, Il2CppFullySharedGenericAny ___3_comp, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	const uint32_t SizeOf_U_t96D9FF22A5AC3987AA45E988B0F157C7355E83BE = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->rgctx_data, 0));
+	const Il2CppFullySharedGenericAny L_7 = alloca(SizeOf_U_t96D9FF22A5AC3987AA45E988B0F157C7355E83BE);
+	const Il2CppFullySharedGenericAny L_18 = L_7;
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:726>
+		int32_t L_0 = ___2_hi;
+		int32_t L_1 = ___1_lo;
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_2 = V_0;
+		V_1 = ((int32_t)(L_2/2));
+		goto IL_001a;
+	}
+
+IL_000c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:730>
+		void* L_3 = ___0_array;
+		int32_t L_4 = V_1;
+		int32_t L_5 = V_0;
+		int32_t L_6 = ___1_lo;
+		il2cpp_codegen_memcpy(L_7, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->rgctx_data, 0)) ? ___3_comp : &___3_comp), SizeOf_U_t96D9FF22A5AC3987AA45E988B0F157C7355E83BE);
+		InvokerActionInvoker5< void*, int32_t, int32_t, int32_t, Il2CppFullySharedGenericAny >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), NULL, L_3, L_4, L_5, L_6, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->rgctx_data, 0)) ? L_7: *(void**)L_7));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_8 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_8, 1));
+	}
+
+IL_001a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_9 = V_1;
+		if ((((int32_t)L_9) >= ((int32_t)1)))
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_10 = V_0;
+		V_2 = L_10;
+		goto IL_003e;
+	}
+
+IL_0022:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:735>
+		void* L_11 = ___0_array;
+		int32_t L_12 = ___1_lo;
+		int32_t L_13 = ___1_lo;
+		int32_t L_14 = V_2;
+		((  void (*) (void*, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))(L_11, L_12, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_13, L_14)), 1)), il2cpp_rgctx_method(method->rgctx_data, 2));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:736>
+		void* L_15 = ___0_array;
+		int32_t L_16 = V_2;
+		int32_t L_17 = ___1_lo;
+		il2cpp_codegen_memcpy(L_18, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->rgctx_data, 0)) ? ___3_comp : &___3_comp), SizeOf_U_t96D9FF22A5AC3987AA45E988B0F157C7355E83BE);
+		InvokerActionInvoker5< void*, int32_t, int32_t, int32_t, Il2CppFullySharedGenericAny >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), NULL, L_15, 1, ((int32_t)il2cpp_codegen_subtract(L_16, 1)), L_17, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->rgctx_data, 0)) ? L_18: *(void**)L_18));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_19 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_19, 1));
+	}
+
+IL_003e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_20 = V_2;
+		if ((((int32_t)L_20) > ((int32_t)1)))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:738>
+		return;
+	}
+}
+// Method Definition Index: 78823
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapSort_Tisfloat4_t89D9A294E7A79BD81BFBDD18654508532958555E_TisCompareVertices_tBF5146956E132D358E4D41A3FF37B558974314E9_m5E38926C216F546600BDC61D18A7A28FD53BA597_gshared (void* ___0_array, int32_t ___1_lo, int32_t ___2_hi, CompareVertices_tBF5146956E132D358E4D41A3FF37B558974314E9 ___3_comp, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:726>
+		int32_t L_0 = ___2_hi;
+		int32_t L_1 = ___1_lo;
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_2 = V_0;
+		V_1 = ((int32_t)(L_2/2));
+		goto IL_001a;
+	}
+
+IL_000c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:730>
+		void* L_3 = ___0_array;
+		int32_t L_4 = V_1;
+		int32_t L_5 = V_0;
+		int32_t L_6 = ___1_lo;
+		CompareVertices_tBF5146956E132D358E4D41A3FF37B558974314E9 L_7 = ___3_comp;
+		NativeSortExtension_Heapify_Tisfloat4_t89D9A294E7A79BD81BFBDD18654508532958555E_TisCompareVertices_tBF5146956E132D358E4D41A3FF37B558974314E9_m4ABC9A9BA52E0C6D1FFA92E40497E094E1639DDE(L_3, L_4, L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_8 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_8, 1));
+	}
+
+IL_001a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_9 = V_1;
+		if ((((int32_t)L_9) >= ((int32_t)1)))
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_10 = V_0;
+		V_2 = L_10;
+		goto IL_003e;
+	}
+
+IL_0022:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:735>
+		void* L_11 = ___0_array;
+		int32_t L_12 = ___1_lo;
+		int32_t L_13 = ___1_lo;
+		int32_t L_14 = V_2;
+		NativeSortExtension_Swap_Tisfloat4_t89D9A294E7A79BD81BFBDD18654508532958555E_m325EE260F238EBD337ED31BD791BC7B354C40E1A(L_11, L_12, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_13, L_14)), 1)), il2cpp_rgctx_method(method->rgctx_data, 2));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:736>
+		void* L_15 = ___0_array;
+		int32_t L_16 = V_2;
+		int32_t L_17 = ___1_lo;
+		CompareVertices_tBF5146956E132D358E4D41A3FF37B558974314E9 L_18 = ___3_comp;
+		NativeSortExtension_Heapify_Tisfloat4_t89D9A294E7A79BD81BFBDD18654508532958555E_TisCompareVertices_tBF5146956E132D358E4D41A3FF37B558974314E9_m4ABC9A9BA52E0C6D1FFA92E40497E094E1639DDE(L_15, 1, ((int32_t)il2cpp_codegen_subtract(L_16, 1)), L_17, L_18, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_19 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_19, 1));
+	}
+
+IL_003e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_20 = V_2;
+		if ((((int32_t)L_20) > ((int32_t)1)))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:738>
+		return;
+	}
+}
+// Method Definition Index: 78823
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapSort_TisNodeInsertionData_tA223377E6BFBECF220DD833063BBAC8DBF9CC10E_TisDefaultComparer_1_tA4990DED8395C231A6E1FCE76973DE65CCC687F2_m7FC5D4D1880B4806CFFD122AED9ADBAA1B0B79D4_gshared (void* ___0_array, int32_t ___1_lo, int32_t ___2_hi, DefaultComparer_1_tA4990DED8395C231A6E1FCE76973DE65CCC687F2 ___3_comp, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:726>
+		int32_t L_0 = ___2_hi;
+		int32_t L_1 = ___1_lo;
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_2 = V_0;
+		V_1 = ((int32_t)(L_2/2));
+		goto IL_001a;
+	}
+
+IL_000c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:730>
+		void* L_3 = ___0_array;
+		int32_t L_4 = V_1;
+		int32_t L_5 = V_0;
+		int32_t L_6 = ___1_lo;
+		DefaultComparer_1_tA4990DED8395C231A6E1FCE76973DE65CCC687F2 L_7 = ___3_comp;
+		NativeSortExtension_Heapify_TisNodeInsertionData_tA223377E6BFBECF220DD833063BBAC8DBF9CC10E_TisDefaultComparer_1_tA4990DED8395C231A6E1FCE76973DE65CCC687F2_mED591F3719852FEF8539213171034326FCE20E37(L_3, L_4, L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_8 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_8, 1));
+	}
+
+IL_001a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_9 = V_1;
+		if ((((int32_t)L_9) >= ((int32_t)1)))
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_10 = V_0;
+		V_2 = L_10;
+		goto IL_003e;
+	}
+
+IL_0022:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:735>
+		void* L_11 = ___0_array;
+		int32_t L_12 = ___1_lo;
+		int32_t L_13 = ___1_lo;
+		int32_t L_14 = V_2;
+		NativeSortExtension_Swap_TisNodeInsertionData_tA223377E6BFBECF220DD833063BBAC8DBF9CC10E_m8B91240B32BFCDDDB53D7208665805D269D98923(L_11, L_12, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_13, L_14)), 1)), il2cpp_rgctx_method(method->rgctx_data, 2));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:736>
+		void* L_15 = ___0_array;
+		int32_t L_16 = V_2;
+		int32_t L_17 = ___1_lo;
+		DefaultComparer_1_tA4990DED8395C231A6E1FCE76973DE65CCC687F2 L_18 = ___3_comp;
+		NativeSortExtension_Heapify_TisNodeInsertionData_tA223377E6BFBECF220DD833063BBAC8DBF9CC10E_TisDefaultComparer_1_tA4990DED8395C231A6E1FCE76973DE65CCC687F2_mED591F3719852FEF8539213171034326FCE20E37(L_15, 1, ((int32_t)il2cpp_codegen_subtract(L_16, 1)), L_17, L_18, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_19 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_19, 1));
+	}
+
+IL_003e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_20 = V_2;
+		if ((((int32_t)L_20) > ((int32_t)1)))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:738>
+		return;
+	}
+}
+// Method Definition Index: 78823
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapSort_TisChildInstance_t75CC80E6BE0201559FF42B4771BAA74D167C6AE2_TisDefaultComparer_1_t88999DF154C1BA44C8C5F5A7CCF98CB22DF55EF6_m06FEFD8EB32BAF68DA38884C56D5B45674CBD323_gshared (void* ___0_array, int32_t ___1_lo, int32_t ___2_hi, DefaultComparer_1_t88999DF154C1BA44C8C5F5A7CCF98CB22DF55EF6 ___3_comp, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:726>
+		int32_t L_0 = ___2_hi;
+		int32_t L_1 = ___1_lo;
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_2 = V_0;
+		V_1 = ((int32_t)(L_2/2));
+		goto IL_001a;
+	}
+
+IL_000c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:730>
+		void* L_3 = ___0_array;
+		int32_t L_4 = V_1;
+		int32_t L_5 = V_0;
+		int32_t L_6 = ___1_lo;
+		DefaultComparer_1_t88999DF154C1BA44C8C5F5A7CCF98CB22DF55EF6 L_7 = ___3_comp;
+		NativeSortExtension_Heapify_TisChildInstance_t75CC80E6BE0201559FF42B4771BAA74D167C6AE2_TisDefaultComparer_1_t88999DF154C1BA44C8C5F5A7CCF98CB22DF55EF6_m162FF829FDF2B94020562025AC4BBF0301C740C9(L_3, L_4, L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_8 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_8, 1));
+	}
+
+IL_001a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_9 = V_1;
+		if ((((int32_t)L_9) >= ((int32_t)1)))
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_10 = V_0;
+		V_2 = L_10;
+		goto IL_003e;
+	}
+
+IL_0022:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:735>
+		void* L_11 = ___0_array;
+		int32_t L_12 = ___1_lo;
+		int32_t L_13 = ___1_lo;
+		int32_t L_14 = V_2;
+		NativeSortExtension_Swap_TisChildInstance_t75CC80E6BE0201559FF42B4771BAA74D167C6AE2_m6FF3FC6CA27CD3B579EEA0AD5089B5E4876337F1(L_11, L_12, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_13, L_14)), 1)), il2cpp_rgctx_method(method->rgctx_data, 2));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:736>
+		void* L_15 = ___0_array;
+		int32_t L_16 = V_2;
+		int32_t L_17 = ___1_lo;
+		DefaultComparer_1_t88999DF154C1BA44C8C5F5A7CCF98CB22DF55EF6 L_18 = ___3_comp;
+		NativeSortExtension_Heapify_TisChildInstance_t75CC80E6BE0201559FF42B4771BAA74D167C6AE2_TisDefaultComparer_1_t88999DF154C1BA44C8C5F5A7CCF98CB22DF55EF6_m162FF829FDF2B94020562025AC4BBF0301C740C9(L_15, 1, ((int32_t)il2cpp_codegen_subtract(L_16, 1)), L_17, L_18, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_19 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_19, 1));
+	}
+
+IL_003e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_20 = V_2;
+		if ((((int32_t)L_20) > ((int32_t)1)))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:738>
+		return;
+	}
+}
+// Method Definition Index: 78823
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapSort_TisChunkAndEnabledMask_tC0D980F7FEF198C0867996F17431F70A674490D9_TisDefaultComparer_1_t8DCB88CAFF97B61FD081E505659F57B1F4B11E65_m2B455B12E8DE3483EC684E3DBF7427AA7A8AE812_gshared (void* ___0_array, int32_t ___1_lo, int32_t ___2_hi, DefaultComparer_1_t8DCB88CAFF97B61FD081E505659F57B1F4B11E65 ___3_comp, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:726>
+		int32_t L_0 = ___2_hi;
+		int32_t L_1 = ___1_lo;
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_2 = V_0;
+		V_1 = ((int32_t)(L_2/2));
+		goto IL_001a;
+	}
+
+IL_000c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:730>
+		void* L_3 = ___0_array;
+		int32_t L_4 = V_1;
+		int32_t L_5 = V_0;
+		int32_t L_6 = ___1_lo;
+		DefaultComparer_1_t8DCB88CAFF97B61FD081E505659F57B1F4B11E65 L_7 = ___3_comp;
+		NativeSortExtension_Heapify_TisChunkAndEnabledMask_tC0D980F7FEF198C0867996F17431F70A674490D9_TisDefaultComparer_1_t8DCB88CAFF97B61FD081E505659F57B1F4B11E65_m6D61CEF0AE3D1FC6E091894CC48E2893C1B9F476(L_3, L_4, L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_8 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_8, 1));
+	}
+
+IL_001a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:728>
+		int32_t L_9 = V_1;
+		if ((((int32_t)L_9) >= ((int32_t)1)))
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_10 = V_0;
+		V_2 = L_10;
+		goto IL_003e;
+	}
+
+IL_0022:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:735>
+		void* L_11 = ___0_array;
+		int32_t L_12 = ___1_lo;
+		int32_t L_13 = ___1_lo;
+		int32_t L_14 = V_2;
+		NativeSortExtension_Swap_TisChunkAndEnabledMask_tC0D980F7FEF198C0867996F17431F70A674490D9_m01133F1BD515F0E547212608337EDA5B16BBEAAE(L_11, L_12, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_13, L_14)), 1)), il2cpp_rgctx_method(method->rgctx_data, 2));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:736>
+		void* L_15 = ___0_array;
+		int32_t L_16 = V_2;
+		int32_t L_17 = ___1_lo;
+		DefaultComparer_1_t8DCB88CAFF97B61FD081E505659F57B1F4B11E65 L_18 = ___3_comp;
+		NativeSortExtension_Heapify_TisChunkAndEnabledMask_tC0D980F7FEF198C0867996F17431F70A674490D9_TisDefaultComparer_1_t8DCB88CAFF97B61FD081E505659F57B1F4B11E65_m6D61CEF0AE3D1FC6E091894CC48E2893C1B9F476(L_15, 1, ((int32_t)il2cpp_codegen_subtract(L_16, 1)), L_17, L_18, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_19 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_19, 1));
+	}
+
+IL_003e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:733>
+		int32_t L_20 = V_2;
+		if ((((int32_t)L_20) > ((int32_t)1)))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:738>
+		return;
+	}
+}
+// Method Definition Index: 78831
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapSortStruct_TisBatchCreateInfo_t15C4620EEBE83EE2A60F4B3A6141A82942786EB2_TisDefaultComparer_1_t36A5D26718DC069E500FA44AF7D2B8E88AA12D05_m6AB949F99272ED4A3FD7CD21D356611428FE596C_gshared (void* ___0_array, int32_t* ___1_lo, int32_t* ___2_hi, DefaultComparer_1_t36A5D26718DC069E500FA44AF7D2B8E88AA12D05 ___3_comp, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:895>
+		int32_t* L_0 = ___2_hi;
+		int32_t L_1 = *((int32_t*)L_0);
+		int32_t* L_2 = ___1_lo;
+		int32_t L_3 = *((int32_t*)L_2);
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_1, L_3)), 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_4 = V_0;
+		V_1 = ((int32_t)(L_4/2));
+		goto IL_001c;
+	}
+
+IL_000e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:899>
+		void* L_5 = ___0_array;
+		int32_t L_6 = V_1;
+		int32_t L_7 = V_0;
+		int32_t* L_8 = ___1_lo;
+		DefaultComparer_1_t36A5D26718DC069E500FA44AF7D2B8E88AA12D05 L_9 = ___3_comp;
+		NativeSortExtension_HeapifyStruct_TisBatchCreateInfo_t15C4620EEBE83EE2A60F4B3A6141A82942786EB2_TisDefaultComparer_1_t36A5D26718DC069E500FA44AF7D2B8E88AA12D05_mF889776D399A940B04E0BA8B2165CF69ED971246(L_5, L_6, L_7, L_8, L_9, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_10 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_10, 1));
+	}
+
+IL_001c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_11 = V_1;
+		if ((((int32_t)L_11) >= ((int32_t)1)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_12 = V_0;
+		V_2 = L_12;
+		goto IL_0042;
+	}
+
+IL_0024:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:904>
+		void* L_13 = ___0_array;
+		int32_t* L_14 = ___1_lo;
+		int32_t L_15 = *((int32_t*)L_14);
+		int32_t* L_16 = ___1_lo;
+		int32_t L_17 = *((int32_t*)L_16);
+		int32_t L_18 = V_2;
+		NativeSortExtension_SwapStruct_TisBatchCreateInfo_t15C4620EEBE83EE2A60F4B3A6141A82942786EB2_m6316A37B32D6BB13AFD17645D8501B150A46DF8E(L_13, L_15, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_17, L_18)), 1)), il2cpp_rgctx_method(method->rgctx_data, 2));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:905>
+		void* L_19 = ___0_array;
+		int32_t L_20 = V_2;
+		int32_t* L_21 = ___1_lo;
+		DefaultComparer_1_t36A5D26718DC069E500FA44AF7D2B8E88AA12D05 L_22 = ___3_comp;
+		NativeSortExtension_HeapifyStruct_TisBatchCreateInfo_t15C4620EEBE83EE2A60F4B3A6141A82942786EB2_TisDefaultComparer_1_t36A5D26718DC069E500FA44AF7D2B8E88AA12D05_mF889776D399A940B04E0BA8B2165CF69ED971246(L_19, 1, ((int32_t)il2cpp_codegen_subtract(L_20, 1)), L_21, L_22, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_23 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_23, 1));
+	}
+
+IL_0042:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_24 = V_2;
+		if ((((int32_t)L_24) > ((int32_t)1)))
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:907>
+		return;
+	}
+}
+// Method Definition Index: 78831
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapSortStruct_TisBlobAssetPtr_tC182EB799C9F1828CD9B90D00118B27E21BD4B61_TisBlobAssetPtrHashComparer_t2CA698BC333D44DFCCB933D796EDA1F54559A562_m0C072BC711E888F8E39C3424D5C4E506B27757E4_gshared (void* ___0_array, int32_t* ___1_lo, int32_t* ___2_hi, BlobAssetPtrHashComparer_t2CA698BC333D44DFCCB933D796EDA1F54559A562 ___3_comp, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:895>
+		int32_t* L_0 = ___2_hi;
+		int32_t L_1 = *((int32_t*)L_0);
+		int32_t* L_2 = ___1_lo;
+		int32_t L_3 = *((int32_t*)L_2);
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_1, L_3)), 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_4 = V_0;
+		V_1 = ((int32_t)(L_4/2));
+		goto IL_001c;
+	}
+
+IL_000e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:899>
+		void* L_5 = ___0_array;
+		int32_t L_6 = V_1;
+		int32_t L_7 = V_0;
+		int32_t* L_8 = ___1_lo;
+		BlobAssetPtrHashComparer_t2CA698BC333D44DFCCB933D796EDA1F54559A562 L_9 = ___3_comp;
+		NativeSortExtension_HeapifyStruct_TisBlobAssetPtr_tC182EB799C9F1828CD9B90D00118B27E21BD4B61_TisBlobAssetPtrHashComparer_t2CA698BC333D44DFCCB933D796EDA1F54559A562_mE56E86F5F3335CADEF0F800B4C9062C769D92364(L_5, L_6, L_7, L_8, L_9, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_10 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_10, 1));
+	}
+
+IL_001c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_11 = V_1;
+		if ((((int32_t)L_11) >= ((int32_t)1)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_12 = V_0;
+		V_2 = L_12;
+		goto IL_0042;
+	}
+
+IL_0024:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:904>
+		void* L_13 = ___0_array;
+		int32_t* L_14 = ___1_lo;
+		int32_t L_15 = *((int32_t*)L_14);
+		int32_t* L_16 = ___1_lo;
+		int32_t L_17 = *((int32_t*)L_16);
+		int32_t L_18 = V_2;
+		NativeSortExtension_SwapStruct_TisBlobAssetPtr_tC182EB799C9F1828CD9B90D00118B27E21BD4B61_m0FB954CEE708D4777EB70D2117AA41160A0FD537(L_13, L_15, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_17, L_18)), 1)), il2cpp_rgctx_method(method->rgctx_data, 2));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:905>
+		void* L_19 = ___0_array;
+		int32_t L_20 = V_2;
+		int32_t* L_21 = ___1_lo;
+		BlobAssetPtrHashComparer_t2CA698BC333D44DFCCB933D796EDA1F54559A562 L_22 = ___3_comp;
+		NativeSortExtension_HeapifyStruct_TisBlobAssetPtr_tC182EB799C9F1828CD9B90D00118B27E21BD4B61_TisBlobAssetPtrHashComparer_t2CA698BC333D44DFCCB933D796EDA1F54559A562_mE56E86F5F3335CADEF0F800B4C9062C769D92364(L_19, 1, ((int32_t)il2cpp_codegen_subtract(L_20, 1)), L_21, L_22, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_23 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_23, 1));
+	}
+
+IL_0042:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_24 = V_2;
+		if ((((int32_t)L_24) > ((int32_t)1)))
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:907>
+		return;
+	}
+}
+// Method Definition Index: 78831
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapSortStruct_TisEntity_t56176FC78C475061A82383D9E0CEE352C6C52ABD_TisDefaultComparer_1_t02AD340C288BF4B85EF243AD6A6F31D50FB64DF1_m0BE08BFF8327ECE6504C69B8C239E7ABAA286040_gshared (void* ___0_array, int32_t* ___1_lo, int32_t* ___2_hi, DefaultComparer_1_t02AD340C288BF4B85EF243AD6A6F31D50FB64DF1 ___3_comp, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:895>
+		int32_t* L_0 = ___2_hi;
+		int32_t L_1 = *((int32_t*)L_0);
+		int32_t* L_2 = ___1_lo;
+		int32_t L_3 = *((int32_t*)L_2);
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_1, L_3)), 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_4 = V_0;
+		V_1 = ((int32_t)(L_4/2));
+		goto IL_001c;
+	}
+
+IL_000e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:899>
+		void* L_5 = ___0_array;
+		int32_t L_6 = V_1;
+		int32_t L_7 = V_0;
+		int32_t* L_8 = ___1_lo;
+		DefaultComparer_1_t02AD340C288BF4B85EF243AD6A6F31D50FB64DF1 L_9 = ___3_comp;
+		NativeSortExtension_HeapifyStruct_TisEntity_t56176FC78C475061A82383D9E0CEE352C6C52ABD_TisDefaultComparer_1_t02AD340C288BF4B85EF243AD6A6F31D50FB64DF1_m84FCF32B5A2B2E5BFAEDA6410D698E235C143AEF(L_5, L_6, L_7, L_8, L_9, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_10 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_10, 1));
+	}
+
+IL_001c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_11 = V_1;
+		if ((((int32_t)L_11) >= ((int32_t)1)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_12 = V_0;
+		V_2 = L_12;
+		goto IL_0042;
+	}
+
+IL_0024:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:904>
+		void* L_13 = ___0_array;
+		int32_t* L_14 = ___1_lo;
+		int32_t L_15 = *((int32_t*)L_14);
+		int32_t* L_16 = ___1_lo;
+		int32_t L_17 = *((int32_t*)L_16);
+		int32_t L_18 = V_2;
+		NativeSortExtension_SwapStruct_TisEntity_t56176FC78C475061A82383D9E0CEE352C6C52ABD_m387A72DAAA63D7071344C59C9C32EDD4FDC7ED40(L_13, L_15, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_17, L_18)), 1)), il2cpp_rgctx_method(method->rgctx_data, 2));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:905>
+		void* L_19 = ___0_array;
+		int32_t L_20 = V_2;
+		int32_t* L_21 = ___1_lo;
+		DefaultComparer_1_t02AD340C288BF4B85EF243AD6A6F31D50FB64DF1 L_22 = ___3_comp;
+		NativeSortExtension_HeapifyStruct_TisEntity_t56176FC78C475061A82383D9E0CEE352C6C52ABD_TisDefaultComparer_1_t02AD340C288BF4B85EF243AD6A6F31D50FB64DF1_m84FCF32B5A2B2E5BFAEDA6410D698E235C143AEF(L_19, 1, ((int32_t)il2cpp_codegen_subtract(L_20, 1)), L_21, L_22, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_23 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_23, 1));
+	}
+
+IL_0042:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_24 = V_2;
+		if ((((int32_t)L_24) > ((int32_t)1)))
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:907>
+		return;
+	}
+}
+// Method Definition Index: 78831
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapSortStruct_TisEntityGuid_tAB9B163B73754C5D863D5E88B8E5A1D239433877_TisDefaultComparer_1_tAF888E4C12A7FC955734E6CA0FBE38F650304CED_m48B4A1A957D7E37B4E33F529F76395D098BEE06A_gshared (void* ___0_array, int32_t* ___1_lo, int32_t* ___2_hi, DefaultComparer_1_tAF888E4C12A7FC955734E6CA0FBE38F650304CED ___3_comp, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:895>
+		int32_t* L_0 = ___2_hi;
+		int32_t L_1 = *((int32_t*)L_0);
+		int32_t* L_2 = ___1_lo;
+		int32_t L_3 = *((int32_t*)L_2);
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_1, L_3)), 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_4 = V_0;
+		V_1 = ((int32_t)(L_4/2));
+		goto IL_001c;
+	}
+
+IL_000e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:899>
+		void* L_5 = ___0_array;
+		int32_t L_6 = V_1;
+		int32_t L_7 = V_0;
+		int32_t* L_8 = ___1_lo;
+		DefaultComparer_1_tAF888E4C12A7FC955734E6CA0FBE38F650304CED L_9 = ___3_comp;
+		NativeSortExtension_HeapifyStruct_TisEntityGuid_tAB9B163B73754C5D863D5E88B8E5A1D239433877_TisDefaultComparer_1_tAF888E4C12A7FC955734E6CA0FBE38F650304CED_mC56CCEC71E1B92A6B0B8E1F4F6CE290B21F5D4D8(L_5, L_6, L_7, L_8, L_9, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_10 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_10, 1));
+	}
+
+IL_001c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_11 = V_1;
+		if ((((int32_t)L_11) >= ((int32_t)1)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_12 = V_0;
+		V_2 = L_12;
+		goto IL_0042;
+	}
+
+IL_0024:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:904>
+		void* L_13 = ___0_array;
+		int32_t* L_14 = ___1_lo;
+		int32_t L_15 = *((int32_t*)L_14);
+		int32_t* L_16 = ___1_lo;
+		int32_t L_17 = *((int32_t*)L_16);
+		int32_t L_18 = V_2;
+		NativeSortExtension_SwapStruct_TisEntityGuid_tAB9B163B73754C5D863D5E88B8E5A1D239433877_mE9BF71C08C1FDE49668A035C68CFC932732DA7AB(L_13, L_15, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_17, L_18)), 1)), il2cpp_rgctx_method(method->rgctx_data, 2));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:905>
+		void* L_19 = ___0_array;
+		int32_t L_20 = V_2;
+		int32_t* L_21 = ___1_lo;
+		DefaultComparer_1_tAF888E4C12A7FC955734E6CA0FBE38F650304CED L_22 = ___3_comp;
+		NativeSortExtension_HeapifyStruct_TisEntityGuid_tAB9B163B73754C5D863D5E88B8E5A1D239433877_TisDefaultComparer_1_tAF888E4C12A7FC955734E6CA0FBE38F650304CED_mC56CCEC71E1B92A6B0B8E1F4F6CE290B21F5D4D8(L_19, 1, ((int32_t)il2cpp_codegen_subtract(L_20, 1)), L_21, L_22, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_23 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_23, 1));
+	}
+
+IL_0042:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_24 = V_2;
+		if ((((int32_t)L_24) > ((int32_t)1)))
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:907>
+		return;
+	}
+}
+// Method Definition Index: 78831
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapSortStruct_TisEntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8_TisDefaultComparer_1_tC1A019F89436303DBF74FE9A5AEBA7CCBE80F4A8_mB7C7B283FA1A9D1FED5D4A98DA484833444457CF_gshared (void* ___0_array, int32_t* ___1_lo, int32_t* ___2_hi, DefaultComparer_1_tC1A019F89436303DBF74FE9A5AEBA7CCBE80F4A8 ___3_comp, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:895>
+		int32_t* L_0 = ___2_hi;
+		int32_t L_1 = *((int32_t*)L_0);
+		int32_t* L_2 = ___1_lo;
+		int32_t L_3 = *((int32_t*)L_2);
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_1, L_3)), 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_4 = V_0;
+		V_1 = ((int32_t)(L_4/2));
+		goto IL_001c;
+	}
+
+IL_000e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:899>
+		void* L_5 = ___0_array;
+		int32_t L_6 = V_1;
+		int32_t L_7 = V_0;
+		int32_t* L_8 = ___1_lo;
+		DefaultComparer_1_tC1A019F89436303DBF74FE9A5AEBA7CCBE80F4A8 L_9 = ___3_comp;
+		NativeSortExtension_HeapifyStruct_TisEntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8_TisDefaultComparer_1_tC1A019F89436303DBF74FE9A5AEBA7CCBE80F4A8_m84E435B36881F1BF1C49BC94F2B7BDB61FEB512C(L_5, L_6, L_7, L_8, L_9, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_10 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_10, 1));
+	}
+
+IL_001c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_11 = V_1;
+		if ((((int32_t)L_11) >= ((int32_t)1)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_12 = V_0;
+		V_2 = L_12;
+		goto IL_0042;
+	}
+
+IL_0024:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:904>
+		void* L_13 = ___0_array;
+		int32_t* L_14 = ___1_lo;
+		int32_t L_15 = *((int32_t*)L_14);
+		int32_t* L_16 = ___1_lo;
+		int32_t L_17 = *((int32_t*)L_16);
+		int32_t L_18 = V_2;
+		NativeSortExtension_SwapStruct_TisEntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8_mB4CAE2AEAA345E2E169E4633C3DD7031114A4C20(L_13, L_15, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_17, L_18)), 1)), il2cpp_rgctx_method(method->rgctx_data, 2));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:905>
+		void* L_19 = ___0_array;
+		int32_t L_20 = V_2;
+		int32_t* L_21 = ___1_lo;
+		DefaultComparer_1_tC1A019F89436303DBF74FE9A5AEBA7CCBE80F4A8 L_22 = ___3_comp;
+		NativeSortExtension_HeapifyStruct_TisEntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8_TisDefaultComparer_1_tC1A019F89436303DBF74FE9A5AEBA7CCBE80F4A8_m84E435B36881F1BF1C49BC94F2B7BDB61FEB512C(L_19, 1, ((int32_t)il2cpp_codegen_subtract(L_20, 1)), L_21, L_22, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_23 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_23, 1));
+	}
+
+IL_0042:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_24 = V_2;
+		if ((((int32_t)L_24) > ((int32_t)1)))
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:907>
+		return;
+	}
+}
+// Method Definition Index: 78831
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapSortStruct_TisIndexedInt_t24BCB89B541376CF44EFAC03B879082052E960F7_TisDefaultComparer_1_t1EF5888609A1523CEAEF96E15805049F7F6B096A_mD0E0CB14351EC1A400A948448A734C00B92FB4C9_gshared (void* ___0_array, int32_t* ___1_lo, int32_t* ___2_hi, DefaultComparer_1_t1EF5888609A1523CEAEF96E15805049F7F6B096A ___3_comp, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:895>
+		int32_t* L_0 = ___2_hi;
+		int32_t L_1 = *((int32_t*)L_0);
+		int32_t* L_2 = ___1_lo;
+		int32_t L_3 = *((int32_t*)L_2);
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_1, L_3)), 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_4 = V_0;
+		V_1 = ((int32_t)(L_4/2));
+		goto IL_001c;
+	}
+
+IL_000e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:899>
+		void* L_5 = ___0_array;
+		int32_t L_6 = V_1;
+		int32_t L_7 = V_0;
+		int32_t* L_8 = ___1_lo;
+		DefaultComparer_1_t1EF5888609A1523CEAEF96E15805049F7F6B096A L_9 = ___3_comp;
+		NativeSortExtension_HeapifyStruct_TisIndexedInt_t24BCB89B541376CF44EFAC03B879082052E960F7_TisDefaultComparer_1_t1EF5888609A1523CEAEF96E15805049F7F6B096A_m53329E32289298CB006B2527998583C51D21A6D5(L_5, L_6, L_7, L_8, L_9, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_10 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_10, 1));
+	}
+
+IL_001c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_11 = V_1;
+		if ((((int32_t)L_11) >= ((int32_t)1)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_12 = V_0;
+		V_2 = L_12;
+		goto IL_0042;
+	}
+
+IL_0024:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:904>
+		void* L_13 = ___0_array;
+		int32_t* L_14 = ___1_lo;
+		int32_t L_15 = *((int32_t*)L_14);
+		int32_t* L_16 = ___1_lo;
+		int32_t L_17 = *((int32_t*)L_16);
+		int32_t L_18 = V_2;
+		NativeSortExtension_SwapStruct_TisIndexedInt_t24BCB89B541376CF44EFAC03B879082052E960F7_mCE90238E6E6B4BC53BBCF121FE711DE422437D4E(L_13, L_15, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_17, L_18)), 1)), il2cpp_rgctx_method(method->rgctx_data, 2));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:905>
+		void* L_19 = ___0_array;
+		int32_t L_20 = V_2;
+		int32_t* L_21 = ___1_lo;
+		DefaultComparer_1_t1EF5888609A1523CEAEF96E15805049F7F6B096A L_22 = ___3_comp;
+		NativeSortExtension_HeapifyStruct_TisIndexedInt_t24BCB89B541376CF44EFAC03B879082052E960F7_TisDefaultComparer_1_t1EF5888609A1523CEAEF96E15805049F7F6B096A_m53329E32289298CB006B2527998583C51D21A6D5(L_19, 1, ((int32_t)il2cpp_codegen_subtract(L_20, 1)), L_21, L_22, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_23 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_23, 1));
+	}
+
+IL_0042:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_24 = V_2;
+		if ((((int32_t)L_24) > ((int32_t)1)))
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:907>
+		return;
+	}
+}
+// Method Definition Index: 78831
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapSortStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisDefaultComparer_1_t612242F4555E59390215CE9BFA23C8ECB894D939_m01E54D03E4C3A68608FD80558D57E1FD1B242604_gshared (void* ___0_array, int32_t* ___1_lo, int32_t* ___2_hi, DefaultComparer_1_t612242F4555E59390215CE9BFA23C8ECB894D939 ___3_comp, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:895>
+		int32_t* L_0 = ___2_hi;
+		int32_t L_1 = *((int32_t*)L_0);
+		int32_t* L_2 = ___1_lo;
+		int32_t L_3 = *((int32_t*)L_2);
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_1, L_3)), 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_4 = V_0;
+		V_1 = ((int32_t)(L_4/2));
+		goto IL_001c;
+	}
+
+IL_000e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:899>
+		void* L_5 = ___0_array;
+		int32_t L_6 = V_1;
+		int32_t L_7 = V_0;
+		int32_t* L_8 = ___1_lo;
+		DefaultComparer_1_t612242F4555E59390215CE9BFA23C8ECB894D939 L_9 = ___3_comp;
+		NativeSortExtension_HeapifyStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisDefaultComparer_1_t612242F4555E59390215CE9BFA23C8ECB894D939_mBE131CA1F0F0E1C912D3925340BC453B9D595194(L_5, L_6, L_7, L_8, L_9, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_10 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_10, 1));
+	}
+
+IL_001c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_11 = V_1;
+		if ((((int32_t)L_11) >= ((int32_t)1)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_12 = V_0;
+		V_2 = L_12;
+		goto IL_0042;
+	}
+
+IL_0024:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:904>
+		void* L_13 = ___0_array;
+		int32_t* L_14 = ___1_lo;
+		int32_t L_15 = *((int32_t*)L_14);
+		int32_t* L_16 = ___1_lo;
+		int32_t L_17 = *((int32_t*)L_16);
+		int32_t L_18 = V_2;
+		NativeSortExtension_SwapStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m7893AFE45F18176042CC91EAABA973BA33E1D68F(L_13, L_15, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_17, L_18)), 1)), il2cpp_rgctx_method(method->rgctx_data, 2));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:905>
+		void* L_19 = ___0_array;
+		int32_t L_20 = V_2;
+		int32_t* L_21 = ___1_lo;
+		DefaultComparer_1_t612242F4555E59390215CE9BFA23C8ECB894D939 L_22 = ___3_comp;
+		NativeSortExtension_HeapifyStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisDefaultComparer_1_t612242F4555E59390215CE9BFA23C8ECB894D939_mBE131CA1F0F0E1C912D3925340BC453B9D595194(L_19, 1, ((int32_t)il2cpp_codegen_subtract(L_20, 1)), L_21, L_22, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_23 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_23, 1));
+	}
+
+IL_0042:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_24 = V_2;
+		if ((((int32_t)L_24) > ((int32_t)1)))
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:907>
+		return;
+	}
+}
+// Method Definition Index: 78831
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapSortStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisCompareAreaDescending_t66FFF10221C06D41847D010560C295AD361E63D1_m53FF79CC0FBE7F0E690640949897D2944E6D2C8F_gshared (void* ___0_array, int32_t* ___1_lo, int32_t* ___2_hi, CompareAreaDescending_t66FFF10221C06D41847D010560C295AD361E63D1 ___3_comp, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:895>
+		int32_t* L_0 = ___2_hi;
+		int32_t L_1 = *((int32_t*)L_0);
+		int32_t* L_2 = ___1_lo;
+		int32_t L_3 = *((int32_t*)L_2);
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_1, L_3)), 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_4 = V_0;
+		V_1 = ((int32_t)(L_4/2));
+		goto IL_001c;
+	}
+
+IL_000e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:899>
+		void* L_5 = ___0_array;
+		int32_t L_6 = V_1;
+		int32_t L_7 = V_0;
+		int32_t* L_8 = ___1_lo;
+		CompareAreaDescending_t66FFF10221C06D41847D010560C295AD361E63D1 L_9 = ___3_comp;
+		NativeSortExtension_HeapifyStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisCompareAreaDescending_t66FFF10221C06D41847D010560C295AD361E63D1_mE20570970771A1E67074CDE65C0F96B1611A7747(L_5, L_6, L_7, L_8, L_9, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_10 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_10, 1));
+	}
+
+IL_001c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_11 = V_1;
+		if ((((int32_t)L_11) >= ((int32_t)1)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_12 = V_0;
+		V_2 = L_12;
+		goto IL_0042;
+	}
+
+IL_0024:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:904>
+		void* L_13 = ___0_array;
+		int32_t* L_14 = ___1_lo;
+		int32_t L_15 = *((int32_t*)L_14);
+		int32_t* L_16 = ___1_lo;
+		int32_t L_17 = *((int32_t*)L_16);
+		int32_t L_18 = V_2;
+		NativeSortExtension_SwapStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m7893AFE45F18176042CC91EAABA973BA33E1D68F(L_13, L_15, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_17, L_18)), 1)), il2cpp_rgctx_method(method->rgctx_data, 2));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:905>
+		void* L_19 = ___0_array;
+		int32_t L_20 = V_2;
+		int32_t* L_21 = ___1_lo;
+		CompareAreaDescending_t66FFF10221C06D41847D010560C295AD361E63D1 L_22 = ___3_comp;
+		NativeSortExtension_HeapifyStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisCompareAreaDescending_t66FFF10221C06D41847D010560C295AD361E63D1_mE20570970771A1E67074CDE65C0F96B1611A7747(L_19, 1, ((int32_t)il2cpp_codegen_subtract(L_20, 1)), L_21, L_22, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_23 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_23, 1));
+	}
+
+IL_0042:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_24 = V_2;
+		if ((((int32_t)L_24) > ((int32_t)1)))
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:907>
+		return;
+	}
+}
+// Method Definition Index: 78831
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSortExtension_HeapSortStruct_TisTypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C_TisDefaultComparer_1_tECAA8A95A131A47E5B6CC9FF62A97B4F1CBBC8AF_m34092F6F781104FB0AC80D3A2836D870FC5950A7_gshared (void* ___0_array, int32_t* ___1_lo, int32_t* ___2_hi, DefaultComparer_1_tECAA8A95A131A47E5B6CC9FF62A97B4F1CBBC8AF ___3_comp, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:895>
+		int32_t* L_0 = ___2_hi;
+		int32_t L_1 = *((int32_t*)L_0);
+		int32_t* L_2 = ___1_lo;
+		int32_t L_3 = *((int32_t*)L_2);
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_1, L_3)), 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_4 = V_0;
+		V_1 = ((int32_t)(L_4/2));
+		goto IL_001c;
+	}
+
+IL_000e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:899>
+		void* L_5 = ___0_array;
+		int32_t L_6 = V_1;
+		int32_t L_7 = V_0;
+		int32_t* L_8 = ___1_lo;
+		DefaultComparer_1_tECAA8A95A131A47E5B6CC9FF62A97B4F1CBBC8AF L_9 = ___3_comp;
+		NativeSortExtension_HeapifyStruct_TisTypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C_TisDefaultComparer_1_tECAA8A95A131A47E5B6CC9FF62A97B4F1CBBC8AF_m7DBA83A7C7530F9D42E0E75A520BD6F4C34EADF4(L_5, L_6, L_7, L_8, L_9, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_10 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_10, 1));
+	}
+
+IL_001c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:897>
+		int32_t L_11 = V_1;
+		if ((((int32_t)L_11) >= ((int32_t)1)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_12 = V_0;
+		V_2 = L_12;
+		goto IL_0042;
+	}
+
+IL_0024:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:904>
+		void* L_13 = ___0_array;
+		int32_t* L_14 = ___1_lo;
+		int32_t L_15 = *((int32_t*)L_14);
+		int32_t* L_16 = ___1_lo;
+		int32_t L_17 = *((int32_t*)L_16);
+		int32_t L_18 = V_2;
+		NativeSortExtension_SwapStruct_TisTypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C_m5DBEEE6CCD6CE0B1113EEA7CA2CC4ED25D4F7069(L_13, L_15, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_17, L_18)), 1)), il2cpp_rgctx_method(method->rgctx_data, 2));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:905>
+		void* L_19 = ___0_array;
+		int32_t L_20 = V_2;
+		int32_t* L_21 = ___1_lo;
+		DefaultComparer_1_tECAA8A95A131A47E5B6CC9FF62A97B4F1CBBC8AF L_22 = ___3_comp;
+		NativeSortExtension_HeapifyStruct_TisTypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C_TisDefaultComparer_1_tECAA8A95A131A47E5B6CC9FF62A97B4F1CBBC8AF_m7DBA83A7C7530F9D42E0E75A520BD6F4C34EADF4(L_19, 1, ((int32_t)il2cpp_codegen_subtract(L_20, 1)), L_21, L_22, il2cpp_rgctx_method(method->rgctx_data, 1));
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_23 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_23, 1));
+	}
+
+IL_0042:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:902>
+		int32_t L_24 = V_2;
+		if ((((int32_t)L_24) > ((int32_t)1)))
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections/NativeSort.cs:907>
 		return;
 	}
 }

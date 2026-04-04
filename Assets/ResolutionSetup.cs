@@ -10,6 +10,7 @@ public class ResolutionSetup : MonoBehaviour
         if (urpAsset != null)        
         {
             urpAsset.renderScale = 2f; // Adjust the render scale
+            urpAsset.msaaSampleCount = 4; // Enable 4x MSAA
         }
 
 }

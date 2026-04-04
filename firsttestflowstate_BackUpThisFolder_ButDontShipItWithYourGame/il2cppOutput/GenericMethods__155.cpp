@@ -189,20 +189,13 @@ struct ValueCollection_t9EB9C5634AB88E4E9CA993FE202AEE842111C914;
 struct EntryU5BU5D_tCFEDD9B392BFDE2D313BC0974DB2CABF3A7A893D;
 struct EntryU5BU5D_tFEDE80687C5442B827987E1B460C2287A5CDFB29;
 struct EntryU5BU5D_t756A95E079BB929872956FD3C32190FE718B2B92;
-struct AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001;
-struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4;
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
-struct DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE;
-struct Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB;
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
-struct Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D;
 struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 struct PropertyPathPartU5BU5D_t7994D542F14DDDDEABB1792C335C20149399AEBB;
-struct SByteU5BU5D_t88116DA68378C3333DB73E7D36C1A06AFAA91913;
-struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
 struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
 struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
 struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
@@ -211,7 +204,6 @@ struct fsObjectProcessorU5BU5D_tB29FB66B7E02F2E896D0FABF9BD635CF141E2215;
 struct fsVersionedTypeU5BU5D_tF4A5B18C49769943892747B1A1040CAE86746E1F;
 struct ARAnchorManager_tF68C46300BD6F2E83E3360BF9297C3C50F5D6B3E;
 struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
-struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0;
 struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F;
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA;
 struct Awaitable_t690337FEC1C411606E233EA36A41337B931C23CB;
@@ -226,10 +218,8 @@ struct ConverterGroup_t2D7DEDAC22662EF5C020DE54231DC23CD0B5268A;
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0;
 struct DataBinding_t4AEDF779EB49F9E11B45F99385482936B2FC34DA;
 struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
-struct Exception_t;
 struct ExceptionDispatchInfo_tD7AF19E75FEC22F4A8329FD1E9EDF96615CB2757;
 struct ExecutionContext_t9D6EDFD92F0B2D391751963E2D77A8B03CB81710;
-struct GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8;
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
 struct IEnumerable_t6331596D5DD37C462B1B8D49CF6B319B00AB7131;
 struct IPrincipal_tE7AF5096287F6C3472585E124CB38FF2A51EAB5F;
@@ -270,15 +260,10 @@ struct Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F;
 struct fsLazyCycleDefinitionWriter_t8DA7FBB3131ECC4D5F09CC4D66DE74961DA5511A;
 struct IStateMachineBox_tD4942DC2ED6681F5206C13363A829A111D7C9971;
 
-IL2CPP_EXTERN_C RuntimeClass* AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* AndroidReflection_tD59014B286F902906DBB75DA3473897D35684908_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Awaitable_t690337FEC1C411606E233EA36A41337B931C23CB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_tE3EF7F86044FEAF4A82EDAA759940ACF6ABF5A04_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IStateMachineBox_tD4942DC2ED6681F5206C13363A829A111D7C9971_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InvalidCastException_t47FC62F21A3937E814D20381DDACEF240E95AC2E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var;
@@ -289,10 +274,7 @@ IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9
 IL2CPP_EXTERN_C RuntimeClass* _AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C String_t* _stringLiteral24CC8D396132365E532646F936DFC8579E2299B2;
 IL2CPP_EXTERN_C String_t* _stringLiteral2D9F5FED5D5FDCEC590AB755ABB05168B0C0B356;
-IL2CPP_EXTERN_C String_t* _stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D;
-IL2CPP_EXTERN_C String_t* _stringLiteral51253131B895C2F8066BCC47E62D44F18F43446C;
 IL2CPP_EXTERN_C String_t* _stringLiteral537F955588893B499438876FBA6FFDB5522EB027;
 IL2CPP_EXTERN_C String_t* _stringLiteral622F5FF68A93093A1D312703FF92713F8BF2C946;
 IL2CPP_EXTERN_C String_t* _stringLiteral7F55817E612497BA20DDBC0EA7111ED68FC1666E;
@@ -311,7 +293,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_mDCA5D6962B16CA1ECF35
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_RemoveAt_m231460B39547133BA7961C06402C673B61B26AD9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mDFDAF5D5B8BD27C034F5F7A5067D22DA484476AC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mD24AAD8C088B52787627EFD12BB53604867221C4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeType* AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_0_0_0_var;
 struct Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
@@ -323,17 +304,7 @@ struct Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F;
 struct fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8_marshaled_com;
 struct fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8_marshaled_pinvoke;
 
-struct AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001;
-struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4;
-struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
-struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
-struct DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE;
-struct Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB;
-struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
-struct Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
-struct SByteU5BU5D_t88116DA68378C3333DB73E7D36C1A06AFAA91913;
-struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
 struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
 struct __Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC;
 
@@ -409,11 +380,6 @@ struct Property_2_tE9B27417C17E0D8EA0D6A88F71B3C9347F2332A3  : public RuntimeObj
 	List_1_t4A27DCC9A4080D8DA642DEA4EFFEBA72D6471715* ___m_Attributes;
 };
 struct StateMachineBox_1_t07BDFE3036CB07A0F7D99DFDFAB61EA6506DD54F : public RuntimeObject {};
-struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0  : public RuntimeObject
-{
-	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___m_jobject;
-	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___m_jclass;
-};
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObject
 {
 };
@@ -602,10 +568,6 @@ struct BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62
 	int32_t ___m_MaxNodeCount;
 	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A* ___m_NodeFilters;
 };
-struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
-{
-	uint8_t ___m_value;
-};
 struct CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED 
 {
 	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ____source;
@@ -662,10 +624,6 @@ struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
 {
 };
-struct Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175 
-{
-	int16_t ___m_value;
-};
 struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
 {
 	int32_t ___m_value;
@@ -677,10 +635,6 @@ struct Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3
 struct IntPtr_t 
 {
 	void* ___m_value;
-};
-struct SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5 
-{
-	int8_t ___m_value;
 };
 struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
 {
@@ -903,6 +857,26 @@ struct ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769
 {
 	Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* ___m_Mesh;
 	uint32_t ___m_NumColliderKeyBits;
+};
+struct DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45__padding[1];
+	};
+};
+struct MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F__padding[1];
+	};
 };
 struct LongDoubleUnion_tD71C400B6C4CD1A7F13CE8125AC6BBC7A22791CA 
 {
@@ -2296,10 +2270,6 @@ struct StateMachineBox_1_t07BDFE3036CB07A0F7D99DFDFAB61EA6506DD54F_StaticFields
 {
 	ThreadLocal_1_t321EE9A18CE29794903A428835D2505357D1B8E0* ____pool;
 };
-struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_StaticFields
-{
-	bool ___enableDebugPrints;
-};
 struct String_t_StaticFields
 {
 	String_t* ___Empty;
@@ -2422,10 +2392,6 @@ struct fsOption_1_t5307CE32C845EE97F1173CDBB2385C4B81D2A28A_StaticFields
 {
 	fsOption_1_t5307CE32C845EE97F1173CDBB2385C4B81D2A28A ___Empty;
 };
-struct Exception_t_StaticFields
-{
-	RuntimeObject* ___s_EDILock;
-};
 struct float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79_StaticFields
 {
 	float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___identity;
@@ -2498,362 +2464,6 @@ struct DataBinding_t4AEDF779EB49F9E11B45F99385482936B2FC34DA_StaticFields
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
-{
-	ALIGN_FIELD (8) String_t* m_Items[1];
-
-	inline String_t* GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline String_t** GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, String_t* value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-};
-struct AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001  : public RuntimeArray
-{
-	ALIGN_FIELD (8) AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* m_Items[1];
-
-	inline AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0** GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-	inline AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0** GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-};
-struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C  : public RuntimeArray
-{
-	ALIGN_FIELD (8) int32_t m_Items[1];
-
-	inline int32_t GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, int32_t value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
-	{
-		m_Items[index] = value;
-	}
-};
-struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4  : public RuntimeArray
-{
-	ALIGN_FIELD (8) bool m_Items[1];
-
-	inline bool GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline bool* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, bool value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline bool GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline bool* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, bool value)
-	{
-		m_Items[index] = value;
-	}
-};
-struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
-{
-	ALIGN_FIELD (8) uint8_t m_Items[1];
-
-	inline uint8_t GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
-	{
-		m_Items[index] = value;
-	}
-};
-struct SByteU5BU5D_t88116DA68378C3333DB73E7D36C1A06AFAA91913  : public RuntimeArray
-{
-	ALIGN_FIELD (8) int8_t m_Items[1];
-
-	inline int8_t GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline int8_t* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, int8_t value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline int8_t GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline int8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, int8_t value)
-	{
-		m_Items[index] = value;
-	}
-};
-struct Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB  : public RuntimeArray
-{
-	ALIGN_FIELD (8) int16_t m_Items[1];
-
-	inline int16_t GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline int16_t* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, int16_t value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline int16_t GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline int16_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, int16_t value)
-	{
-		m_Items[index] = value;
-	}
-};
-struct Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D  : public RuntimeArray
-{
-	ALIGN_FIELD (8) int64_t m_Items[1];
-
-	inline int64_t GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline int64_t* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, int64_t value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline int64_t GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline int64_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, int64_t value)
-	{
-		m_Items[index] = value;
-	}
-};
-struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C  : public RuntimeArray
-{
-	ALIGN_FIELD (8) float m_Items[1];
-
-	inline float GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline float* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, float value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline float GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
-	{
-		m_Items[index] = value;
-	}
-};
-struct DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE  : public RuntimeArray
-{
-	ALIGN_FIELD (8) double m_Items[1];
-
-	inline double GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline double* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, double value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline double GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline double* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, double value)
-	{
-		m_Items[index] = value;
-	}
-};
-struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB  : public RuntimeArray
-{
-	ALIGN_FIELD (8) Il2CppChar m_Items[1];
-
-	inline Il2CppChar GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Il2CppChar* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Il2CppChar value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline Il2CppChar GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Il2CppChar* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Il2CppChar value)
-	{
-		m_Items[index] = value;
-	}
-};
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
 {
 	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
@@ -2883,6 +2493,40 @@ struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeA
 		return m_Items + index;
 	}
 	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
+{
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
@@ -3351,34 +2995,60 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexMeshLeafProcessor_DistanceLeaf_Tis
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexMeshLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mD92D6BCC0AF0EDE2D3501DB7B5B3376D32EAF498_gshared (ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexMeshLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m33CB7760D72B991173469390DEA5738A5453BD4F_gshared (ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexMeshLeafProcessor_DistanceLeaf_TisIl2CppFullySharedGenericStruct_mBBE16F6AD0C8B1B6317D05EB6FAF73B105E28E6A_gshared (ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_primitiveKey, Il2CppFullySharedGenericStruct* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Collider_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mF2F2DDC7405487D9B90059B0CA3D0A033A819D71_gshared (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m04CA91E23CB9A06C04676322E449547DF4A727CC_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Collider_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mDB6F1F854B1B0E0A767FFDE0AAB55C1D6420313A_gshared (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mE392213416CD5B1AD365760D4BCADDD86E73D6C9_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Collider_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m2B900B1C6C16A95EAEC78CC5339C330C506EBB91_gshared (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m8C0F01475F50E01FC57A2D3387AFD8A8C3FCB4E2_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mF6D6E103024999682FE432695ED935EE02DF6489_gshared (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mDA816A20986B7971DE3D85715EBFC71B86C533BF_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m696D1FF0FBF456D525313A4C6797A6CA8A9C184C_gshared (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mF717E519A4F765E32241EFCCCCF36A8A9E1BF281_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m107B1174D29CB7B54BF24C42A55CAAA7E1F73DFB_gshared (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m5875E49D94B8AB3928F987AF87B9AD8963C1B9DB_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_mA0DFD9D5DC29BAFFFBEFC6C02700EC119901B569_gshared (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_mD69BD38D6D43731F9CA09DDFFB37F41C68044EDD_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mFBFD103E8961FE0F4571FF0A6A103FF5AE5F3E78_gshared (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m316CBE25FA3BB832666044D12AACF4B70327B33D_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m1BBBF3EF6C55D1B386F3849E1578B2BC38EB23E2_gshared (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m689384F7497D8D4BB636323B24575D50674AED9D_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Collider_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8F0517F932EA1396EBFFC9C63E7B9A2F8BE14A89_gshared (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m9CDFEB10E8C9C46164355916F0D1AC6EA066508E_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Collider_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m658DD0E3C5CA0858BF8D1E72253130E6A5AB2C63_gshared (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m737D2528821C086C6CC00028B50CEB85B7EBD687_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Collider_CalculateDistance_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mEB553A75D979233FBA66B687C247018E8F9DE8B9_gshared (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mDE4E633796C8D301ABB72383EDA2CAAAB5918EE3_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisIl2CppFullySharedGenericStruct_mBB07319A4DD20B3EE2BD3D29AD7D2109F0C04957_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_MeshConvex_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m9F7618F97CC2E4228E9F18A30FEBB1F81B67949A_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m902A73F43780EDEEC6898C2ED68671F9DC808105_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_MeshConvex_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m0AA8577CCEA56CFC6C040DB95CE069F832CBA0F0_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m23656C368E9751FEA24B683F59F7A5A8421001CC_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_MeshConvex_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m602BFEAE104218647F092DB4D3B7B94F3CD5A3EF_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mFA680ADD27647F93DD626A42B39B3A0C0A5A8312_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m1DF6DC709085079AED160B957682DAC91727D2D3_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m5E38D2C25FC66A12EA48157F66511C3D07CBA9F8_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mA906DB595FB98AB4908E6CE76C5EE9B78714B923_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mB2507625221B0FFD1C5BED1893F9BF1C20046DF7_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_mA2BFEE96A9D32E7D8FCF0C630CD9237BF261D874_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m21ABEE1DC21F56B28685B3D98C95E37FE02D3267_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m391669E08AC8A73C0A993CCFF41FEE77C2C35424_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m6920C1731848780D288C744B391F91034A7AC0DF_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mD220CA208CDDEA60BAC8F8D362F72BA13A72F347_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m47105E54D5167AF513633966F1ACF02DA916DD1F_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_mD67CE209FA628E00BC21D272F7BEFCF74D338A81_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m1170F090FD02B41052E4D67DB34DB0CE9A36E684_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_MeshConvex_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8E9DE8A1DA80027BA0EC8B184774F245FBDB0C73_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m29032ACB6C7959DB9FC37F3918D63752F9A64DFC_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_MeshConvex_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mBBCB3627E7C7DC67ADC52A8A8FAE67A0EDB69EEC_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m4E26AFDD2BCA1CED8F43B1137946378BE24D699D_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_MeshConvex_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m2C50502538C03C435EE08F3C0652A8E5243E9918_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mF2402269D4396A381564621EF264B6283E2A3BDB_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EqualityComparer_1_t92563A67F1C1ECDC3FE387C46498E2E56B59F3C2* EqualityComparer_1_CreateComparer_mD2FA619307513193746FBEB5AE522FB54E21B634_gshared (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaitable_1_ContinueWith_m33E932A66E6CF05FAA5A77EBDD25C4D3375D95A5_gshared_inline (Awaitable_1_tD59626436DE15BA5C073BBCB7EE6F3DE78C3F354* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaitable_1_ContinueWith_mF8B9E111F6A40B5FA7057A7AA673210F53BC2275_gshared_inline (Awaitable_1_t008E4B5E6A0F88B660F7A2EBA9613066F96F78BB* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaitable_1_ContinueWith_m9522F19AA9A8DEBBF77E2175DFB65D12D8BFF209_gshared_inline (Awaitable_1_t5E90755E6902820655B28F16354AB65033E729BA* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) ;
 
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___0_handle, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidReflection_IsPrimitive_mA41A9ECECE3D73679C79DC8B0FDD32B59570DF25 (Type_t* ___0_t, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC (Type_t* ___0_left, Type_t* ___1_right, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* AndroidJNISafe_FromIntArray_mC4C4DC70FFA39CD6E3E02FDAC7192324E6D4614E (intptr_t ___0_array, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* AndroidJNISafe_FromBooleanArray_m36ED740401185EC0A959CA0F96A324A69E668646 (intptr_t ___0_array, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* AndroidJNISafe_FromByteArray_mB06EF0FDBF6C738231E8F9D4998C38551131C4C5 (intptr_t ___0_array, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SByteU5BU5D_t88116DA68378C3333DB73E7D36C1A06AFAA91913* AndroidJNISafe_FromSByteArray_m261D638D8B059AB777BEF0BEFDD0822717DFF2B1 (intptr_t ___0_array, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* AndroidJNISafe_FromShortArray_m62C0CB2D0BAE96D4B8CE365630361150EBE884FC (intptr_t ___0_array, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D* AndroidJNISafe_FromLongArray_mC4D73C0DA27F212947AB85AA2030A35BECDF8288 (intptr_t ___0_array, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* AndroidJNISafe_FromFloatArray_mDE02985159EEFD2CB28611C797AC21DE8B6300B8 (intptr_t ___0_array, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* AndroidJNISafe_FromDoubleArray_mDEA8F2C7854101272F3A2733F351B570AAD5D9D9 (intptr_t ___0_array, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* AndroidJNISafe_FromCharArray_m54EDC9D2BE92F9973F4E00EE953EE242B231EA96 (intptr_t ___0_array, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidJNISafe_GetArrayLength_m809419F04C9BB93FED5B4A89F0539231C9B90E6F (intptr_t ___0_array, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJNISafe_PushLocalFrame_mBD80F37B9AA8EF3360C22C260458B0B8CAC0876B (int32_t ___0_capacity, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJNI_PopLocalFrame_m32AF6F9065F09D80BFDD3F573B62C782F392E609 (intptr_t ___0_ptr, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJNI_GetObjectArrayElement_mC4CAF9744617F69EFCD95B71D95492DA20A0FACE (intptr_t ___0_array, int32_t ___1_index, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AndroidJNISafe_GetStringChars_mE246814CD8FF4EDDEE6EBF107367C4A8EAF03849 (intptr_t ___0_str, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__ctor_m0CEE7D570807333CE2C193A82AB3AB8D4F873A6B (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, intptr_t ___0_jobject, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F (Exception_t* __this, String_t* ___0_message, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* _AndroidJNIHelper_GetSignature_m414A7A6B98FB5565075E4C51F22C482F2BCEEF5F (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJNIHelper_GetFieldID_mDA4775DFA37126A7EFEBCA8E68EF9640F3D6EF01 (intptr_t ___0_javaClass, String_t* ___1_fieldName, String_t* ___2_signature, bool ___3_isStatic, const RuntimeMethod* method) ;
 inline String_t* _AndroidJNIHelper_GetSignature_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m1BB764DB4D3E393C60E69169020A7EC792D639D5 (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___0_args, const RuntimeMethod* method)
 {
 	return ((  String_t* (*) (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))_AndroidJNIHelper_GetSignature_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m1BB764DB4D3E393C60E69169020A7EC792D639D5_gshared)(___0_args, method);
@@ -3416,6 +3086,8 @@ inline String_t* _AndroidJNIHelper_GetSignature_TisSingle_t4530F2FF86FCB0DC29F35
 {
 	return ((  String_t* (*) (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))_AndroidJNIHelper_GetSignature_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mDD367BE518367698F0093E97FCF201D89B5790CB_gshared)(___0_args, method);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___0_handle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* _AndroidJNIHelper_GetSignature_m414A7A6B98FB5565075E4C51F22C482F2BCEEF5F (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D (StringBuilder_t* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Append_m71228B30F05724CD2CD96D9611DCD61BFB96A6E1 (StringBuilder_t* __this, Il2CppChar ___0_value, const RuntimeMethod* method) ;
@@ -3424,6 +3096,7 @@ inline bool Dictionary_2_TryGetValue_m4BD12A9570DB1688959FB20D85A74C4E7AB1365F (
 {
 	return ((  bool (*) (Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3*, String_t*, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**, const RuntimeMethod*))Dictionary_2_TryGetValue_mD15380A4ED7CDEE99EA45881577D26BA9CE1B849_gshared)(__this, ___0_key, ___1_value, method);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 fsResult_Fail_m3315594F29830C02FD560F7401D311F99DA241CD (String_t* ___0_warning, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 fsSerializer_TryDeserialize_m675340784F47BA9FF50C193F53A3BAAA1D18D2B9 (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* ___0_data, Type_t* ___1_storageType, Type_t* ___2_overrideConverterType, RuntimeObject** ___3_result, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 fsSerializer_TrySerialize_m2E029A68D43C8F4783B5912AB8004658E41AB84B (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, Type_t* ___0_storageType, Type_t* ___1_overrideConverterType, RuntimeObject* ___2_instance, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** ___3_data, const RuntimeMethod* method) ;
@@ -5262,6 +4935,202 @@ inline bool ConvexMeshLeafProcessor_DistanceLeaf_TisIl2CppFullySharedGenericStru
 {
 	return ((  bool (*) (ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, int32_t, Il2CppFullySharedGenericStruct*, const RuntimeMethod*))ConvexMeshLeafProcessor_DistanceLeaf_TisIl2CppFullySharedGenericStruct_mBBE16F6AD0C8B1B6317D05EB6FAF73B105E28E6A_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
 }
+inline bool Collider_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mF2F2DDC7405487D9B90059B0CA3D0A033A819D71 (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))Collider_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mF2F2DDC7405487D9B90059B0CA3D0A033A819D71_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DefaultCompoundDispatcher_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m04CA91E23CB9A06C04676322E449547DF4A727CC (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	return ((  bool (*) (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, const RuntimeMethod*))DefaultCompoundDispatcher_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m04CA91E23CB9A06C04676322E449547DF4A727CC_gshared)(__this, ___0_input, ___1_collector, ___2_target, method);
+}
+inline bool Collider_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mDB6F1F854B1B0E0A767FFDE0AAB55C1D6420313A (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))Collider_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mDB6F1F854B1B0E0A767FFDE0AAB55C1D6420313A_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DefaultCompoundDispatcher_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mE392213416CD5B1AD365760D4BCADDD86E73D6C9 (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	return ((  bool (*) (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, const RuntimeMethod*))DefaultCompoundDispatcher_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mE392213416CD5B1AD365760D4BCADDD86E73D6C9_gshared)(__this, ___0_input, ___1_collector, ___2_target, method);
+}
+inline bool Collider_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m2B900B1C6C16A95EAEC78CC5339C330C506EBB91 (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))Collider_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m2B900B1C6C16A95EAEC78CC5339C330C506EBB91_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DefaultCompoundDispatcher_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m8C0F01475F50E01FC57A2D3387AFD8A8C3FCB4E2 (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	return ((  bool (*) (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, const RuntimeMethod*))DefaultCompoundDispatcher_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m8C0F01475F50E01FC57A2D3387AFD8A8C3FCB4E2_gshared)(__this, ___0_input, ___1_collector, ___2_target, method);
+}
+inline bool Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mF6D6E103024999682FE432695ED935EE02DF6489 (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, const RuntimeMethod*))Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mF6D6E103024999682FE432695ED935EE02DF6489_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mDA816A20986B7971DE3D85715EBFC71B86C533BF (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	return ((  bool (*) (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, const RuntimeMethod*))DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mDA816A20986B7971DE3D85715EBFC71B86C533BF_gshared)(__this, ___0_input, ___1_collector, ___2_target, method);
+}
+inline bool Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m696D1FF0FBF456D525313A4C6797A6CA8A9C184C (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, const RuntimeMethod*))Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m696D1FF0FBF456D525313A4C6797A6CA8A9C184C_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mF717E519A4F765E32241EFCCCCF36A8A9E1BF281 (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	return ((  bool (*) (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, const RuntimeMethod*))DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mF717E519A4F765E32241EFCCCCF36A8A9E1BF281_gshared)(__this, ___0_input, ___1_collector, ___2_target, method);
+}
+inline bool Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m107B1174D29CB7B54BF24C42A55CAAA7E1F73DFB (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, const RuntimeMethod*))Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m107B1174D29CB7B54BF24C42A55CAAA7E1F73DFB_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m5875E49D94B8AB3928F987AF87B9AD8963C1B9DB (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	return ((  bool (*) (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, const RuntimeMethod*))DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m5875E49D94B8AB3928F987AF87B9AD8963C1B9DB_gshared)(__this, ___0_input, ___1_collector, ___2_target, method);
+}
+inline bool Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_mA0DFD9D5DC29BAFFFBEFC6C02700EC119901B569 (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5*, const RuntimeMethod*))Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_mA0DFD9D5DC29BAFFFBEFC6C02700EC119901B569_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_mD69BD38D6D43731F9CA09DDFFB37F41C68044EDD (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	return ((  bool (*) (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5*, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, const RuntimeMethod*))DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_mD69BD38D6D43731F9CA09DDFFB37F41C68044EDD_gshared)(__this, ___0_input, ___1_collector, ___2_target, method);
+}
+inline bool Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mFBFD103E8961FE0F4571FF0A6A103FF5AE5F3E78 (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F*, const RuntimeMethod*))Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mFBFD103E8961FE0F4571FF0A6A103FF5AE5F3E78_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m316CBE25FA3BB832666044D12AACF4B70327B33D (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	return ((  bool (*) (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F*, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, const RuntimeMethod*))DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m316CBE25FA3BB832666044D12AACF4B70327B33D_gshared)(__this, ___0_input, ___1_collector, ___2_target, method);
+}
+inline bool Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m1BBBF3EF6C55D1B386F3849E1578B2BC38EB23E2 (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2*, const RuntimeMethod*))Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m1BBBF3EF6C55D1B386F3849E1578B2BC38EB23E2_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m689384F7497D8D4BB636323B24575D50674AED9D (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	return ((  bool (*) (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2*, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, const RuntimeMethod*))DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m689384F7497D8D4BB636323B24575D50674AED9D_gshared)(__this, ___0_input, ___1_collector, ___2_target, method);
+}
+inline bool Collider_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8F0517F932EA1396EBFFC9C63E7B9A2F8BE14A89 (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))Collider_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8F0517F932EA1396EBFFC9C63E7B9A2F8BE14A89_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DefaultCompoundDispatcher_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m9CDFEB10E8C9C46164355916F0D1AC6EA066508E (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	return ((  bool (*) (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, const RuntimeMethod*))DefaultCompoundDispatcher_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m9CDFEB10E8C9C46164355916F0D1AC6EA066508E_gshared)(__this, ___0_input, ___1_collector, ___2_target, method);
+}
+inline bool Collider_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m658DD0E3C5CA0858BF8D1E72253130E6A5AB2C63 (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))Collider_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m658DD0E3C5CA0858BF8D1E72253130E6A5AB2C63_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DefaultCompoundDispatcher_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m737D2528821C086C6CC00028B50CEB85B7EBD687 (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	return ((  bool (*) (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, const RuntimeMethod*))DefaultCompoundDispatcher_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m737D2528821C086C6CC00028B50CEB85B7EBD687_gshared)(__this, ___0_input, ___1_collector, ___2_target, method);
+}
+inline bool Collider_CalculateDistance_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mEB553A75D979233FBA66B687C247018E8F9DE8B9 (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32*, const RuntimeMethod*))Collider_CalculateDistance_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mEB553A75D979233FBA66B687C247018E8F9DE8B9_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DefaultCompoundDispatcher_CalculateDistance_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mDE4E633796C8D301ABB72383EDA2CAAAB5918EE3 (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	return ((  bool (*) (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32*, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, const RuntimeMethod*))DefaultCompoundDispatcher_CalculateDistance_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mDE4E633796C8D301ABB72383EDA2CAAAB5918EE3_gshared)(__this, ___0_input, ___1_collector, ___2_target, method);
+}
+inline bool DefaultCompoundDispatcher_CalculateDistance_TisIl2CppFullySharedGenericStruct_mBB07319A4DD20B3EE2BD3D29AD7D2109F0C04957 (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	return ((  bool (*) (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, Il2CppFullySharedGenericStruct*, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, const RuntimeMethod*))DefaultCompoundDispatcher_CalculateDistance_TisIl2CppFullySharedGenericStruct_mBB07319A4DD20B3EE2BD3D29AD7D2109F0C04957_gshared)(__this, ___0_input, ___1_collector, ___2_target, method);
+}
+inline bool DistanceQueries_MeshConvex_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m9F7618F97CC2E4228E9F18A30FEBB1F81B67949A (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))DistanceQueries_MeshConvex_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m9F7618F97CC2E4228E9F18A30FEBB1F81B67949A_gshared)(___0_input, ___1_convexCollider, ___2_collector, method);
+}
+inline bool MeshConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m902A73F43780EDEEC6898C2ED68671F9DC808105 (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, uint32_t, uint32_t, const RuntimeMethod*))MeshConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m902A73F43780EDEEC6898C2ED68671F9DC808105_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool DistanceQueries_MeshConvex_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m0AA8577CCEA56CFC6C040DB95CE069F832CBA0F0 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))DistanceQueries_MeshConvex_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m0AA8577CCEA56CFC6C040DB95CE069F832CBA0F0_gshared)(___0_input, ___1_convexCollider, ___2_collector, method);
+}
+inline bool MeshConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m23656C368E9751FEA24B683F59F7A5A8421001CC (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, uint32_t, uint32_t, const RuntimeMethod*))MeshConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m23656C368E9751FEA24B683F59F7A5A8421001CC_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool DistanceQueries_MeshConvex_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m602BFEAE104218647F092DB4D3B7B94F3CD5A3EF (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))DistanceQueries_MeshConvex_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m602BFEAE104218647F092DB4D3B7B94F3CD5A3EF_gshared)(___0_input, ___1_convexCollider, ___2_collector, method);
+}
+inline bool MeshConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mFA680ADD27647F93DD626A42B39B3A0C0A5A8312 (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, uint32_t, uint32_t, const RuntimeMethod*))MeshConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mFA680ADD27647F93DD626A42B39B3A0C0A5A8312_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m1DF6DC709085079AED160B957682DAC91727D2D3 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, const RuntimeMethod*))DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m1DF6DC709085079AED160B957682DAC91727D2D3_gshared)(___0_input, ___1_convexCollider, ___2_collector, method);
+}
+inline bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m5E38D2C25FC66A12EA48157F66511C3D07CBA9F8 (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, uint32_t, uint32_t, const RuntimeMethod*))MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m5E38D2C25FC66A12EA48157F66511C3D07CBA9F8_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mA906DB595FB98AB4908E6CE76C5EE9B78714B923 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, const RuntimeMethod*))DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mA906DB595FB98AB4908E6CE76C5EE9B78714B923_gshared)(___0_input, ___1_convexCollider, ___2_collector, method);
+}
+inline bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mB2507625221B0FFD1C5BED1893F9BF1C20046DF7 (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, uint32_t, uint32_t, const RuntimeMethod*))MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mB2507625221B0FFD1C5BED1893F9BF1C20046DF7_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_mA2BFEE96A9D32E7D8FCF0C630CD9237BF261D874 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, const RuntimeMethod*))DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_mA2BFEE96A9D32E7D8FCF0C630CD9237BF261D874_gshared)(___0_input, ___1_convexCollider, ___2_collector, method);
+}
+inline bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m21ABEE1DC21F56B28685B3D98C95E37FE02D3267 (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, uint32_t, uint32_t, const RuntimeMethod*))MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m21ABEE1DC21F56B28685B3D98C95E37FE02D3267_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m391669E08AC8A73C0A993CCFF41FEE77C2C35424 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5*, const RuntimeMethod*))DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m391669E08AC8A73C0A993CCFF41FEE77C2C35424_gshared)(___0_input, ___1_convexCollider, ___2_collector, method);
+}
+inline bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m6920C1731848780D288C744B391F91034A7AC0DF (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5*, uint32_t, uint32_t, const RuntimeMethod*))MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m6920C1731848780D288C744B391F91034A7AC0DF_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mD220CA208CDDEA60BAC8F8D362F72BA13A72F347 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F*, const RuntimeMethod*))DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mD220CA208CDDEA60BAC8F8D362F72BA13A72F347_gshared)(___0_input, ___1_convexCollider, ___2_collector, method);
+}
+inline bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m47105E54D5167AF513633966F1ACF02DA916DD1F (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F*, uint32_t, uint32_t, const RuntimeMethod*))MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m47105E54D5167AF513633966F1ACF02DA916DD1F_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_mD67CE209FA628E00BC21D272F7BEFCF74D338A81 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2*, const RuntimeMethod*))DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_mD67CE209FA628E00BC21D272F7BEFCF74D338A81_gshared)(___0_input, ___1_convexCollider, ___2_collector, method);
+}
+inline bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m1170F090FD02B41052E4D67DB34DB0CE9A36E684 (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2*, uint32_t, uint32_t, const RuntimeMethod*))MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m1170F090FD02B41052E4D67DB34DB0CE9A36E684_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool DistanceQueries_MeshConvex_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8E9DE8A1DA80027BA0EC8B184774F245FBDB0C73 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))DistanceQueries_MeshConvex_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8E9DE8A1DA80027BA0EC8B184774F245FBDB0C73_gshared)(___0_input, ___1_convexCollider, ___2_collector, method);
+}
+inline bool MeshConvexDispatcher_Dispatch_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m29032ACB6C7959DB9FC37F3918D63752F9A64DFC (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, uint32_t, uint32_t, const RuntimeMethod*))MeshConvexDispatcher_Dispatch_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m29032ACB6C7959DB9FC37F3918D63752F9A64DFC_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool DistanceQueries_MeshConvex_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mBBCB3627E7C7DC67ADC52A8A8FAE67A0EDB69EEC (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))DistanceQueries_MeshConvex_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mBBCB3627E7C7DC67ADC52A8A8FAE67A0EDB69EEC_gshared)(___0_input, ___1_convexCollider, ___2_collector, method);
+}
+inline bool MeshConvexDispatcher_Dispatch_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m4E26AFDD2BCA1CED8F43B1137946378BE24D699D (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, uint32_t, uint32_t, const RuntimeMethod*))MeshConvexDispatcher_Dispatch_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m4E26AFDD2BCA1CED8F43B1137946378BE24D699D_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool DistanceQueries_MeshConvex_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m2C50502538C03C435EE08F3C0652A8E5243E9918 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32*, const RuntimeMethod*))DistanceQueries_MeshConvex_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m2C50502538C03C435EE08F3C0652A8E5243E9918_gshared)(___0_input, ___1_convexCollider, ___2_collector, method);
+}
+inline bool MeshConvexDispatcher_Dispatch_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mF2402269D4396A381564621EF264B6283E2A3BDB (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32*, uint32_t, uint32_t, const RuntimeMethod*))MeshConvexDispatcher_Dispatch_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mF2402269D4396A381564621EF264B6283E2A3BDB_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_tzcnt_m07FD7550AAB5D94312E99571B112D652E8230360_inline (uint32_t ___0_x, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_inline (float ___0_x, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_asfloat_m20D259DAAB46464B59BD8BF5678F9D59800F70A9_inline (uint32_t ___0_x, const RuntimeMethod* method) ;
@@ -5291,1281 +5160,6 @@ inline void Awaitable_1_ContinueWith_m9522F19AA9A8DEBBF77E2175DFB65D12D8BFF209_i
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_inline (float ___0_x, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaitable_SetContinuation_m469E2A5A1100BD1E7F7695EDE4C2C9365202E815 (Awaitable_t690337FEC1C411606E233EA36A41337B931C23CB* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) ;
-// Method Definition Index: 108483
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float _AndroidJNIHelper_ConvertFromJNIArray_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m6634501B2BC58937A4D852F6F2D8D55A9DFB6F64_gshared (intptr_t ___0_array, const RuntimeMethod* method) 
-{
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidReflection_tD59014B286F902906DBB75DA3473897D35684908_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral24CC8D396132365E532646F936DFC8579E2299B2);
-		il2cpp_rgctx_method_init(method);
-	}
-	Type_t* V_0 = NULL;
-	int32_t V_1 = 0;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_2 = NULL;
-	int32_t V_3 = 0;
-	bool V_4 = false;
-	int32_t V_5 = 0;
-	intptr_t V_6;
-	memset((&V_6), 0, sizeof(V_6));
-	int32_t V_7 = 0;
-	AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* V_8 = NULL;
-	int32_t V_9 = 0;
-	bool V_10 = false;
-	int32_t V_11 = 0;
-	intptr_t V_12;
-	memset((&V_12), 0, sizeof(V_12));
-	float V_13 = 0.0f;
-	int32_t G_B25_0 = 0;
-	int32_t G_B42_0 = 0;
-	Type_t* G_B55_0 = NULL;
-	String_t* G_B55_1 = NULL;
-	Type_t* G_B54_0 = NULL;
-	String_t* G_B54_1 = NULL;
-	String_t* G_B56_0 = NULL;
-	String_t* G_B56_1 = NULL;
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		NullCheck(L_1);
-		Type_t* L_2;
-		L_2 = VirtualFuncInvoker0< Type_t* >::Invoke(48, L_1);
-		V_0 = L_2;
-		Type_t* L_3 = V_0;
-		il2cpp_codegen_runtime_class_init_inline(AndroidReflection_tD59014B286F902906DBB75DA3473897D35684908_il2cpp_TypeInfo_var);
-		bool L_4;
-		L_4 = AndroidReflection_IsPrimitive_mA41A9ECECE3D73679C79DC8B0FDD32B59570DF25(L_3, NULL);
-		if (!L_4)
-		{
-			goto IL_0136;
-		}
-	}
-	{
-		Type_t* L_5 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.int32_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_7;
-		L_7 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_6, NULL);
-		bool L_8;
-		L_8 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_5, L_7, NULL);
-		if (!L_8)
-		{
-			goto IL_0039;
-		}
-	}
-	{
-		intptr_t L_9 = ___0_array;
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10;
-		L_10 = AndroidJNISafe_FromIntArray_mC4C4DC70FFA39CD6E3E02FDAC7192324E6D4614E(L_9, NULL);
-		return ((*(float*)UnBox((RuntimeObject*)L_10, il2cpp_rgctx_data(method->rgctx_data, 1))));
-	}
-
-IL_0039:
-	{
-		Type_t* L_11 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_12 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.boolean_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_13;
-		L_13 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_12, NULL);
-		bool L_14;
-		L_14 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_11, L_13, NULL);
-		if (!L_14)
-		{
-			goto IL_0057;
-		}
-	}
-	{
-		intptr_t L_15 = ___0_array;
-		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_16;
-		L_16 = AndroidJNISafe_FromBooleanArray_m36ED740401185EC0A959CA0F96A324A69E668646(L_15, NULL);
-		return ((*(float*)UnBox((RuntimeObject*)L_16, il2cpp_rgctx_data(method->rgctx_data, 1))));
-	}
-
-IL_0057:
-	{
-		Type_t* L_17 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_18 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.byte_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_19;
-		L_19 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_18, NULL);
-		bool L_20;
-		L_20 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_17, L_19, NULL);
-		if (!L_20)
-		{
-			goto IL_007f;
-		}
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9((RuntimeObject*)_stringLiteral24CC8D396132365E532646F936DFC8579E2299B2, NULL);
-		intptr_t L_21 = ___0_array;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_22;
-		L_22 = AndroidJNISafe_FromByteArray_mB06EF0FDBF6C738231E8F9D4998C38551131C4C5(L_21, NULL);
-		return ((*(float*)UnBox((RuntimeObject*)L_22, il2cpp_rgctx_data(method->rgctx_data, 1))));
-	}
-
-IL_007f:
-	{
-		Type_t* L_23 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_24 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.sbyte_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_25;
-		L_25 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_24, NULL);
-		bool L_26;
-		L_26 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_23, L_25, NULL);
-		if (!L_26)
-		{
-			goto IL_009d;
-		}
-	}
-	{
-		intptr_t L_27 = ___0_array;
-		SByteU5BU5D_t88116DA68378C3333DB73E7D36C1A06AFAA91913* L_28;
-		L_28 = AndroidJNISafe_FromSByteArray_m261D638D8B059AB777BEF0BEFDD0822717DFF2B1(L_27, NULL);
-		return ((*(float*)UnBox((RuntimeObject*)L_28, il2cpp_rgctx_data(method->rgctx_data, 1))));
-	}
-
-IL_009d:
-	{
-		Type_t* L_29 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_30 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.int16_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_31;
-		L_31 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_30, NULL);
-		bool L_32;
-		L_32 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_29, L_31, NULL);
-		if (!L_32)
-		{
-			goto IL_00bb;
-		}
-	}
-	{
-		intptr_t L_33 = ___0_array;
-		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_34;
-		L_34 = AndroidJNISafe_FromShortArray_m62C0CB2D0BAE96D4B8CE365630361150EBE884FC(L_33, NULL);
-		return ((*(float*)UnBox((RuntimeObject*)L_34, il2cpp_rgctx_data(method->rgctx_data, 1))));
-	}
-
-IL_00bb:
-	{
-		Type_t* L_35 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_36 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.int64_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_37;
-		L_37 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_36, NULL);
-		bool L_38;
-		L_38 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_35, L_37, NULL);
-		if (!L_38)
-		{
-			goto IL_00d9;
-		}
-	}
-	{
-		intptr_t L_39 = ___0_array;
-		Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D* L_40;
-		L_40 = AndroidJNISafe_FromLongArray_mC4D73C0DA27F212947AB85AA2030A35BECDF8288(L_39, NULL);
-		return ((*(float*)UnBox((RuntimeObject*)L_40, il2cpp_rgctx_data(method->rgctx_data, 1))));
-	}
-
-IL_00d9:
-	{
-		Type_t* L_41 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_42 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.single_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_43;
-		L_43 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_42, NULL);
-		bool L_44;
-		L_44 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_41, L_43, NULL);
-		if (!L_44)
-		{
-			goto IL_00f7;
-		}
-	}
-	{
-		intptr_t L_45 = ___0_array;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_46;
-		L_46 = AndroidJNISafe_FromFloatArray_mDE02985159EEFD2CB28611C797AC21DE8B6300B8(L_45, NULL);
-		return ((*(float*)UnBox((RuntimeObject*)L_46, il2cpp_rgctx_data(method->rgctx_data, 1))));
-	}
-
-IL_00f7:
-	{
-		Type_t* L_47 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_48 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.double_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_49;
-		L_49 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_48, NULL);
-		bool L_50;
-		L_50 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_47, L_49, NULL);
-		if (!L_50)
-		{
-			goto IL_0115;
-		}
-	}
-	{
-		intptr_t L_51 = ___0_array;
-		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_52;
-		L_52 = AndroidJNISafe_FromDoubleArray_mDEA8F2C7854101272F3A2733F351B570AAD5D9D9(L_51, NULL);
-		return ((*(float*)UnBox((RuntimeObject*)L_52, il2cpp_rgctx_data(method->rgctx_data, 1))));
-	}
-
-IL_0115:
-	{
-		Type_t* L_53 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_54 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.char_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_55;
-		L_55 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_54, NULL);
-		bool L_56;
-		L_56 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_53, L_55, NULL);
-		if (!L_56)
-		{
-			goto IL_02b1;
-		}
-	}
-	{
-		intptr_t L_57 = ___0_array;
-		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_58;
-		L_58 = AndroidJNISafe_FromCharArray_m54EDC9D2BE92F9973F4E00EE953EE242B231EA96(L_57, NULL);
-		return ((*(float*)UnBox((RuntimeObject*)L_58, il2cpp_rgctx_data(method->rgctx_data, 1))));
-	}
-
-IL_0136:
-	{
-		Type_t* L_59 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_60 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.string_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_61;
-		L_61 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_60, NULL);
-		bool L_62;
-		L_62 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_59, L_61, NULL);
-		if (!L_62)
-		{
-			goto IL_01dc;
-		}
-	}
-	{
-		intptr_t L_63 = ___0_array;
-		int32_t L_64;
-		L_64 = AndroidJNISafe_GetArrayLength_m809419F04C9BB93FED5B4A89F0539231C9B90E6F(L_63, NULL);
-		V_1 = L_64;
-		int32_t L_65 = V_1;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_66 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)L_65);
-		V_2 = L_66;
-		int32_t L_67 = V_1;
-		if (L_67)
-		{
-			goto IL_0163;
-		}
-	}
-	{
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_68 = V_2;
-		return ((*(float*)UnBox((RuntimeObject*)L_68, il2cpp_rgctx_data(method->rgctx_data, 1))));
-	}
-
-IL_0163:
-	{
-		int32_t L_69 = V_1;
-		il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
-		int32_t L_70 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
-		if ((((int32_t)L_69) > ((int32_t)L_70)))
-		{
-			goto IL_016e;
-		}
-	}
-	{
-		int32_t L_71 = V_1;
-		G_B25_0 = L_71;
-		goto IL_0173;
-	}
-
-IL_016e:
-	{
-		il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
-		int32_t L_72 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
-		G_B25_0 = L_72;
-	}
-
-IL_0173:
-	{
-		V_3 = G_B25_0;
-		int32_t L_73 = V_3;
-		AndroidJNISafe_PushLocalFrame_mBD80F37B9AA8EF3360C22C260458B0B8CAC0876B(L_73, NULL);
-		V_4 = (bool)1;
-	}
-	{
-		auto __finallyBlock = il2cpp::utils::Finally([&]
-		{
-
-FINALLY_01c5:
-			{
-				{
-					bool L_74 = V_4;
-					if (!L_74)
-					{
-						goto IL_01d4;
-					}
-				}
-				{
-					intptr_t L_75;
-					L_75 = AndroidJNI_PopLocalFrame_m32AF6F9065F09D80BFDD3F573B62C782F392E609(0, NULL);
-				}
-
-IL_01d4:
-				{
-					return;
-				}
-			}
-		});
-		try
-		{
-			{
-				V_5 = 0;
-				goto IL_01be_1;
-			}
-
-IL_0182_1:
-			{
-				int32_t L_76 = V_5;
-				il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
-				int32_t L_77 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
-				if (((int32_t)(L_76%L_77)))
-				{
-					goto IL_01a3_1;
-				}
-			}
-			{
-				intptr_t L_78;
-				L_78 = AndroidJNI_PopLocalFrame_m32AF6F9065F09D80BFDD3F573B62C782F392E609(0, NULL);
-				V_4 = (bool)0;
-				int32_t L_79 = V_3;
-				AndroidJNISafe_PushLocalFrame_mBD80F37B9AA8EF3360C22C260458B0B8CAC0876B(L_79, NULL);
-				V_4 = (bool)1;
-			}
-
-IL_01a3_1:
-			{
-				intptr_t L_80 = ___0_array;
-				int32_t L_81 = V_5;
-				intptr_t L_82;
-				L_82 = AndroidJNI_GetObjectArrayElement_mC4CAF9744617F69EFCD95B71D95492DA20A0FACE(L_80, L_81, NULL);
-				V_6 = L_82;
-				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_83 = V_2;
-				int32_t L_84 = V_5;
-				intptr_t L_85 = V_6;
-				String_t* L_86;
-				L_86 = AndroidJNISafe_GetStringChars_mE246814CD8FF4EDDEE6EBF107367C4A8EAF03849(L_85, NULL);
-				NullCheck(L_83);
-				(L_83)->SetAt(static_cast<il2cpp_array_size_t>(L_84), (String_t*)L_86);
-				int32_t L_87 = V_5;
-				V_5 = ((int32_t)il2cpp_codegen_add(L_87, 1));
-			}
-
-IL_01be_1:
-			{
-				int32_t L_88 = V_5;
-				int32_t L_89 = V_1;
-				if ((((int32_t)L_88) < ((int32_t)L_89)))
-				{
-					goto IL_0182_1;
-				}
-			}
-			{
-				goto IL_01d5;
-			}
-		}
-		catch(Il2CppExceptionWrapper& e)
-		{
-			__finallyBlock.StoreException(e.ex);
-		}
-	}
-
-IL_01d5:
-	{
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_90 = V_2;
-		return ((*(float*)UnBox((RuntimeObject*)L_90, il2cpp_rgctx_data(method->rgctx_data, 1))));
-	}
-
-IL_01dc:
-	{
-		Type_t* L_91 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_92 = { reinterpret_cast<intptr_t> (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_0_0_0_var) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_93;
-		L_93 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_92, NULL);
-		bool L_94;
-		L_94 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_91, L_93, NULL);
-		if (!L_94)
-		{
-			goto IL_028f;
-		}
-	}
-	{
-		intptr_t L_95 = ___0_array;
-		int32_t L_96;
-		L_96 = AndroidJNISafe_GetArrayLength_m809419F04C9BB93FED5B4A89F0539231C9B90E6F(L_95, NULL);
-		V_7 = L_96;
-		int32_t L_97 = V_7;
-		AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* L_98 = (AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001*)(AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001*)SZArrayNew(AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001_il2cpp_TypeInfo_var, (uint32_t)L_97);
-		V_8 = L_98;
-		int32_t L_99 = V_7;
-		if (L_99)
-		{
-			goto IL_020e;
-		}
-	}
-	{
-		AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* L_100 = V_8;
-		return ((*(float*)UnBox((RuntimeObject*)L_100, il2cpp_rgctx_data(method->rgctx_data, 1))));
-	}
-
-IL_020e:
-	{
-		int32_t L_101 = V_7;
-		il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
-		int32_t L_102 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
-		if ((((int32_t)L_101) > ((int32_t)L_102)))
-		{
-			goto IL_021b;
-		}
-	}
-	{
-		int32_t L_103 = V_7;
-		G_B42_0 = L_103;
-		goto IL_0220;
-	}
-
-IL_021b:
-	{
-		il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
-		int32_t L_104 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
-		G_B42_0 = L_104;
-	}
-
-IL_0220:
-	{
-		V_9 = G_B42_0;
-		int32_t L_105 = V_9;
-		AndroidJNISafe_PushLocalFrame_mBD80F37B9AA8EF3360C22C260458B0B8CAC0876B(L_105, NULL);
-		V_10 = (bool)1;
-	}
-	{
-		auto __finallyBlock = il2cpp::utils::Finally([&]
-		{
-
-FINALLY_0277:
-			{
-				{
-					bool L_106 = V_10;
-					if (!L_106)
-					{
-						goto IL_0286;
-					}
-				}
-				{
-					intptr_t L_107;
-					L_107 = AndroidJNI_PopLocalFrame_m32AF6F9065F09D80BFDD3F573B62C782F392E609(0, NULL);
-				}
-
-IL_0286:
-				{
-					return;
-				}
-			}
-		});
-		try
-		{
-			{
-				V_11 = 0;
-				goto IL_026f_1;
-			}
-
-IL_0231_1:
-			{
-				int32_t L_108 = V_11;
-				il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
-				int32_t L_109 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
-				if (((int32_t)(L_108%L_109)))
-				{
-					goto IL_0253_1;
-				}
-			}
-			{
-				intptr_t L_110;
-				L_110 = AndroidJNI_PopLocalFrame_m32AF6F9065F09D80BFDD3F573B62C782F392E609(0, NULL);
-				V_10 = (bool)0;
-				int32_t L_111 = V_9;
-				AndroidJNISafe_PushLocalFrame_mBD80F37B9AA8EF3360C22C260458B0B8CAC0876B(L_111, NULL);
-				V_10 = (bool)1;
-			}
-
-IL_0253_1:
-			{
-				intptr_t L_112 = ___0_array;
-				int32_t L_113 = V_11;
-				intptr_t L_114;
-				L_114 = AndroidJNI_GetObjectArrayElement_mC4CAF9744617F69EFCD95B71D95492DA20A0FACE(L_112, L_113, NULL);
-				V_12 = L_114;
-				AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* L_115 = V_8;
-				int32_t L_116 = V_11;
-				intptr_t L_117 = V_12;
-				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_118 = (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)il2cpp_codegen_object_new(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_il2cpp_TypeInfo_var);
-				AndroidJavaObject__ctor_m0CEE7D570807333CE2C193A82AB3AB8D4F873A6B(L_118, L_117, NULL);
-				NullCheck(L_115);
-				ArrayElementTypeCheck (L_115, L_118);
-				(L_115)->SetAt(static_cast<il2cpp_array_size_t>(L_116), (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_118);
-				int32_t L_119 = V_11;
-				V_11 = ((int32_t)il2cpp_codegen_add(L_119, 1));
-			}
-
-IL_026f_1:
-			{
-				int32_t L_120 = V_11;
-				int32_t L_121 = V_7;
-				if ((((int32_t)L_120) < ((int32_t)L_121)))
-				{
-					goto IL_0231_1;
-				}
-			}
-			{
-				goto IL_0287;
-			}
-		}
-		catch(Il2CppExceptionWrapper& e)
-		{
-			__finallyBlock.StoreException(e.ex);
-		}
-	}
-
-IL_0287:
-	{
-		AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* L_122 = V_8;
-		return ((*(float*)UnBox((RuntimeObject*)L_122, il2cpp_rgctx_data(method->rgctx_data, 1))));
-	}
-
-IL_028f:
-	{
-		Type_t* L_123 = V_0;
-		Type_t* L_124 = L_123;
-		if (L_124)
-		{
-			G_B55_0 = L_124;
-			G_B55_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral51253131B895C2F8066BCC47E62D44F18F43446C));
-			goto IL_029c;
-		}
-		G_B54_0 = L_124;
-		G_B54_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral51253131B895C2F8066BCC47E62D44F18F43446C));
-	}
-	{
-		G_B56_0 = ((String_t*)(NULL));
-		G_B56_1 = G_B54_1;
-		goto IL_02a1;
-	}
-
-IL_029c:
-	{
-		NullCheck((RuntimeObject*)G_B55_0);
-		String_t* L_125;
-		L_125 = VirtualFuncInvoker0< String_t* >::Invoke(3, (RuntimeObject*)G_B55_0);
-		G_B56_0 = L_125;
-		G_B56_1 = G_B55_1;
-	}
-
-IL_02a1:
-	{
-		String_t* L_126;
-		L_126 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(G_B56_1, G_B56_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D)), NULL);
-		Exception_t* L_127 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
-		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_127, L_126, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_127, method);
-	}
-
-IL_02b1:
-	{
-		il2cpp_codegen_initobj((&V_13), sizeof(float));
-		float L_128 = V_13;
-		return L_128;
-	}
-}
-// Method Definition Index: 108483
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _AndroidJNIHelper_ConvertFromJNIArray_TisIl2CppFullySharedGenericAny_mD6B660A63955117687D6131FC1DB255161D1A2BA_gshared (intptr_t ___0_array, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
-{
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidReflection_tD59014B286F902906DBB75DA3473897D35684908_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral24CC8D396132365E532646F936DFC8579E2299B2);
-		il2cpp_rgctx_method_init(method);
-	}
-	const uint32_t SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->rgctx_data, 1));
-	const Il2CppFullySharedGenericAny L_11 = alloca(SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
-	const Il2CppFullySharedGenericAny L_19 = L_11;
-	const Il2CppFullySharedGenericAny L_27 = L_11;
-	const Il2CppFullySharedGenericAny L_35 = L_11;
-	const Il2CppFullySharedGenericAny L_43 = L_11;
-	const Il2CppFullySharedGenericAny L_51 = L_11;
-	const Il2CppFullySharedGenericAny L_59 = L_11;
-	const Il2CppFullySharedGenericAny L_67 = L_11;
-	const Il2CppFullySharedGenericAny L_75 = L_11;
-	const Il2CppFullySharedGenericAny L_87 = L_11;
-	const Il2CppFullySharedGenericAny L_111 = L_11;
-	const Il2CppFullySharedGenericAny L_123 = L_11;
-	const Il2CppFullySharedGenericAny L_147 = L_11;
-	const Il2CppFullySharedGenericAny L_154 = L_11;
-	Type_t* V_0 = NULL;
-	int32_t V_1 = 0;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_2 = NULL;
-	int32_t V_3 = 0;
-	bool V_4 = false;
-	int32_t V_5 = 0;
-	intptr_t V_6;
-	memset((&V_6), 0, sizeof(V_6));
-	int32_t V_7 = 0;
-	AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* V_8 = NULL;
-	int32_t V_9 = 0;
-	bool V_10 = false;
-	int32_t V_11 = 0;
-	intptr_t V_12;
-	memset((&V_12), 0, sizeof(V_12));
-	Il2CppFullySharedGenericAny V_13 = alloca(SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
-	memset(V_13, 0, SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
-	int32_t G_B25_0 = 0;
-	int32_t G_B42_0 = 0;
-	Type_t* G_B55_0 = NULL;
-	String_t* G_B55_1 = NULL;
-	Type_t* G_B54_0 = NULL;
-	String_t* G_B54_1 = NULL;
-	String_t* G_B56_0 = NULL;
-	String_t* G_B56_1 = NULL;
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		NullCheck(L_1);
-		Type_t* L_2;
-		L_2 = VirtualFuncInvoker0< Type_t* >::Invoke(48, L_1);
-		V_0 = L_2;
-		Type_t* L_3 = V_0;
-		il2cpp_codegen_runtime_class_init_inline(AndroidReflection_tD59014B286F902906DBB75DA3473897D35684908_il2cpp_TypeInfo_var);
-		bool L_4;
-		L_4 = AndroidReflection_IsPrimitive_mA41A9ECECE3D73679C79DC8B0FDD32B59570DF25(L_3, NULL);
-		if (!L_4)
-		{
-			goto IL_0136;
-		}
-	}
-	{
-		Type_t* L_5 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.int32_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_7;
-		L_7 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_6, NULL);
-		bool L_8;
-		L_8 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_5, L_7, NULL);
-		if (!L_8)
-		{
-			goto IL_0039;
-		}
-	}
-	{
-		intptr_t L_9 = ___0_array;
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10;
-		L_10 = AndroidJNISafe_FromIntArray_mC4C4DC70FFA39CD6E3E02FDAC7192324E6D4614E(L_9, NULL);
-		void* L_12 = UnBox_Any((RuntimeObject*)L_10, il2cpp_rgctx_data(method->rgctx_data, 1), L_11);
-		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_12)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
-		return;
-	}
-
-IL_0039:
-	{
-		Type_t* L_13 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_14 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.boolean_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_15;
-		L_15 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_14, NULL);
-		bool L_16;
-		L_16 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_13, L_15, NULL);
-		if (!L_16)
-		{
-			goto IL_0057;
-		}
-	}
-	{
-		intptr_t L_17 = ___0_array;
-		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_18;
-		L_18 = AndroidJNISafe_FromBooleanArray_m36ED740401185EC0A959CA0F96A324A69E668646(L_17, NULL);
-		void* L_20 = UnBox_Any((RuntimeObject*)L_18, il2cpp_rgctx_data(method->rgctx_data, 1), L_19);
-		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_20)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
-		return;
-	}
-
-IL_0057:
-	{
-		Type_t* L_21 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_22 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.byte_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_23;
-		L_23 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_22, NULL);
-		bool L_24;
-		L_24 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_21, L_23, NULL);
-		if (!L_24)
-		{
-			goto IL_007f;
-		}
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9((RuntimeObject*)_stringLiteral24CC8D396132365E532646F936DFC8579E2299B2, NULL);
-		intptr_t L_25 = ___0_array;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_26;
-		L_26 = AndroidJNISafe_FromByteArray_mB06EF0FDBF6C738231E8F9D4998C38551131C4C5(L_25, NULL);
-		void* L_28 = UnBox_Any((RuntimeObject*)L_26, il2cpp_rgctx_data(method->rgctx_data, 1), L_27);
-		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_28)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
-		return;
-	}
-
-IL_007f:
-	{
-		Type_t* L_29 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_30 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.sbyte_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_31;
-		L_31 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_30, NULL);
-		bool L_32;
-		L_32 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_29, L_31, NULL);
-		if (!L_32)
-		{
-			goto IL_009d;
-		}
-	}
-	{
-		intptr_t L_33 = ___0_array;
-		SByteU5BU5D_t88116DA68378C3333DB73E7D36C1A06AFAA91913* L_34;
-		L_34 = AndroidJNISafe_FromSByteArray_m261D638D8B059AB777BEF0BEFDD0822717DFF2B1(L_33, NULL);
-		void* L_36 = UnBox_Any((RuntimeObject*)L_34, il2cpp_rgctx_data(method->rgctx_data, 1), L_35);
-		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_36)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
-		return;
-	}
-
-IL_009d:
-	{
-		Type_t* L_37 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_38 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.int16_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_39;
-		L_39 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_38, NULL);
-		bool L_40;
-		L_40 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_37, L_39, NULL);
-		if (!L_40)
-		{
-			goto IL_00bb;
-		}
-	}
-	{
-		intptr_t L_41 = ___0_array;
-		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_42;
-		L_42 = AndroidJNISafe_FromShortArray_m62C0CB2D0BAE96D4B8CE365630361150EBE884FC(L_41, NULL);
-		void* L_44 = UnBox_Any((RuntimeObject*)L_42, il2cpp_rgctx_data(method->rgctx_data, 1), L_43);
-		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_44)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
-		return;
-	}
-
-IL_00bb:
-	{
-		Type_t* L_45 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_46 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.int64_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_47;
-		L_47 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_46, NULL);
-		bool L_48;
-		L_48 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_45, L_47, NULL);
-		if (!L_48)
-		{
-			goto IL_00d9;
-		}
-	}
-	{
-		intptr_t L_49 = ___0_array;
-		Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D* L_50;
-		L_50 = AndroidJNISafe_FromLongArray_mC4D73C0DA27F212947AB85AA2030A35BECDF8288(L_49, NULL);
-		void* L_52 = UnBox_Any((RuntimeObject*)L_50, il2cpp_rgctx_data(method->rgctx_data, 1), L_51);
-		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_52)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
-		return;
-	}
-
-IL_00d9:
-	{
-		Type_t* L_53 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_54 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.single_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_55;
-		L_55 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_54, NULL);
-		bool L_56;
-		L_56 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_53, L_55, NULL);
-		if (!L_56)
-		{
-			goto IL_00f7;
-		}
-	}
-	{
-		intptr_t L_57 = ___0_array;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_58;
-		L_58 = AndroidJNISafe_FromFloatArray_mDE02985159EEFD2CB28611C797AC21DE8B6300B8(L_57, NULL);
-		void* L_60 = UnBox_Any((RuntimeObject*)L_58, il2cpp_rgctx_data(method->rgctx_data, 1), L_59);
-		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_60)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
-		return;
-	}
-
-IL_00f7:
-	{
-		Type_t* L_61 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_62 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.double_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_63;
-		L_63 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_62, NULL);
-		bool L_64;
-		L_64 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_61, L_63, NULL);
-		if (!L_64)
-		{
-			goto IL_0115;
-		}
-	}
-	{
-		intptr_t L_65 = ___0_array;
-		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_66;
-		L_66 = AndroidJNISafe_FromDoubleArray_mDEA8F2C7854101272F3A2733F351B570AAD5D9D9(L_65, NULL);
-		void* L_68 = UnBox_Any((RuntimeObject*)L_66, il2cpp_rgctx_data(method->rgctx_data, 1), L_67);
-		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_68)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
-		return;
-	}
-
-IL_0115:
-	{
-		Type_t* L_69 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_70 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.char_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_71;
-		L_71 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_70, NULL);
-		bool L_72;
-		L_72 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_69, L_71, NULL);
-		if (!L_72)
-		{
-			goto IL_02b1;
-		}
-	}
-	{
-		intptr_t L_73 = ___0_array;
-		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_74;
-		L_74 = AndroidJNISafe_FromCharArray_m54EDC9D2BE92F9973F4E00EE953EE242B231EA96(L_73, NULL);
-		void* L_76 = UnBox_Any((RuntimeObject*)L_74, il2cpp_rgctx_data(method->rgctx_data, 1), L_75);
-		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_76)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
-		return;
-	}
-
-IL_0136:
-	{
-		Type_t* L_77 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_78 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.string_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_79;
-		L_79 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_78, NULL);
-		bool L_80;
-		L_80 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_77, L_79, NULL);
-		if (!L_80)
-		{
-			goto IL_01dc;
-		}
-	}
-	{
-		intptr_t L_81 = ___0_array;
-		int32_t L_82;
-		L_82 = AndroidJNISafe_GetArrayLength_m809419F04C9BB93FED5B4A89F0539231C9B90E6F(L_81, NULL);
-		V_1 = L_82;
-		int32_t L_83 = V_1;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_84 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)L_83);
-		V_2 = L_84;
-		int32_t L_85 = V_1;
-		if (L_85)
-		{
-			goto IL_0163;
-		}
-	}
-	{
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_86 = V_2;
-		void* L_88 = UnBox_Any((RuntimeObject*)L_86, il2cpp_rgctx_data(method->rgctx_data, 1), L_87);
-		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_88)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
-		return;
-	}
-
-IL_0163:
-	{
-		int32_t L_89 = V_1;
-		il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
-		int32_t L_90 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
-		if ((((int32_t)L_89) > ((int32_t)L_90)))
-		{
-			goto IL_016e;
-		}
-	}
-	{
-		int32_t L_91 = V_1;
-		G_B25_0 = L_91;
-		goto IL_0173;
-	}
-
-IL_016e:
-	{
-		il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
-		int32_t L_92 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
-		G_B25_0 = L_92;
-	}
-
-IL_0173:
-	{
-		V_3 = G_B25_0;
-		int32_t L_93 = V_3;
-		AndroidJNISafe_PushLocalFrame_mBD80F37B9AA8EF3360C22C260458B0B8CAC0876B(L_93, NULL);
-		V_4 = (bool)1;
-	}
-	{
-		auto __finallyBlock = il2cpp::utils::Finally([&]
-		{
-
-FINALLY_01c5:
-			{
-				{
-					bool L_94 = V_4;
-					if (!L_94)
-					{
-						goto IL_01d4;
-					}
-				}
-				{
-					intptr_t L_95;
-					L_95 = AndroidJNI_PopLocalFrame_m32AF6F9065F09D80BFDD3F573B62C782F392E609(0, NULL);
-				}
-
-IL_01d4:
-				{
-					return;
-				}
-			}
-		});
-		try
-		{
-			{
-				V_5 = 0;
-				goto IL_01be_1;
-			}
-
-IL_0182_1:
-			{
-				int32_t L_96 = V_5;
-				il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
-				int32_t L_97 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
-				if (((int32_t)(L_96%L_97)))
-				{
-					goto IL_01a3_1;
-				}
-			}
-			{
-				intptr_t L_98;
-				L_98 = AndroidJNI_PopLocalFrame_m32AF6F9065F09D80BFDD3F573B62C782F392E609(0, NULL);
-				V_4 = (bool)0;
-				int32_t L_99 = V_3;
-				AndroidJNISafe_PushLocalFrame_mBD80F37B9AA8EF3360C22C260458B0B8CAC0876B(L_99, NULL);
-				V_4 = (bool)1;
-			}
-
-IL_01a3_1:
-			{
-				intptr_t L_100 = ___0_array;
-				int32_t L_101 = V_5;
-				intptr_t L_102;
-				L_102 = AndroidJNI_GetObjectArrayElement_mC4CAF9744617F69EFCD95B71D95492DA20A0FACE(L_100, L_101, NULL);
-				V_6 = L_102;
-				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_103 = V_2;
-				int32_t L_104 = V_5;
-				intptr_t L_105 = V_6;
-				String_t* L_106;
-				L_106 = AndroidJNISafe_GetStringChars_mE246814CD8FF4EDDEE6EBF107367C4A8EAF03849(L_105, NULL);
-				NullCheck(L_103);
-				(L_103)->SetAt(static_cast<il2cpp_array_size_t>(L_104), (String_t*)L_106);
-				int32_t L_107 = V_5;
-				V_5 = ((int32_t)il2cpp_codegen_add(L_107, 1));
-			}
-
-IL_01be_1:
-			{
-				int32_t L_108 = V_5;
-				int32_t L_109 = V_1;
-				if ((((int32_t)L_108) < ((int32_t)L_109)))
-				{
-					goto IL_0182_1;
-				}
-			}
-			{
-				goto IL_01d5;
-			}
-		}
-		catch(Il2CppExceptionWrapper& e)
-		{
-			__finallyBlock.StoreException(e.ex);
-		}
-	}
-
-IL_01d5:
-	{
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_110 = V_2;
-		void* L_112 = UnBox_Any((RuntimeObject*)L_110, il2cpp_rgctx_data(method->rgctx_data, 1), L_111);
-		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_112)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
-		return;
-	}
-
-IL_01dc:
-	{
-		Type_t* L_113 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_114 = { reinterpret_cast<intptr_t> (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_0_0_0_var) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_115;
-		L_115 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_114, NULL);
-		bool L_116;
-		L_116 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_113, L_115, NULL);
-		if (!L_116)
-		{
-			goto IL_028f;
-		}
-	}
-	{
-		intptr_t L_117 = ___0_array;
-		int32_t L_118;
-		L_118 = AndroidJNISafe_GetArrayLength_m809419F04C9BB93FED5B4A89F0539231C9B90E6F(L_117, NULL);
-		V_7 = L_118;
-		int32_t L_119 = V_7;
-		AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* L_120 = (AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001*)(AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001*)SZArrayNew(AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001_il2cpp_TypeInfo_var, (uint32_t)L_119);
-		V_8 = L_120;
-		int32_t L_121 = V_7;
-		if (L_121)
-		{
-			goto IL_020e;
-		}
-	}
-	{
-		AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* L_122 = V_8;
-		void* L_124 = UnBox_Any((RuntimeObject*)L_122, il2cpp_rgctx_data(method->rgctx_data, 1), L_123);
-		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_124)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
-		return;
-	}
-
-IL_020e:
-	{
-		int32_t L_125 = V_7;
-		il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
-		int32_t L_126 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
-		if ((((int32_t)L_125) > ((int32_t)L_126)))
-		{
-			goto IL_021b;
-		}
-	}
-	{
-		int32_t L_127 = V_7;
-		G_B42_0 = L_127;
-		goto IL_0220;
-	}
-
-IL_021b:
-	{
-		il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
-		int32_t L_128 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
-		G_B42_0 = L_128;
-	}
-
-IL_0220:
-	{
-		V_9 = G_B42_0;
-		int32_t L_129 = V_9;
-		AndroidJNISafe_PushLocalFrame_mBD80F37B9AA8EF3360C22C260458B0B8CAC0876B(L_129, NULL);
-		V_10 = (bool)1;
-	}
-	{
-		auto __finallyBlock = il2cpp::utils::Finally([&]
-		{
-
-FINALLY_0277:
-			{
-				{
-					bool L_130 = V_10;
-					if (!L_130)
-					{
-						goto IL_0286;
-					}
-				}
-				{
-					intptr_t L_131;
-					L_131 = AndroidJNI_PopLocalFrame_m32AF6F9065F09D80BFDD3F573B62C782F392E609(0, NULL);
-				}
-
-IL_0286:
-				{
-					return;
-				}
-			}
-		});
-		try
-		{
-			{
-				V_11 = 0;
-				goto IL_026f_1;
-			}
-
-IL_0231_1:
-			{
-				int32_t L_132 = V_11;
-				il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
-				int32_t L_133 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
-				if (((int32_t)(L_132%L_133)))
-				{
-					goto IL_0253_1;
-				}
-			}
-			{
-				intptr_t L_134;
-				L_134 = AndroidJNI_PopLocalFrame_m32AF6F9065F09D80BFDD3F573B62C782F392E609(0, NULL);
-				V_10 = (bool)0;
-				int32_t L_135 = V_9;
-				AndroidJNISafe_PushLocalFrame_mBD80F37B9AA8EF3360C22C260458B0B8CAC0876B(L_135, NULL);
-				V_10 = (bool)1;
-			}
-
-IL_0253_1:
-			{
-				intptr_t L_136 = ___0_array;
-				int32_t L_137 = V_11;
-				intptr_t L_138;
-				L_138 = AndroidJNI_GetObjectArrayElement_mC4CAF9744617F69EFCD95B71D95492DA20A0FACE(L_136, L_137, NULL);
-				V_12 = L_138;
-				AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* L_139 = V_8;
-				int32_t L_140 = V_11;
-				intptr_t L_141 = V_12;
-				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_142 = (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)il2cpp_codegen_object_new(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_il2cpp_TypeInfo_var);
-				AndroidJavaObject__ctor_m0CEE7D570807333CE2C193A82AB3AB8D4F873A6B(L_142, L_141, NULL);
-				NullCheck(L_139);
-				ArrayElementTypeCheck (L_139, L_142);
-				(L_139)->SetAt(static_cast<il2cpp_array_size_t>(L_140), (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_142);
-				int32_t L_143 = V_11;
-				V_11 = ((int32_t)il2cpp_codegen_add(L_143, 1));
-			}
-
-IL_026f_1:
-			{
-				int32_t L_144 = V_11;
-				int32_t L_145 = V_7;
-				if ((((int32_t)L_144) < ((int32_t)L_145)))
-				{
-					goto IL_0231_1;
-				}
-			}
-			{
-				goto IL_0287;
-			}
-		}
-		catch(Il2CppExceptionWrapper& e)
-		{
-			__finallyBlock.StoreException(e.ex);
-		}
-	}
-
-IL_0287:
-	{
-		AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* L_146 = V_8;
-		void* L_148 = UnBox_Any((RuntimeObject*)L_146, il2cpp_rgctx_data(method->rgctx_data, 1), L_147);
-		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_148)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
-		return;
-	}
-
-IL_028f:
-	{
-		Type_t* L_149 = V_0;
-		Type_t* L_150 = L_149;
-		if (L_150)
-		{
-			G_B55_0 = L_150;
-			G_B55_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral51253131B895C2F8066BCC47E62D44F18F43446C));
-			goto IL_029c;
-		}
-		G_B54_0 = L_150;
-		G_B54_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral51253131B895C2F8066BCC47E62D44F18F43446C));
-	}
-	{
-		G_B56_0 = ((String_t*)(NULL));
-		G_B56_1 = G_B54_1;
-		goto IL_02a1;
-	}
-
-IL_029c:
-	{
-		NullCheck((RuntimeObject*)G_B55_0);
-		String_t* L_151;
-		L_151 = VirtualFuncInvoker0< String_t* >::Invoke(3, (RuntimeObject*)G_B55_0);
-		G_B56_0 = L_151;
-		G_B56_1 = G_B55_1;
-	}
-
-IL_02a1:
-	{
-		String_t* L_152;
-		L_152 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(G_B56_1, G_B56_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D)), NULL);
-		Exception_t* L_153 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
-		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_153, L_152, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_153, method);
-	}
-
-IL_02b1:
-	{
-		il2cpp_codegen_initobj((Il2CppFullySharedGenericAny*)V_13, SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
-		il2cpp_codegen_memcpy(L_154, V_13, SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
-		il2cpp_codegen_memcpy(il2cppRetVal, L_154, SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
-		return;
-	}
-}
-// Method Definition Index: 108487
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t _AndroidJNIHelper_GetFieldID_TisIl2CppFullySharedGenericAny_m5714D44FF454CB672C9F04F1316533DAD6C6BCBB_gshared (intptr_t ___0_jclass, String_t* ___1_fieldName, bool ___2_isStatic, const RuntimeMethod* method) 
-{
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
-		il2cpp_rgctx_method_init(method);
-	}
-	{
-		intptr_t L_0 = ___0_jclass;
-		String_t* L_1 = ___1_fieldName;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_2 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_3;
-		L_3 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_2, NULL);
-		il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
-		String_t* L_4;
-		L_4 = _AndroidJNIHelper_GetSignature_m414A7A6B98FB5565075E4C51F22C482F2BCEEF5F((RuntimeObject*)L_3, NULL);
-		bool L_5 = ___2_isStatic;
-		intptr_t L_6;
-		L_6 = AndroidJNIHelper_GetFieldID_mDA4775DFA37126A7EFEBCA8E68EF9640F3D6EF01(L_0, L_1, L_4, L_5, NULL);
-		return L_6;
-	}
-}
 // Method Definition Index: 108486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t _AndroidJNIHelper_GetMethodID_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m5C5661781E8C49E962C2556FC75101FD0E862AFD_gshared (intptr_t ___0_jclass, String_t* ___1_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___2_args, bool ___3_isStatic, const RuntimeMethod* method) 
 {
@@ -23579,6 +22173,679 @@ IL2CPP_EXTERN_C  bool ConvexMeshLeafProcessor_DistanceLeaf_TisIl2CppFullySharedG
 	_thisAdjusted = reinterpret_cast<ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769*>(__this + _offset);
 	bool _returnValue;
 	_returnValue = ConvexMeshLeafProcessor_DistanceLeaf_TisIl2CppFullySharedGenericStruct_mBBE16F6AD0C8B1B6317D05EB6FAF73B105E28E6A(_thisAdjusted, ___0_input, ___1_primitiveKey, ___2_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 69409
+// Method Definition Index: 69413
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m04CA91E23CB9A06C04676322E449547DF4A727CC_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1282>
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_0 = ___2_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_1 = ___0_input;
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_2 = ___1_collector;
+		bool L_3;
+		L_3 = Collider_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mF2F2DDC7405487D9B90059B0CA3D0A033A819D71((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  bool DefaultCompoundDispatcher_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m04CA91E23CB9A06C04676322E449547DF4A727CC_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = DefaultCompoundDispatcher_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m04CA91E23CB9A06C04676322E449547DF4A727CC(_thisAdjusted, ___0_input, ___1_collector, ___2_target, method);
+	return _returnValue;
+}
+// Method Definition Index: 69413
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mE392213416CD5B1AD365760D4BCADDD86E73D6C9_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1282>
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_0 = ___2_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_1 = ___0_input;
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_2 = ___1_collector;
+		bool L_3;
+		L_3 = Collider_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mDB6F1F854B1B0E0A767FFDE0AAB55C1D6420313A((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  bool DefaultCompoundDispatcher_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mE392213416CD5B1AD365760D4BCADDD86E73D6C9_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = DefaultCompoundDispatcher_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mE392213416CD5B1AD365760D4BCADDD86E73D6C9(_thisAdjusted, ___0_input, ___1_collector, ___2_target, method);
+	return _returnValue;
+}
+// Method Definition Index: 69413
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m8C0F01475F50E01FC57A2D3387AFD8A8C3FCB4E2_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1282>
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_0 = ___2_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_1 = ___0_input;
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_2 = ___1_collector;
+		bool L_3;
+		L_3 = Collider_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m2B900B1C6C16A95EAEC78CC5339C330C506EBB91((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  bool DefaultCompoundDispatcher_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m8C0F01475F50E01FC57A2D3387AFD8A8C3FCB4E2_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = DefaultCompoundDispatcher_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m8C0F01475F50E01FC57A2D3387AFD8A8C3FCB4E2(_thisAdjusted, ___0_input, ___1_collector, ___2_target, method);
+	return _returnValue;
+}
+// Method Definition Index: 69413
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mDA816A20986B7971DE3D85715EBFC71B86C533BF_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1282>
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_0 = ___2_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_1 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_2 = ___1_collector;
+		bool L_3;
+		L_3 = Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mF6D6E103024999682FE432695ED935EE02DF6489((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mDA816A20986B7971DE3D85715EBFC71B86C533BF_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mDA816A20986B7971DE3D85715EBFC71B86C533BF(_thisAdjusted, ___0_input, ___1_collector, ___2_target, method);
+	return _returnValue;
+}
+// Method Definition Index: 69413
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mF717E519A4F765E32241EFCCCCF36A8A9E1BF281_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1282>
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_0 = ___2_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_1 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_2 = ___1_collector;
+		bool L_3;
+		L_3 = Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m696D1FF0FBF456D525313A4C6797A6CA8A9C184C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mF717E519A4F765E32241EFCCCCF36A8A9E1BF281_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mF717E519A4F765E32241EFCCCCF36A8A9E1BF281(_thisAdjusted, ___0_input, ___1_collector, ___2_target, method);
+	return _returnValue;
+}
+// Method Definition Index: 69413
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m5875E49D94B8AB3928F987AF87B9AD8963C1B9DB_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1282>
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_0 = ___2_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_1 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_2 = ___1_collector;
+		bool L_3;
+		L_3 = Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m107B1174D29CB7B54BF24C42A55CAAA7E1F73DFB((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m5875E49D94B8AB3928F987AF87B9AD8963C1B9DB_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m5875E49D94B8AB3928F987AF87B9AD8963C1B9DB(_thisAdjusted, ___0_input, ___1_collector, ___2_target, method);
+	return _returnValue;
+}
+// Method Definition Index: 69413
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_mD69BD38D6D43731F9CA09DDFFB37F41C68044EDD_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1282>
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_0 = ___2_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_1 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* L_2 = ___1_collector;
+		bool L_3;
+		L_3 = Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_mA0DFD9D5DC29BAFFFBEFC6C02700EC119901B569((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_mD69BD38D6D43731F9CA09DDFFB37F41C68044EDD_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_mD69BD38D6D43731F9CA09DDFFB37F41C68044EDD(_thisAdjusted, ___0_input, ___1_collector, ___2_target, method);
+	return _returnValue;
+}
+// Method Definition Index: 69413
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m316CBE25FA3BB832666044D12AACF4B70327B33D_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1282>
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_0 = ___2_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_1 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_2 = ___1_collector;
+		bool L_3;
+		L_3 = Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mFBFD103E8961FE0F4571FF0A6A103FF5AE5F3E78((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m316CBE25FA3BB832666044D12AACF4B70327B33D_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m316CBE25FA3BB832666044D12AACF4B70327B33D(_thisAdjusted, ___0_input, ___1_collector, ___2_target, method);
+	return _returnValue;
+}
+// Method Definition Index: 69413
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m689384F7497D8D4BB636323B24575D50674AED9D_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1282>
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_0 = ___2_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_1 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_2 = ___1_collector;
+		bool L_3;
+		L_3 = Collider_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m1BBBF3EF6C55D1B386F3849E1578B2BC38EB23E2((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  bool DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m689384F7497D8D4BB636323B24575D50674AED9D_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = DefaultCompoundDispatcher_CalculateDistance_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m689384F7497D8D4BB636323B24575D50674AED9D(_thisAdjusted, ___0_input, ___1_collector, ___2_target, method);
+	return _returnValue;
+}
+// Method Definition Index: 69413
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m9CDFEB10E8C9C46164355916F0D1AC6EA066508E_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1282>
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_0 = ___2_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_1 = ___0_input;
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_2 = ___1_collector;
+		bool L_3;
+		L_3 = Collider_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8F0517F932EA1396EBFFC9C63E7B9A2F8BE14A89((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  bool DefaultCompoundDispatcher_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m9CDFEB10E8C9C46164355916F0D1AC6EA066508E_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = DefaultCompoundDispatcher_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m9CDFEB10E8C9C46164355916F0D1AC6EA066508E(_thisAdjusted, ___0_input, ___1_collector, ___2_target, method);
+	return _returnValue;
+}
+// Method Definition Index: 69413
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m737D2528821C086C6CC00028B50CEB85B7EBD687_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1282>
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_0 = ___2_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_1 = ___0_input;
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_2 = ___1_collector;
+		bool L_3;
+		L_3 = Collider_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m658DD0E3C5CA0858BF8D1E72253130E6A5AB2C63((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  bool DefaultCompoundDispatcher_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m737D2528821C086C6CC00028B50CEB85B7EBD687_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = DefaultCompoundDispatcher_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m737D2528821C086C6CC00028B50CEB85B7EBD687(_thisAdjusted, ___0_input, ___1_collector, ___2_target, method);
+	return _returnValue;
+}
+// Method Definition Index: 69413
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mDE4E633796C8D301ABB72383EDA2CAAAB5918EE3_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1282>
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_0 = ___2_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_1 = ___0_input;
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_2 = ___1_collector;
+		bool L_3;
+		L_3 = Collider_CalculateDistance_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mEB553A75D979233FBA66B687C247018E8F9DE8B9((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  bool DefaultCompoundDispatcher_CalculateDistance_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mDE4E633796C8D301ABB72383EDA2CAAAB5918EE3_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = DefaultCompoundDispatcher_CalculateDistance_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mDE4E633796C8D301ABB72383EDA2CAAAB5918EE3(_thisAdjusted, ___0_input, ___1_collector, ___2_target, method);
+	return _returnValue;
+}
+// Method Definition Index: 69413
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DefaultCompoundDispatcher_CalculateDistance_TisIl2CppFullySharedGenericStruct_mBB07319A4DD20B3EE2BD3D29AD7D2109F0C04957_gshared (DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1282>
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_0 = ___2_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_1 = ___0_input;
+		Il2CppFullySharedGenericStruct* L_2 = ___1_collector;
+		bool L_3;
+		L_3 = ((  bool (*) (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, Il2CppFullySharedGenericStruct*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  bool DefaultCompoundDispatcher_CalculateDistance_TisIl2CppFullySharedGenericStruct_mBB07319A4DD20B3EE2BD3D29AD7D2109F0C04957_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___2_target, const RuntimeMethod* method)
+{
+	DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DefaultCompoundDispatcher_tDC3AA3FFF27717D10946C62DA129BB97F9C0AA45*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = DefaultCompoundDispatcher_CalculateDistance_TisIl2CppFullySharedGenericStruct_mBB07319A4DD20B3EE2BD3D29AD7D2109F0C04957(_thisAdjusted, ___0_input, ___1_collector, ___2_target, method);
+	return _returnValue;
+}
+// Method Definition Index: 69413
+// Method Definition Index: 69400
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m902A73F43780EDEEC6898C2ED68671F9DC808105_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1028>
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_0 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_1 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		uint32_t L_2 = ___3_numColliderKeyBits;
+		uint32_t L_3 = ___4_subKey;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_4;
+		L_4 = QueryContext_PushSubKey_m2BEF72A20C5D0ECD4A1AC3BA965CCAA3322154FD(L_1, L_2, L_3, NULL);
+		L_0->___ColliderKey = L_4;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1029>
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_6 = ___1_polygon;
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_7 = ___2_collector;
+		bool L_8;
+		L_8 = DistanceQueries_MeshConvex_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m9F7618F97CC2E4228E9F18A30FEBB1F81B67949A(L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m902A73F43780EDEEC6898C2ED68671F9DC808105_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m902A73F43780EDEEC6898C2ED68671F9DC808105(_thisAdjusted, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+	return _returnValue;
+}
+// Method Definition Index: 69400
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m23656C368E9751FEA24B683F59F7A5A8421001CC_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1028>
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_0 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_1 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		uint32_t L_2 = ___3_numColliderKeyBits;
+		uint32_t L_3 = ___4_subKey;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_4;
+		L_4 = QueryContext_PushSubKey_m2BEF72A20C5D0ECD4A1AC3BA965CCAA3322154FD(L_1, L_2, L_3, NULL);
+		L_0->___ColliderKey = L_4;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1029>
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_6 = ___1_polygon;
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_7 = ___2_collector;
+		bool L_8;
+		L_8 = DistanceQueries_MeshConvex_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m0AA8577CCEA56CFC6C040DB95CE069F832CBA0F0(L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m23656C368E9751FEA24B683F59F7A5A8421001CC_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m23656C368E9751FEA24B683F59F7A5A8421001CC(_thisAdjusted, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+	return _returnValue;
+}
+// Method Definition Index: 69400
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mFA680ADD27647F93DD626A42B39B3A0C0A5A8312_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1028>
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_0 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_1 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		uint32_t L_2 = ___3_numColliderKeyBits;
+		uint32_t L_3 = ___4_subKey;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_4;
+		L_4 = QueryContext_PushSubKey_m2BEF72A20C5D0ECD4A1AC3BA965CCAA3322154FD(L_1, L_2, L_3, NULL);
+		L_0->___ColliderKey = L_4;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1029>
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_6 = ___1_polygon;
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_7 = ___2_collector;
+		bool L_8;
+		L_8 = DistanceQueries_MeshConvex_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m602BFEAE104218647F092DB4D3B7B94F3CD5A3EF(L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mFA680ADD27647F93DD626A42B39B3A0C0A5A8312_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mFA680ADD27647F93DD626A42B39B3A0C0A5A8312(_thisAdjusted, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+	return _returnValue;
+}
+// Method Definition Index: 69400
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m5E38D2C25FC66A12EA48157F66511C3D07CBA9F8_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1028>
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_0 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_1 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		uint32_t L_2 = ___3_numColliderKeyBits;
+		uint32_t L_3 = ___4_subKey;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_4;
+		L_4 = QueryContext_PushSubKey_m2BEF72A20C5D0ECD4A1AC3BA965CCAA3322154FD(L_1, L_2, L_3, NULL);
+		L_0->___ColliderKey = L_4;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1029>
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_6 = ___1_polygon;
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_7 = ___2_collector;
+		bool L_8;
+		L_8 = DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m1DF6DC709085079AED160B957682DAC91727D2D3(L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m5E38D2C25FC66A12EA48157F66511C3D07CBA9F8_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m5E38D2C25FC66A12EA48157F66511C3D07CBA9F8(_thisAdjusted, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+	return _returnValue;
+}
+// Method Definition Index: 69400
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mB2507625221B0FFD1C5BED1893F9BF1C20046DF7_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1028>
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_0 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_1 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		uint32_t L_2 = ___3_numColliderKeyBits;
+		uint32_t L_3 = ___4_subKey;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_4;
+		L_4 = QueryContext_PushSubKey_m2BEF72A20C5D0ECD4A1AC3BA965CCAA3322154FD(L_1, L_2, L_3, NULL);
+		L_0->___ColliderKey = L_4;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1029>
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_6 = ___1_polygon;
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_7 = ___2_collector;
+		bool L_8;
+		L_8 = DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mA906DB595FB98AB4908E6CE76C5EE9B78714B923(L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mB2507625221B0FFD1C5BED1893F9BF1C20046DF7_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mB2507625221B0FFD1C5BED1893F9BF1C20046DF7(_thisAdjusted, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+	return _returnValue;
+}
+// Method Definition Index: 69400
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m21ABEE1DC21F56B28685B3D98C95E37FE02D3267_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1028>
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_0 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_1 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		uint32_t L_2 = ___3_numColliderKeyBits;
+		uint32_t L_3 = ___4_subKey;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_4;
+		L_4 = QueryContext_PushSubKey_m2BEF72A20C5D0ECD4A1AC3BA965CCAA3322154FD(L_1, L_2, L_3, NULL);
+		L_0->___ColliderKey = L_4;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1029>
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_6 = ___1_polygon;
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_7 = ___2_collector;
+		bool L_8;
+		L_8 = DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_mA2BFEE96A9D32E7D8FCF0C630CD9237BF261D874(L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m21ABEE1DC21F56B28685B3D98C95E37FE02D3267_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m21ABEE1DC21F56B28685B3D98C95E37FE02D3267(_thisAdjusted, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+	return _returnValue;
+}
+// Method Definition Index: 69400
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m6920C1731848780D288C744B391F91034A7AC0DF_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1028>
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_0 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_1 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		uint32_t L_2 = ___3_numColliderKeyBits;
+		uint32_t L_3 = ___4_subKey;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_4;
+		L_4 = QueryContext_PushSubKey_m2BEF72A20C5D0ECD4A1AC3BA965CCAA3322154FD(L_1, L_2, L_3, NULL);
+		L_0->___ColliderKey = L_4;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1029>
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_6 = ___1_polygon;
+		FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* L_7 = ___2_collector;
+		bool L_8;
+		L_8 = DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m391669E08AC8A73C0A993CCFF41FEE77C2C35424(L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m6920C1731848780D288C744B391F91034A7AC0DF_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m6920C1731848780D288C744B391F91034A7AC0DF(_thisAdjusted, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+	return _returnValue;
+}
+// Method Definition Index: 69400
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m47105E54D5167AF513633966F1ACF02DA916DD1F_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1028>
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_0 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_1 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		uint32_t L_2 = ___3_numColliderKeyBits;
+		uint32_t L_3 = ___4_subKey;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_4;
+		L_4 = QueryContext_PushSubKey_m2BEF72A20C5D0ECD4A1AC3BA965CCAA3322154FD(L_1, L_2, L_3, NULL);
+		L_0->___ColliderKey = L_4;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1029>
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_6 = ___1_polygon;
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_7 = ___2_collector;
+		bool L_8;
+		L_8 = DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mD220CA208CDDEA60BAC8F8D362F72BA13A72F347(L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m47105E54D5167AF513633966F1ACF02DA916DD1F_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m47105E54D5167AF513633966F1ACF02DA916DD1F(_thisAdjusted, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+	return _returnValue;
+}
+// Method Definition Index: 69400
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m1170F090FD02B41052E4D67DB34DB0CE9A36E684_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1028>
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_0 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_1 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		uint32_t L_2 = ___3_numColliderKeyBits;
+		uint32_t L_3 = ___4_subKey;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_4;
+		L_4 = QueryContext_PushSubKey_m2BEF72A20C5D0ECD4A1AC3BA965CCAA3322154FD(L_1, L_2, L_3, NULL);
+		L_0->___ColliderKey = L_4;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1029>
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_6 = ___1_polygon;
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_7 = ___2_collector;
+		bool L_8;
+		L_8 = DistanceQueries_MeshConvex_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_mD67CE209FA628E00BC21D272F7BEFCF74D338A81(L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m1170F090FD02B41052E4D67DB34DB0CE9A36E684_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m1170F090FD02B41052E4D67DB34DB0CE9A36E684(_thisAdjusted, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+	return _returnValue;
+}
+// Method Definition Index: 69400
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m29032ACB6C7959DB9FC37F3918D63752F9A64DFC_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1028>
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_0 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_1 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		uint32_t L_2 = ___3_numColliderKeyBits;
+		uint32_t L_3 = ___4_subKey;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_4;
+		L_4 = QueryContext_PushSubKey_m2BEF72A20C5D0ECD4A1AC3BA965CCAA3322154FD(L_1, L_2, L_3, NULL);
+		L_0->___ColliderKey = L_4;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1029>
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_6 = ___1_polygon;
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_7 = ___2_collector;
+		bool L_8;
+		L_8 = DistanceQueries_MeshConvex_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8E9DE8A1DA80027BA0EC8B184774F245FBDB0C73(L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshConvexDispatcher_Dispatch_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m29032ACB6C7959DB9FC37F3918D63752F9A64DFC_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshConvexDispatcher_Dispatch_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m29032ACB6C7959DB9FC37F3918D63752F9A64DFC(_thisAdjusted, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+	return _returnValue;
+}
+// Method Definition Index: 69400
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m4E26AFDD2BCA1CED8F43B1137946378BE24D699D_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1028>
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_0 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_1 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		uint32_t L_2 = ___3_numColliderKeyBits;
+		uint32_t L_3 = ___4_subKey;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_4;
+		L_4 = QueryContext_PushSubKey_m2BEF72A20C5D0ECD4A1AC3BA965CCAA3322154FD(L_1, L_2, L_3, NULL);
+		L_0->___ColliderKey = L_4;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1029>
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_6 = ___1_polygon;
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_7 = ___2_collector;
+		bool L_8;
+		L_8 = DistanceQueries_MeshConvex_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mBBCB3627E7C7DC67ADC52A8A8FAE67A0EDB69EEC(L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshConvexDispatcher_Dispatch_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m4E26AFDD2BCA1CED8F43B1137946378BE24D699D_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshConvexDispatcher_Dispatch_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m4E26AFDD2BCA1CED8F43B1137946378BE24D699D(_thisAdjusted, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+	return _returnValue;
+}
+// Method Definition Index: 69400
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mF2402269D4396A381564621EF264B6283E2A3BDB_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1028>
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_0 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_1 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		uint32_t L_2 = ___3_numColliderKeyBits;
+		uint32_t L_3 = ___4_subKey;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_4;
+		L_4 = QueryContext_PushSubKey_m2BEF72A20C5D0ECD4A1AC3BA965CCAA3322154FD(L_1, L_2, L_3, NULL);
+		L_0->___ColliderKey = L_4;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Queries/Distance.cs:1029>
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_6 = ___1_polygon;
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_7 = ___2_collector;
+		bool L_8;
+		L_8 = DistanceQueries_MeshConvex_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m2C50502538C03C435EE08F3C0652A8E5243E9918(L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshConvexDispatcher_Dispatch_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mF2402269D4396A381564621EF264B6283E2A3BDB_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshConvexDispatcher_Dispatch_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mF2402269D4396A381564621EF264B6283E2A3BDB(_thisAdjusted, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
 	return _returnValue;
 }
 // Method Definition Index: 76335

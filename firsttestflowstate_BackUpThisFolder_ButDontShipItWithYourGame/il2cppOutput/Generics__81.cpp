@@ -307,7 +307,6 @@ struct EventCallback_1_t15E400616AB56B841F72D09E503D6377E8366E07;
 struct EventCallback_1_tBC1DA4FF1E26FC091E77AD11B6F780C5D237AF2C;
 struct EventCallback_1_t7C6768AD962B0B50514570724A38E07DA18FB1FA;
 struct EventCallback_1_tE2BCC4FFB156A2716749F7BDD0036A743B039913;
-struct ExecuteJobFunction_t80728DD305EBEE9DBC5874FC17EE3507C21A74E8;
 struct ExecuteJobFunction_tEFBE6CA222DB7F24E9E51026A78FA6C37F703567;
 struct ExecuteJobFunction_tA1FFA237A8E328ADA1AE95B560269CFDC26CA23E;
 struct ExecuteJobFunction_t2A91C4914E48632C10A6694A7A164647C717BF90;
@@ -4106,11 +4105,6 @@ struct Block_tCCF620817FE305B5BF7B0FB7705B4571F976C4E3
 	uint16_t ___Padding1;
 	uint32_t ___Padding2;
 };
-struct CopyTransformJob_t897AB1D52DA6819D2166710D5A1698D48E8707A2 
-{
-	ComponentLookup_1_t8112264508A3335CFC92F42F126821B8E02CCAF0 ___localToWorld;
-	NativeList_1_t69466ADEA9C35BACAF09F718D1BA782B7627AF57 ___entities;
-};
 struct CopyPhysicsVelocityJob_tA728BAAA78DB1847968898D5165CA33C6B5D4CBF 
 {
 	ComponentTypeHandle_1_tBF0863BDEFFF1A66A06BDB3B6AA73A932D281109 ___PhysicsVelocityType;
@@ -4499,9 +4493,6 @@ struct EventCallback_1_t7C6768AD962B0B50514570724A38E07DA18FB1FA  : public Multi
 {
 };
 struct EventCallback_1_tE2BCC4FFB156A2716749F7BDD0036A743B039913  : public MulticastDelegate_t
-{
-};
-struct ExecuteJobFunction_t80728DD305EBEE9DBC5874FC17EE3507C21A74E8  : public MulticastDelegate_t
 {
 };
 struct ExecuteJobFunction_tA1FFA237A8E328ADA1AE95B560269CFDC26CA23E  : public MulticastDelegate_t
@@ -8628,78 +8619,6 @@ inline void ReadOnlySpan_1__ctor_m0152E50B40750679B83FF9F30CA539FFBB98EEE8_inlin
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t* Array_GetRawSzArrayData_m2F8F5B2A381AEF971F12866D9C0A6C4FBA59F6BB_inline (RuntimeArray* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9 (float* __this, float ___0_obj, const RuntimeMethod* method) ;
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-void ExecuteJobFunction_Invoke_mB44E27EE5279925AA59589F6B4C9FB27A00B24D4_Multicast(ExecuteJobFunction_t80728DD305EBEE9DBC5874FC17EE3507C21A74E8* __this, CopyTransformJob_t897AB1D52DA6819D2166710D5A1698D48E8707A2* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method)
-{
-	il2cpp_array_size_t length = __this->___delegates->max_length;
-	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates->GetAddressAtUnchecked(0));
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		ExecuteJobFunction_t80728DD305EBEE9DBC5874FC17EE3507C21A74E8* currentDelegate = reinterpret_cast<ExecuteJobFunction_t80728DD305EBEE9DBC5874FC17EE3507C21A74E8*>(delegatesToInvoke[i]);
-		typedef void (*FunctionPointerType) (RuntimeObject*, CopyTransformJob_t897AB1D52DA6819D2166710D5A1698D48E8707A2*, intptr_t, intptr_t, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3*, int32_t, const RuntimeMethod*);
-		((FunctionPointerType)currentDelegate->___invoke_impl)((Il2CppObject*)currentDelegate->___method_code, ___0_jobData, ___1_additionalPtr, ___2_bufferRangePatchData, ___3_ranges, ___4_jobIndex, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method));
-	}
-}
-void ExecuteJobFunction_Invoke_mB44E27EE5279925AA59589F6B4C9FB27A00B24D4_OpenInst(ExecuteJobFunction_t80728DD305EBEE9DBC5874FC17EE3507C21A74E8* __this, CopyTransformJob_t897AB1D52DA6819D2166710D5A1698D48E8707A2* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method)
-{
-	typedef void (*FunctionPointerType) (CopyTransformJob_t897AB1D52DA6819D2166710D5A1698D48E8707A2*, intptr_t, intptr_t, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3*, int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___method_ptr)(___0_jobData, ___1_additionalPtr, ___2_bufferRangePatchData, ___3_ranges, ___4_jobIndex, method);
-}
-void ExecuteJobFunction_Invoke_mB44E27EE5279925AA59589F6B4C9FB27A00B24D4_OpenStatic(ExecuteJobFunction_t80728DD305EBEE9DBC5874FC17EE3507C21A74E8* __this, CopyTransformJob_t897AB1D52DA6819D2166710D5A1698D48E8707A2* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method)
-{
-	typedef void (*FunctionPointerType) (CopyTransformJob_t897AB1D52DA6819D2166710D5A1698D48E8707A2*, intptr_t, intptr_t, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3*, int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___method_ptr)(___0_jobData, ___1_additionalPtr, ___2_bufferRangePatchData, ___3_ranges, ___4_jobIndex, method);
-}
-// Method Definition Index: 53344
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecuteJobFunction__ctor_m70B841CD4BC96AC9EFBBADCA21876CA298CFDA89_gshared (ExecuteJobFunction_t80728DD305EBEE9DBC5874FC17EE3507C21A74E8* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
-{
-	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
-	__this->___method = ___1_method;
-	__this->___m_target = ___0_object;
-	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target), (void*)___0_object);
-	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
-	__this->___method_code = (intptr_t)__this;
-	if (MethodIsStatic((RuntimeMethod*)___1_method))
-	{
-		bool isOpen = parameterCount == 5;
-		if (isOpen)
-			__this->___invoke_impl = (intptr_t)&ExecuteJobFunction_Invoke_mB44E27EE5279925AA59589F6B4C9FB27A00B24D4_OpenStatic;
-		else
-			{
-				__this->___invoke_impl = __this->___method_ptr;
-				__this->___method_code = (intptr_t)__this->___m_target;
-			}
-	}
-	else
-	{
-		bool isOpen = parameterCount == 4;
-		if (isOpen)
-		{
-			__this->___invoke_impl = (intptr_t)&ExecuteJobFunction_Invoke_mB44E27EE5279925AA59589F6B4C9FB27A00B24D4_OpenInst;
-		}
-		else
-		{
-			if (___0_object == NULL)
-				il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
-			__this->___invoke_impl = __this->___method_ptr;
-			__this->___method_code = (intptr_t)__this->___m_target;
-		}
-	}
-	__this->___extra_arg = (intptr_t)&ExecuteJobFunction_Invoke_mB44E27EE5279925AA59589F6B4C9FB27A00B24D4_Multicast;
-}
-// Method Definition Index: 53345
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecuteJobFunction_Invoke_mB44E27EE5279925AA59589F6B4C9FB27A00B24D4_gshared (ExecuteJobFunction_t80728DD305EBEE9DBC5874FC17EE3507C21A74E8* __this, CopyTransformJob_t897AB1D52DA6819D2166710D5A1698D48E8707A2* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	typedef void (*FunctionPointerType) (RuntimeObject*, CopyTransformJob_t897AB1D52DA6819D2166710D5A1698D48E8707A2*, intptr_t, intptr_t, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3*, int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_jobData, ___1_additionalPtr, ___2_bufferRangePatchData, ___3_ranges, ___4_jobIndex, reinterpret_cast<RuntimeMethod*>(__this->___method));
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"

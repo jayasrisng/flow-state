@@ -5,15 +5,14 @@ using Unity.Burst;
 using Unity.Collections;
 using Unity.Mathematics;
 using Unity.Transforms;
+using System;
+using Unity.Rendering;
 
-// ═══════════════════════════════════════════════════════════════════════
-//  COMPONENTS
-// ═══════════════════════════════════════════════════════════════════════
+
 
 public struct RadialSpawnerConfig : IComponentData
 {
     public Entity Prefab;
-    public Entity BarPrefab;
     public int    EntityCount;
     public float  Radius;
     public float  HeightVariance;
@@ -29,7 +28,7 @@ public struct Rotator : IComponentData
     public float Speed;
     public int   IndexNo;
     public float BaseY;
-    public int   BandIndex;   // ← NEW: FFT band this dot listens to
+    public int   BandIndex;  
 }
 
 [InternalBufferCapacity(512)]
@@ -38,16 +37,8 @@ public struct AmplitudeSample : IBufferElementData
     public float Value;
 }
 
-public struct AmplitudeBar : IComponentData
-{
-    public int    BandIndex;
-    public float3 BasePosition;
-}
 
 
-// ═══════════════════════════════════════════════════════════════════════
-//  AUDIO SAMPLER  (unchanged — main thread only)
-// ═══════════════════════════════════════════════════════════════════════
 
 [UpdateInGroup(typeof(SimulationSystemGroup))]
 [UpdateBefore(typeof(ECSInstantiation))]
@@ -75,18 +66,25 @@ public partial class AudioSamplerSystem : SystemBase
             EntityManager.GetBuffer<AmplitudeSample>(cfgEntity);
 
         buf.ResizeUninitialized(size);
-        for (int i = 0; i < size; i++){
-            buf[i] = new AmplitudeSample { Value = _managed[i]};            
-        if (i % 16 == 0)
-            UnityEngine.Debug.Log(buf[i].Value);
+        const float kRise  = 0.3f;   // fast attack  (higher = snappier)
+        const float kFall  = 0.055f;  // slow release (lower  = smoother tail)
+        for (int i = 0; i < size; i++)
+        {
+            float incoming = _managed[i];
+            float prev     = buf[i].Value;
+            float t        = incoming > prev ? kRise : kFall;   // asymmetric lerp
+            buf[i] = new AmplitudeSample { Value = math.lerp(prev, incoming, t) };
+    }          
+
+        
+
+        buf.ResizeUninitialized(size);
+
     }
     }
-}
 
 
-// ═══════════════════════════════════════════════════════════════════════
-//  MAIN ECS SYSTEM
-// ═══════════════════════════════════════════════════════════════════════
+
 
 [BurstCompile]
 public partial struct ECSInstantiation : ISystem
@@ -103,37 +101,28 @@ public partial struct ECSInstantiation : ISystem
 
         if (SystemAPI.HasComponent<SpawnerInitialized>(configEntity))
         {
-            // ── Runtime: oscillate ring dots driven by audio ───────────────────
             new RotateJob
             {
                 ElapsedTime     = (float)SystemAPI.Time.ElapsedTime,
                 EntityCount     = cfg.EntityCount,
                 SpiralTurns     = cfg.RingIndex,
                 HeightVariance  = cfg.HeightVariance,
-                // ↓ NEW: feed audio data into the wave job
                 AmplitudeLookup = SystemAPI.GetBufferLookup<AmplitudeSample>(true),
                 AudioEntity     = configEntity,
                 AmplitudeScale  =0.1f,
             }.ScheduleParallel();
 
-            new ScaleBarJob
-            {
-                AmplitudeLookup = SystemAPI.GetBufferLookup<AmplitudeSample>(true),
-                AudioEntity     = configEntity,
-                AmplitudeScale  = cfg.AmplitudeScale,
-            }.ScheduleParallel();
+
 
             return;
         }
 
-        // ── First frame: spawn ─────────────────────────────────────────────────
         var ecb = new EntityCommandBuffer(Allocator.TempJob);
 
         new RadialSpawnJob
         {
             ECB          = ecb.AsParallelWriter(),
             Prefab       = cfg.Prefab,
-            BarPrefab    = cfg.BarPrefab,
             EntityCount  = cfg.EntityCount,
             Radius       = cfg.Radius,
             SpiralTurns  = cfg.RingIndex,
@@ -149,9 +138,8 @@ public partial struct ECSInstantiation : ISystem
 }
 
 
-// ═══════════════════════════════════════════════════════════════════════
 //  SPAWN JOB
-// ═══════════════════════════════════════════════════════════════════════
+
 
 [BurstCompile]
 public struct RadialSpawnJob : IJobParallelFor
@@ -159,7 +147,6 @@ public struct RadialSpawnJob : IJobParallelFor
     [WriteOnly] public EntityCommandBuffer.ParallelWriter ECB;
 
     public Entity Prefab;
-    public Entity BarPrefab;
     public int    EntityCount;
     public float  Radius;
     public float  SpiralTurns;
@@ -175,43 +162,29 @@ public struct RadialSpawnJob : IJobParallelFor
         float r      = math.lerp(Radius * innerFraction, math.floor(Radius), t);
         var   ringPos = new float3(math.cos(angle) * r, 0f, math.sin(angle) * r);
 
-        // Map entity → FFT band (shared by both dot and bar)
+        // Map entity FFT band
         int bandIndex = (int)math.floor(frac * SpectrumSize);
 
-        // ── Ring dot ──────────────────────────────────────────────────────────
         Entity dot = ECB.Instantiate(index, Prefab);
         ECB.SetComponent(index, dot,
-            LocalTransform.FromPositionRotationScale(ringPos, quaternion.identity, 0.3f));
+            LocalTransform.FromPositionRotationScale(ringPos, quaternion.identity, 0.1f));
+        ECB.AddComponent(index, dot, new URPMaterialPropertyBaseColor
+{
+    Value = new float4(0.1f, 0.1f, 0.1f, 1f)
+});
         ECB.AddComponent(index, dot, new Rotator
         {
-            Speed     = 1.5f,
+            Speed     = .5f,
             IndexNo   = index,
             BaseY     = 0f,
-            BandIndex = bandIndex,   // ← NEW
+            BandIndex = bandIndex,  
         });
 
-        // ── Amplitude bar ─────────────────────────────────────────────────────
-        Entity bar = ECB.Instantiate(index, BarPrefab);
-        ECB.SetComponent(index, bar,
-            LocalTransform.FromPositionRotationScale(
-                ringPos + new float3(0f, 0.5f, 0f), quaternion.identity, 1f));
-        ECB.AddComponent(index, bar,
-            new PostTransformMatrix { Value = float4x4.Scale(0.05f, 1f, 0.05f) });
-        ECB.AddComponent(index, bar,
-            new AmplitudeBar { BandIndex = bandIndex, BasePosition = ringPos });
+
     }
 }
 
 
-// ═══════════════════════════════════════════════════════════════════════
-//  ROTATE JOB  –  sine wave HEIGHT is now modulated by audio amplitude
-//
-//  Formula:
-//    waveHeight = HeightVariance * (1 + audioValue * AmplitudeScale)
-//
-//  At silence the dots oscillate gently at HeightVariance as before.
-//  As the band's amplitude rises, the wave swings dramatically higher.
-// ═══════════════════════════════════════════════════════════════════════
 
 [BurstCompile]
 partial struct RotateJob : IJobEntity
@@ -220,67 +193,47 @@ partial struct RotateJob : IJobEntity
     public int   EntityCount;
     public float SpiralTurns;
     public float HeightVariance;
-
-    // ↓ NEW
     [ReadOnly] public BufferLookup<AmplitudeSample> AmplitudeLookup;
     public Entity AudioEntity;
     public float  AmplitudeScale;
 
-    void Execute(ref LocalTransform transform, in Rotator rotator)
-    {
-        float phase = math.ceil(
-            ((float)(EntityCount - rotator.IndexNo) / EntityCount) * SpiralTurns);
-
-        float audioValue = 0f;
-
-        if (AmplitudeLookup.HasBuffer(AudioEntity))
-        {
-            var buf = AmplitudeLookup[AudioEntity];
-            int idx = math.clamp(rotator.BandIndex, 0, buf.Length - 1);
-
-            audioValue = buf[idx].Value;
-        }
-
-        float waveHeight = HeightVariance * (1f + audioValue);
-
-        float speed = rotator.Speed + (audioValue * AmplitudeScale);
-
-        transform.Position = new float3(
-            transform.Position.x,
-            rotator.BaseY + math.sin((ElapsedTime * speed) + phase),
-            transform.Position.z
-        );
-    }
-}
-
-
-// ═══════════════════════════════════════════════════════════════════════
-//  SCALE BAR JOB  (unchanged)
-// ═══════════════════════════════════════════════════════════════════════
-
-[BurstCompile]
-partial struct ScaleBarJob : IJobEntity
+void Execute(ref LocalTransform transform, ref URPMaterialPropertyBaseColor uRP,  in Rotator rotator)
 {
-    [ReadOnly] public BufferLookup<AmplitudeSample> AmplitudeLookup;
-    public Entity AudioEntity;
-    public float  AmplitudeScale;
+    float phase = math.ceil(
+        ((float)(EntityCount - rotator.IndexNo) / EntityCount) * SpiralTurns);
 
-    void Execute(
-        ref LocalTransform     transform,
-        ref PostTransformMatrix ptm,
-        in  AmplitudeBar        bar)
+    float audioValue = 0f;
+    if (AmplitudeLookup.HasBuffer(AudioEntity))
     {
-        float height = 0.05f;
-
-        if (AmplitudeLookup.HasBuffer(AudioEntity))
-        {
-            var buf = AmplitudeLookup[AudioEntity];
-            int idx = math.clamp(bar.BandIndex, 0, buf.Length - 1);
-            height  = math.max(0.05f, buf[idx].Value * AmplitudeScale);
-        }
-
-        transform.Position = bar.BasePosition + new float3(0f, height * 0.5f, 0f);
-        ptm.Value = float4x4.Scale(0.05f, height, 0.05f);
+        var buf = AmplitudeLookup[AudioEntity];
+        int idx = math.clamp(rotator.BandIndex, 0, buf.Length - 1);
+        audioValue = buf[idx].Value;
     }
-}
 
+
+    float waveHeight = HeightVariance * (audioValue+(audioValue<=0.09?0:1));
+
+    float targetY = math.sin(ElapsedTime * rotator.Speed + phase) * waveHeight;
+// Base color when silent
+float4 baseColor  = new float4(0.75f, 0.75f, 0.75f, 1f);
+
+float4 audioColor = new float4(
+    math.abs(math.sin(ElapsedTime * 0.7f)),
+    math.abs(math.cos(ElapsedTime * 1.3f)),
+    math.abs(math.sin(ElapsedTime * 1.9f)),
+    1f
+);
+    const float kSmooth = 0.15f;
+
+const float kDeadZone = 0.1f;
+uRP.Value = audioValue < kDeadZone
+    ? math.lerp(audioColor, baseColor,kSmooth)
+    : audioColor;
+
+    transform.Position = new float3(
+        transform.Position.x,
+        math.lerp(transform.Position.y, targetY, kSmooth),
+        transform.Position.z
+    );
+}
+}

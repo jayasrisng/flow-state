@@ -237,7 +237,6 @@ struct ExecuteJobFunction_t66BB19ADB263701C17137660AB8C1E152343352B;
 struct ExecuteJobFunction_t3F8FD343CA06C382E91F3EAEAF22E2CF5A6682A3;
 struct ExecuteJobFunction_t0D174F6E56D971ECC05F7E35B24605F74AC3641A;
 struct ExecuteJobFunction_tFED3C055D636568101492C6597B53C117AA76EF6;
-struct ExecuteJobFunction_t43747613587D1106ABD2B578302EC559B8D17C3C;
 struct ExecuteJobFunction_t1F5BB7AE207D3162A76934DD02B1323B73CE68E7;
 struct ExecuteJobFunction_t55E524099B3126D5F044A20E5F21A6335C76945E;
 struct ExecuteJobFunction_tB36BEE44848446C24D30265ADE479625EB8E34A3;
@@ -324,6 +323,7 @@ struct ExecuteJobFunction_t0FFE086B7AE3AD72138BBE19E1CE33E65FC51C7F;
 struct ExecuteJobFunction_t2FB894B0C1B51BE0A74B7A41CB7E81784E2084C0;
 struct ExecuteJobFunction_tDF62CD2D132DEC161DBD6F6C20B9F7B9E9FBF5C8;
 struct ExecuteJobFunction_t912D3BA8B273B596F3608F6F1B240BD44B3F4FCE;
+struct ExecuteJobFunction_t80728DD305EBEE9DBC5874FC17EE3507C21A74E8;
 struct Func_2_tAF4123F8D69F1A665BBB864E1C97131C05AEBBEB;
 struct Func_2_tC5B959A6DD6FDE84607DD9ECC529B9BE485C63C5;
 struct GraphConnectionCollection_3_t1C36521556B52560AC338813684582FE4226703C;
@@ -698,7 +698,6 @@ IL2CPP_EXTERN_C RuntimeClass* JobChunkWrapper_1_t3E22F6801A9CE6A1A504BAC34342736
 IL2CPP_EXTERN_C RuntimeClass* JobChunkWrapper_1_t4D520D38142751B2C7710E33A515D2C603DF9493_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* JobChunkWrapper_1_t5759F5178BE6F6DFE90BE7F28EC1B689C8CE864C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* JobChunkWrapper_1_t5EBDFC36757F8BC5FBB00B818BC3CF2449D03AF3_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* JobChunkWrapper_1_t6C9EE551AF9A3DEFF3A5175F6B38F085A86AD849_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* JobChunkWrapper_1_t750BFABA6264033253E861922B6BEF2CDE028589_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* JobChunkWrapper_1_t88F4803E03E5B301C5055762F890909F7AC3B787_il2cpp_TypeInfo_var;
@@ -3237,7 +3236,7 @@ struct BufferTypeHandle_1_t53034562CF26DD84E984DFD3BC402B045C28AD9C
 	uint8_t ___m_IsReadOnly;
 	int32_t ___m_Length;
 };
-struct ComponentLookup_1_tAA39FFB900ACCEA1E76C67331410E78812493B7F 
+struct ComponentLookup_1_t8112264508A3335CFC92F42F126821B8E02CCAF0 
 {
 	EntityDataAccess_t98E1CF6F73892A92AA3FF870A4BD941364E9CD36* ___m_Access;
 	LookupCache_t3C0A5C02880755A14500AADCA75DC1CB85D12851 ___m_Cache;
@@ -3245,15 +3244,13 @@ struct ComponentLookup_1_tAA39FFB900ACCEA1E76C67331410E78812493B7F
 	uint32_t ___m_GlobalSystemVersion;
 	uint8_t ___m_IsZeroSized;
 };
-struct ComponentTypeHandle_1_t9D3FD425A9AA2CAA38C3A9F8621A8843336BF3F4 
+struct ComponentLookup_1_tAA39FFB900ACCEA1E76C67331410E78812493B7F 
 {
-	LookupCache_t3C0A5C02880755A14500AADCA75DC1CB85D12851 ___m_LookupCache;
+	EntityDataAccess_t98E1CF6F73892A92AA3FF870A4BD941364E9CD36* ___m_Access;
+	LookupCache_t3C0A5C02880755A14500AADCA75DC1CB85D12851 ___m_Cache;
 	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_TypeIndex;
-	int32_t ___m_SizeInChunk;
 	uint32_t ___m_GlobalSystemVersion;
-	uint8_t ___m_IsReadOnly;
 	uint8_t ___m_IsZeroSized;
-	int32_t ___m_Length;
 };
 struct ComponentTypeHandle_1_t919D23F81332A011DF7EB1837FADD53E63778665 
 {
@@ -3435,16 +3432,6 @@ struct ComponentTypeHandle_1_tBF0863BDEFFF1A66A06BDB3B6AA73A932D281109
 	uint8_t ___m_IsZeroSized;
 	int32_t ___m_Length;
 };
-struct ComponentTypeHandle_1_tAAFC7257830CE9D1C456F58F9AA4528154F367E0 
-{
-	LookupCache_t3C0A5C02880755A14500AADCA75DC1CB85D12851 ___m_LookupCache;
-	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_TypeIndex;
-	int32_t ___m_SizeInChunk;
-	uint32_t ___m_GlobalSystemVersion;
-	uint8_t ___m_IsReadOnly;
-	uint8_t ___m_IsZeroSized;
-	int32_t ___m_Length;
-};
 struct ComponentTypeHandle_1_t7207CB096BE35519BCE3B1A4D6088A6D9247D35A 
 {
 	LookupCache_t3C0A5C02880755A14500AADCA75DC1CB85D12851 ___m_LookupCache;
@@ -3476,6 +3463,16 @@ struct ComponentTypeHandle_1_t3F0B41A13A704BCD34A922D755CAC0EFA75217E1
 	int32_t ___m_Length;
 };
 struct ComponentTypeHandle_1_t7CBA5F48B44E08FC2166953418340B6D0B2D3754 
+{
+	LookupCache_t3C0A5C02880755A14500AADCA75DC1CB85D12851 ___m_LookupCache;
+	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_TypeIndex;
+	int32_t ___m_SizeInChunk;
+	uint32_t ___m_GlobalSystemVersion;
+	uint8_t ___m_IsReadOnly;
+	uint8_t ___m_IsZeroSized;
+	int32_t ___m_Length;
+};
+struct ComponentTypeHandle_1_t1C78A362F825C17BAA2ACB4C16658309EE07C1EA 
 {
 	LookupCache_t3C0A5C02880755A14500AADCA75DC1CB85D12851 ___m_LookupCache;
 	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_TypeIndex;
@@ -4136,7 +4133,6 @@ struct RadialSpawnJob_t2C65F0FDDB69F7FE71412D65EAEDE1CAF2E951DF
 {
 	ParallelWriter_t0D487BAC5A684CB8BB67F1BC3BF1B165E233DDE9 ___ECB;
 	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___Prefab;
-	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___BarPrefab;
 	int32_t ___EntityCount;
 	float ___Radius;
 	float ___SpiralTurns;
@@ -4856,6 +4852,11 @@ struct PerCameraInstanceDataArrays_tA74F6F16B77B98DDC6E582A261525D7ECD12C07E
 	UnsafeList_1_t5C65DCA6782B7C9860C859C2F0C07A2C497E822D ___meshLods;
 	UnsafeList_1_t5C65DCA6782B7C9860C859C2F0C07A2C497E822D ___crossFades;
 };
+struct CopyTransformJob_t897AB1D52DA6819D2166710D5A1698D48E8707A2 
+{
+	ComponentLookup_1_t8112264508A3335CFC92F42F126821B8E02CCAF0 ___localToWorld;
+	NativeList_1_t69466ADEA9C35BACAF09F718D1BA782B7627AF57 ___entities;
+};
 struct WorldDeserializationStatus_tB85B83B6AB168D53AFF893B1FD499F5D05CE05C7 
 {
 	UnsafeList_1_t188C382E662430661F7FEEEB2141B000C9E6F1AD ___MegaChunkInfoList;
@@ -4876,13 +4877,8 @@ struct TypeHandle_t28F45EF585C05FDD4F00B845B2290F295BA98FC9
 struct TypeHandle_tF432562C41A58793C1045F825709C1C5CC10D583 
 {
 	ComponentTypeHandle_1_tD2C719E8A6966824913D5AD5C6D951719F598D44 _____Unity_Transforms_LocalTransform_RW_ComponentTypeHandle;
+	ComponentTypeHandle_1_t1C78A362F825C17BAA2ACB4C16658309EE07C1EA _____Unity_Rendering_URPMaterialPropertyBaseColor_RW_ComponentTypeHandle;
 	ComponentTypeHandle_1_t3F0B41A13A704BCD34A922D755CAC0EFA75217E1 _____Rotator_RO_ComponentTypeHandle;
-};
-struct TypeHandle_t7FCEBB7FB91DF0BD1BD66C8682D5B1BD5BD4C3D3 
-{
-	ComponentTypeHandle_1_tD2C719E8A6966824913D5AD5C6D951719F598D44 _____Unity_Transforms_LocalTransform_RW_ComponentTypeHandle;
-	ComponentTypeHandle_1_tAAFC7257830CE9D1C456F58F9AA4528154F367E0 _____Unity_Transforms_PostTransformMatrix_RW_ComponentTypeHandle;
-	ComponentTypeHandle_1_t9D3FD425A9AA2CAA38C3A9F8621A8843336BF3F4 _____AmplitudeBar_RO_ComponentTypeHandle;
 };
 struct TypeHandle_t62430C769E54F749D00FB73A2AAD7AFEB7AA8AFB 
 {
@@ -5112,6 +5108,9 @@ struct ExecuteJobFunction_tAF9EB059C00F708CA5B8C81195FB5886B8C7A470  : public Mu
 {
 };
 struct ExecuteJobFunction_t4097B1CB286619BF21D763B780301632ECD7472A  : public MulticastDelegate_t
+{
+};
+struct ExecuteJobFunction_t80728DD305EBEE9DBC5874FC17EE3507C21A74E8  : public MulticastDelegate_t
 {
 };
 struct JobChunkWrapper_1_t08F94BC71F285B050D14911D0DAEFEA1D7413DBC 
@@ -5497,13 +5496,6 @@ struct RotateJob_tDFD41132A98F1BD2D17D5B874C2A4895970EEAD1
 	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___AudioEntity;
 	float ___AmplitudeScale;
 	TypeHandle_tF432562C41A58793C1045F825709C1C5CC10D583 _____TypeHandle;
-};
-struct ScaleBarJob_t4375E241AE9FA0685DB235437BEFD165A08B6409 
-{
-	BufferLookup_1_tBC375CDB7DA08F65DF92880401EDAE20D95FE88D ___AmplitudeLookup;
-	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___AudioEntity;
-	float ___AmplitudeScale;
-	TypeHandle_t7FCEBB7FB91DF0BD1BD66C8682D5B1BD5BD4C3D3 _____TypeHandle;
 };
 struct SceneHierarchy_t8881D01B56A37AC8C6D16C67FF459518C1F92B12 
 {
@@ -6372,15 +6364,6 @@ struct JobChunkWrapper_1_t6C9EE551AF9A3DEFF3A5175F6B38F085A86AD849
 	int32_t ___IsParallel;
 	int32_t ___QueryHasEnableableComponents;
 };
-struct JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012 
-{
-	ScaleBarJob_t4375E241AE9FA0685DB235437BEFD165A08B6409 ___JobData;
-	UnsafeMatchingArchetypePtrList_t7BE58FA0D1C0757782B0CA05207B0E07690ED566 ___MatchingArchetypes;
-	UnsafeCachedChunkList_t48CE8479B1EEA20F34D6EB59806214668DB204A3 ___CachedChunks;
-	EntityQueryFilter_t4A9651CB7DA59AFE8AAF946C19EC6B0D1ACA2F8B ___Filter;
-	int32_t ___IsParallel;
-	int32_t ___QueryHasEnableableComponents;
-};
 struct JobChunkWrapper_1_t1F2194257F9AE722AD250E24FB7C2E24A39D801A 
 {
 	UpdateDrawCommandFlagsJob_t76380307016AF9DBB7B8A3D38C6FAF3415DD3D60 ___JobData;
@@ -6641,9 +6624,6 @@ struct ExecuteJobFunction_t4102D342F6364A0A72EC1B26EFFCA86DC88E787D  : public Mu
 {
 };
 struct ExecuteJobFunction_tFED3C055D636568101492C6597B53C117AA76EF6  : public MulticastDelegate_t
-{
-};
-struct ExecuteJobFunction_t43747613587D1106ABD2B578302EC559B8D17C3C  : public MulticastDelegate_t
 {
 };
 struct ExecuteJobFunction_tD6C92A74E7B2D9A3B56990280DFE3400223A2338  : public MulticastDelegate_t
@@ -31723,105 +31703,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecuteJobFunction_EndInvoke_mAB0538C563
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-void ExecuteJobFunction_Invoke_mBC703E6AC193B2FEBFEF1B25DC9BFC3CC4BF99B0_Multicast(ExecuteJobFunction_t43747613587D1106ABD2B578302EC559B8D17C3C* __this, JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* ___0_jobWrapper, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method)
-{
-	il2cpp_array_size_t length = __this->___delegates->max_length;
-	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates->GetAddressAtUnchecked(0));
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		ExecuteJobFunction_t43747613587D1106ABD2B578302EC559B8D17C3C* currentDelegate = reinterpret_cast<ExecuteJobFunction_t43747613587D1106ABD2B578302EC559B8D17C3C*>(delegatesToInvoke[i]);
-		typedef void (*FunctionPointerType) (RuntimeObject*, JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012*, intptr_t, intptr_t, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3*, int32_t, const RuntimeMethod*);
-		((FunctionPointerType)currentDelegate->___invoke_impl)((Il2CppObject*)currentDelegate->___method_code, ___0_jobWrapper, ___1_additionalPtr, ___2_bufferRangePatchData, ___3_ranges, ___4_jobIndex, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method));
-	}
-}
-void ExecuteJobFunction_Invoke_mBC703E6AC193B2FEBFEF1B25DC9BFC3CC4BF99B0_OpenInst(ExecuteJobFunction_t43747613587D1106ABD2B578302EC559B8D17C3C* __this, JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* ___0_jobWrapper, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method)
-{
-	typedef void (*FunctionPointerType) (JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012*, intptr_t, intptr_t, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3*, int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___method_ptr)(___0_jobWrapper, ___1_additionalPtr, ___2_bufferRangePatchData, ___3_ranges, ___4_jobIndex, method);
-}
-void ExecuteJobFunction_Invoke_mBC703E6AC193B2FEBFEF1B25DC9BFC3CC4BF99B0_OpenStatic(ExecuteJobFunction_t43747613587D1106ABD2B578302EC559B8D17C3C* __this, JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* ___0_jobWrapper, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method)
-{
-	typedef void (*FunctionPointerType) (JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012*, intptr_t, intptr_t, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3*, int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___method_ptr)(___0_jobWrapper, ___1_additionalPtr, ___2_bufferRangePatchData, ___3_ranges, ___4_jobIndex, method);
-}
-// Method Definition Index: 33137
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecuteJobFunction__ctor_mBE462D6509DF664972EA9A46DD11E6967BDE549C_gshared (ExecuteJobFunction_t43747613587D1106ABD2B578302EC559B8D17C3C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
-{
-	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
-	__this->___method = ___1_method;
-	__this->___m_target = ___0_object;
-	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target), (void*)___0_object);
-	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
-	__this->___method_code = (intptr_t)__this;
-	if (MethodIsStatic((RuntimeMethod*)___1_method))
-	{
-		bool isOpen = parameterCount == 5;
-		if (isOpen)
-			__this->___invoke_impl = (intptr_t)&ExecuteJobFunction_Invoke_mBC703E6AC193B2FEBFEF1B25DC9BFC3CC4BF99B0_OpenStatic;
-		else
-			{
-				__this->___invoke_impl = __this->___method_ptr;
-				__this->___method_code = (intptr_t)__this->___m_target;
-			}
-	}
-	else
-	{
-		bool isOpen = parameterCount == 4;
-		if (isOpen)
-		{
-			__this->___invoke_impl = (intptr_t)&ExecuteJobFunction_Invoke_mBC703E6AC193B2FEBFEF1B25DC9BFC3CC4BF99B0_OpenInst;
-		}
-		else
-		{
-			if (___0_object == NULL)
-				il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
-			__this->___invoke_impl = __this->___method_ptr;
-			__this->___method_code = (intptr_t)__this->___m_target;
-		}
-	}
-	__this->___extra_arg = (intptr_t)&ExecuteJobFunction_Invoke_mBC703E6AC193B2FEBFEF1B25DC9BFC3CC4BF99B0_Multicast;
-}
-// Method Definition Index: 33138
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecuteJobFunction_Invoke_mBC703E6AC193B2FEBFEF1B25DC9BFC3CC4BF99B0_gshared (ExecuteJobFunction_t43747613587D1106ABD2B578302EC559B8D17C3C* __this, JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* ___0_jobWrapper, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	typedef void (*FunctionPointerType) (RuntimeObject*, JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012*, intptr_t, intptr_t, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3*, int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_jobWrapper, ___1_additionalPtr, ___2_bufferRangePatchData, ___3_ranges, ___4_jobIndex, reinterpret_cast<RuntimeMethod*>(__this->___method));
-}
-// Method Definition Index: 33139
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ExecuteJobFunction_BeginInvoke_m139D1C5C147B9537ECD03FBAF8E04686CF684DC8_gshared (ExecuteJobFunction_t43747613587D1106ABD2B578302EC559B8D17C3C* __this, JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* ___0_jobWrapper, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___5_callback, RuntimeObject* ___6_object, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[6] = {0};
-	__d_args[0] = Box(JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012_il2cpp_TypeInfo_var, &*___0_jobWrapper);
-	__d_args[1] = Box(il2cpp_defaults.int_class, &___1_additionalPtr);
-	__d_args[2] = Box(il2cpp_defaults.int_class, &___2_bufferRangePatchData);
-	__d_args[3] = Box(JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3_il2cpp_TypeInfo_var, &*___3_ranges);
-	__d_args[4] = Box(il2cpp_defaults.int32_class, &___4_jobIndex);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___5_callback, (RuntimeObject*)___6_object);
-}
-// Method Definition Index: 33140
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecuteJobFunction_EndInvoke_mE5F8C86D95E6B297BB6A42806AC6F0FA2CDDC311_gshared (ExecuteJobFunction_t43747613587D1106ABD2B578302EC559B8D17C3C* __this, JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* ___0_jobWrapper, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___1_ranges, RuntimeObject* ___2_result, const RuntimeMethod* method) 
-{
-	void* ___out_args[] = {
-	___0_jobWrapper,
-	___1_ranges,
-	};
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___2_result, ___out_args);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 void ExecuteJobFunction_Invoke_mCE83C7C2C97C2C3932D4A31B3F6611E249A8FCD3_Multicast(ExecuteJobFunction_t1F5BB7AE207D3162A76934DD02B1323B73CE68E7* __this, SegmentSortInt_t7670ADF3571391020606BCCA6535F99FFD0EDFE5* ___0_data, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method)
 {
 	il2cpp_array_size_t length = __this->___delegates->max_length;
@@ -38788,6 +38669,78 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecuteJobFunction_EndInvoke_m41D5978524
 	___1_ranges,
 	};
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___2_result, ___out_args);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void ExecuteJobFunction_Invoke_mB44E27EE5279925AA59589F6B4C9FB27A00B24D4_Multicast(ExecuteJobFunction_t80728DD305EBEE9DBC5874FC17EE3507C21A74E8* __this, CopyTransformJob_t897AB1D52DA6819D2166710D5A1698D48E8707A2* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		ExecuteJobFunction_t80728DD305EBEE9DBC5874FC17EE3507C21A74E8* currentDelegate = reinterpret_cast<ExecuteJobFunction_t80728DD305EBEE9DBC5874FC17EE3507C21A74E8*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, CopyTransformJob_t897AB1D52DA6819D2166710D5A1698D48E8707A2*, intptr_t, intptr_t, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3*, int32_t, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl)((Il2CppObject*)currentDelegate->___method_code, ___0_jobData, ___1_additionalPtr, ___2_bufferRangePatchData, ___3_ranges, ___4_jobIndex, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method));
+	}
+}
+void ExecuteJobFunction_Invoke_mB44E27EE5279925AA59589F6B4C9FB27A00B24D4_OpenInst(ExecuteJobFunction_t80728DD305EBEE9DBC5874FC17EE3507C21A74E8* __this, CopyTransformJob_t897AB1D52DA6819D2166710D5A1698D48E8707A2* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (CopyTransformJob_t897AB1D52DA6819D2166710D5A1698D48E8707A2*, intptr_t, intptr_t, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3*, int32_t, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr)(___0_jobData, ___1_additionalPtr, ___2_bufferRangePatchData, ___3_ranges, ___4_jobIndex, method);
+}
+void ExecuteJobFunction_Invoke_mB44E27EE5279925AA59589F6B4C9FB27A00B24D4_OpenStatic(ExecuteJobFunction_t80728DD305EBEE9DBC5874FC17EE3507C21A74E8* __this, CopyTransformJob_t897AB1D52DA6819D2166710D5A1698D48E8707A2* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (CopyTransformJob_t897AB1D52DA6819D2166710D5A1698D48E8707A2*, intptr_t, intptr_t, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3*, int32_t, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr)(___0_jobData, ___1_additionalPtr, ___2_bufferRangePatchData, ___3_ranges, ___4_jobIndex, method);
+}
+// Method Definition Index: 53344
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecuteJobFunction__ctor_m70B841CD4BC96AC9EFBBADCA21876CA298CFDA89_gshared (ExecuteJobFunction_t80728DD305EBEE9DBC5874FC17EE3507C21A74E8* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
+{
+	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method = ___1_method;
+	__this->___m_target = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
+	__this->___method_code = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
+	{
+		bool isOpen = parameterCount == 5;
+		if (isOpen)
+			__this->___invoke_impl = (intptr_t)&ExecuteJobFunction_Invoke_mB44E27EE5279925AA59589F6B4C9FB27A00B24D4_OpenStatic;
+		else
+			{
+				__this->___invoke_impl = __this->___method_ptr;
+				__this->___method_code = (intptr_t)__this->___m_target;
+			}
+	}
+	else
+	{
+		bool isOpen = parameterCount == 4;
+		if (isOpen)
+		{
+			__this->___invoke_impl = (intptr_t)&ExecuteJobFunction_Invoke_mB44E27EE5279925AA59589F6B4C9FB27A00B24D4_OpenInst;
+		}
+		else
+		{
+			if (___0_object == NULL)
+				il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+			__this->___invoke_impl = __this->___method_ptr;
+			__this->___method_code = (intptr_t)__this->___m_target;
+		}
+	}
+	__this->___extra_arg = (intptr_t)&ExecuteJobFunction_Invoke_mB44E27EE5279925AA59589F6B4C9FB27A00B24D4_Multicast;
+}
+// Method Definition Index: 53345
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecuteJobFunction_Invoke_mB44E27EE5279925AA59589F6B4C9FB27A00B24D4_gshared (ExecuteJobFunction_t80728DD305EBEE9DBC5874FC17EE3507C21A74E8* __this, CopyTransformJob_t897AB1D52DA6819D2166710D5A1698D48E8707A2* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, CopyTransformJob_t897AB1D52DA6819D2166710D5A1698D48E8707A2*, intptr_t, intptr_t, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3*, int32_t, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_jobData, ___1_additionalPtr, ___2_bufferRangePatchData, ___3_ranges, ___4_jobIndex, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

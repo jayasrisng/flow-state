@@ -17,7 +17,6 @@ public class RadialSpawnerAuthoring : MonoBehaviour
     [Header("Prefab")]
     [Tooltip("The GameObject prefab that has been set up for ECS baking.")]
     public GameObject EntityPrefab;
-    public GameObject BarPrefab;
 
 
     [Header("Spawn Settings")]
@@ -46,7 +45,6 @@ public class RadialSpawnerAuthoring : MonoBehaviour
                 // GetEntity converts the prefab GameObject into its ECS
                 // counterpart so it can be used as a template at runtime.
                 Prefab        = GetEntity(authoring.EntityPrefab, TransformUsageFlags.Dynamic),
-                BarPrefab  = GetEntity(authoring.BarPrefab, TransformUsageFlags.Dynamic),
                 EntityCount   = authoring.EntityCount,
                 Radius        = authoring.Radius,
                 HeightVariance = authoring.HeightVariance,

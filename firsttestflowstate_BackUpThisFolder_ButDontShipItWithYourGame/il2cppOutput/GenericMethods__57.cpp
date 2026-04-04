@@ -981,16 +981,6 @@ struct HashCode64_1_t90D9E26AFBD72F319632D0603C614688BD850DFD
 		uint8_t HashCode64_1_t086C964E863E63719ECA6ABCD86CF5F944BC12E8__padding[1];
 	};
 };
-struct HashCode64_1_t652B99A13C4C4C01BB5FCB8B0C13443ABD5DC535 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t HashCode64_1_t086C964E863E63719ECA6ABCD86CF5F944BC12E8__padding[1];
-	};
-};
 struct HashCode64_1_t9904A9ED8CC22DA35DC410EB545D2F446259C2CE 
 {
 	union
@@ -3742,16 +3732,6 @@ struct HashCode64_1_t06D5230261D123BF55D7D288AB9D78ACA771111E
 	};
 };
 struct HashCode64_1_tB51718FC4B3265F2732601ADCD5A8480CD2C405C 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t HashCode64_1_t086C964E863E63719ECA6ABCD86CF5F944BC12E8__padding[1];
-	};
-};
-struct HashCode64_1_tFCC40B06DD4D7152CA41470B9B11237E0EB789A6 
 {
 	union
 	{
@@ -11321,10 +11301,6 @@ struct HashCode64_1_t90D9E26AFBD72F319632D0603C614688BD850DFD_StaticFields
 {
 	int64_t ___Value;
 };
-struct HashCode64_1_t652B99A13C4C4C01BB5FCB8B0C13443ABD5DC535_StaticFields
-{
-	int64_t ___Value;
-};
 struct HashCode64_1_t9904A9ED8CC22DA35DC410EB545D2F446259C2CE_StaticFields
 {
 	int64_t ___Value;
@@ -12426,10 +12402,6 @@ struct HashCode64_1_t06D5230261D123BF55D7D288AB9D78ACA771111E_StaticFields
 	int64_t ___Value;
 };
 struct HashCode64_1_tB51718FC4B3265F2732601ADCD5A8480CD2C405C_StaticFields
-{
-	int64_t ___Value;
-};
-struct HashCode64_1_tFCC40B06DD4D7152CA41470B9B11237E0EB789A6_StaticFields
 {
 	int64_t ___Value;
 };
@@ -18463,17 +18435,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BurstRuntime_GetHashCode64_TisJobChun
 	}
 }
 // Method Definition Index: 88128
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BurstRuntime_GetHashCode64_TisJobChunkProducer_1_t8B692FC21FF155F214A4FBFD99BDA1B7661C107B_m66B67DD489138050DD4FF24542C9BE34EA5E8B46_gshared (const RuntimeMethod* method) 
-{
-	il2cpp_rgctx_method_init(method);
-	{
-		//<source_info:./Library/PackageCache/com.unity.burst@07790c2d06d9/Runtime/BurstRuntime.cs:46>
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 1));
-		int64_t L_0 = ((HashCode64_1_t652B99A13C4C4C01BB5FCB8B0C13443ABD5DC535_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 1)))->___Value;
-		return L_0;
-	}
-}
-// Method Definition Index: 88128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BurstRuntime_GetHashCode64_TisJobChunkProducer_1_t4FB95A04CD908C0E6A0FAD147A8C407BC72F090B_m8183F8FF555B8D96E92D02417E37FD62F2AEC3E9_gshared (const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -19339,17 +19300,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BurstRuntime_GetHashCode64_TisAdditio
 		//<source_info:./Library/PackageCache/com.unity.burst@07790c2d06d9/Runtime/BurstRuntime.cs:46>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 1));
 		int64_t L_0 = ((HashCode64_1_tB51718FC4B3265F2732601ADCD5A8480CD2C405C_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 1)))->___Value;
-		return L_0;
-	}
-}
-// Method Definition Index: 88128
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BurstRuntime_GetHashCode64_TisAmplitudeBar_t596072573AD5D2F7A3686535A43A25DF4404E6E6_m88C862B79F8486930A78AF6DD79214A9B05A623D_gshared (const RuntimeMethod* method) 
-{
-	il2cpp_rgctx_method_init(method);
-	{
-		//<source_info:./Library/PackageCache/com.unity.burst@07790c2d06d9/Runtime/BurstRuntime.cs:46>
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 1));
-		int64_t L_0 = ((HashCode64_1_tFCC40B06DD4D7152CA41470B9B11237E0EB789A6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 1)))->___Value;
 		return L_0;
 	}
 }

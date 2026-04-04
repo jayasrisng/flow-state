@@ -1362,16 +1362,6 @@ struct HashCode64_1_t90D9E26AFBD72F319632D0603C614688BD850DFD
 		uint8_t HashCode64_1_t086C964E863E63719ECA6ABCD86CF5F944BC12E8__padding[1];
 	};
 };
-struct HashCode64_1_t652B99A13C4C4C01BB5FCB8B0C13443ABD5DC535 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t HashCode64_1_t086C964E863E63719ECA6ABCD86CF5F944BC12E8__padding[1];
-	};
-};
 struct HashCode64_1_t9904A9ED8CC22DA35DC410EB545D2F446259C2CE 
 {
 	union
@@ -4132,16 +4122,6 @@ struct HashCode64_1_tB51718FC4B3265F2732601ADCD5A8480CD2C405C
 		uint8_t HashCode64_1_t086C964E863E63719ECA6ABCD86CF5F944BC12E8__padding[1];
 	};
 };
-struct HashCode64_1_tFCC40B06DD4D7152CA41470B9B11237E0EB789A6 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t HashCode64_1_t086C964E863E63719ECA6ABCD86CF5F944BC12E8__padding[1];
-	};
-};
 struct HashCode64_1_t6F5616E3837F5B6CFBEA61D5DBFDE46F91CEFA70 
 {
 	union
@@ -5982,6 +5962,26 @@ struct HashCode64_1_tA7D4699D99DC0617D6BF52E6EC118DF87D883763
 		uint8_t HashCode64_1_t086C964E863E63719ECA6ABCD86CF5F944BC12E8__padding[1];
 	};
 };
+struct HashCode64_1_tFA6E75EEECC3DC4FE8F0D4491B202C62D69E8760 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t HashCode64_1_t086C964E863E63719ECA6ABCD86CF5F944BC12E8__padding[1];
+	};
+};
+struct HashCode64_1_t5AFCFA4A4A8A2F5D84E31C6BE7758CA57C43DC59 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t HashCode64_1_t086C964E863E63719ECA6ABCD86CF5F944BC12E8__padding[1];
+	};
+};
 struct KeyedCollection_2_t857BD3B9CEB1606A3273F118FD11923F4EE35290  : public Collection_1_t3899E6252BC3D003B1AB1D6F5D7AD93EB1DCEEC3
 {
 	RuntimeObject* ___comparer;
@@ -6933,10 +6933,6 @@ struct HashCode64_1_tD05B43A5B99AF294646DC712A2C6C60471F9CD04_StaticFields
 	int64_t ___Value;
 };
 struct HashCode64_1_t90D9E26AFBD72F319632D0603C614688BD850DFD_StaticFields
-{
-	int64_t ___Value;
-};
-struct HashCode64_1_t652B99A13C4C4C01BB5FCB8B0C13443ABD5DC535_StaticFields
 {
 	int64_t ___Value;
 };
@@ -8044,10 +8040,6 @@ struct HashCode64_1_tB51718FC4B3265F2732601ADCD5A8480CD2C405C_StaticFields
 {
 	int64_t ___Value;
 };
-struct HashCode64_1_tFCC40B06DD4D7152CA41470B9B11237E0EB789A6_StaticFields
-{
-	int64_t ___Value;
-};
 struct HashCode64_1_t6F5616E3837F5B6CFBEA61D5DBFDE46F91CEFA70_StaticFields
 {
 	int64_t ___Value;
@@ -8781,6 +8773,14 @@ struct HashCode64_1_t60BE4D0B0AD9163338060788FAF445066DD8B9FF_StaticFields
 	int64_t ___Value;
 };
 struct HashCode64_1_tA7D4699D99DC0617D6BF52E6EC118DF87D883763_StaticFields
+{
+	int64_t ___Value;
+};
+struct HashCode64_1_tFA6E75EEECC3DC4FE8F0D4491B202C62D69E8760_StaticFields
+{
+	int64_t ___Value;
+};
+struct HashCode64_1_t5AFCFA4A4A8A2F5D84E31C6BE7758CA57C43DC59_StaticFields
 {
 	int64_t ___Value;
 };
@@ -22205,32 +22205,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashCode64_1__cctor_m087D4EB9251DB124BBC
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Method Definition Index: 88140
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashCode64_1__cctor_m35173C20B59978504D4CE13CEC11668BE5415EA9_gshared (const RuntimeMethod* method) 
-{
-	{
-		//<source_info:./Library/PackageCache/com.unity.burst@07790c2d06d9/Runtime/BurstRuntime.cs:104>
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		NullCheck(L_1);
-		String_t* L_2;
-		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(26, L_1);
-		int64_t L_3;
-		L_3 = BurstRuntime_HashStringWithFNV1A64_mCC26696CC5168AE7CA59EAA4BD15440F434CB7AD(L_2, NULL);
-		((HashCode64_1_t652B99A13C4C4C01BB5FCB8B0C13443ABD5DC535_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___Value = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// Method Definition Index: 88140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashCode64_1__cctor_m77224F7EAEC904EAD16067C0704440BD3AF7DD27_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -29210,32 +29184,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashCode64_1__cctor_m9F3F671091EBD2ECFEA
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Method Definition Index: 88140
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashCode64_1__cctor_m8532EBC115917B4FF2F9E3C963FCC0C3488EF405_gshared (const RuntimeMethod* method) 
-{
-	{
-		//<source_info:./Library/PackageCache/com.unity.burst@07790c2d06d9/Runtime/BurstRuntime.cs:104>
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		NullCheck(L_1);
-		String_t* L_2;
-		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(26, L_1);
-		int64_t L_3;
-		L_3 = BurstRuntime_HashStringWithFNV1A64_mCC26696CC5168AE7CA59EAA4BD15440F434CB7AD(L_2, NULL);
-		((HashCode64_1_tFCC40B06DD4D7152CA41470B9B11237E0EB789A6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___Value = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// Method Definition Index: 88140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashCode64_1__cctor_mE9CC8BB8F1CE5C86B51341FB94149F569D426A5D_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -34008,6 +33956,58 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashCode64_1__cctor_m7CF452332CB40D940D7
 		int64_t L_3;
 		L_3 = BurstRuntime_HashStringWithFNV1A64_mCC26696CC5168AE7CA59EAA4BD15440F434CB7AD(L_2, NULL);
 		((HashCode64_1_tA7D4699D99DC0617D6BF52E6EC118DF87D883763_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___Value = L_3;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 88140
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashCode64_1__cctor_m46CBA85B8EE61E070B5D27F0A257D29B6C7B7CCC_gshared (const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.burst@07790c2d06d9/Runtime/BurstRuntime.cs:104>
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_1;
+		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
+		NullCheck(L_1);
+		String_t* L_2;
+		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(26, L_1);
+		int64_t L_3;
+		L_3 = BurstRuntime_HashStringWithFNV1A64_mCC26696CC5168AE7CA59EAA4BD15440F434CB7AD(L_2, NULL);
+		((HashCode64_1_tFA6E75EEECC3DC4FE8F0D4491B202C62D69E8760_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___Value = L_3;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 88140
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashCode64_1__cctor_m26AB7225EE7EDC255C3031AA985A8D405F30B959_gshared (const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.burst@07790c2d06d9/Runtime/BurstRuntime.cs:104>
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_1;
+		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
+		NullCheck(L_1);
+		String_t* L_2;
+		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(26, L_1);
+		int64_t L_3;
+		L_3 = BurstRuntime_HashStringWithFNV1A64_mCC26696CC5168AE7CA59EAA4BD15440F434CB7AD(L_2, NULL);
+		((HashCode64_1_t5AFCFA4A4A8A2F5D84E31C6BE7758CA57C43DC59_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___Value = L_3;
 		return;
 	}
 }

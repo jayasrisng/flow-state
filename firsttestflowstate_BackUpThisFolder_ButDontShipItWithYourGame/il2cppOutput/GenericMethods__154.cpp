@@ -290,7 +290,6 @@ struct BindableVariable_1_tAB8C2D23769D801C8E39D4AA927DD23AF0E6816C;
 struct Comparison_1_t5CAC7FF6814029EF19BBF8D27A255BF28C83EF5C;
 struct Comparison_1_t37FB169270A439DA785884C44AAF648D0B67F991;
 struct Comparison_1_t62E531E7B8260E2C6C2718C3BDB8CF8655139645;
-struct Data_tF347912D70FC8EB58C500579EA5117877D21BACB;
 struct Dictionary_2_tCEAAAB8688E3E439E320CB67B77D2D6A8A7281E9;
 struct Dictionary_2_t522560DA508EF51110C996AF2055A26B22C7426D;
 struct Dictionary_2_tA13026C91A8E0CE5AB55DC00628A33C71D2BE3F2;
@@ -434,18 +433,14 @@ struct UnityObjectReferenceCache_2_t08EE923CC15885C623411E73603DB293982DFD7A;
 struct UnityObjectReferenceCache_2_t850C1C23A747C1AB952CAB8328E7C55937432A4D;
 struct UnityObjectReferenceCache_2_tE99191D5351A0E7FAC9799B6A790D4532F56BDC1;
 struct UnsafeList_1_t658CF0985AA843DFE2A9FC8B28BB272166D99BA6;
-struct UnsafeList_1_t5422E48C657109BA40866D6144D34066FFCACBB3;
 struct UnsafeList_1_tE4156585681D373C979DDB31A9CEACABDE59D938;
-struct UnsafeList_1_t894EC58BE6EA99FD1F51CF2FF691144CF00F515D;
 struct UnsafeList_1_tCBC139E2EDB3C2FAD6548EBC48F7588302527263;
 struct UnsafeList_1_t8E392E04AF97E464FE420D7262FCFF6748778FFD;
 struct UnsafeList_1_t3A9C8EA9C22411C23EE7920586BEC5948D0F24C0;
 struct UnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718;
-struct UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613;
 struct UnsafeList_1_tBE482F98BAB080C99BB86B29AFD7A2D4E11CC446;
 struct UnsafeList_1_t9F46E019694A395ED071EADACC8171CF3C80A561;
 struct UnsafeList_1_tDF9162CDCFB60187CFB1F8EFB0442C1EC73FF0DF;
-struct UnsafeList_1_tC512AB26A525DF3622FBF1917719AEBFF48AAB27;
 struct ValueAnimation_1_t639ABF37111B0184CCB3DE2F577E466F04B28FAC;
 struct ValueAnimation_1_tDA4866B3FE9CA9CF66BAA0D3DB3591B35CC1C482;
 struct ValueCollection_tAF44363A8B49E150B1627596E78BB926E14584AE;
@@ -499,7 +494,6 @@ struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0;
 struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354;
 struct Archetype_t96EB5691CCC58A7A4E29CA4F9EA62A25E4C14582;
 struct ArchetypePropertyOverride_t1CBD7473E378B647BE981355D2964B81F92150CB;
-struct ArchetypeQuery_t45938EA78C5B9A37BBD17621D4A2DACAB98BFCEA;
 struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263;
 struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129;
 struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F;
@@ -524,7 +518,6 @@ struct BlobAssetHeader_t3EC5AD955B287949B57D36BBDE25A4D1BA85E639;
 struct BufferHeader_tE8AAA8D273ED176E5B8CC1BB6D927DE310D8E18B;
 struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3;
 struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
-struct ChainCleanup_t720381A951125FF2EAA04EA1E544B86820F30122;
 struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17;
 struct CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A;
 struct ChunkVisibility_tE2ABD1B3C6900BB4FB37AEFB64ED8A272747D28A;
@@ -533,11 +526,9 @@ struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
 struct ComponentDependencyManager_t88715270EBD172A299D4F6DB471143B7E0BCDB47;
 struct ComponentSystemBase_tE64F7524784FF1281BE7E48E7EEACA6BDCE15625;
 struct ComponentType_t0CB4E9723924AAC17CE8F38A0080018ED412DBDA;
-struct ComponentTypeList_t8A43AFD2ABD042DD0F0FAA4F95F3FDA3A1D8C053;
 struct ContentFile_t2CF8D8FD3314B9FBF06311DB08DF84D55556386B;
 struct ContentFileId_t630F8A1A207C9248EE434BA833823A2D5C384FD7;
 struct ContextualMenuManager_tEE3B1F33FFFD180705467CA625AEBA0F5D63154B;
-struct CreateCommand_t1BE9EDD827DBFE09AEBA77279812A127281B793B;
 struct DataBindingManager_tE7B33E64EBBDCAB0A89B6A8421529F9BA0D066E1;
 struct DeactivateEvent_tFE44262C3D8377F947FD46D4561BB9DAC7E0785D;
 struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
@@ -545,22 +536,17 @@ struct DoubleRewindableAllocators_t8D3615CDAAECEE59D64F85F9E0F46D07168A7069;
 struct DrawCommandStream_t0A2BEB33831D3F47F3A3E1CCA7359B89C0429D0A;
 struct DrawCommandVisibility_t192861ABB8BE0514FBDCAB8FC83808D83178DEED;
 struct DrawCommandWorkItem_tF70FA79285F3CB53DDEBCF4BF0F3447F11A3F045;
-struct ECBChunk_tF8E51552DBA320AB90FCAE9CF1185FAFD3764F4F;
 struct ElementUnderPointer_tB43AD64F79C6F06829D8B90318AF1A6BBE9C1904;
 struct Encoder_tAF9067231A76315584BDF4CD27990E2F485A78FA;
 struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095;
 struct EnsureThat_tCC49E8B65851E70C9534A68EB657B6227F0549FC;
 struct Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD;
 struct EntityBufferCommand_t3BF4346ABAD0A13FAB7CB86834657220DEC2A694;
-struct EntityCommand_tCC8169A1562D889EF6040A025A7C80E14E4BEDB4;
-struct EntityCommandBufferChain_tCC0FFFC083A93ADF15F28AAF7E69C8BB3D6F7CCB;
 struct EntityCommandBufferData_t88C8EFD5BBEF42F8008AF73FA2C27B60E5A31DC2;
 struct EntityComponentStore_tA85E100ECD667365B260A68DFD9DF9B7C04D037F;
 struct EntityDataAccess_t98E1CF6F73892A92AA3FF870A4BD941364E9CD36;
 struct EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8;
-struct EntityNameStoreAccessData_t5AC842F68D9F5083E23B12C17F81F43535F2ED1F;
 struct EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90;
-struct EntityQueryData_t20DB32E7BB3F8732C371E45E8A8CEBCE62B61C26;
 struct EntityQueryImpl_t3E7DD11B3ECD6D708BF02ACF2C07B42A913F7574;
 struct EventCallbackRegistry_tE18297C3F7E535BD82EDA83EC6D6DAA386226B85;
 struct Exception_t;
@@ -604,7 +590,6 @@ struct InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD;
 struct InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1;
 struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C;
 struct IntPtr_t;
-struct JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08;
 struct JsonType_t3D3FF50D4720F8AAEA62554800E57A75453DD7CA;
 struct MappedBuffer_t4BAABC09EAD5812AB933A8BA242095323D4282C7;
 struct MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553;
@@ -652,7 +637,6 @@ struct UIElementsBridge_tC28FCEDF493CD746D1973AB27BA2CBA393EB4BA8;
 struct UIHoverEnterEvent_t4C957A3405A5D9CB867C5EC446620BB4BA7E7298;
 struct UIHoverExitEvent_t63E5E9C921AFB8E2CB9CA4D32882DD4F62CD509B;
 struct UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455;
-struct UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B;
 struct UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF;
 struct UnmanagedComponentSystemDelegates_tB8457009CD4CC3E4A0CF63B17035080EF847DCEC;
 struct UnsafeJsonTokenStream_t32B87C735AC8495367A1A479345BE0BB7A422AD6;
@@ -664,7 +648,6 @@ struct UnsafePackedBinaryWriter_t64C3DE1B0C3FC0EF26BD93720799B86469CEEBE9;
 struct UnsafeParallelHashMapData_t43CAB3170FBB624A9CCB6F30C0EC1BB820D57926;
 struct UnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C;
 struct UnsafeText_t93F5D82C1FF7AB12B0E621B9D0EC9855D005FF67;
-struct UntypedWeakReferenceId_tE6BA94FD975EA12B639C0A568532BD1AB874492A;
 struct VariableDeclarationCollection_tF2FB9698489A7485BE152FDBA89ABFFE7E28C8AC;
 struct VariableDeclarations_t7701E0B99E3AED5CDC693ABFBDD6D1C73945B405;
 struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115;
@@ -718,7 +701,6 @@ struct ObjectPropertyDependency_t48398FAF5893225449E1BB1A2BC533F303DD342C;
 struct ObjectStaticDependency_t5293BD8C2BFBFE86258EB509EDF9512034ADD3EA;
 struct ReferencedEntityUsage_t5A0EA88A4004D1FC8F522DD8A8296F79D0D92B81;
 struct Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD;
-struct DependencyHandle_t73038501598DF9B7E83BF8486D87B9DED6200B15;
 struct SharedComponentInfo_tC04CFD574DE82A0BD72273D1EB8868562AE8D021;
 struct Entry_tE11DB2A14D5C72CE3B7D539459DC052335506586;
 struct QueryTypes_tE3A9F854C5272D3077BA4C51A154002D3B0E7408;
@@ -729,8 +711,6 @@ struct ComponentDataStore_t30AEB2C2E7390C8F70201D4AA95D70E4B4F34F81;
 struct Data_t43E3238277579E631EA4E8016E61966D79F5B62E;
 struct HeaderData_t5CE38A1426623168DB817F1D87E639856A2614B3;
 struct PaddedAllocator_tB9AB632DA425C7D50208D9571960614EF43CDF24;
-struct EntityOffsetInfo_tAA68D1FC74ADF57FB76987377354ED848C7CC9D1;
-struct TypeInfo_tD43B08A8D19156EEC98399693A96161F02139654;
 struct CustomStyleAccess_t170C852102B4D09FB478B620A75B14D096F9F2B1;
 struct TypeData_t01D670B4E71B5571B38C7412B1E652A47D6AF66A;
 struct UpdaterArray_tF8D43D2A3598E7C17ABB5308E83FDECF1F36A449;
@@ -839,15 +819,10 @@ IL2CPP_EXTERN_C const RuntimeMethod* UnsafeParallelMultiHashMap_2_ContainsKey_m6
 IL2CPP_EXTERN_C const RuntimeMethod* XRHandSubsystem_CompareProcessors_m90EE7E5827816956507996EB0033467CD33F82D3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* YamlWriter_FormatValue_TisRuntimeObject_m977C9C762278EB0FDD14216EFCAC434BAF061E01_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeType* AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_0_0_0_var;
-struct ChainCleanup_t720381A951125FF2EAA04EA1E544B86820F30122;
 struct ComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1_marshaled_com;
 struct ComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1_marshaled_pinvoke;
-struct CreateCommand_t1BE9EDD827DBFE09AEBA77279812A127281B793B;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
-struct ECBChunk_tF8E51552DBA320AB90FCAE9CF1185FAFD3764F4F;
-struct EntityCommandBufferChain_tCC0FFFC083A93ADF15F28AAF7E69C8BB3D6F7CCB;
-struct EntityCommand_tCC8169A1562D889EF6040A025A7C80E14E4BEDB4;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 struct Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD;
@@ -1200,11 +1175,6 @@ struct BlobArray_1_t355AA73E25A236912E3EE96313BF853578B60CBA
 	int32_t ___m_OffsetPtr;
 	int32_t ___m_Length;
 };
-struct BlobArray_1_t0C3437A3826D6006FC8EA42BF949800877B2E2F8 
-{
-	int32_t ___m_OffsetPtr;
-	int32_t ___m_Length;
-};
 struct BlobArray_1_t112C49ADFEB7465DC55221B4D8E6C721002D4D16 
 {
 	int32_t ___m_OffsetPtr;
@@ -1240,22 +1210,7 @@ struct BlobArray_1_tACA985771A71CEBD1CDFC1E825758A1C65D4DBC2
 	int32_t ___m_OffsetPtr;
 	int32_t ___m_Length;
 };
-struct BlobArray_1_tE69072DE52FA794148C653B8B6A136F79B24CC82 
-{
-	int32_t ___m_OffsetPtr;
-	int32_t ___m_Length;
-};
 struct BlobArray_1_t915223B234BD66BF194781DFA63D17807FF08D18 
-{
-	int32_t ___m_OffsetPtr;
-	int32_t ___m_Length;
-};
-struct BlobArray_1_tFDDC8C3FF094064F3B6EBB625F076A18D201A8FB 
-{
-	int32_t ___m_OffsetPtr;
-	int32_t ___m_Length;
-};
-struct BlobArray_1_tEBFFCB17FDAB7BC2FAB3197EF014FE274A7D17DC 
 {
 	int32_t ___m_OffsetPtr;
 	int32_t ___m_Length;
@@ -1471,10 +1426,6 @@ struct KeyValuePair_2_t4BAC910918B10F3198B2238BC0BBD7C8BECCEA0D
 {
 	Type_t* ___key;
 	RuntimeObject* ___value;
-};
-struct LayoutList_1_tB53F8679328297FF66E778CE858BF3AD4D3CE9BA 
-{
-	Data_tF347912D70FC8EB58C500579EA5117877D21BACB* ___m_Data;
 };
 struct NativeList_1_tEA8A6255A2C7631F6A811B4D30F09AB92D447CE8 
 {
@@ -1892,12 +1843,6 @@ struct ContentSceneFile_t8C0A9828EA7BE29885027C068130203B53F0F852
 {
 	uint64_t ___Id;
 };
-struct ConvexHullGenerationParameters_t4513C7C45D184A540D36836ADB60F0BC41F73839 
-{
-	float ___m_SimplificationTolerance;
-	float ___m_BevelRadius;
-	float ___m_MinimumAngle;
-};
 struct DecalEntity_t8CAF09C65939503449C4138ADCDC4907196293FD 
 {
 	int32_t ___index;
@@ -1916,16 +1861,6 @@ struct DepthState_t798415D2C1D9202E555FEE5D4C5FDF6B3A077255
 {
 	uint8_t ___m_WriteEnabled;
 	int8_t ___m_CompareFunction;
-};
-struct Disabled_t1C72FE38756BF6A95146AFE331F04FC71B3A79A6 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t Disabled_t1C72FE38756BF6A95146AFE331F04FC71B3A79A6__padding[1];
-	};
 };
 struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
 {
@@ -1962,18 +1897,6 @@ struct DummySimulation_tB772314647BCDB9F99058C1AAA20538D2FC05B1B
 		uint8_t DummySimulation_tB772314647BCDB9F99058C1AAA20538D2FC05B1B__padding[1];
 	};
 };
-struct ECBChainHeapElement_tE83963A87C0B8B2EEDE315AF9DFF749A38C666DD 
-{
-	int32_t ___SortKey;
-	int32_t ___ChainIndex;
-};
-struct ECBChunk_tF8E51552DBA320AB90FCAE9CF1185FAFD3764F4F 
-{
-	int32_t ___Used;
-	int32_t ___Size;
-	ECBChunk_tF8E51552DBA320AB90FCAE9CF1185FAFD3764F4F* ___Next;
-	ECBChunk_tF8E51552DBA320AB90FCAE9CF1185FAFD3764F4F* ___Prev;
-};
 struct EmptyEventArgs_t2EF153F78311F355E9AE7BAE748576515674476F 
 {
 	union
@@ -1984,16 +1907,6 @@ struct EmptyEventArgs_t2EF153F78311F355E9AE7BAE748576515674476F
 		uint8_t EmptyEventArgs_t2EF153F78311F355E9AE7BAE748576515674476F__padding[1];
 	};
 };
-struct EnsureUniqueColliderBlobTag_t5CA68843FE254E73ED98C7246C45164AE0F403F5 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t EnsureUniqueColliderBlobTag_t5CA68843FE254E73ED98C7246C45164AE0F403F5__padding[1];
-	};
-};
 struct Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD 
 {
 	int32_t ___Index;
@@ -2002,60 +1915,6 @@ struct Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD
 struct EntityArchetype_tE1D293B55B4783642BB593531A57460AB7709354 
 {
 	Archetype_t96EB5691CCC58A7A4E29CA4F9EA62A25E4C14582* ___Archetype;
-};
-struct EntityCommandBufferChain_tCC0FFFC083A93ADF15F28AAF7E69C8BB3D6F7CCB 
-{
-	union
-	{
-		struct
-		{
-			ECBChunk_tF8E51552DBA320AB90FCAE9CF1185FAFD3764F4F* ___m_Tail;
-			ECBChunk_tF8E51552DBA320AB90FCAE9CF1185FAFD3764F4F* ___m_Head;
-			ChainCleanup_t720381A951125FF2EAA04EA1E544B86820F30122* ___m_Cleanup;
-			CreateCommand_t1BE9EDD827DBFE09AEBA77279812A127281B793B* ___m_PrevCreateCommand;
-			EntityCommand_tCC8169A1562D889EF6040A025A7C80E14E4BEDB4* ___m_PrevEntityCommand;
-			EntityCommandBufferChain_tCC0FFFC083A93ADF15F28AAF7E69C8BB3D6F7CCB* ___m_NextChain;
-			int32_t ___m_LastSortKey;
-			bool ___m_CanBurstPlayback;
-		};
-		uint8_t EntityCommandBufferChain_tCC0FFFC083A93ADF15F28AAF7E69C8BB3D6F7CCB__padding[64];
-	};
-};
-struct EntityCommandBufferChain_tCC0FFFC083A93ADF15F28AAF7E69C8BB3D6F7CCB_marshaled_pinvoke
-{
-	union
-	{
-		struct
-		{
-			ECBChunk_tF8E51552DBA320AB90FCAE9CF1185FAFD3764F4F* ___m_Tail;
-			ECBChunk_tF8E51552DBA320AB90FCAE9CF1185FAFD3764F4F* ___m_Head;
-			ChainCleanup_t720381A951125FF2EAA04EA1E544B86820F30122* ___m_Cleanup;
-			CreateCommand_t1BE9EDD827DBFE09AEBA77279812A127281B793B* ___m_PrevCreateCommand;
-			EntityCommand_tCC8169A1562D889EF6040A025A7C80E14E4BEDB4* ___m_PrevEntityCommand;
-			EntityCommandBufferChain_tCC0FFFC083A93ADF15F28AAF7E69C8BB3D6F7CCB* ___m_NextChain;
-			int32_t ___m_LastSortKey;
-			int32_t ___m_CanBurstPlayback;
-		};
-		uint8_t EntityCommandBufferChain_tCC0FFFC083A93ADF15F28AAF7E69C8BB3D6F7CCB__padding[64];
-	};
-};
-struct EntityCommandBufferChain_tCC0FFFC083A93ADF15F28AAF7E69C8BB3D6F7CCB_marshaled_com
-{
-	union
-	{
-		struct
-		{
-			ECBChunk_tF8E51552DBA320AB90FCAE9CF1185FAFD3764F4F* ___m_Tail;
-			ECBChunk_tF8E51552DBA320AB90FCAE9CF1185FAFD3764F4F* ___m_Head;
-			ChainCleanup_t720381A951125FF2EAA04EA1E544B86820F30122* ___m_Cleanup;
-			CreateCommand_t1BE9EDD827DBFE09AEBA77279812A127281B793B* ___m_PrevCreateCommand;
-			EntityCommand_tCC8169A1562D889EF6040A025A7C80E14E4BEDB4* ___m_PrevEntityCommand;
-			EntityCommandBufferChain_tCC0FFFC083A93ADF15F28AAF7E69C8BB3D6F7CCB* ___m_NextChain;
-			int32_t ___m_LastSortKey;
-			int32_t ___m_CanBurstPlayback;
-		};
-		uint8_t EntityCommandBufferChain_tCC0FFFC083A93ADF15F28AAF7E69C8BB3D6F7CCB__padding[64];
-	};
 };
 struct EntityGuid_tAB9B163B73754C5D863D5E88B8E5A1D239433877 
 {
@@ -2077,20 +1936,10 @@ struct EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91
 {
 	EntityDataAccess_t98E1CF6F73892A92AA3FF870A4BD941364E9CD36* ___m_EntityDataAccess;
 };
-struct EntityNameStoreAccessData_t5AC842F68D9F5083E23B12C17F81F43535F2ED1F 
-{
-	uint64_t ___m_NameChangeBitsSequenceNum;
-};
 struct EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 
 {
 	EntityQueryImpl_t3E7DD11B3ECD6D708BF02ACF2C07B42A913F7574* _____impl;
 	uint64_t _____seqno;
-};
-struct EntityQueryMask_tA3298547B0A6701B30F8E223B5346B40E68DDEEF 
-{
-	uint8_t ___Index;
-	uint8_t ___Mask;
-	EntityComponentStore_tA85E100ECD667365B260A68DFD9DF9B7C04D037F* ___EntityComponentStore;
 };
 struct EntityTypeHandle_t1D0AE8970094A6835B0D90DC48D4A7AA79BC570A 
 {
@@ -2447,21 +2296,6 @@ struct Handle_t734A63706EDE11FF0429B53F7756AE2873E1F665
 	int32_t ___Index;
 	int32_t ___Version;
 };
-struct HandleData_t82BF6A136E0B5697C0EA3F051760AA77D25DA55E 
-{
-	int32_t ___DataIndex;
-	int32_t ___DataVersion;
-};
-struct Haptic_t726DC803B929C8CAD018BB1CA2AB27931573CFD9 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t Haptic_t726DC803B929C8CAD018BB1CA2AB27931573CFD9__padding[1];
-	};
-};
 struct Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 
 {
 	uint64_t ___u64_0;
@@ -2563,13 +2397,6 @@ struct LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB
 {
 	int32_t ___m_Mask;
 };
-struct LayoutConfigData_t6B1D36F00422E7EB7C51CF9103FC9D522B5481F4 
-{
-	float ___PointScaleFactor;
-	int32_t ___ManagedMeasureFunctionIndex;
-	int32_t ___ManagedBaselineFunctionIndex;
-	bool ___ShouldLog;
-};
 struct LayoutHandle_tCFE060947B4EDC8F11BF5B480181493FB578BEB6 
 {
 	int32_t ___Index;
@@ -2581,17 +2408,6 @@ struct LinearColor_t60964F15C567D7FE5442C29298DCF20ABD8816C7
 	float ___m_green;
 	float ___m_blue;
 	float ___m_intensity;
-};
-struct Long8_t47945FFD68CACB5C8CE8E03AECE69B817A6A9659 
-{
-	int64_t ___f0;
-	int64_t ___f1;
-	int64_t ___f2;
-	int64_t ___f3;
-	int64_t ___f4;
-	int64_t ___f5;
-	int64_t ___f6;
-	int64_t ___f7;
 };
 struct LookupCache_t3C0A5C02880755A14500AADCA75DC1CB85D12851 
 {
@@ -2670,17 +2486,6 @@ struct MostRecentFixedTime_t6DD27BCC3288C652C0426E31DA2E0D25B8BDAB83
 struct NativeText_tB3B319AB46B15213BEA974C11E1027DB69484C39 
 {
 	UnsafeText_t93F5D82C1FF7AB12B0E621B9D0EC9855D005FF67* ___m_Data;
-};
-struct Operation_t4FD1535C9B909614A4E778904D274CA549BE96D5 
-{
-	uint32_t ___type;
-	uint32_t ___srcOffset;
-	uint32_t ___srcStride;
-	uint32_t ___dstOffset;
-	uint32_t ___dstOffsetExtra;
-	int32_t ___dstStride;
-	uint32_t ___size;
-	uint32_t ___count;
 };
 struct PackedComponent_t1F420B0BE93FF9B240DF895BF74ED0354F10D1D6 
 {
@@ -3718,14 +3523,6 @@ struct SphericalHarmonicsL2_tCBFB646455D2069E738976E5B745C6DF023B6BA2
 	float ___shb7;
 	float ___shb8;
 };
-struct SpinLock_t522D28B065FD42708B65A14F04F81E44AA70926F 
-{
-	int32_t ___m_Lock;
-};
-struct Spinner_t9606E334089E448EA313C31DC5EFC9345A58BCEB 
-{
-	int32_t ___m_Lock;
-};
 struct Static_tFEF5CDCD173067402E86BD8086EC0DF54C812AE9 
 {
 	union
@@ -3884,23 +3681,6 @@ struct URPMaterialPropertyOcclusionStrength_t53BA10004A799BA615AE7EB501C529AC13C
 struct URPMaterialPropertySmoothness_tCF978DA4811F8D70E0C54E5CAD721706B4C8159C 
 {
 	float ___Value;
-};
-struct UnsafeAtomicCounter32_tB925055F9F609BFEE32CC1CB3AA04D0B75690B62 
-{
-	int32_t* ___Counter;
-};
-struct UnsafeCachedChunkList_t48CE8479B1EEA20F34D6EB59806214668DB204A3 
-{
-	UnsafeList_1_t894EC58BE6EA99FD1F51CF2FF691144CF00F515D* ___MatchingChunks;
-	UnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718* ___PerChunkMatchingArchetypeIndex;
-	UnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718* ___ChunkIndexInArchetype;
-	EntityComponentStore_tA85E100ECD667365B260A68DFD9DF9B7C04D037F* ___EntityComponentStore;
-	int32_t ___CacheValid;
-};
-struct UnsafeMatchingArchetypePtrList_t7BE58FA0D1C0757782B0CA05207B0E07690ED566 
-{
-	UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* ___ListData;
-	EntityComponentStore_tA85E100ECD667365B260A68DFD9DF9B7C04D037F* ___entityComponentStore;
 };
 struct UnsafePackedBinaryWriter_t64C3DE1B0C3FC0EF26BD93720799B86469CEEBE9 
 {
@@ -4688,31 +4468,9 @@ struct Edge_t95552864120701D5A98A698DAE24B3AD1007BA16
 {
 	int32_t ___Value;
 };
-struct U3CstateDataU3Ee__FixedBuffer_t2D79C7E59F64E19D0450D36680F1A1B52CD89F84 
-{
-	union
-	{
-		struct
-		{
-			uint8_t ___FixedElementField;
-		};
-		uint8_t U3CstateDataU3Ee__FixedBuffer_t2D79C7E59F64E19D0450D36680F1A1B52CD89F84__padding[1];
-	};
-};
 struct DispatchPair_tDCB0F8DC3D9986807F0B3868E65487059D87050E 
 {
 	uint64_t ___m_Data;
-};
-struct U3CVisibleInstancesU3Ee__FixedBuffer_tCBDA39B4019F6C80E2F01AFC740E1533AC06CBEB 
-{
-	union
-	{
-		struct
-		{
-			uint64_t ___FixedElementField;
-		};
-		uint8_t U3CVisibleInstancesU3Ee__FixedBuffer_tCBDA39B4019F6C80E2F01AFC740E1533AC06CBEB__padding[16];
-	};
 };
 struct BufferWithFixUp_tDFD5630DDFDBC051A462A026DFAEAA4A047FB3B6 
 {
@@ -4728,10 +4486,6 @@ struct U3CFlippedWindingU3Ee__FixedBuffer_tF4D15AB64D0B1662C0426CF76CD59ECE2C7CB
 		};
 		uint8_t U3CFlippedWindingU3Ee__FixedBuffer_tF4D15AB64D0B1662C0426CF76CD59ECE2C7CB940__padding[16];
 	};
-};
-struct ChunkListChanges_tC57E06E14D1D6D3D87675D05619E0539A86564D8 
-{
-	Archetype_t96EB5691CCC58A7A4E29CA4F9EA62A25E4C14582* ___ArchetypeTrackingHead;
 };
 struct PerChunkArray_t1661BF83F4CC205EED250C614F3D0D65D025426C 
 {
@@ -4912,72 +4666,6 @@ struct U3CscreenRelativeTransitionHeightsU3Ee__FixedBuffer_t3C930A601B8249105638
 			float ___FixedElementField;
 		};
 		uint8_t U3CscreenRelativeTransitionHeightsU3Ee__FixedBuffer_t3C930A601B8249105638E6F0B9F03AE94B6E7D86__padding[32];
-	};
-};
-struct U3CBorderU3Ee__FixedBuffer_t5A18296AB7D0BFC3131BDDE01656A53889147B34 
-{
-	union
-	{
-		struct
-		{
-			float ___FixedElementField;
-		};
-		uint8_t U3CBorderU3Ee__FixedBuffer_t5A18296AB7D0BFC3131BDDE01656A53889147B34__padding[24];
-	};
-};
-struct U3CDimensionsU3Ee__FixedBuffer_tD2708ED4F2A6D227404834E91D6359AB4B954457 
-{
-	union
-	{
-		struct
-		{
-			float ___FixedElementField;
-		};
-		uint8_t U3CDimensionsU3Ee__FixedBuffer_tD2708ED4F2A6D227404834E91D6359AB4B954457__padding[8];
-	};
-};
-struct U3CMarginU3Ee__FixedBuffer_tF5EF7606FDD9ACD4DDF18DC564195092A6A540FE 
-{
-	union
-	{
-		struct
-		{
-			float ___FixedElementField;
-		};
-		uint8_t U3CMarginU3Ee__FixedBuffer_tF5EF7606FDD9ACD4DDF18DC564195092A6A540FE__padding[24];
-	};
-};
-struct U3CMeasuredDimensionsU3Ee__FixedBuffer_t3BF016D1583A3A9EABAD62B35368C369C06DCD87 
-{
-	union
-	{
-		struct
-		{
-			float ___FixedElementField;
-		};
-		uint8_t U3CMeasuredDimensionsU3Ee__FixedBuffer_t3BF016D1583A3A9EABAD62B35368C369C06DCD87__padding[8];
-	};
-};
-struct U3CPaddingU3Ee__FixedBuffer_tE057FF067DA31EB3EC92DD01973C24BDC7E9E9F3 
-{
-	union
-	{
-		struct
-		{
-			float ___FixedElementField;
-		};
-		uint8_t U3CPaddingU3Ee__FixedBuffer_tE057FF067DA31EB3EC92DD01973C24BDC7E9E9F3__padding[24];
-	};
-};
-struct U3CPositionU3Ee__FixedBuffer_t6F7472507E4B67C5CA936393DFFBA95309592810 
-{
-	union
-	{
-		struct
-		{
-			float ___FixedElementField;
-		};
-		uint8_t U3CPositionU3Ee__FixedBuffer_t6F7472507E4B67C5CA936393DFFBA95309592810__padding[16];
 	};
 };
 struct Chunk_t8FA014C1F5133E76A25C77296B034B354E6F5FB4 
@@ -5482,50 +5170,6 @@ struct U3CNumFreeLeafSlotsU3Ee__FixedBuffer_t6E2719E8945D405AC5268B620578ECECF76
 		uint8_t U3CNumFreeLeafSlotsU3Ee__FixedBuffer_t6E2719E8945D405AC5268B620578ECECF7618831__padding[8];
 	};
 };
-struct U3CFacePlanesU3Ee__FixedBuffer_tF482B0110173D0BA9F5611F5C2A9F304F9821B39 
-{
-	union
-	{
-		struct
-		{
-			uint8_t ___FixedElementField;
-		};
-		uint8_t U3CFacePlanesU3Ee__FixedBuffer_tF482B0110173D0BA9F5611F5C2A9F304F9821B39__padding[544];
-	};
-};
-struct U3CFaceVertexIndicesU3Ee__FixedBuffer_t76A5A8C0EF1C02529BA039C55CD1E39B51EDDD85 
-{
-	union
-	{
-		struct
-		{
-			uint8_t ___FixedElementField;
-		};
-		uint8_t U3CFaceVertexIndicesU3Ee__FixedBuffer_t76A5A8C0EF1C02529BA039C55CD1E39B51EDDD85__padding[192];
-	};
-};
-struct U3CFacesU3Ee__FixedBuffer_t89ADA47BDBA7CE9012AC45E6BC8112E616300BBF 
-{
-	union
-	{
-		struct
-		{
-			uint8_t ___FixedElementField;
-		};
-		uint8_t U3CFacesU3Ee__FixedBuffer_t89ADA47BDBA7CE9012AC45E6BC8112E616300BBF__padding[136];
-	};
-};
-struct U3CVerticesU3Ee__FixedBuffer_t47BCE6FB3849EF05FF956BE47CDE83FF0BD4034D 
-{
-	union
-	{
-		struct
-		{
-			uint8_t ___FixedElementField;
-		};
-		uint8_t U3CVerticesU3Ee__FixedBuffer_t47BCE6FB3849EF05FF956BE47CDE83FF0BD4034D__padding[768];
-	};
-};
 struct SolvePhaseInfo_tAA727E1DF09150D72E44912CB46106D49DD84933 
 {
 	int32_t ___DispatchPairCount;
@@ -5580,39 +5224,6 @@ struct PerChunkData_t1837BB30B95C4DD39A4908ECC71AB0B75DFF9135
 	Archetype_t96EB5691CCC58A7A4E29CA4F9EA62A25E4C14582* ___Archetype;
 	int32_t ___EntityCount;
 	int32_t ___ListIndex;
-};
-struct U3CIndexInEntityQueryU3Ee__FixedBuffer_t16145BD96786E58BD62F3D7542DA41E279C0E65A 
-{
-	union
-	{
-		struct
-		{
-			int32_t ___FixedElementField;
-		};
-		uint8_t U3CIndexInEntityQueryU3Ee__FixedBuffer_t16145BD96786E58BD62F3D7542DA41E279C0E65A__padding[8];
-	};
-};
-struct U3CIndexInEntityQueryU3Ee__FixedBuffer_tF74E8C082C63D1F5EC4A529909287F360012EDD9 
-{
-	union
-	{
-		struct
-		{
-			int32_t ___FixedElementField;
-		};
-		uint8_t U3CIndexInEntityQueryU3Ee__FixedBuffer_tF74E8C082C63D1F5EC4A529909287F360012EDD9__padding[8];
-	};
-};
-struct U3CSharedComponentIndexU3Ee__FixedBuffer_t6678D7BCFF071F01975BEAE7FF8C6FA532C1FDA0 
-{
-	union
-	{
-		struct
-		{
-			int32_t ___FixedElementField;
-		};
-		uint8_t U3CSharedComponentIndexU3Ee__FixedBuffer_t6678D7BCFF071F01975BEAE7FF8C6FA532C1FDA0__padding[8];
-	};
 };
 struct U3Chammersley2dSeq16U3Ee__FixedBuffer_t6F140D0C91E62112E1635AF868D461A48FB26EC9 
 {
@@ -6112,21 +5723,6 @@ struct HashMapHelper_1_tF4097677DF54F9B7101CE52DA301CACDF02D8AD9
 	int32_t ___SizeOfTValue;
 	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator;
 };
-struct HashMapHelper_1_tFE70D47D7D4D5A59CFA6D8E68852A7EE5BDB4854 
-{
-	uint8_t* ___Ptr;
-	UntypedWeakReferenceId_tE6BA94FD975EA12B639C0A568532BD1AB874492A* ___Keys;
-	int32_t* ___Next;
-	int32_t* ___Buckets;
-	int32_t ___Count;
-	int32_t ___Capacity;
-	int32_t ___Log2MinGrowth;
-	int32_t ___BucketCapacity;
-	int32_t ___AllocatedIndex;
-	int32_t ___FirstFreeIdx;
-	int32_t ___SizeOfTValue;
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator;
-};
 struct NativeReference_1_t49E21A0D2970817CC1C66DB4EA1F283C82AB04FD 
 {
 	void* ___m_Data;
@@ -6142,20 +5738,6 @@ struct TrackingSubsystem_4_t6A4D8CCD1F1694558E2CC65E84F2376ED1018B1B  : public S
 };
 struct TrackingSubsystem_4_t6A91F435DD4C8BB231D67E80B74B66C53BC4299A  : public SubsystemWithProvider_3_t693F578840ABD33CBE8E7DDDE7909BDDFDAB272F
 {
-};
-struct UnmanagedArray_1_t7A336330780E05C924BB57ED337DDD2A66701FAB 
-{
-	intptr_t ___m_pointer;
-	int32_t ___m_length;
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_allocator;
-};
-struct UnsafeList_1_tA21F92C4A814A112A95FFC7861B906E3523E4EEF 
-{
-	UnsafeList_1_tC512AB26A525DF3622FBF1917719AEBFF48AAB27* ___Ptr;
-	int32_t ___m_length;
-	int32_t ___m_capacity;
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator;
-	int32_t ___padding;
 };
 struct UnsafeList_1_t86D29969117DEA467914C7222932508E1E794B95 
 {
@@ -6200,14 +5782,6 @@ struct UnsafeList_1_t5C65DCA6782B7C9860C859C2F0C07A2C497E822D
 struct UnsafeList_1_tF6E128EA51C65242C59010B65BDAD99951E1A674 
 {
 	ComponentType_t0CB4E9723924AAC17CE8F38A0080018ED412DBDA* ___Ptr;
-	int32_t ___m_length;
-	int32_t ___m_capacity;
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator;
-	int32_t ___padding;
-};
-struct UnsafeList_1_t81DA7B1F50305CF2C5A3DAE7C5027E809A808B8C 
-{
-	ComponentTypeList_t8A43AFD2ABD042DD0F0FAA4F95F3FDA3A1D8C053* ___Ptr;
 	int32_t ___m_length;
 	int32_t ___m_capacity;
 	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator;
@@ -6277,14 +5851,6 @@ struct UnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718
 	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator;
 	int32_t ___padding;
 };
-struct UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613 
-{
-	intptr_t* ___Ptr;
-	int32_t ___m_length;
-	int32_t ___m_capacity;
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator;
-	int32_t ___padding;
-};
 struct UnsafeList_1_t54025388C47D5DAD7F2E5C8FA9815D2D2A820C59 
 {
 	PerWorldSystemInfo_t633E3D6D07B304920DCA0CE411AF821A19C0D756* ___Ptr;
@@ -6312,14 +5878,6 @@ struct UnsafeList_1_tDA08D23291A006354D190890E73B9970FEFADE6E
 struct UnsafeList_1_tEE6D0269E6E8E59E96623AA3410F283FE7B8CF65 
 {
 	alignas(IL2CPP_SIZEOF_VOID_P) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C* ___Ptr;
-	int32_t ___m_length;
-	int32_t ___m_capacity;
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator;
-	int32_t ___padding;
-};
-struct UnsafeList_1_tA2B6A040C4F2656D88ABB4345257ADE8F2F30F35 
-{
-	uint32_t* ___Ptr;
 	int32_t ___m_length;
 	int32_t ___m_capacity;
 	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator;
@@ -6497,27 +6055,6 @@ struct UnsafeParallelMultiHashMap_2_tEE7D2AC11CBCA4D14C50BDCCBCDE6A25433469EC
 {
 	UnsafeParallelHashMapData_t43CAB3170FBB624A9CCB6F30C0EC1BB820D57926* ___m_Buffer;
 	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_AllocatorLabel;
-};
-struct UnsafeParallelMultiHashMap_2_tF97D13A4436BE5A45CEFAE2066E0ABE4AB22DC94 
-{
-	UnsafeParallelHashMapData_t43CAB3170FBB624A9CCB6F30C0EC1BB820D57926* ___m_Buffer;
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_AllocatorLabel;
-};
-struct UnsafePtrList_1_t3BA56CBE50A217517D1FA78C345C0AF8242F8088 
-{
-	Archetype_t96EB5691CCC58A7A4E29CA4F9EA62A25E4C14582** ___Ptr;
-	int32_t ___m_length;
-	int32_t ___m_capacity;
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator;
-	int32_t ___padding;
-};
-struct UnsafePtrList_1_t9303472093C8513F7E98E3EFE8C3560679C4CAA6 
-{
-	EntityQueryData_t20DB32E7BB3F8732C371E45E8A8CEBCE62B61C26** ___Ptr;
-	int32_t ___m_length;
-	int32_t ___m_capacity;
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator;
-	int32_t ___padding;
 };
 struct ValueAnimation_1_t639ABF37111B0184CCB3DE2F577E466F04B28FAC  : public RuntimeObject
 {
@@ -6745,12 +6282,6 @@ struct ByteEnum_t2A464EF5EC59CBA8ED5E194537D5832168B1A692
 {
 	uint8_t ___value__;
 };
-struct CapsuleGeometry_t6CABEE4C530362AC247ED692FC0235A550D5A262 
-{
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___m_Vertex0;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___m_Vertex1;
-	float ___m_Radius;
-};
 struct Child_tCA0AD12FC56504F3D4A64E40855F54238020861E 
 {
 	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___Value;
@@ -6861,13 +6392,6 @@ struct ConstraintType_t81D7D3EC61F5EFB9A102047722DA4223BE4A9C3A
 {
 	uint8_t ___value__;
 };
-struct ContactJacobianAngular_t920ABCF4F09FF412D6012C8FE86DB479827B3F14 
-{
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___AngularA;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___AngularB;
-	float ___EffectiveMass;
-	float ___Impulse;
-};
 struct ContactPoint_t47F477F7B3EC7233E0B35F9CD2511780810E94C9 
 {
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Position;
@@ -6957,10 +6481,6 @@ struct DebugOccluderStats_t7B4C48EC856FCC7FDF2811DF6C222E53DD80AD93
 	int32_t ___subviewCount;
 	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___occluderMipLayoutSize;
 };
-struct DeformedEntity_t8F7AE546463F5A6834571235356695DFFD2685E3 
-{
-	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___Value;
-};
 struct Delegate_t  : public RuntimeObject
 {
 	intptr_t ___method_ptr;
@@ -7016,11 +6536,6 @@ struct DrawCommandStream_t0A2BEB33831D3F47F3A3E1CCA7359B89C0429D0A
 	int32_t ___m_PrevChunkStartIndex;
 	DrawCommandVisibility_t192861ABB8BE0514FBDCAB8FC83808D83178DEED* ___m_PrevVisibility;
 };
-struct DrawCommandVisibility_t192861ABB8BE0514FBDCAB8FC83808D83178DEED 
-{
-	int32_t ___ChunkStartIndex;
-	U3CVisibleInstancesU3Ee__FixedBuffer_tCBDA39B4019F6C80E2F01AFC740E1533AC06CBEB ___VisibleInstances;
-};
 struct DummySimulationData_tF08233F42595C527B5309E9066099D4D24B216A8 
 {
 	uint8_t ___dummyData;
@@ -7030,12 +6545,6 @@ struct DuplicateEntityGuid_tFBE3EBCFAFF9D1BEAC504030BFE1EB798EFCBA92
 {
 	EntityGuid_tAB9B163B73754C5D863D5E88B8E5A1D239433877 ___EntityGuid;
 	int32_t ___DuplicateCount;
-};
-struct DynamicBlobAssetBatch_tAF1A195EBA8DD36359A9439ED1BB2D99AD81F027 
-{
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_Allocator;
-	int32_t ___m_FramesToRetainBlobAssets;
-	UnsafeList_1_t5422E48C657109BA40866D6144D34066FFCACBB3* ___m_BlobAssets;
 };
 struct EntityBatchInChunk_t59B2C040B5ABCCDF8F5EF73EA18CA2650526CD1C 
 {
@@ -7052,23 +6561,6 @@ struct EntityPair_tAE77526BDCBE660424523FF7A443FD4B367BDC1D
 {
 	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___EntityB;
 	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___EntityA;
-};
-struct EntityQueryData_t20DB32E7BB3F8732C371E45E8A8CEBCE62B61C26 
-{
-	ComponentType_t0CB4E9723924AAC17CE8F38A0080018ED412DBDA* ___RequiredComponents;
-	int32_t ___RequiredComponentsCount;
-	alignas(IL2CPP_SIZEOF_VOID_P) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C* ___ReaderTypes;
-	int32_t ___ReaderTypesCount;
-	alignas(IL2CPP_SIZEOF_VOID_P) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C* ___WriterTypes;
-	int32_t ___WriterTypesCount;
-	alignas(IL2CPP_SIZEOF_VOID_P) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C* ___EnableableComponentTypeIndices;
-	int32_t ___EnableableComponentTypeIndexCount;
-	ArchetypeQuery_t45938EA78C5B9A37BBD17621D4A2DACAB98BFCEA* ___ArchetypeQueries;
-	int32_t ___ArchetypeQueryCount;
-	EntityQueryMask_tA3298547B0A6701B30F8E223B5346B40E68DDEEF ___EntityQueryMask;
-	UnsafeMatchingArchetypePtrList_t7BE58FA0D1C0757782B0CA05207B0E07690ED566 ___MatchingArchetypes;
-	UnsafeCachedChunkList_t48CE8479B1EEA20F34D6EB59806214668DB204A3 ___MatchingChunkCache;
-	uint8_t ___HasEnableableComponents;
 };
 struct EntityQueryOptions_t92CCDF8D6C6B7CA6FD47494CE90A2D496114F66D 
 {
@@ -7144,16 +6636,6 @@ struct ExtendedFeatureFlags_t736CECC24E1DDF78CDF8A2B134DFF9B1CA2BE01F
 struct ExternalEntityReference_tE59820343E2601A63B36BADC930E722D9238DC54 
 {
 	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___Entity;
-};
-struct Eyes_t239151DFDE1BB47589CEBD22261A793F142B211D 
-{
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_LeftEyePosition;
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_LeftEyeRotation;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_RightEyePosition;
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_RightEyeRotation;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_FixationPoint;
-	float ___m_LeftEyeOpenAmount;
-	float ___m_RightEyeOpenAmount;
 };
 struct FalloffType_tE9BECCB411DA63109760103AF7476F422A01376D 
 {
@@ -7425,115 +6907,6 @@ struct FixedBytes126_tC223222E11A3E93A15FE1C62C3429FC169DBC989
 			};
 		};
 		uint8_t FixedBytes126_tC223222E11A3E93A15FE1C62C3429FC169DBC989__padding[126];
-	};
-};
-#pragma pack(pop, tp)
-#pragma pack(push, tp, 1)
-struct FixedBytes128Align8_tF4DD5F2FA8A75B4C3DEB0C84EF71008D7ADC0C18 
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0000;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0000_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0016_OffsetPadding[16];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0016;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0016_OffsetPadding_forAlignmentOnly[16];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0016_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0032_OffsetPadding[32];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0032;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0032_OffsetPadding_forAlignmentOnly[32];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0032_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0048_OffsetPadding[48];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0048;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0048_OffsetPadding_forAlignmentOnly[48];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0048_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0064_OffsetPadding[64];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0064;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0064_OffsetPadding_forAlignmentOnly[64];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0064_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0080_OffsetPadding[80];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0080;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0080_OffsetPadding_forAlignmentOnly[80];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0080_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0096_OffsetPadding[96];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0096;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0096_OffsetPadding_forAlignmentOnly[96];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0096_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0112_OffsetPadding[112];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0112;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0112_OffsetPadding_forAlignmentOnly[112];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0112_forAlignmentOnly;
-				};
-			};
-		};
-		uint8_t FixedBytes128Align8_tF4DD5F2FA8A75B4C3DEB0C84EF71008D7ADC0C18__padding[128];
 	};
 };
 #pragma pack(pop, tp)
@@ -11009,3091 +10382,6 @@ struct FixedBytes4094_t8611441D8BDC6A677C2D9E551086F59EFBFCBBE5
 };
 #pragma pack(pop, tp)
 #pragma pack(push, tp, 1)
-struct FixedBytes4096Align8_t28724035D70132BAB64D2ED1978E6D5D7253B086 
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0000;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0000_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0016_OffsetPadding[16];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0016;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0016_OffsetPadding_forAlignmentOnly[16];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0016_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0032_OffsetPadding[32];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0032;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0032_OffsetPadding_forAlignmentOnly[32];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0032_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0048_OffsetPadding[48];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0048;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0048_OffsetPadding_forAlignmentOnly[48];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0048_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0064_OffsetPadding[64];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0064;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0064_OffsetPadding_forAlignmentOnly[64];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0064_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0080_OffsetPadding[80];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0080;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0080_OffsetPadding_forAlignmentOnly[80];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0080_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0096_OffsetPadding[96];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0096;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0096_OffsetPadding_forAlignmentOnly[96];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0096_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0112_OffsetPadding[112];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0112;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0112_OffsetPadding_forAlignmentOnly[112];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0112_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0128_OffsetPadding[128];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0128;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0128_OffsetPadding_forAlignmentOnly[128];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0128_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0144_OffsetPadding[144];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0144;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0144_OffsetPadding_forAlignmentOnly[144];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0144_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0160_OffsetPadding[160];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0160;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0160_OffsetPadding_forAlignmentOnly[160];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0160_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0176_OffsetPadding[176];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0176;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0176_OffsetPadding_forAlignmentOnly[176];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0176_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0192_OffsetPadding[192];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0192;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0192_OffsetPadding_forAlignmentOnly[192];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0192_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0208_OffsetPadding[208];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0208;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0208_OffsetPadding_forAlignmentOnly[208];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0208_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0224_OffsetPadding[224];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0224;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0224_OffsetPadding_forAlignmentOnly[224];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0224_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0240_OffsetPadding[240];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0240;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0240_OffsetPadding_forAlignmentOnly[240];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0240_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0256_OffsetPadding[256];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0256;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0256_OffsetPadding_forAlignmentOnly[256];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0256_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0272_OffsetPadding[272];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0272;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0272_OffsetPadding_forAlignmentOnly[272];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0272_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0288_OffsetPadding[288];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0288;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0288_OffsetPadding_forAlignmentOnly[288];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0288_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0304_OffsetPadding[304];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0304;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0304_OffsetPadding_forAlignmentOnly[304];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0304_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0320_OffsetPadding[320];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0320;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0320_OffsetPadding_forAlignmentOnly[320];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0320_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0336_OffsetPadding[336];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0336;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0336_OffsetPadding_forAlignmentOnly[336];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0336_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0352_OffsetPadding[352];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0352;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0352_OffsetPadding_forAlignmentOnly[352];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0352_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0368_OffsetPadding[368];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0368;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0368_OffsetPadding_forAlignmentOnly[368];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0368_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0384_OffsetPadding[384];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0384;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0384_OffsetPadding_forAlignmentOnly[384];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0384_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0400_OffsetPadding[400];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0400;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0400_OffsetPadding_forAlignmentOnly[400];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0400_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0416_OffsetPadding[416];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0416;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0416_OffsetPadding_forAlignmentOnly[416];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0416_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0432_OffsetPadding[432];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0432;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0432_OffsetPadding_forAlignmentOnly[432];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0432_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0448_OffsetPadding[448];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0448;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0448_OffsetPadding_forAlignmentOnly[448];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0448_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0464_OffsetPadding[464];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0464;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0464_OffsetPadding_forAlignmentOnly[464];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0464_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0480_OffsetPadding[480];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0480;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0480_OffsetPadding_forAlignmentOnly[480];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0480_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0496_OffsetPadding[496];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0496;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0496_OffsetPadding_forAlignmentOnly[496];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0496_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0512_OffsetPadding[512];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0512;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0512_OffsetPadding_forAlignmentOnly[512];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0512_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0528_OffsetPadding[528];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0528;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0528_OffsetPadding_forAlignmentOnly[528];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0528_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0544_OffsetPadding[544];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0544;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0544_OffsetPadding_forAlignmentOnly[544];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0544_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0560_OffsetPadding[560];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0560;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0560_OffsetPadding_forAlignmentOnly[560];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0560_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0576_OffsetPadding[576];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0576;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0576_OffsetPadding_forAlignmentOnly[576];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0576_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0592_OffsetPadding[592];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0592;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0592_OffsetPadding_forAlignmentOnly[592];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0592_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0608_OffsetPadding[608];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0608;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0608_OffsetPadding_forAlignmentOnly[608];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0608_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0624_OffsetPadding[624];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0624;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0624_OffsetPadding_forAlignmentOnly[624];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0624_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0640_OffsetPadding[640];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0640;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0640_OffsetPadding_forAlignmentOnly[640];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0640_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0656_OffsetPadding[656];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0656;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0656_OffsetPadding_forAlignmentOnly[656];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0656_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0672_OffsetPadding[672];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0672;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0672_OffsetPadding_forAlignmentOnly[672];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0672_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0688_OffsetPadding[688];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0688;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0688_OffsetPadding_forAlignmentOnly[688];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0688_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0704_OffsetPadding[704];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0704;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0704_OffsetPadding_forAlignmentOnly[704];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0704_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0720_OffsetPadding[720];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0720;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0720_OffsetPadding_forAlignmentOnly[720];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0720_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0736_OffsetPadding[736];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0736;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0736_OffsetPadding_forAlignmentOnly[736];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0736_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0752_OffsetPadding[752];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0752;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0752_OffsetPadding_forAlignmentOnly[752];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0752_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0768_OffsetPadding[768];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0768;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0768_OffsetPadding_forAlignmentOnly[768];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0768_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0784_OffsetPadding[784];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0784;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0784_OffsetPadding_forAlignmentOnly[784];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0784_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0800_OffsetPadding[800];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0800;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0800_OffsetPadding_forAlignmentOnly[800];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0800_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0816_OffsetPadding[816];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0816;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0816_OffsetPadding_forAlignmentOnly[816];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0816_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0832_OffsetPadding[832];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0832;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0832_OffsetPadding_forAlignmentOnly[832];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0832_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0848_OffsetPadding[848];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0848;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0848_OffsetPadding_forAlignmentOnly[848];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0848_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0864_OffsetPadding[864];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0864;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0864_OffsetPadding_forAlignmentOnly[864];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0864_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0880_OffsetPadding[880];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0880;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0880_OffsetPadding_forAlignmentOnly[880];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0880_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0896_OffsetPadding[896];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0896;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0896_OffsetPadding_forAlignmentOnly[896];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0896_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0912_OffsetPadding[912];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0912;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0912_OffsetPadding_forAlignmentOnly[912];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0912_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0928_OffsetPadding[928];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0928;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0928_OffsetPadding_forAlignmentOnly[928];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0928_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0944_OffsetPadding[944];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0944;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0944_OffsetPadding_forAlignmentOnly[944];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0944_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0960_OffsetPadding[960];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0960;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0960_OffsetPadding_forAlignmentOnly[960];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0960_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0976_OffsetPadding[976];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0976;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0976_OffsetPadding_forAlignmentOnly[976];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0976_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0992_OffsetPadding[992];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0992;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0992_OffsetPadding_forAlignmentOnly[992];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0992_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1008_OffsetPadding[1008];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1008;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1008_OffsetPadding_forAlignmentOnly[1008];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1008_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1024_OffsetPadding[1024];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1024;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1024_OffsetPadding_forAlignmentOnly[1024];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1024_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1040_OffsetPadding[1040];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1040;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1040_OffsetPadding_forAlignmentOnly[1040];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1040_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1056_OffsetPadding[1056];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1056;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1056_OffsetPadding_forAlignmentOnly[1056];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1056_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1072_OffsetPadding[1072];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1072;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1072_OffsetPadding_forAlignmentOnly[1072];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1072_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1088_OffsetPadding[1088];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1088;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1088_OffsetPadding_forAlignmentOnly[1088];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1088_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1104_OffsetPadding[1104];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1104;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1104_OffsetPadding_forAlignmentOnly[1104];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1104_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1120_OffsetPadding[1120];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1120;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1120_OffsetPadding_forAlignmentOnly[1120];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1120_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1136_OffsetPadding[1136];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1136;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1136_OffsetPadding_forAlignmentOnly[1136];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1136_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1152_OffsetPadding[1152];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1152;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1152_OffsetPadding_forAlignmentOnly[1152];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1152_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1168_OffsetPadding[1168];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1168;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1168_OffsetPadding_forAlignmentOnly[1168];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1168_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1184_OffsetPadding[1184];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1184;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1184_OffsetPadding_forAlignmentOnly[1184];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1184_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1200_OffsetPadding[1200];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1200;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1200_OffsetPadding_forAlignmentOnly[1200];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1200_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1216_OffsetPadding[1216];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1216;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1216_OffsetPadding_forAlignmentOnly[1216];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1216_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1232_OffsetPadding[1232];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1232;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1232_OffsetPadding_forAlignmentOnly[1232];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1232_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1248_OffsetPadding[1248];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1248;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1248_OffsetPadding_forAlignmentOnly[1248];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1248_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1264_OffsetPadding[1264];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1264;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1264_OffsetPadding_forAlignmentOnly[1264];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1264_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1280_OffsetPadding[1280];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1280;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1280_OffsetPadding_forAlignmentOnly[1280];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1280_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1296_OffsetPadding[1296];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1296;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1296_OffsetPadding_forAlignmentOnly[1296];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1296_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1312_OffsetPadding[1312];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1312;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1312_OffsetPadding_forAlignmentOnly[1312];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1312_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1328_OffsetPadding[1328];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1328;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1328_OffsetPadding_forAlignmentOnly[1328];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1328_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1344_OffsetPadding[1344];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1344;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1344_OffsetPadding_forAlignmentOnly[1344];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1344_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1360_OffsetPadding[1360];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1360;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1360_OffsetPadding_forAlignmentOnly[1360];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1360_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1376_OffsetPadding[1376];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1376;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1376_OffsetPadding_forAlignmentOnly[1376];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1376_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1392_OffsetPadding[1392];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1392;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1392_OffsetPadding_forAlignmentOnly[1392];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1392_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1408_OffsetPadding[1408];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1408;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1408_OffsetPadding_forAlignmentOnly[1408];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1408_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1424_OffsetPadding[1424];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1424;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1424_OffsetPadding_forAlignmentOnly[1424];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1424_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1440_OffsetPadding[1440];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1440;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1440_OffsetPadding_forAlignmentOnly[1440];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1440_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1456_OffsetPadding[1456];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1456;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1456_OffsetPadding_forAlignmentOnly[1456];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1456_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1472_OffsetPadding[1472];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1472;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1472_OffsetPadding_forAlignmentOnly[1472];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1472_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1488_OffsetPadding[1488];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1488;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1488_OffsetPadding_forAlignmentOnly[1488];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1488_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1504_OffsetPadding[1504];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1504;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1504_OffsetPadding_forAlignmentOnly[1504];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1504_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1520_OffsetPadding[1520];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1520;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1520_OffsetPadding_forAlignmentOnly[1520];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1520_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1536_OffsetPadding[1536];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1536;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1536_OffsetPadding_forAlignmentOnly[1536];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1536_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1552_OffsetPadding[1552];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1552;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1552_OffsetPadding_forAlignmentOnly[1552];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1552_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1568_OffsetPadding[1568];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1568;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1568_OffsetPadding_forAlignmentOnly[1568];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1568_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1584_OffsetPadding[1584];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1584;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1584_OffsetPadding_forAlignmentOnly[1584];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1584_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1600_OffsetPadding[1600];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1600;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1600_OffsetPadding_forAlignmentOnly[1600];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1600_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1616_OffsetPadding[1616];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1616;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1616_OffsetPadding_forAlignmentOnly[1616];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1616_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1632_OffsetPadding[1632];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1632;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1632_OffsetPadding_forAlignmentOnly[1632];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1632_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1648_OffsetPadding[1648];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1648;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1648_OffsetPadding_forAlignmentOnly[1648];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1648_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1664_OffsetPadding[1664];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1664;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1664_OffsetPadding_forAlignmentOnly[1664];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1664_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1680_OffsetPadding[1680];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1680;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1680_OffsetPadding_forAlignmentOnly[1680];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1680_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1696_OffsetPadding[1696];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1696;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1696_OffsetPadding_forAlignmentOnly[1696];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1696_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1712_OffsetPadding[1712];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1712;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1712_OffsetPadding_forAlignmentOnly[1712];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1712_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1728_OffsetPadding[1728];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1728;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1728_OffsetPadding_forAlignmentOnly[1728];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1728_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1744_OffsetPadding[1744];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1744;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1744_OffsetPadding_forAlignmentOnly[1744];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1744_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1760_OffsetPadding[1760];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1760;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1760_OffsetPadding_forAlignmentOnly[1760];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1760_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1776_OffsetPadding[1776];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1776;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1776_OffsetPadding_forAlignmentOnly[1776];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1776_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1792_OffsetPadding[1792];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1792;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1792_OffsetPadding_forAlignmentOnly[1792];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1792_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1808_OffsetPadding[1808];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1808;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1808_OffsetPadding_forAlignmentOnly[1808];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1808_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1824_OffsetPadding[1824];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1824;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1824_OffsetPadding_forAlignmentOnly[1824];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1824_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1840_OffsetPadding[1840];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1840;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1840_OffsetPadding_forAlignmentOnly[1840];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1840_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1856_OffsetPadding[1856];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1856;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1856_OffsetPadding_forAlignmentOnly[1856];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1856_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1872_OffsetPadding[1872];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1872;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1872_OffsetPadding_forAlignmentOnly[1872];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1872_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1888_OffsetPadding[1888];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1888;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1888_OffsetPadding_forAlignmentOnly[1888];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1888_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1904_OffsetPadding[1904];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1904;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1904_OffsetPadding_forAlignmentOnly[1904];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1904_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1920_OffsetPadding[1920];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1920;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1920_OffsetPadding_forAlignmentOnly[1920];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1920_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1936_OffsetPadding[1936];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1936;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1936_OffsetPadding_forAlignmentOnly[1936];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1936_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1952_OffsetPadding[1952];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1952;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1952_OffsetPadding_forAlignmentOnly[1952];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1952_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1968_OffsetPadding[1968];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1968;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1968_OffsetPadding_forAlignmentOnly[1968];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1968_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset1984_OffsetPadding[1984];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1984;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset1984_OffsetPadding_forAlignmentOnly[1984];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset1984_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2000_OffsetPadding[2000];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2000;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2000_OffsetPadding_forAlignmentOnly[2000];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2000_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2016_OffsetPadding[2016];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2016;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2016_OffsetPadding_forAlignmentOnly[2016];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2016_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2032_OffsetPadding[2032];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2032;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2032_OffsetPadding_forAlignmentOnly[2032];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2032_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2048_OffsetPadding[2048];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2048;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2048_OffsetPadding_forAlignmentOnly[2048];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2048_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2064_OffsetPadding[2064];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2064;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2064_OffsetPadding_forAlignmentOnly[2064];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2064_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2080_OffsetPadding[2080];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2080;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2080_OffsetPadding_forAlignmentOnly[2080];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2080_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2096_OffsetPadding[2096];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2096;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2096_OffsetPadding_forAlignmentOnly[2096];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2096_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2112_OffsetPadding[2112];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2112;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2112_OffsetPadding_forAlignmentOnly[2112];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2112_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2128_OffsetPadding[2128];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2128;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2128_OffsetPadding_forAlignmentOnly[2128];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2128_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2144_OffsetPadding[2144];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2144;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2144_OffsetPadding_forAlignmentOnly[2144];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2144_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2160_OffsetPadding[2160];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2160;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2160_OffsetPadding_forAlignmentOnly[2160];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2160_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2176_OffsetPadding[2176];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2176;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2176_OffsetPadding_forAlignmentOnly[2176];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2176_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2192_OffsetPadding[2192];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2192;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2192_OffsetPadding_forAlignmentOnly[2192];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2192_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2208_OffsetPadding[2208];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2208;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2208_OffsetPadding_forAlignmentOnly[2208];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2208_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2224_OffsetPadding[2224];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2224;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2224_OffsetPadding_forAlignmentOnly[2224];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2224_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2240_OffsetPadding[2240];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2240;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2240_OffsetPadding_forAlignmentOnly[2240];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2240_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2256_OffsetPadding[2256];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2256;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2256_OffsetPadding_forAlignmentOnly[2256];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2256_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2272_OffsetPadding[2272];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2272;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2272_OffsetPadding_forAlignmentOnly[2272];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2272_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2288_OffsetPadding[2288];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2288;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2288_OffsetPadding_forAlignmentOnly[2288];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2288_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2304_OffsetPadding[2304];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2304;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2304_OffsetPadding_forAlignmentOnly[2304];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2304_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2320_OffsetPadding[2320];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2320;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2320_OffsetPadding_forAlignmentOnly[2320];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2320_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2336_OffsetPadding[2336];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2336;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2336_OffsetPadding_forAlignmentOnly[2336];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2336_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2352_OffsetPadding[2352];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2352;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2352_OffsetPadding_forAlignmentOnly[2352];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2352_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2368_OffsetPadding[2368];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2368;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2368_OffsetPadding_forAlignmentOnly[2368];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2368_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2384_OffsetPadding[2384];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2384;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2384_OffsetPadding_forAlignmentOnly[2384];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2384_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2400_OffsetPadding[2400];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2400;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2400_OffsetPadding_forAlignmentOnly[2400];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2400_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2416_OffsetPadding[2416];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2416;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2416_OffsetPadding_forAlignmentOnly[2416];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2416_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2432_OffsetPadding[2432];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2432;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2432_OffsetPadding_forAlignmentOnly[2432];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2432_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2448_OffsetPadding[2448];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2448;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2448_OffsetPadding_forAlignmentOnly[2448];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2448_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2464_OffsetPadding[2464];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2464;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2464_OffsetPadding_forAlignmentOnly[2464];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2464_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2480_OffsetPadding[2480];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2480;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2480_OffsetPadding_forAlignmentOnly[2480];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2480_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2496_OffsetPadding[2496];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2496;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2496_OffsetPadding_forAlignmentOnly[2496];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2496_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2512_OffsetPadding[2512];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2512;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2512_OffsetPadding_forAlignmentOnly[2512];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2512_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2528_OffsetPadding[2528];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2528;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2528_OffsetPadding_forAlignmentOnly[2528];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2528_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2544_OffsetPadding[2544];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2544;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2544_OffsetPadding_forAlignmentOnly[2544];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2544_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2560_OffsetPadding[2560];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2560;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2560_OffsetPadding_forAlignmentOnly[2560];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2560_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2576_OffsetPadding[2576];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2576;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2576_OffsetPadding_forAlignmentOnly[2576];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2576_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2592_OffsetPadding[2592];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2592;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2592_OffsetPadding_forAlignmentOnly[2592];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2592_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2608_OffsetPadding[2608];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2608;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2608_OffsetPadding_forAlignmentOnly[2608];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2608_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2624_OffsetPadding[2624];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2624;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2624_OffsetPadding_forAlignmentOnly[2624];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2624_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2640_OffsetPadding[2640];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2640;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2640_OffsetPadding_forAlignmentOnly[2640];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2640_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2656_OffsetPadding[2656];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2656;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2656_OffsetPadding_forAlignmentOnly[2656];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2656_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2672_OffsetPadding[2672];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2672;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2672_OffsetPadding_forAlignmentOnly[2672];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2672_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2688_OffsetPadding[2688];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2688;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2688_OffsetPadding_forAlignmentOnly[2688];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2688_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2704_OffsetPadding[2704];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2704;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2704_OffsetPadding_forAlignmentOnly[2704];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2704_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2720_OffsetPadding[2720];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2720;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2720_OffsetPadding_forAlignmentOnly[2720];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2720_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2736_OffsetPadding[2736];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2736;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2736_OffsetPadding_forAlignmentOnly[2736];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2736_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2752_OffsetPadding[2752];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2752;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2752_OffsetPadding_forAlignmentOnly[2752];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2752_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2768_OffsetPadding[2768];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2768;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2768_OffsetPadding_forAlignmentOnly[2768];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2768_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2784_OffsetPadding[2784];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2784;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2784_OffsetPadding_forAlignmentOnly[2784];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2784_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2800_OffsetPadding[2800];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2800;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2800_OffsetPadding_forAlignmentOnly[2800];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2800_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2816_OffsetPadding[2816];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2816;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2816_OffsetPadding_forAlignmentOnly[2816];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2816_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2832_OffsetPadding[2832];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2832;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2832_OffsetPadding_forAlignmentOnly[2832];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2832_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2848_OffsetPadding[2848];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2848;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2848_OffsetPadding_forAlignmentOnly[2848];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2848_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2864_OffsetPadding[2864];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2864;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2864_OffsetPadding_forAlignmentOnly[2864];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2864_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2880_OffsetPadding[2880];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2880;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2880_OffsetPadding_forAlignmentOnly[2880];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2880_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2896_OffsetPadding[2896];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2896;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2896_OffsetPadding_forAlignmentOnly[2896];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2896_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2912_OffsetPadding[2912];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2912;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2912_OffsetPadding_forAlignmentOnly[2912];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2912_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2928_OffsetPadding[2928];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2928;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2928_OffsetPadding_forAlignmentOnly[2928];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2928_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2944_OffsetPadding[2944];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2944;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2944_OffsetPadding_forAlignmentOnly[2944];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2944_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2960_OffsetPadding[2960];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2960;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2960_OffsetPadding_forAlignmentOnly[2960];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2960_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2976_OffsetPadding[2976];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2976;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2976_OffsetPadding_forAlignmentOnly[2976];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2976_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset2992_OffsetPadding[2992];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2992;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset2992_OffsetPadding_forAlignmentOnly[2992];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset2992_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3008_OffsetPadding[3008];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3008;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3008_OffsetPadding_forAlignmentOnly[3008];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3008_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3024_OffsetPadding[3024];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3024;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3024_OffsetPadding_forAlignmentOnly[3024];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3024_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3040_OffsetPadding[3040];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3040;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3040_OffsetPadding_forAlignmentOnly[3040];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3040_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3056_OffsetPadding[3056];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3056;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3056_OffsetPadding_forAlignmentOnly[3056];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3056_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3072_OffsetPadding[3072];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3072;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3072_OffsetPadding_forAlignmentOnly[3072];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3072_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3088_OffsetPadding[3088];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3088;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3088_OffsetPadding_forAlignmentOnly[3088];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3088_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3104_OffsetPadding[3104];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3104;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3104_OffsetPadding_forAlignmentOnly[3104];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3104_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3120_OffsetPadding[3120];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3120;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3120_OffsetPadding_forAlignmentOnly[3120];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3120_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3136_OffsetPadding[3136];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3136;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3136_OffsetPadding_forAlignmentOnly[3136];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3136_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3152_OffsetPadding[3152];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3152;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3152_OffsetPadding_forAlignmentOnly[3152];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3152_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3168_OffsetPadding[3168];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3168;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3168_OffsetPadding_forAlignmentOnly[3168];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3168_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3184_OffsetPadding[3184];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3184;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3184_OffsetPadding_forAlignmentOnly[3184];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3184_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3200_OffsetPadding[3200];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3200;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3200_OffsetPadding_forAlignmentOnly[3200];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3200_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3216_OffsetPadding[3216];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3216;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3216_OffsetPadding_forAlignmentOnly[3216];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3216_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3232_OffsetPadding[3232];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3232;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3232_OffsetPadding_forAlignmentOnly[3232];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3232_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3248_OffsetPadding[3248];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3248;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3248_OffsetPadding_forAlignmentOnly[3248];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3248_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3264_OffsetPadding[3264];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3264;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3264_OffsetPadding_forAlignmentOnly[3264];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3264_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3280_OffsetPadding[3280];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3280;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3280_OffsetPadding_forAlignmentOnly[3280];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3280_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3296_OffsetPadding[3296];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3296;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3296_OffsetPadding_forAlignmentOnly[3296];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3296_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3312_OffsetPadding[3312];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3312;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3312_OffsetPadding_forAlignmentOnly[3312];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3312_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3328_OffsetPadding[3328];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3328;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3328_OffsetPadding_forAlignmentOnly[3328];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3328_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3344_OffsetPadding[3344];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3344;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3344_OffsetPadding_forAlignmentOnly[3344];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3344_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3360_OffsetPadding[3360];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3360;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3360_OffsetPadding_forAlignmentOnly[3360];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3360_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3376_OffsetPadding[3376];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3376;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3376_OffsetPadding_forAlignmentOnly[3376];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3376_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3392_OffsetPadding[3392];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3392;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3392_OffsetPadding_forAlignmentOnly[3392];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3392_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3408_OffsetPadding[3408];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3408;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3408_OffsetPadding_forAlignmentOnly[3408];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3408_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3424_OffsetPadding[3424];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3424;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3424_OffsetPadding_forAlignmentOnly[3424];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3424_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3440_OffsetPadding[3440];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3440;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3440_OffsetPadding_forAlignmentOnly[3440];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3440_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3456_OffsetPadding[3456];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3456;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3456_OffsetPadding_forAlignmentOnly[3456];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3456_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3472_OffsetPadding[3472];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3472;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3472_OffsetPadding_forAlignmentOnly[3472];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3472_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3488_OffsetPadding[3488];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3488;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3488_OffsetPadding_forAlignmentOnly[3488];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3488_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3504_OffsetPadding[3504];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3504;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3504_OffsetPadding_forAlignmentOnly[3504];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3504_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3520_OffsetPadding[3520];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3520;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3520_OffsetPadding_forAlignmentOnly[3520];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3520_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3536_OffsetPadding[3536];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3536;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3536_OffsetPadding_forAlignmentOnly[3536];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3536_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3552_OffsetPadding[3552];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3552;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3552_OffsetPadding_forAlignmentOnly[3552];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3552_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3568_OffsetPadding[3568];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3568;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3568_OffsetPadding_forAlignmentOnly[3568];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3568_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3584_OffsetPadding[3584];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3584;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3584_OffsetPadding_forAlignmentOnly[3584];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3584_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3600_OffsetPadding[3600];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3600;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3600_OffsetPadding_forAlignmentOnly[3600];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3600_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3616_OffsetPadding[3616];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3616;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3616_OffsetPadding_forAlignmentOnly[3616];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3616_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3632_OffsetPadding[3632];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3632;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3632_OffsetPadding_forAlignmentOnly[3632];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3632_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3648_OffsetPadding[3648];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3648;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3648_OffsetPadding_forAlignmentOnly[3648];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3648_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3664_OffsetPadding[3664];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3664;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3664_OffsetPadding_forAlignmentOnly[3664];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3664_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3680_OffsetPadding[3680];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3680;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3680_OffsetPadding_forAlignmentOnly[3680];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3680_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3696_OffsetPadding[3696];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3696;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3696_OffsetPadding_forAlignmentOnly[3696];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3696_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3712_OffsetPadding[3712];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3712;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3712_OffsetPadding_forAlignmentOnly[3712];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3712_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3728_OffsetPadding[3728];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3728;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3728_OffsetPadding_forAlignmentOnly[3728];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3728_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3744_OffsetPadding[3744];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3744;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3744_OffsetPadding_forAlignmentOnly[3744];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3744_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3760_OffsetPadding[3760];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3760;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3760_OffsetPadding_forAlignmentOnly[3760];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3760_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3776_OffsetPadding[3776];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3776;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3776_OffsetPadding_forAlignmentOnly[3776];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3776_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3792_OffsetPadding[3792];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3792;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3792_OffsetPadding_forAlignmentOnly[3792];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3792_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3808_OffsetPadding[3808];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3808;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3808_OffsetPadding_forAlignmentOnly[3808];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3808_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3824_OffsetPadding[3824];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3824;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3824_OffsetPadding_forAlignmentOnly[3824];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3824_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3840_OffsetPadding[3840];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3840;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3840_OffsetPadding_forAlignmentOnly[3840];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3840_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3856_OffsetPadding[3856];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3856;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3856_OffsetPadding_forAlignmentOnly[3856];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3856_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3872_OffsetPadding[3872];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3872;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3872_OffsetPadding_forAlignmentOnly[3872];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3872_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3888_OffsetPadding[3888];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3888;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3888_OffsetPadding_forAlignmentOnly[3888];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3888_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3904_OffsetPadding[3904];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3904;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3904_OffsetPadding_forAlignmentOnly[3904];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3904_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3920_OffsetPadding[3920];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3920;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3920_OffsetPadding_forAlignmentOnly[3920];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3920_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3936_OffsetPadding[3936];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3936;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3936_OffsetPadding_forAlignmentOnly[3936];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3936_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3952_OffsetPadding[3952];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3952;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3952_OffsetPadding_forAlignmentOnly[3952];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3952_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3968_OffsetPadding[3968];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3968;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3968_OffsetPadding_forAlignmentOnly[3968];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3968_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset3984_OffsetPadding[3984];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3984;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset3984_OffsetPadding_forAlignmentOnly[3984];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset3984_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset4000_OffsetPadding[4000];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset4000;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset4000_OffsetPadding_forAlignmentOnly[4000];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset4000_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset4016_OffsetPadding[4016];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset4016;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset4016_OffsetPadding_forAlignmentOnly[4016];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset4016_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset4032_OffsetPadding[4032];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset4032;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset4032_OffsetPadding_forAlignmentOnly[4032];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset4032_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset4048_OffsetPadding[4048];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset4048;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset4048_OffsetPadding_forAlignmentOnly[4048];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset4048_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset4064_OffsetPadding[4064];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset4064;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset4064_OffsetPadding_forAlignmentOnly[4064];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset4064_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset4080_OffsetPadding[4080];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset4080;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset4080_OffsetPadding_forAlignmentOnly[4080];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset4080_forAlignmentOnly;
-				};
-			};
-		};
-		uint8_t FixedBytes4096Align8_t28724035D70132BAB64D2ED1978E6D5D7253B086__padding[4096];
-	};
-};
-#pragma pack(pop, tp)
-#pragma pack(push, tp, 1)
 struct FixedBytes510_t95B284C3FF966246998B23701C3F0F55C6BD7973 
 {
 	union
@@ -14647,403 +10935,6 @@ struct FixedBytes510_t95B284C3FF966246998B23701C3F0F55C6BD7973
 };
 #pragma pack(pop, tp)
 #pragma pack(push, tp, 1)
-struct FixedBytes512Align8_tF679F1BEB42E790E58545972A29D0F31EE90386E 
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0000;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0000_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0016_OffsetPadding[16];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0016;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0016_OffsetPadding_forAlignmentOnly[16];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0016_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0032_OffsetPadding[32];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0032;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0032_OffsetPadding_forAlignmentOnly[32];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0032_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0048_OffsetPadding[48];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0048;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0048_OffsetPadding_forAlignmentOnly[48];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0048_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0064_OffsetPadding[64];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0064;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0064_OffsetPadding_forAlignmentOnly[64];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0064_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0080_OffsetPadding[80];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0080;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0080_OffsetPadding_forAlignmentOnly[80];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0080_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0096_OffsetPadding[96];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0096;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0096_OffsetPadding_forAlignmentOnly[96];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0096_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0112_OffsetPadding[112];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0112;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0112_OffsetPadding_forAlignmentOnly[112];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0112_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0128_OffsetPadding[128];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0128;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0128_OffsetPadding_forAlignmentOnly[128];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0128_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0144_OffsetPadding[144];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0144;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0144_OffsetPadding_forAlignmentOnly[144];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0144_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0160_OffsetPadding[160];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0160;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0160_OffsetPadding_forAlignmentOnly[160];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0160_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0176_OffsetPadding[176];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0176;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0176_OffsetPadding_forAlignmentOnly[176];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0176_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0192_OffsetPadding[192];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0192;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0192_OffsetPadding_forAlignmentOnly[192];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0192_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0208_OffsetPadding[208];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0208;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0208_OffsetPadding_forAlignmentOnly[208];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0208_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0224_OffsetPadding[224];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0224;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0224_OffsetPadding_forAlignmentOnly[224];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0224_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0240_OffsetPadding[240];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0240;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0240_OffsetPadding_forAlignmentOnly[240];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0240_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0256_OffsetPadding[256];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0256;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0256_OffsetPadding_forAlignmentOnly[256];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0256_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0272_OffsetPadding[272];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0272;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0272_OffsetPadding_forAlignmentOnly[272];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0272_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0288_OffsetPadding[288];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0288;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0288_OffsetPadding_forAlignmentOnly[288];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0288_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0304_OffsetPadding[304];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0304;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0304_OffsetPadding_forAlignmentOnly[304];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0304_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0320_OffsetPadding[320];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0320;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0320_OffsetPadding_forAlignmentOnly[320];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0320_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0336_OffsetPadding[336];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0336;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0336_OffsetPadding_forAlignmentOnly[336];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0336_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0352_OffsetPadding[352];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0352;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0352_OffsetPadding_forAlignmentOnly[352];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0352_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0368_OffsetPadding[368];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0368;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0368_OffsetPadding_forAlignmentOnly[368];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0368_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0384_OffsetPadding[384];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0384;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0384_OffsetPadding_forAlignmentOnly[384];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0384_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0400_OffsetPadding[400];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0400;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0400_OffsetPadding_forAlignmentOnly[400];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0400_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0416_OffsetPadding[416];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0416;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0416_OffsetPadding_forAlignmentOnly[416];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0416_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0432_OffsetPadding[432];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0432;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0432_OffsetPadding_forAlignmentOnly[432];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0432_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0448_OffsetPadding[448];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0448;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0448_OffsetPadding_forAlignmentOnly[448];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0448_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0464_OffsetPadding[464];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0464;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0464_OffsetPadding_forAlignmentOnly[464];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0464_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0480_OffsetPadding[480];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0480;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0480_OffsetPadding_forAlignmentOnly[480];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0480_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0496_OffsetPadding[496];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0496;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0496_OffsetPadding_forAlignmentOnly[496];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0496_forAlignmentOnly;
-				};
-			};
-		};
-		uint8_t FixedBytes512Align8_tF679F1BEB42E790E58545972A29D0F31EE90386E__padding[512];
-	};
-};
-#pragma pack(pop, tp)
-#pragma pack(push, tp, 1)
 struct FixedBytes62_t25CC23B7A3CF922DF0D1F0BFD5F801864D4FFD2A 
 {
 	union
@@ -15260,67 +11151,6 @@ struct FixedBytes62_t25CC23B7A3CF922DF0D1F0BFD5F801864D4FFD2A
 	};
 };
 #pragma pack(pop, tp)
-#pragma pack(push, tp, 1)
-struct FixedBytes64Align8_t84631A2A3E4A6CEF77C84D9B630BDF9720B945E1 
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0000;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0000_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0016_OffsetPadding[16];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0016;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0016_OffsetPadding_forAlignmentOnly[16];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0016_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0032_OffsetPadding[32];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0032;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0032_OffsetPadding_forAlignmentOnly[32];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0032_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___offset0048_OffsetPadding[48];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0048;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___offset0048_OffsetPadding_forAlignmentOnly[48];
-					FixedBytes16Align8_t94D49B0852778B92D3912ABC4979B11ADF6ECEE4 ___offset0048_forAlignmentOnly;
-				};
-			};
-		};
-		uint8_t FixedBytes64Align8_t84631A2A3E4A6CEF77C84D9B630BDF9720B945E1__padding[64];
-	};
-};
-#pragma pack(pop, tp)
 struct FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 
 {
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___Lx;
@@ -15351,16 +11181,6 @@ struct Handedness_tC87DA4E9D99745447BF40B631E8B479E32D8E37F
 struct Hash128_t2EA8F45F10BC2DF40B0CE9AE04F222072EB1345B 
 {
 	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___Value;
-};
-struct ImpulseEventSolverData_tC08156E590618804F0CC06D8829F8FCD7F789EF0 
-{
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___AccumulatedImpulse;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___MaxImpulse;
-	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___JointEntity;
-};
-struct InputTrackingState_tCBE220E8A09D62DA1C6BD96F76943FE90F15778D 
-{
-	uint32_t ___value__;
 };
 struct InstanceComponentGroup_tD2604C50227A821E92592963B831E9D9449D3FA4 
 {
@@ -15397,14 +11217,6 @@ struct InteractableSelectMode_tEEBF3D8EB75149E3417BDA4C0BC6A1C27BB25AC7
 struct InteractorHandedness_t235041BA6D69977D466533780BB6B3F6A69AE499 
 {
 	int32_t ___value__;
-};
-struct JacobianFlags_t85C608D42932C80FE6E086748C0B50CA5B53EA85 
-{
-	uint8_t ___value__;
-};
-struct JacobianType_t54BD81733A106494F4C8991BE4FE501B55B4E355 
-{
-	uint8_t ___value__;
 };
 struct JointType_t97855A15E93EBDC373294609D07A3DF1B78A1365 
 {
@@ -15488,46 +11300,6 @@ struct LanguageDirection_t30A3B6BBCEE6A6F57641E4E008E0DCC40603558C
 {
 	int32_t ___value__;
 };
-struct LayoutAlign_t0346F8DE31382DC434069A4196A07E59BABA1D8A 
-{
-	int32_t ___value__;
-};
-struct LayoutDirection_t497B5D8A2EDA4BB4E634A27164FFE3DE67250D32 
-{
-	int32_t ___value__;
-};
-struct LayoutDisplay_tA24DA9245066E6634F7D82DA1E6D12B3ACD08C50 
-{
-	int32_t ___value__;
-};
-struct LayoutFlexDirection_t3246E4A8D1C552BBFEB1AD5D677C4B1D95710756 
-{
-	int32_t ___value__;
-};
-struct LayoutJustify_tD94495C723C57C38901108035F0468A378DDAB07 
-{
-	int32_t ___value__;
-};
-struct LayoutMeasureMode_tF611505DD74982A0B40646994C952A094E98FB30 
-{
-	int32_t ___value__;
-};
-struct LayoutOverflow_t5D718990A0CA5CE235100545149F829DDAA54DDC 
-{
-	int32_t ___value__;
-};
-struct LayoutPositionType_tCC1B9C72281C6DE838F4E70A08EE777A87C2A0EE 
-{
-	int32_t ___value__;
-};
-struct LayoutUnit_tF18EC17FE8588A01C72784546410EA0D9B1D2F22 
-{
-	int32_t ___value__;
-};
-struct LayoutWrap_t1886074E218FE26A3050950BA062ADFC9DF75CCA 
-{
-	int32_t ___value__;
-};
 struct LightMode_t058E4E7AAE5689BCFF46BB8E0259D90D227E7FF9 
 {
 	uint8_t ___value__;
@@ -15556,28 +11328,6 @@ struct LinkedEntityGroupChange_t55954CE432F5A1206C8D0F998304A45ADEA1C842
 struct LoadReason_t6890871E119ACAB707211201A00DE631CA266CF9 
 {
 	int32_t ___value__;
-};
-struct Long64_t9C8641A91D7FEF90D4B55FDC6B5823A59670156D 
-{
-	Long8_t47945FFD68CACB5C8CE8E03AECE69B817A6A9659 ___f0;
-	Long8_t47945FFD68CACB5C8CE8E03AECE69B817A6A9659 ___f1;
-	Long8_t47945FFD68CACB5C8CE8E03AECE69B817A6A9659 ___f2;
-	Long8_t47945FFD68CACB5C8CE8E03AECE69B817A6A9659 ___f3;
-	Long8_t47945FFD68CACB5C8CE8E03AECE69B817A6A9659 ___f4;
-	Long8_t47945FFD68CACB5C8CE8E03AECE69B817A6A9659 ___f5;
-	Long8_t47945FFD68CACB5C8CE8E03AECE69B817A6A9659 ___f6;
-	Long8_t47945FFD68CACB5C8CE8E03AECE69B817A6A9659 ___f7;
-};
-struct MassFactors_t0248D89F213B5E7928CCE1D10556FF730AD9AF30 
-{
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___InverseInertiaFactorA;
-	float ___InverseMassFactorA;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___InverseInertiaFactorB;
-	float ___InverseMassFactorB;
-};
-struct MaterialColor_tAC698C84E888E79EC4A9B127035C1849DD3A53F0 
-{
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___Value;
 };
 struct MaterialMeshInfo_tA5DA20397A2C8CE93BBE1B1262E8B3448450117D 
 {
@@ -15642,91 +11392,6 @@ struct MotionVelocity_t5E53D688AE1A087361B8A2DE3B4D3FE91F5478AF
 	float ___AngularExpansionFactor;
 	float ___GravityFactor;
 };
-#pragma pack(push, tp, 1)
-struct MouseState_t0D9AD9D7629CA3F363E7C2AFD710A11D965408E1 
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___position;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___position_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___delta_OffsetPadding[8];
-					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___delta;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___delta_OffsetPadding_forAlignmentOnly[8];
-					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___delta_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___scroll_OffsetPadding[16];
-					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___scroll;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___scroll_OffsetPadding_forAlignmentOnly[16];
-					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___scroll_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___buttons_OffsetPadding[24];
-					uint16_t ___buttons;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___buttons_OffsetPadding_forAlignmentOnly[24];
-					uint16_t ___buttons_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___displayIndex_OffsetPadding[26];
-					uint16_t ___displayIndex;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___displayIndex_OffsetPadding_forAlignmentOnly[26];
-					uint16_t ___displayIndex_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___clickCount_OffsetPadding[28];
-					uint16_t ___clickCount;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___clickCount_OffsetPadding_forAlignmentOnly[28];
-					uint16_t ___clickCount_forAlignmentOnly;
-				};
-			};
-		};
-		uint8_t MouseState_t0D9AD9D7629CA3F363E7C2AFD710A11D965408E1__padding[30];
-	};
-};
-#pragma pack(pop, tp)
 struct NativeArrayOptions_t3E979EEF4B4840228A7692A97DA07553C6465F1D 
 {
 	int32_t ___value__;
@@ -15835,12 +11500,6 @@ struct PackedComponentDataChange_t666FA9A2140462F6E22E37A895A80019BB12DCC2
 	int32_t ___Size;
 	int32_t ___Enabled;
 };
-struct PackedMatrix_t465958AA7DEB970E30314C74EA59C06C4927A2DB 
-{
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___packed0;
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___packed1;
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___packed2;
-};
 struct PanelClearSettings_tA3D8EE9A4864781CE3E5FED5225C6FB37ED66EE7 
 {
 	bool ___clearDepthStencil;
@@ -15876,10 +11535,6 @@ struct PhysicsColliderKeyEntityPair_tAEF837B39E3949BB41536084707EE655C69D40FE
 	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___Key;
 	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___Entity;
 };
-struct PhysicsDebugDisplayMode_tB72F071B5737EA976CC54131EF783DCA4FA7B8FF 
-{
-	uint8_t ___value__;
-};
 struct PhysicsJointCompanion_t22502ED52DA1DDE59D85D11AB7EC77BB59FC02C9 
 {
 	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___JointEntity;
@@ -15914,18 +11569,10 @@ struct PlaneClassifications_t5DBCE4263A18266041ADF725865DC7247E750AC8
 {
 	uint32_t ___value__;
 };
-struct PlaybackPolicy_tDD40E624361B800D46A8F2AACB61FC7ADA97021A 
-{
-	int32_t ___value__;
-};
 struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position;
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation;
-};
-struct PrefabLoadResult_t81CAFC4F52A88EFB85401C3704EDFB2956B22E56 
-{
-	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___PrefabRoot;
 };
 struct PreviousParent_t4879AE063F14CAD6263F68FB5BCBFDC18889BEDD 
 {
@@ -15959,7 +11606,6 @@ struct QueryUIDocumentInteraction_t08D9090E3DBBFFB4531B19364422AEC7CD97EABD
 struct RadialSpawnerConfig_tDF7922862CC7BCCA25D9C7AC1DED01011D9875A4 
 {
 	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___Prefab;
-	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___BarPrefab;
 	int32_t ___EntityCount;
 	float ___Radius;
 	float ___HeightVariance;
@@ -16047,11 +11693,6 @@ struct ReadHandle_t71C4E3C6D2A80E1A200DA2C22346363F9A5EBEBB
 	intptr_t ___ptr;
 	int32_t ___version;
 };
-struct RemoteContentCatalogData_t32F84FD2CF243010159A9091363799DA1ED7C404 
-{
-	BlobArray_1_tFDDC8C3FF094064F3B6EBB625F076A18D201A8FB ___RemoteContentLocations;
-	BlobArray_1_tEBFFCB17FDAB7BC2FAB3197EF014FE274A7D17DC ___ContentSets;
-};
 struct RenderBufferLoadAction_t3333B2CABABAC39DA0CDC25602E5E4FD93C2CB0E 
 {
 	int32_t ___value__;
@@ -16076,22 +11717,9 @@ struct RenderStateMask_tC9C95BF62EADEE4D622D4E16CDE1DF94E2A9EF57
 {
 	int32_t ___value__;
 };
-struct RenderTextureCreationFlags_t1C01993691E5BA956575134696509089FE852F50 
-{
-	int32_t ___value__;
-};
-struct RenderTextureMemoryless_tE3B7F3AE353C3E9ACF86076376EB862131D19A69 
-{
-	int32_t ___value__;
-};
 struct ResolvedSectionEntity_tD18069CE6AD2FA61A39B747F346310DD10B77CEE 
 {
 	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___SectionEntity;
-};
-struct ResourceCatalogData_t553E280FAF0BE667673BC323E80FAFBE374C731D 
-{
-	BlobArray_1_tE69072DE52FA794148C653B8B6A136F79B24CC82 ___resources;
-	BlobArray_1_t0C3437A3826D6006FC8EA42BF949800877B2E2F8 ___paths;
 };
 struct RigidbodyInterpolation_tE2BE80352B0D72DB26B81EFD5A0845DEFEE994F8 
 {
@@ -16201,10 +11829,6 @@ struct ShadowCastingMode_tF30806698B37CF120A1A506BD7549EAF308E7C6D
 {
 	int32_t ___value__;
 };
-struct ShadowSamplingMode_t8BE740C4258CFEDDBAC01FDC0438D8EE3F776BA8 
-{
-	int32_t ___value__;
-};
 struct ShadowSplitData_tC276A96F461DD73CFF6D94DB557D42A1643640DF 
 {
 	int32_t ___m_CullingPlaneCount;
@@ -16213,10 +11837,6 @@ struct ShadowSplitData_tC276A96F461DD73CFF6D94DB557D42A1643640DF
 	float ___m_ShadowCascadeBlendCullingFactor;
 	float ___m_CullingNearPlane;
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___m_CullingMatrix;
-};
-struct ShapeType_tC84F5C47772CFB1310B8DDB05CDD49F93D554F74 
-{
-	int32_t ___value__;
 };
 struct SharedMeshData_tFF18A151F1BA3B6810B3002DF0C28C2C66D5E32C 
 {
@@ -16238,11 +11858,6 @@ struct SimulationScheduleStage_tE59981FD748976F311F7601907474D19AD2214FF
 struct SimulationType_t5D4DB314FE4A08E02C68386B11326A4F9F5DD5F9 
 {
 	int32_t ___value__;
-};
-struct SphereGeometry_tFBC2EC4FB7E15D47B148454221E294A529B396F1 
-{
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___m_Center;
-	float ___m_Radius;
 };
 struct StoreReason_tB71F110DFEED47ED8929B7874BE46BD4AFA9D5AC 
 {
@@ -16719,14 +12334,6 @@ struct UnmanagedComponentSystemDelegates_tB8457009CD4CC3E4A0CF63B17035080EF847DC
 	uint16_t ___PresentFunctionBits;
 	uint16_t ___BurstFunctionBits;
 };
-struct UnsafeAppendBuffer_t9EC160EA10485CD9DD96EDCBCEA06C7BCEF81500 
-{
-	uint8_t* ___Ptr;
-	int32_t ___Length;
-	int32_t ___Capacity;
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator;
-	int32_t ___Alignment;
-};
 struct UnsafeBitArray_t74DFECCCA980372B6F29B9AA508ACC77A3D6B8D4 
 {
 	uint64_t* ___Ptr;
@@ -16753,15 +12360,6 @@ struct UntypedUnsafeList_tB7A46F76589C71832F1147292E5123FB99E199B2
 	int32_t ___m_capacity;
 	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator;
 	int32_t ___padding;
-};
-struct UntypedUnsafeParallelHashMap_t926EFEEE26C4DE4FE2FA5A27FEA1D83CDD4B1B17 
-{
-	UnsafeParallelHashMapData_t43CAB3170FBB624A9CCB6F30C0EC1BB820D57926* ___m_Buffer;
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_AllocatorLabel;
-};
-struct VRTextureUsage_t57FAA0077810142A461D74EDC5E33FC3D78BD2E8 
-{
-	int32_t ___value__;
 };
 struct VariableKind_t875B5CA208F97FDC4152C1140C48EEA35135232C 
 {
@@ -19803,20 +15401,6 @@ struct Vertex_t6F376458B5297E17B1F2687BBD04BCC1D9E9BDDA
 	int32_t ___Cardinality;
 	uint32_t ___UserData;
 };
-struct ConvexHullData_tD514B404A88B1B5D81B97EEADCE8AF017FA31F35 
-{
-	union
-	{
-		struct
-		{
-			U3CFacePlanesU3Ee__FixedBuffer_tF482B0110173D0BA9F5611F5C2A9F304F9821B39 ___FacePlanes;
-			U3CVerticesU3Ee__FixedBuffer_t47BCE6FB3849EF05FF956BE47CDE83FF0BD4034D ___Vertices;
-			U3CFacesU3Ee__FixedBuffer_t89ADA47BDBA7CE9012AC45E6BC8112E616300BBF ___Faces;
-			U3CFaceVertexIndicesU3Ee__FixedBuffer_t76A5A8C0EF1C02529BA039C55CD1E39B51EDDD85 ___FaceVertexIndices;
-		};
-		uint8_t ConvexHullData_tD514B404A88B1B5D81B97EEADCE8AF017FA31F35__padding[1640];
-	};
-};
 struct Singleton_t64065E6CEC923A03666B8AB0360CC5BEBD4584C3 
 {
 	UnsafeList_1_t8E392E04AF97E464FE420D7262FCFF6748778FFD* ___pendingBuffers;
@@ -19923,17 +15507,6 @@ struct UnmanagedPackedComponentData_tCE58E7C48ECFF3A70A36EF91872FD8C223F413AA
 	int32_t ___offset;
 	PackedComponent_t1F420B0BE93FF9B240DF895BF74ED0354F10D1D6 ___packedComponent;
 };
-struct ChangedFilter_t55DB3F02469E53626DA400F9A19ABE3183B485EE 
-{
-	int32_t ___Count;
-	U3CIndexInEntityQueryU3Ee__FixedBuffer_t16145BD96786E58BD62F3D7542DA41E279C0E65A ___IndexInEntityQuery;
-};
-struct SharedComponentData_tCB3DB8493786CFDD25A66AE32E2C053EECE862C8 
-{
-	int32_t ___Count;
-	U3CIndexInEntityQueryU3Ee__FixedBuffer_tF74E8C082C63D1F5EC4A529909287F360012EDD9 ___IndexInEntityQuery;
-	U3CSharedComponentIndexU3Ee__FixedBuffer_t6678D7BCFF071F01975BEAE7FF8C6FA532C1FDA0 ___SharedComponentIndex;
-};
 struct EntityRemapInfo_tA64FEC7BEE0C8ABFC0CA4682E455222E284E913D 
 {
 	int32_t ___SourceVersion;
@@ -20007,10 +15580,6 @@ struct AnimatedFadeData_t965D6428A80522AB9EDFDF2671880282159C5E46
 {
 	EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___cameraID;
 	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___jobHandle;
-};
-struct FlexStatus_tBEE27C88EDAE5A3F57C0AAFC4D1A650610B2CF5C 
-{
-	int32_t ___value__;
 };
 struct Instance_tF624C99400E4460E8444063C16520E9CFFDD1B13 
 {
@@ -20150,10 +15719,6 @@ struct SplitInfo_tBD1436BC99CBBC9658FA9219EB22657F757C4A1A
 	float ___cascadeBlendCullingFactor;
 };
 struct LocationType_tEC1E0EF46230B348F0F9D56FEA56D0ED791C79D1 
-{
-	int32_t ___value__;
-};
-struct Type_t271559F1D31DAD38A530017C7D9C19E317604DD4 
 {
 	int32_t ___value__;
 };
@@ -20505,14 +16070,6 @@ struct UnityObjectRef_1_t5BDF835380C63AFB789CFFA34890241322BABB81
 {
 	UntypedUnityObjectRef_t86F1E1943CFA71521B795266B8952DE9E791381B ___Id;
 };
-struct UnityObjectRef_1_tC28FE4991D20446A4E547E25159629383DCBE0C1 
-{
-	UntypedUnityObjectRef_t86F1E1943CFA71521B795266B8952DE9E791381B ___Id;
-};
-struct UnsafeHashMap_2_t75DEE81BEB0EB8EA202518803A58C7689F256C88 
-{
-	HashMapHelper_1_tFE70D47D7D4D5A59CFA6D8E68852A7EE5BDB4854 ___m_Data;
-};
 struct UnsafeHashSet_1_t982205DCD82C95EDB86B40937DA9AC768D4723A8 
 {
 	HashMapHelper_1_tF4097677DF54F9B7101CE52DA301CACDF02D8AD9 ___m_Data;
@@ -20520,18 +16077,6 @@ struct UnsafeHashSet_1_t982205DCD82C95EDB86B40937DA9AC768D4723A8
 struct VolumeParameter_1_t77F022F5333E41A9053315BD571C993F8CC046F2  : public VolumeParameter_t95994C89644D2CC4C11F666571492420D16BED72
 {
 	int32_t ___m_Value;
-};
-struct AffineTransform_tF2E10122EC77A1C3629DC68EC6FD9834570CB015 
-{
-	float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___rs;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___t;
-};
-struct ArchetypeListMap_t9B5C7F814630CC95D11AE3A6D713646CDE4A33AD 
-{
-	UnsafeList_1_tA2B6A040C4F2656D88ABB4345257ADE8F2F30F35 ___hashes;
-	UnsafePtrList_1_t3BA56CBE50A217517D1FA78C345C0AF8242F8088 ___archetypes;
-	int32_t ___emptyNodes;
-	int32_t ___skipNodes;
 };
 struct BRGRenderMeshArray_t195C9BD91929A15832922FD9D195021199DB8FD9 
 {
@@ -20564,20 +16109,6 @@ struct BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE
 	intptr_t ___m_NativePtr;
 	uint32_t ___m_Classifications;
 	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___m_ParentId;
-};
-struct BoxGeometry_tA8E7B24C7DBC8F302C4C8C2AF52AC1AC02CF0CD6 
-{
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___m_Center;
-	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___m_Orientation;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___m_Size;
-	float ___m_BevelRadius;
-};
-struct BufferAllocatorHeap_t8B23AEAD3FF0104ED854068D0451346730DAC3AE 
-{
-	UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613 ___Buffers;
-	UnsafeBitArray_t74DFECCCA980372B6F29B9AA508ACC77A3D6B8D4 ___FreeList;
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Handle;
-	int32_t ___BufferSizeInBytes;
 };
 struct BuiltinMaterialPropertyUnity_MatrixPreviousM_t7BFFD7B8FBDED6225F4420CA00AC33BC83E94BFE 
 {
@@ -20615,18 +16146,6 @@ struct ComponentBakeTrigger_t5715FBD170C9CB8FBD7A2A96A58ECBF906166A7D
 	EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___ReasonId;
 	Hash128_t2EA8F45F10BC2DF40B0CE9AE04F222072EB1345B ___ReasonGuid;
 	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___BakingUnityTypeIndex;
-};
-struct ComponentDependencyManager_t88715270EBD172A299D4F6DB471143B7E0BCDB47 
-{
-	uint16_t* ___m_TypeArrayIndices;
-	DependencyHandle_t73038501598DF9B7E83BF8486D87B9DED6200B15* ___m_DependencyHandles;
-	uint16_t ___m_DependencyHandlesCount;
-	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08* ___m_ReadJobFences;
-	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___EntityTypeIndex;
-	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___m_ExclusiveTransactionDependency;
-	uint8_t ____IsInTransaction;
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___m_Marker;
-	WorldUnmanaged_t7B736084B2D4749A9CE36AD9A7F9D930DAA9F88F ___m_World;
 };
 struct ComponentType_t0CB4E9723924AAC17CE8F38A0080018ED412DBDA 
 {
@@ -20756,41 +16275,6 @@ struct Constraint_t2186B4DA3C0A8B41658D12AB2C5472EE026BFC68
 		};
 	};
 };
-struct ContactJacAngAndVelToReachCp_tB3A8C4E4C19170A691B9C4A20993F027A9495C95 
-{
-	ContactJacobianAngular_t920ABCF4F09FF412D6012C8FE86DB479827B3F14 ___Jac;
-	float ___VelToReachCp;
-	float ___ContactDistance;
-	bool ___ApplyImpulse;
-};
-struct ContactJacAngAndVelToReachCp_tB3A8C4E4C19170A691B9C4A20993F027A9495C95_marshaled_pinvoke
-{
-	ContactJacobianAngular_t920ABCF4F09FF412D6012C8FE86DB479827B3F14 ___Jac;
-	float ___VelToReachCp;
-	float ___ContactDistance;
-	int32_t ___ApplyImpulse;
-};
-struct ContactJacAngAndVelToReachCp_tB3A8C4E4C19170A691B9C4A20993F027A9495C95_marshaled_com
-{
-	ContactJacobianAngular_t920ABCF4F09FF412D6012C8FE86DB479827B3F14 ___Jac;
-	float ___VelToReachCp;
-	float ___ContactDistance;
-	int32_t ___ApplyImpulse;
-};
-struct ContactJacobian_t5C0300FF9DB31ECEC7ED382269CDFAE74A69E7D1 
-{
-	BaseContactJacobian_t8ACC7DC4EA70C8630505B0CEB22D00FAE7A1E47A ___BaseJacobian;
-	ContactJacobianAngular_t920ABCF4F09FF412D6012C8FE86DB479827B3F14 ___Friction0;
-	ContactJacobianAngular_t920ABCF4F09FF412D6012C8FE86DB479827B3F14 ___Friction1;
-	ContactJacobianAngular_t920ABCF4F09FF412D6012C8FE86DB479827B3F14 ___AngularFriction;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___FrictionEffectiveMassOffDiag;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___CenterA;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___CenterB;
-	float ___CoefficientOfFriction;
-	float ___CoefficientOfRestitution;
-	float ___SumImpulsesOverSubsteps;
-	float ___SumImpulsesOverSolverIterations;
-};
 struct ContactPairHeader_tA8C64AAEEF017149E77A6600B10A10F1A1C5648B 
 {
 	EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___m_BodyID;
@@ -20807,21 +16291,6 @@ struct ContentArchiveId_t597D4859829AE27318BBF350B3B7FBDCF8FC7030
 struct ContentFileId_t630F8A1A207C9248EE434BA833823A2D5C384FD7 
 {
 	Hash128_t2EA8F45F10BC2DF40B0CE9AE04F222072EB1345B ___Value;
-};
-struct CylinderGeometry_t0122B71BD573263DF7C324190E8D9CD00578879D 
-{
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___m_Center;
-	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___m_Orientation;
-	float ___m_Height;
-	float ___m_Radius;
-	float ___m_BevelRadius;
-	int32_t ___m_SideCount;
-};
-struct DoubleRewindableAllocators_t8D3615CDAAECEE59D64F85F9E0F46D07168A7069 
-{
-	RewindableAllocator_tB18F8ADC8F2EE36E1F51FCCCFF0AC093108EF254* ___Pointer;
-	AllocatorHelper_1_tE2F3FBC837659F89E544184EDA24A6DDB9FD35D0 ___UpdateAllocatorHelper0;
-	AllocatorHelper_1_tE2F3FBC837659F89E544184EDA24A6DDB9FD35D0 ___UpdateAllocatorHelper1;
 };
 struct DrawCommandSettings_t440C7C31DCA003CEF9C02C4F91854A1DCD486D4B 
 {
@@ -20849,61 +16318,6 @@ struct EntityCommandBuffer_tFFB6458BC7FB90A6CF406831009EA1F9FC0CD008
 	int32_t ___SystemID;
 	SystemHandle_t5A4D46B81DF95CD891D2102270B37E23AF992894 ___OriginSystemHandle;
 	int32_t ___PassedPrePlaybackValidation;
-};
-struct EntityCommandBufferData_t88C8EFD5BBEF42F8008AF73FA2C27B60E5A31DC2 
-{
-	EntityCommandBufferChain_tCC0FFFC083A93ADF15F28AAF7E69C8BB3D6F7CCB ___m_MainThreadChain;
-	EntityCommandBufferChain_tCC0FFFC083A93ADF15F28AAF7E69C8BB3D6F7CCB* ___m_ThreadedChains;
-	int32_t ___m_RecordedChainCount;
-	int32_t ___m_MinimumChunkSize;
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_Allocator;
-	int32_t ___m_PlaybackPolicy;
-	bool ___m_ShouldPlayback;
-	bool ___m_DidPlayback;
-	bool ___m_ForceFullDispose;
-	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_Entity;
-	int32_t ___m_BufferWithFixupsCount;
-	UnsafeAtomicCounter32_tB925055F9F609BFEE32CC1CB3AA04D0B75690B62 ___m_BufferWithFixups;
-	int32_t ___m_CommandBufferID;
-};
-struct EntityCommandBufferData_t88C8EFD5BBEF42F8008AF73FA2C27B60E5A31DC2_marshaled_pinvoke
-{
-	EntityCommandBufferChain_tCC0FFFC083A93ADF15F28AAF7E69C8BB3D6F7CCB_marshaled_pinvoke ___m_MainThreadChain;
-	EntityCommandBufferChain_tCC0FFFC083A93ADF15F28AAF7E69C8BB3D6F7CCB* ___m_ThreadedChains;
-	int32_t ___m_RecordedChainCount;
-	int32_t ___m_MinimumChunkSize;
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_Allocator;
-	int32_t ___m_PlaybackPolicy;
-	int32_t ___m_ShouldPlayback;
-	int32_t ___m_DidPlayback;
-	int32_t ___m_ForceFullDispose;
-	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_Entity;
-	int32_t ___m_BufferWithFixupsCount;
-	UnsafeAtomicCounter32_tB925055F9F609BFEE32CC1CB3AA04D0B75690B62 ___m_BufferWithFixups;
-	int32_t ___m_CommandBufferID;
-};
-struct EntityCommandBufferData_t88C8EFD5BBEF42F8008AF73FA2C27B60E5A31DC2_marshaled_com
-{
-	EntityCommandBufferChain_tCC0FFFC083A93ADF15F28AAF7E69C8BB3D6F7CCB_marshaled_com ___m_MainThreadChain;
-	EntityCommandBufferChain_tCC0FFFC083A93ADF15F28AAF7E69C8BB3D6F7CCB* ___m_ThreadedChains;
-	int32_t ___m_RecordedChainCount;
-	int32_t ___m_MinimumChunkSize;
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_Allocator;
-	int32_t ___m_PlaybackPolicy;
-	int32_t ___m_ShouldPlayback;
-	int32_t ___m_DidPlayback;
-	int32_t ___m_ForceFullDispose;
-	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_Entity;
-	int32_t ___m_BufferWithFixupsCount;
-	UnsafeAtomicCounter32_tB925055F9F609BFEE32CC1CB3AA04D0B75690B62 ___m_BufferWithFixups;
-	int32_t ___m_CommandBufferID;
-};
-struct EntityQueryFilter_t4A9651CB7DA59AFE8AAF946C19EC6B0D1ACA2F8B 
-{
-	uint32_t ___RequiredChangeVersion;
-	SharedComponentData_tCB3DB8493786CFDD25A66AE32E2C053EECE862C8 ___Shared;
-	ChangedFilter_t55DB3F02469E53626DA400F9A19ABE3183B485EE ___Changed;
-	uint32_t ____UseOrderFiltering;
 };
 struct FilteredArchetype_t01C3AC08A05A3462BEB416576B2850730C7D36A5 
 {
@@ -21024,13 +16438,6 @@ struct HashableShapeInputs_tA7B60F06514BFDD6A49C70D77AB4BDAC0C68300C
 	int32_t ___BlendShapeWeightsStartIndex;
 	int32_t ___BlendShapeWeightsCount;
 };
-struct ImpulseEventData_tCD6236CABCDACEE584FE5F1D0248098EAFBA2A8C 
-{
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Impulse;
-	BodyIndexPair_tB942BA0456ED6DD5ADD47CDDE354395DCCDB0F19 ___BodyIndices;
-	uint8_t ___Type;
-	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___JointEntity;
-};
 struct IndirectBufferContext_tC867F1E4C07484F15773E7A382CCB107C57AC805 
 {
 	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___cullingJobHandle;
@@ -21060,12 +16467,6 @@ struct InstanceOcclusionEventStats_t39015A29B5AE8D08BF95679C8A25869BD8715AAD
 	int32_t ___culledInstances;
 	int32_t ___visiblePrimitives;
 	int32_t ___culledPrimitives;
-};
-struct JacobianHeader_t12F9556093EF60E1AB50BA6DAF6405027C58239C 
-{
-	BodyIndexPair_tB942BA0456ED6DD5ADD47CDDE354395DCCDB0F19 ___U3CBodyPairU3Ek__BackingField;
-	uint8_t ___U3CTypeU3Ek__BackingField;
-	uint8_t ___U3CFlagsU3Ek__BackingField;
 };
 struct JsonTokenStream_t0F6559EBFC94AA0F90F9B2E940B5800387154736 
 {
@@ -21098,71 +16499,6 @@ struct JsonValidator_t13BBEE159DD0E6EE452F3697ED0B970E9E9CC2A7
 	int32_t ___m_ValidationType;
 	int32_t ___m_Label;
 	UnsafeJsonValidator_tD33AB82BC9093D6F2C319A6E5B8ACEBEC61229BA* ___m_Data;
-};
-struct LayoutCachedMeasurement_tAEC7D318B47741D367D20EE2065A358062325CF0 
-{
-	float ___AvailableWidth;
-	float ___AvailableHeight;
-	float ___ParentWidth;
-	float ___ParentHeight;
-	int32_t ___WidthMeasureMode;
-	int32_t ___HeightMeasureMode;
-	float ___ComputedWidth;
-	float ___ComputedHeight;
-	void* ___m_NextMeasurementCachePtr;
-};
-struct LayoutComputedData_t37CD62B9A6B59283679F1126AD9C4BB9FD15B9C1 
-{
-	U3CPositionU3Ee__FixedBuffer_t6F7472507E4B67C5CA936393DFFBA95309592810 ___Position;
-	U3CDimensionsU3Ee__FixedBuffer_tD2708ED4F2A6D227404834E91D6359AB4B954457 ___Dimensions;
-	U3CMarginU3Ee__FixedBuffer_tF5EF7606FDD9ACD4DDF18DC564195092A6A540FE ___Margin;
-	U3CBorderU3Ee__FixedBuffer_t5A18296AB7D0BFC3131BDDE01656A53889147B34 ___Border;
-	U3CPaddingU3Ee__FixedBuffer_tE057FF067DA31EB3EC92DD01973C24BDC7E9E9F3 ___Padding;
-	int32_t ___Direction;
-	uint32_t ___ComputedFlexBasisGeneration;
-	float ___ComputedFlexBasis;
-	bool ___HadOverflow;
-	uint32_t ___GenerationCount;
-	int32_t ___LastParentDirection;
-	float ___LastPointScaleFactor;
-	U3CMeasuredDimensionsU3Ee__FixedBuffer_t3BF016D1583A3A9EABAD62B35368C369C06DCD87 ___MeasuredDimensions;
-};
-struct LayoutComputedData_t37CD62B9A6B59283679F1126AD9C4BB9FD15B9C1_marshaled_pinvoke
-{
-	U3CPositionU3Ee__FixedBuffer_t6F7472507E4B67C5CA936393DFFBA95309592810 ___Position;
-	U3CDimensionsU3Ee__FixedBuffer_tD2708ED4F2A6D227404834E91D6359AB4B954457 ___Dimensions;
-	U3CMarginU3Ee__FixedBuffer_tF5EF7606FDD9ACD4DDF18DC564195092A6A540FE ___Margin;
-	U3CBorderU3Ee__FixedBuffer_t5A18296AB7D0BFC3131BDDE01656A53889147B34 ___Border;
-	U3CPaddingU3Ee__FixedBuffer_tE057FF067DA31EB3EC92DD01973C24BDC7E9E9F3 ___Padding;
-	int32_t ___Direction;
-	uint32_t ___ComputedFlexBasisGeneration;
-	float ___ComputedFlexBasis;
-	int32_t ___HadOverflow;
-	uint32_t ___GenerationCount;
-	int32_t ___LastParentDirection;
-	float ___LastPointScaleFactor;
-	U3CMeasuredDimensionsU3Ee__FixedBuffer_t3BF016D1583A3A9EABAD62B35368C369C06DCD87 ___MeasuredDimensions;
-};
-struct LayoutComputedData_t37CD62B9A6B59283679F1126AD9C4BB9FD15B9C1_marshaled_com
-{
-	U3CPositionU3Ee__FixedBuffer_t6F7472507E4B67C5CA936393DFFBA95309592810 ___Position;
-	U3CDimensionsU3Ee__FixedBuffer_tD2708ED4F2A6D227404834E91D6359AB4B954457 ___Dimensions;
-	U3CMarginU3Ee__FixedBuffer_tF5EF7606FDD9ACD4DDF18DC564195092A6A540FE ___Margin;
-	U3CBorderU3Ee__FixedBuffer_t5A18296AB7D0BFC3131BDDE01656A53889147B34 ___Border;
-	U3CPaddingU3Ee__FixedBuffer_tE057FF067DA31EB3EC92DD01973C24BDC7E9E9F3 ___Padding;
-	int32_t ___Direction;
-	uint32_t ___ComputedFlexBasisGeneration;
-	float ___ComputedFlexBasis;
-	int32_t ___HadOverflow;
-	uint32_t ___GenerationCount;
-	int32_t ___LastParentDirection;
-	float ___LastPointScaleFactor;
-	U3CMeasuredDimensionsU3Ee__FixedBuffer_t3BF016D1583A3A9EABAD62B35368C369C06DCD87 ___MeasuredDimensions;
-};
-struct LayoutValue_tC125DF54D121EC0C205D12BAEB3B88E06CDCBF30 
-{
-	float ___value;
-	int32_t ___unit;
 };
 struct LightDataGI_t47D2197E863C0DDA40C2182FBF0A21367E468E21 
 {
@@ -21203,22 +16539,6 @@ struct LocalTransform_t8D1FEB4386DEE0D22FA43322268BF76E9FF687BD
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Position;
 	float ___Scale;
 	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___Rotation;
-};
-struct Long512_t2D339FF6672EB3709A6C638EABA7D13C7FEC1878 
-{
-	Long64_t9C8641A91D7FEF90D4B55FDC6B5823A59670156D ___f0;
-	Long64_t9C8641A91D7FEF90D4B55FDC6B5823A59670156D ___f1;
-	Long64_t9C8641A91D7FEF90D4B55FDC6B5823A59670156D ___f2;
-	Long64_t9C8641A91D7FEF90D4B55FDC6B5823A59670156D ___f3;
-	Long64_t9C8641A91D7FEF90D4B55FDC6B5823A59670156D ___f4;
-	Long64_t9C8641A91D7FEF90D4B55FDC6B5823A59670156D ___f5;
-	Long64_t9C8641A91D7FEF90D4B55FDC6B5823A59670156D ___f6;
-	Long64_t9C8641A91D7FEF90D4B55FDC6B5823A59670156D ___f7;
-};
-struct ManagedDeferredCommands_t3585F563AFB19DC3B6EB9250562B62FC78A0E9A1 
-{
-	EntityComponentStore_tA85E100ECD667365B260A68DFD9DF9B7C04D037F* ___ECS;
-	UnsafeAppendBuffer_t9EC160EA10485CD9DD96EDCBCEA06C7BCEF81500 ___CommandBuffer;
 };
 struct Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 
 {
@@ -21536,377 +16856,15 @@ struct PhysicsConstrainedBodyPair_t11C5D7FDF2C7D1E0AC01DD9AA0E95492E8C14728
 	EntityPair_tAE77526BDCBE660424523FF7A443FD4B367BDC1D ___Entities;
 	int32_t ___EnableCollision;
 };
-struct PhysicsDebugDisplayData_tB85CD780ED4CFDB34C1236A3A166BD794C04ECCF 
-{
-	int32_t ___DrawColliders;
-	int32_t ___DrawColliderEdges;
-	int32_t ___DrawColliderAabbs;
-	int32_t ___DrawBroadphase;
-	int32_t ___DrawMassProperties;
-	int32_t ___DrawContacts;
-	int32_t ___DrawCollisionEvents;
-	int32_t ___DrawTriggerEvents;
-	int32_t ___DrawJoints;
-	uint8_t ___ColliderDisplayMode;
-	uint8_t ___ColliderEdgesDisplayMode;
-	uint8_t ___ColliderAabbDisplayMode;
-};
 struct PhysicsGraphicalSmoothing_t9C3A887741C265D0E64E04E05F9FB8DA8B2716A4 
 {
 	PhysicsVelocity_tD8FD9AE4143DA8547016CDB52234BDF420F14DD2 ___CurrentVelocity;
 	uint8_t ___ApplySmoothing;
 };
-struct PhysicsStep_t1A9891223D301E27BE8110B5671CE63724FDA0F2 
-{
-	int32_t ___SimulationType;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Gravity;
-	int32_t ___SubstepCount;
-	int32_t ___SolverIterationCount;
-	StabilizationHeuristicSettings_t22C69FB82336128A508556521FA2DE0C1A95A8C2 ___SolverStabilizationHeuristicSettings;
-	uint8_t ___MultiThreaded;
-	float ___CollisionTolerance;
-	uint8_t ___SynchronizeCollisionWorld;
-	bool ___IncrementalDynamicBroadphase;
-	bool ___IncrementalStaticBroadphase;
-	float ___MaxDynamicDepenetrationVelocity;
-	float ___MaxStaticDepenetrationVelocity;
-};
-struct PhysicsStep_t1A9891223D301E27BE8110B5671CE63724FDA0F2_marshaled_pinvoke
-{
-	int32_t ___SimulationType;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Gravity;
-	int32_t ___SubstepCount;
-	int32_t ___SolverIterationCount;
-	StabilizationHeuristicSettings_t22C69FB82336128A508556521FA2DE0C1A95A8C2 ___SolverStabilizationHeuristicSettings;
-	uint8_t ___MultiThreaded;
-	float ___CollisionTolerance;
-	uint8_t ___SynchronizeCollisionWorld;
-	int32_t ___IncrementalDynamicBroadphase;
-	int32_t ___IncrementalStaticBroadphase;
-	float ___MaxDynamicDepenetrationVelocity;
-	float ___MaxStaticDepenetrationVelocity;
-};
-struct PhysicsStep_t1A9891223D301E27BE8110B5671CE63724FDA0F2_marshaled_com
-{
-	int32_t ___SimulationType;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Gravity;
-	int32_t ___SubstepCount;
-	int32_t ___SolverIterationCount;
-	StabilizationHeuristicSettings_t22C69FB82336128A508556521FA2DE0C1A95A8C2 ___SolverStabilizationHeuristicSettings;
-	uint8_t ___MultiThreaded;
-	float ___CollisionTolerance;
-	uint8_t ___SynchronizeCollisionWorld;
-	int32_t ___IncrementalDynamicBroadphase;
-	int32_t ___IncrementalStaticBroadphase;
-	float ___MaxDynamicDepenetrationVelocity;
-	float ___MaxStaticDepenetrationVelocity;
-};
 struct PhysicsTransform_tC034E6903DE863628D032D2452AD049859CE9F6F 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___position;
 	PhysicsRotate_tC2E9C9A6A76056D2DA0765D0FF6D3A4AA3EE0A0F ___rotation;
-};
-struct Pose_t3BF6349DC18B6BAF6A192896C06390F3A907CF10 
-{
-	bool ___U3CisTrackedU3Ek__BackingField;
-	uint32_t ___U3CtrackingStateU3Ek__BackingField;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CpositionU3Ek__BackingField;
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___U3CrotationU3Ek__BackingField;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CvelocityU3Ek__BackingField;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CangularVelocityU3Ek__BackingField;
-};
-struct Pose_t3BF6349DC18B6BAF6A192896C06390F3A907CF10_marshaled_pinvoke
-{
-	int32_t ___U3CisTrackedU3Ek__BackingField;
-	uint32_t ___U3CtrackingStateU3Ek__BackingField;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CpositionU3Ek__BackingField;
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___U3CrotationU3Ek__BackingField;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CvelocityU3Ek__BackingField;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CangularVelocityU3Ek__BackingField;
-};
-struct Pose_t3BF6349DC18B6BAF6A192896C06390F3A907CF10_marshaled_com
-{
-	int32_t ___U3CisTrackedU3Ek__BackingField;
-	uint32_t ___U3CtrackingStateU3Ek__BackingField;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CpositionU3Ek__BackingField;
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___U3CrotationU3Ek__BackingField;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CvelocityU3Ek__BackingField;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CangularVelocityU3Ek__BackingField;
-};
-#pragma pack(push, tp, 1)
-struct PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2 
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					bool ___isTracked;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					bool ___isTracked_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___trackingState_OffsetPadding[4];
-					uint32_t ___trackingState;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___trackingState_OffsetPadding_forAlignmentOnly[4];
-					uint32_t ___trackingState_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___position_OffsetPadding[8];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___position_OffsetPadding_forAlignmentOnly[8];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___rotation_OffsetPadding[20];
-					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___rotation_OffsetPadding_forAlignmentOnly[20];
-					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___velocity_OffsetPadding[36];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___velocity_OffsetPadding_forAlignmentOnly[36];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_forAlignmentOnly;
-				};
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___angularVelocity_OffsetPadding[48];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					char ___angularVelocity_OffsetPadding_forAlignmentOnly[48];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_forAlignmentOnly;
-				};
-			};
-		};
-		uint8_t PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2__padding[60];
-	};
-};
-#pragma pack(pop, tp)
-struct PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2_marshaled_pinvoke
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					int32_t ___isTracked;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					int32_t ___isTracked_forAlignmentOnly;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___trackingState_OffsetPadding[4];
-					uint32_t ___trackingState;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___trackingState_OffsetPadding_forAlignmentOnly[4];
-					uint32_t ___trackingState_forAlignmentOnly;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___position_OffsetPadding[8];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___position_OffsetPadding_forAlignmentOnly[8];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_forAlignmentOnly;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___rotation_OffsetPadding[20];
-					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___rotation_OffsetPadding_forAlignmentOnly[20];
-					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_forAlignmentOnly;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___velocity_OffsetPadding[36];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___velocity_OffsetPadding_forAlignmentOnly[36];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_forAlignmentOnly;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___angularVelocity_OffsetPadding[48];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___angularVelocity_OffsetPadding_forAlignmentOnly[48];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_forAlignmentOnly;
-				};
-				#pragma pack(pop, tp)
-			};
-		};
-		uint8_t PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2__padding[60];
-	};
-};
-struct PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2_marshaled_com
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					int32_t ___isTracked;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					int32_t ___isTracked_forAlignmentOnly;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___trackingState_OffsetPadding[4];
-					uint32_t ___trackingState;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___trackingState_OffsetPadding_forAlignmentOnly[4];
-					uint32_t ___trackingState_forAlignmentOnly;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___position_OffsetPadding[8];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___position_OffsetPadding_forAlignmentOnly[8];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_forAlignmentOnly;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___rotation_OffsetPadding[20];
-					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___rotation_OffsetPadding_forAlignmentOnly[20];
-					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_forAlignmentOnly;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___velocity_OffsetPadding[36];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___velocity_OffsetPadding_forAlignmentOnly[36];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_forAlignmentOnly;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___angularVelocity_OffsetPadding[48];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___angularVelocity_OffsetPadding_forAlignmentOnly[48];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_forAlignmentOnly;
-				};
-				#pragma pack(pop, tp)
-			};
-		};
-		uint8_t PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2__padding[60];
-	};
 };
 struct PostTransformMatrix_t4E6015656BF644B8026BEF23B38DC1DAE7C8A78D 
 {
@@ -21983,33 +16941,6 @@ struct RenderBounds_tE83D2C345D9E9FBEA1E680C79E47CCF6A46AFA0A
 {
 	AABB_t54A6237E1BDC0F6978DE1AF7D387C4EE19A7F56A ___Value;
 };
-struct RenderFilterSettings_tE8053BFE10C3626CC40390F392F131A4E3B7590C 
-{
-	int32_t ___Layer;
-	uint32_t ___RenderingLayerMask;
-	int32_t ___MotionMode;
-	int32_t ___ShadowCastingMode;
-	bool ___ReceiveShadows;
-	bool ___StaticShadowCaster;
-};
-struct RenderFilterSettings_tE8053BFE10C3626CC40390F392F131A4E3B7590C_marshaled_pinvoke
-{
-	int32_t ___Layer;
-	uint32_t ___RenderingLayerMask;
-	int32_t ___MotionMode;
-	int32_t ___ShadowCastingMode;
-	int32_t ___ReceiveShadows;
-	int32_t ___StaticShadowCaster;
-};
-struct RenderFilterSettings_tE8053BFE10C3626CC40390F392F131A4E3B7590C_marshaled_com
-{
-	int32_t ___Layer;
-	uint32_t ___RenderingLayerMask;
-	int32_t ___MotionMode;
-	int32_t ___ShadowCastingMode;
-	int32_t ___ReceiveShadows;
-	int32_t ___StaticShadowCaster;
-};
 struct RenderTargetIdentifier_tA528663AC6EB3911D8E91AA40F7070FA5455442B 
 {
 	int32_t ___m_Type;
@@ -22019,22 +16950,6 @@ struct RenderTargetIdentifier_tA528663AC6EB3911D8E91AA40F7070FA5455442B
 	int32_t ___m_MipLevel;
 	int32_t ___m_CubeFace;
 	int32_t ___m_DepthSlice;
-};
-struct RenderTextureDescriptor_t69845881CE6437E4E61F92074F2F84079F23FA46 
-{
-	int32_t ___U3CwidthU3Ek__BackingField;
-	int32_t ___U3CheightU3Ek__BackingField;
-	int32_t ___U3CmsaaSamplesU3Ek__BackingField;
-	int32_t ___U3CvolumeDepthU3Ek__BackingField;
-	int32_t ___U3CmipCountU3Ek__BackingField;
-	int32_t ____graphicsFormat;
-	int32_t ___U3CstencilFormatU3Ek__BackingField;
-	int32_t ___U3CdepthStencilFormatU3Ek__BackingField;
-	int32_t ___U3CdimensionU3Ek__BackingField;
-	int32_t ___U3CshadowSamplingModeU3Ek__BackingField;
-	int32_t ___U3CvrUsageU3Ek__BackingField;
-	int32_t ____flags;
-	int32_t ___U3CmemorylessU3Ek__BackingField;
 };
 struct RequestSceneLoaded_t84D63EB24CFB758BF46A3B4DDB00140B84E2F9B4 
 {
@@ -22049,11 +16964,6 @@ struct ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C
 	uint32_t ___m_Value;
 	int32_t ___m_Version;
 	int32_t ___m_Type;
-};
-struct ResourceMetaData_t33D9E99B0AF1E2471B52ADD29434DEC2F0C92524 
-{
-	Hash128_t2EA8F45F10BC2DF40B0CE9AE04F222072EB1345B ___ResourceId;
-	int32_t ___ResourceType;
 };
 struct ResourceUnversionedData_t3F4B539E7806E513C53A94EAABF5F969AAA384CC 
 {
@@ -22114,16 +17024,6 @@ struct ResourceUnversionedData_t3F4B539E7806E513C53A94EAABF5F969AAA384CC_marshal
 	int32_t ___discard;
 	int32_t ___bindMS;
 	int32_t ___textureUVOrigin;
-};
-struct RewindableAllocator_tB18F8ADC8F2EE36E1F51FCCCFF0AC093108EF254 
-{
-	Spinner_t9606E334089E448EA313C31DC5EFC9345A58BCEB ___m_spinner;
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_handle;
-	UnmanagedArray_1_t7A336330780E05C924BB57ED337DDD2A66701FAB ___m_block;
-	int32_t ___m_last;
-	int32_t ___m_used;
-	uint8_t ___m_enableBlockFree;
-	uint8_t ___m_reachMaxBlockSize;
 };
 struct RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD 
 {
@@ -23494,23 +18394,6 @@ struct FixedAttachmentArray_1_t6EACA4660BC8F4A12B49791F310286827E4B8906
 	StoreAudit_t9E8FF144788FDFF9C68E912C5BB87C533F860292 ___a7;
 	int32_t ___activeAttachments;
 };
-struct FixedBuffer2_1_tD358D3A016DF61C53FFD777426D490227C61711A 
-{
-	LayoutValue_tC125DF54D121EC0C205D12BAEB3B88E06CDCBF30 _____0;
-	LayoutValue_tC125DF54D121EC0C205D12BAEB3B88E06CDCBF30 _____1;
-};
-struct FixedBuffer9_1_tDE95CB6E410958CF1689C0F7DBC28AC9AD60390E 
-{
-	LayoutValue_tC125DF54D121EC0C205D12BAEB3B88E06CDCBF30 _____0;
-	LayoutValue_tC125DF54D121EC0C205D12BAEB3B88E06CDCBF30 _____1;
-	LayoutValue_tC125DF54D121EC0C205D12BAEB3B88E06CDCBF30 _____2;
-	LayoutValue_tC125DF54D121EC0C205D12BAEB3B88E06CDCBF30 _____3;
-	LayoutValue_tC125DF54D121EC0C205D12BAEB3B88E06CDCBF30 _____4;
-	LayoutValue_tC125DF54D121EC0C205D12BAEB3B88E06CDCBF30 _____5;
-	LayoutValue_tC125DF54D121EC0C205D12BAEB3B88E06CDCBF30 _____6;
-	LayoutValue_tC125DF54D121EC0C205D12BAEB3B88E06CDCBF30 _____7;
-	LayoutValue_tC125DF54D121EC0C205D12BAEB3B88E06CDCBF30 _____8;
-};
 struct Func_2_tAF55076662A6FF164DF890818D0B9570331AC1EF  : public MulticastDelegate_t
 {
 };
@@ -23603,10 +18486,6 @@ struct BakerState_tBC848FEE87649807B5BE06ED28CA889DEB5059C7
 struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
 {
 };
-struct BufferAllocator_tBE0961382918F823D26ED519F45D281AA06494D4 
-{
-	BufferAllocatorHeap_t8B23AEAD3FF0104ED854068D0451346730DAC3AE ___Allocator;
-};
 struct ColliderCastHit_tB66CAC9AB42CCE701322D245A18D09CBB7474755 
 {
 	float ___U3CFractionU3Ek__BackingField;
@@ -23617,17 +18496,6 @@ struct ColliderCastHit_tB66CAC9AB42CCE701322D245A18D09CBB7474755
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___U3CPositionU3Ek__BackingField;
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___U3CSurfaceNormalU3Ek__BackingField;
 	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___QueryColliderKey;
-};
-struct ColliderInstanceBaking_t7EAC1E39F8E8F7A0D79DD72B6A955F5995079F59 
-{
-	int32_t ___AuthoringComponentId;
-	int32_t ___ConvertedAuthoringInstanceID;
-	int32_t ___ConvertedBodyInstanceID;
-	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___BodyEntity;
-	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___ShapeEntity;
-	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___ChildEntity;
-	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___BodyFromShape;
-	Hash128_t2EA8F45F10BC2DF40B0CE9AE04F222072EB1345B ___Hash;
 };
 struct CompanionLink_t2C6D134D2EB0678CF010E15832684060591FA368 
 {
@@ -23640,16 +18508,6 @@ struct ConstraintBlock3_tFFD666733DE52C60784DD70D9B66944639BD4F77
 	Constraint_t2186B4DA3C0A8B41658D12AB2C5472EE026BFC68 ___C;
 	uint8_t ___Length;
 };
-struct ContentArchiveLocation_t2AEB3B8ED6FD6AE195A4975E12707D4EC919C1EE 
-{
-	ContentArchiveId_t597D4859829AE27318BBF350B3B7FBDCF8FC7030 ___ArchiveId;
-};
-struct ContentFileLocation_tD671B20ECC7C9595FEC83BCD3096CE125527FDFE 
-{
-	ContentFileId_t630F8A1A207C9248EE434BA833823A2D5C384FD7 ___FileId;
-	int32_t ___ArchiveIndex;
-	int32_t ___DependencyIndex;
-};
 struct ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B 
 {
 	uint8_t ___Type;
@@ -23657,14 +18515,6 @@ struct ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B
 	uint8_t ___Version;
 	uint8_t ___Magic;
 	uint32_t ___ForceUniqueBlobID;
-	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
-	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___Material;
-};
-struct ConvexInputBaking_t1B0AEF248B855468DD98879F51EEFC026BE1F6D7 
-{
-	ConvexHullGenerationParameters_t4513C7C45D184A540D36836ADB60F0BC41F73839 ___GenerationParameters;
-	int32_t ___PointsStart;
-	int32_t ___PointCount;
 	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
 	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___Material;
 };
@@ -23766,20 +18616,6 @@ struct EntitiesGraphicsChunkInfo_t5431C496DFC8278759A095EDCE820FE102382C57_marsh
 	EntitiesGraphicsChunkCullingData_tC37027882083B30CD5A0CB67805D6C47FEF35B04 ___CullingData;
 	int32_t ___Valid;
 };
-struct EntityNameStoreAccess_tF60EECC3572FC72F6BBE88730AC291BE9B45BAD6 
-{
-	EntityComponentStore_tA85E100ECD667365B260A68DFD9DF9B7C04D037F* ___m_EntityComponentStore;
-	UnsafeHashSet_1_t982205DCD82C95EDB86B40937DA9AC768D4723A8 ___m_EntitiesNameSet;
-	EntityNameStoreAccessData_t5AC842F68D9F5083E23B12C17F81F43535F2ED1F* ___m_Data;
-};
-struct EntityQueryImpl_t3E7DD11B3ECD6D708BF02ACF2C07B42A913F7574 
-{
-	EntityDataAccess_t98E1CF6F73892A92AA3FF870A4BD941364E9CD36* ____Access;
-	EntityQueryData_t20DB32E7BB3F8732C371E45E8A8CEBCE62B61C26* ____QueryData;
-	EntityQueryFilter_t4A9651CB7DA59AFE8AAF946C19EC6B0D1ACA2F8B ____Filter;
-	uint64_t ____SeqNo;
-	GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC ____CachedState;
-};
 struct GetViewDataDictionary_tF745E6CC7E18A67630A2B294F0BBFB27C6E57638  : public MulticastDelegate_t
 {
 };
@@ -23810,147 +18646,10 @@ struct InputEvent_t10F727342D1A79DCFC06529C203BB61C194AEBC5
 	};
 };
 #pragma pack(pop, tp)
-struct JacobianPolygonData_tA2F0C08A5E28D7E5BB6755EB8AF91544987F63DB 
-{
-	AffineTransform_tF2E10122EC77A1C3629DC68EC6FD9834570CB015 ___Transform;
-	AffineTransform_tF2E10122EC77A1C3629DC68EC6FD9834570CB015 ___LeafTransform;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Vertex0;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Vertex1;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Vertex2;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___CenterOfMass;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___ContactPoint;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Normal;
-	bool ___IsBodyAStatic;
-	bool ___IsBodyBStatic;
-	bool ___IsValid;
-};
-struct JacobianPolygonData_tA2F0C08A5E28D7E5BB6755EB8AF91544987F63DB_marshaled_pinvoke
-{
-	AffineTransform_tF2E10122EC77A1C3629DC68EC6FD9834570CB015 ___Transform;
-	AffineTransform_tF2E10122EC77A1C3629DC68EC6FD9834570CB015 ___LeafTransform;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Vertex0;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Vertex1;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Vertex2;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___CenterOfMass;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___ContactPoint;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Normal;
-	int32_t ___IsBodyAStatic;
-	int32_t ___IsBodyBStatic;
-	int32_t ___IsValid;
-};
-struct JacobianPolygonData_tA2F0C08A5E28D7E5BB6755EB8AF91544987F63DB_marshaled_com
-{
-	AffineTransform_tF2E10122EC77A1C3629DC68EC6FD9834570CB015 ___Transform;
-	AffineTransform_tF2E10122EC77A1C3629DC68EC6FD9834570CB015 ___LeafTransform;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Vertex0;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Vertex1;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Vertex2;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___CenterOfMass;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___ContactPoint;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Normal;
-	int32_t ___IsBodyAStatic;
-	int32_t ___IsBodyBStatic;
-	int32_t ___IsValid;
-};
-struct LayoutCacheData_t1C9D16AB3B4EF0EC7A51422286D2E84ABBDEEA92 
-{
-	LayoutCachedMeasurement_tAEC7D318B47741D367D20EE2065A358062325CF0 ___CachedLayout;
-};
 struct LayoutDataStore_tE59A593CD73517DDC7C117B293E7C2C6F17DC364 
 {
 	MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 ___m_MemoryLabel;
 	Data_t43E3238277579E631EA4E8016E61966D79F5B62E* ___m_Data;
-};
-struct LightMaps_tF574E89080F860343CD3A088F59038A5AFDB3726 
-{
-	UnityObjectRef_1_tC28FE4991D20446A4E547E25159629383DCBE0C1 ___colorsRef;
-	UnityObjectRef_1_tC28FE4991D20446A4E547E25159629383DCBE0C1 ___directionsRef;
-	UnityObjectRef_1_tC28FE4991D20446A4E547E25159629383DCBE0C1 ___shadowMasksRef;
-};
-struct LinearLimitJacobian_t3634C3D1538E90D311FF36B1F9E386B6AE1FB597 
-{
-	MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC ___BodyFromConstraintA;
-	MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC ___BodyFromConstraintB;
-	float ___MinDistance;
-	float ___MaxDistance;
-	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___WorldFromA;
-	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___WorldFromB;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___AxisInB;
-	bool3_tFD58BE2745DA207A4938AB2F604C829410F0A861 ___ConstrainedAxes;
-	bool ___Is1D;
-	float ___InitialError;
-	float ___Tau;
-	float ___Damping;
-};
-struct LinearVelocityMotorJacobian_t09166EE3A51B9A5CCBEB720C5F6F969C01FB12D0 
-{
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___PivotAinA;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___PivotBinB;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Target;
-	float ___MinDistance;
-	float ___MaxDistance;
-	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___WorldFromA;
-	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___WorldFromB;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___AxisInB;
-	bool ___Is1D;
-	float ___InitialError;
-	float ___Tau;
-	float ___Damping;
-	float ___MaxImpulseOfMotor;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___AccumulatedImpulsePerAxis;
-};
-struct LinearVelocityMotorJacobian_t09166EE3A51B9A5CCBEB720C5F6F969C01FB12D0_marshaled_pinvoke
-{
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___PivotAinA;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___PivotBinB;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Target;
-	float ___MinDistance;
-	float ___MaxDistance;
-	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___WorldFromA;
-	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___WorldFromB;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___AxisInB;
-	int32_t ___Is1D;
-	float ___InitialError;
-	float ___Tau;
-	float ___Damping;
-	float ___MaxImpulseOfMotor;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___AccumulatedImpulsePerAxis;
-};
-struct LinearVelocityMotorJacobian_t09166EE3A51B9A5CCBEB720C5F6F969C01FB12D0_marshaled_com
-{
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___PivotAinA;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___PivotBinB;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Target;
-	float ___MinDistance;
-	float ___MaxDistance;
-	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___WorldFromA;
-	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___WorldFromB;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___AxisInB;
-	int32_t ___Is1D;
-	float ___InitialError;
-	float ___Tau;
-	float ___Damping;
-	float ___MaxImpulseOfMotor;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___AccumulatedImpulsePerAxis;
-};
-struct Long1024_tEE887C506947419DC829213E6C7483D80AF5659F 
-{
-	Long512_t2D339FF6672EB3709A6C638EABA7D13C7FEC1878 ___f0;
-	Long512_t2D339FF6672EB3709A6C638EABA7D13C7FEC1878 ___f1;
-};
-struct MassDistribution_t76D94E40AF5F40BD4627B9F83162CFE777EAFDA3 
-{
-	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___Transform;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___InertiaTensor;
-};
-struct MeshInputBaking_t07CDC9AA0552431E1921A736422155224D1AA370 
-{
-	int32_t ___VerticesStart;
-	int32_t ___VertexCount;
-	int32_t ___TrianglesStart;
-	int32_t ___TriangleCount;
-	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
-	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___Material;
 };
 struct MeshRendererBakingData_tB57745402D0323D65CD2CF85D95648D4C699862E 
 {
@@ -23992,11 +18691,6 @@ struct NativePassAttachment_t55DBA5EF1FDFC2F35EF13D395908A90497585ED4_marshaled_
 };
 struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
-};
-struct ObjectValueCache_tC3A0806E9BAA24D8E5B9B5438F10CC31431660FC 
-{
-	SpinLock_t522D28B065FD42708B65A14F04F81E44AA70926F ___spinLock;
-	UnsafeHashMap_2_t75DEE81BEB0EB8EA202518803A58C7689F256C88 ___Values;
 };
 struct PassFragmentData_t67D0B4EC16AF3DBC4233CC7537B93A27C78BFA8C 
 {
@@ -24069,47 +18763,6 @@ struct PhysicsMass_t89D2497E5A7CAD756D1DCA9A91394F291AB191A2
 	float ___InverseMass;
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___InverseInertia;
 	float ___AngularExpansionFactor;
-};
-struct PhysicsMeshAuthoringData_t577A6EA087CAACE1AA977C0A620A2FDAC3285989 
-{
-	bool ___Convex;
-	UnityObjectRef_1_t98A997E7AA0E9723ACD292BF2F782D4E1E058656 ___Mesh;
-	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___MeshBounds;
-	float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___BakeFromShape;
-	float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___ChildToShape;
-	int32_t ___MeshArrayIndex;
-};
-struct PhysicsMeshAuthoringData_t577A6EA087CAACE1AA977C0A620A2FDAC3285989_marshaled_pinvoke
-{
-	int32_t ___Convex;
-	UnityObjectRef_1_t98A997E7AA0E9723ACD292BF2F782D4E1E058656 ___Mesh;
-	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___MeshBounds;
-	float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___BakeFromShape;
-	float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___ChildToShape;
-	int32_t ___MeshArrayIndex;
-};
-struct PhysicsMeshAuthoringData_t577A6EA087CAACE1AA977C0A620A2FDAC3285989_marshaled_com
-{
-	int32_t ___Convex;
-	UnityObjectRef_1_t98A997E7AA0E9723ACD292BF2F782D4E1E058656 ___Mesh;
-	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___MeshBounds;
-	float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___BakeFromShape;
-	float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___ChildToShape;
-	int32_t ___MeshArrayIndex;
-};
-struct PositionMotorJacobian_t6A3AAAAECBC99ADCA2315F4AA171F633444DD2EE 
-{
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___PivotAinA;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___PivotBinB;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___TargetInB;
-	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___WorldFromA;
-	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___WorldFromB;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___AxisInB;
-	float ___InitialError;
-	float ___Tau;
-	float ___Damping;
-	float ___MaxImpulseOfMotor;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___AccumulatedImpulsePerAxis;
 };
 struct PropertyPath_tA523CA2740853534DF6C009C588464B45A6D0A79 
 {
@@ -24382,11 +19035,6 @@ struct UnsafeSerializedObjectReader_t03F8CCBDBF1C74F8E05B95BB3457B334D1CDA433_ma
 struct UnsafeStream_tBBCFB25F307FB24EC6354907DAD0B4B90E967B66 
 {
 	Block_tCCF620817FE305B5BF7B0FB7705B4571F976C4E3 ___m_BlockData;
-};
-struct UnsafeUntypedWeakReferenceId_tF4D0BD4173B689419F55982EDAEDE625E7F36D2F 
-{
-	RuntimeGlobalObjectId_tC6329FB06BA5199F5848D9355CF10D6D7CACEA00 ___GlobalId;
-	int16_t ___GenerationType;
 };
 struct UntypedWeakReferenceId_tE6BA94FD975EA12B639C0A568532BD1AB874492A 
 {
@@ -24839,101 +19487,6 @@ struct BindingId_t8BBB6188CD126EACCA07816C78760E92DC16620E_marshaled_com
 	PropertyPath_tA523CA2740853534DF6C009C588464B45A6D0A79_marshaled_com ___m_PropertyPath;
 	Il2CppChar* ___m_Path;
 };
-struct BlockAllocator_tE609150FFA2B257EBBBEEEFDF795FB7073A4E7AE 
-{
-	BufferAllocator_tBE0961382918F823D26ED519F45D281AA06494D4 ___m_bufferAllocator;
-	UnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718 ___m_allocations;
-	int32_t ___m_currentBlockIndex;
-	uint8_t* ___m_nextPtr;
-};
-struct ContentBlobLocation_tC8EF9E69A465CA84C000C4D551B29EDC640F8B0B 
-{
-	UnsafeUntypedWeakReferenceId_tF4D0BD4173B689419F55982EDAEDE625E7F36D2F ___ObjectId;
-	int32_t ___FileIndex;
-	int64_t ___Offset;
-	int64_t ___Length;
-};
-struct ContentObjectLocation_t7615B30D2B02ACABE1A08D147AD54B2BDFC92B14 
-{
-	UnsafeUntypedWeakReferenceId_tF4D0BD4173B689419F55982EDAEDE625E7F36D2F ___ObjectId;
-	int32_t ___FileIndex;
-	int64_t ___LocalIdentifierInFile;
-};
-struct ContentSceneLocation_t3B5DEDEDD177DA3B0DFE62A809D2BE4AE90C8808 
-{
-	UnsafeUntypedWeakReferenceId_tF4D0BD4173B689419F55982EDAEDE625E7F36D2F ___SceneId;
-	int32_t ___FileIndex;
-	FixedString128Bytes_tEBC488E0CC30C6D842951A4E6F09AC58677F1952 ___SceneName;
-};
-#pragma pack(push, tp, 1)
-struct DeltaStateEvent_tC11D9B5FD8A535C2D998D30F8624E6533044D859 
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					InputEvent_t10F727342D1A79DCFC06529C203BB61C194AEBC5 ___baseEvent;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					InputEvent_t10F727342D1A79DCFC06529C203BB61C194AEBC5 ___baseEvent_forAlignmentOnly;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___stateFormat_OffsetPadding[20];
-					FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___stateFormat;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___stateFormat_OffsetPadding_forAlignmentOnly[20];
-					FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___stateFormat_forAlignmentOnly;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___stateOffset_OffsetPadding[24];
-					uint32_t ___stateOffset;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___stateOffset_OffsetPadding_forAlignmentOnly[24];
-					uint32_t ___stateOffset_forAlignmentOnly;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___stateData_OffsetPadding[28];
-					U3CstateDataU3Ee__FixedBuffer_t2D79C7E59F64E19D0450D36680F1A1B52CD89F84 ___stateData;
-				};
-				#pragma pack(pop, tp)
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					char ___stateData_OffsetPadding_forAlignmentOnly[28];
-					U3CstateDataU3Ee__FixedBuffer_t2D79C7E59F64E19D0450D36680F1A1B52CD89F84 ___stateData_forAlignmentOnly;
-				};
-				#pragma pack(pop, tp)
-			};
-		};
-		uint8_t DeltaStateEvent_tC11D9B5FD8A535C2D998D30F8624E6533044D859__padding[29];
-	};
-};
-#pragma pack(pop, tp)
 struct DrawBatch_t5B13B0C8AFD02B2878B6FA9ED48DDA1A0696F5FF 
 {
 	DrawKey_t3B4EE6E2AE19E9DD7C1731E60C6A7B39FEEA1C94 ___key;
@@ -24989,48 +19542,6 @@ struct LayoutDataAccess_t99AA56349D0BC76F3742B927F4F0DDB21511FBBA
 	int32_t ___m_Manager;
 	LayoutDataStore_tE59A593CD73517DDC7C117B293E7C2C6F17DC364 ___m_Nodes;
 	LayoutDataStore_tE59A593CD73517DDC7C117B293E7C2C6F17DC364 ___m_Configs;
-};
-struct LayoutNodeData_t1D56A4D5BFA0B262C0B70873ADB2B38C6A677858 
-{
-	FixedBuffer2_1_tD358D3A016DF61C53FFD777426D490227C61711A ___ResolvedDimensions;
-	float ___TargetSize;
-	int32_t ___ManagedOwnerIndex;
-	int32_t ___LineIndex;
-	LayoutHandle_tCFE060947B4EDC8F11BF5B480181493FB578BEB6 ___Config;
-	LayoutHandle_tCFE060947B4EDC8F11BF5B480181493FB578BEB6 ___Parent;
-	LayoutHandle_tCFE060947B4EDC8F11BF5B480181493FB578BEB6 ___NextChild;
-	LayoutList_1_tB53F8679328297FF66E778CE858BF3AD4D3CE9BA ___Children;
-	int32_t ___Status;
-};
-struct LayoutStyleData_t4ECF9E0634219C4C7360FAFA6379DCCB964F2E2F 
-{
-	int32_t ___Direction;
-	int32_t ___FlexDirection;
-	int32_t ___JustifyContent;
-	int32_t ___AlignContent;
-	int32_t ___AlignItems;
-	int32_t ___AlignSelf;
-	int32_t ___PositionType;
-	float ___AspectRatio;
-	int32_t ___FlexWrap;
-	int32_t ___Overflow;
-	int32_t ___Display;
-	float ___FlexGrow;
-	float ___FlexShrink;
-	LayoutValue_tC125DF54D121EC0C205D12BAEB3B88E06CDCBF30 ___FlexBasis;
-	FixedBuffer9_1_tDE95CB6E410958CF1689C0F7DBC28AC9AD60390E ___border;
-	FixedBuffer9_1_tDE95CB6E410958CF1689C0F7DBC28AC9AD60390E ___position;
-	FixedBuffer9_1_tDE95CB6E410958CF1689C0F7DBC28AC9AD60390E ___margin;
-	FixedBuffer9_1_tDE95CB6E410958CF1689C0F7DBC28AC9AD60390E ___padding;
-	FixedBuffer2_1_tD358D3A016DF61C53FFD777426D490227C61711A ___maxDimensions;
-	FixedBuffer2_1_tD358D3A016DF61C53FFD777426D490227C61711A ___minDimensions;
-	FixedBuffer2_1_tD358D3A016DF61C53FFD777426D490227C61711A ___dimensions;
-};
-struct MassProperties_t803C4E72B745E58D94806C64AF18066DCA195E04 
-{
-	MassDistribution_t76D94E40AF5F40BD4627B9F83162CFE777EAFDA3 ___MassDistribution;
-	float ___Volume;
-	float ___AngularExpansionFactor;
 };
 struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
 {
@@ -25092,21 +19603,6 @@ struct ResolvedSectionPath_t87B9F3F0B0115B2D7CCADAD376C33481F1B5BE1D
 {
 	FixedString512Bytes_t0C425B0F2C07FEA1642C32BF8559116DF2BFF50E ___ScenePath;
 	UntypedWeakReferenceId_tE6BA94FD975EA12B639C0A568532BD1AB874492A ___HybridReferenceId;
-};
-struct ShapeComputationDataBaking_t75627EA58940E62FCF8F4C2B6BAFA5E508BD210F 
-{
-	ColliderInstanceBaking_t7EAC1E39F8E8F7A0D79DD72B6A955F5995079F59 ___Instance;
-	uint32_t ___ForceUniqueIdentifier;
-	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___Material;
-	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___CollisionFilter;
-	int32_t ___ShapeType;
-	BoxGeometry_tA8E7B24C7DBC8F302C4C8C2AF52AC1AC02CF0CD6 ___BoxProperties;
-	CapsuleGeometry_t6CABEE4C530362AC247ED692FC0235A550D5A262 ___CapsuleProperties;
-	CylinderGeometry_t0122B71BD573263DF7C324190E8D9CD00578879D ___CylinderProperties;
-	SphereGeometry_tFBC2EC4FB7E15D47B148454221E294A529B396F1 ___SphereProperties;
-	float3x4_t0884AF37CAE698A5BC546E51634EACF2F8ADCD51 ___PlaneVertices;
-	ConvexInputBaking_t1B0AEF248B855468DD98879F51EEFC026BE1F6D7 ___ConvexHullProperties;
-	MeshInputBaking_t07CDC9AA0552431E1921A736422155224D1AA370 ___MeshProperties;
 };
 struct SphereCollider_t98F4B246A66F4FDA91EAFC595988BE13738C7B92 
 {
@@ -25249,178 +19745,6 @@ struct ChildCollider_tD7324951E4667897FBD59E29A4B3D2AF737F5585
 	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___U3CTransformFromChildU3Ek__BackingField;
 	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___Entity;
 };
-struct ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257 
-{
-	ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B ___m_Header;
-	ConvexHull_tFCD7D4D7C8E9693133F18F2FBBA20162BD16B476 ___ConvexHull;
-	int32_t ___U3CMemorySizeU3Ek__BackingField;
-	MassProperties_t803C4E72B745E58D94806C64AF18066DCA195E04 ___U3CMassPropertiesU3Ek__BackingField;
-};
-struct CylinderCollider_tD57101F595251751D113096B4F5AF3F10A93F589 
-{
-	union
-	{
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B ___m_Header;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B ___m_Header_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___ConvexHull_OffsetPadding[32];
-			ConvexHull_tFCD7D4D7C8E9693133F18F2FBBA20162BD16B476 ___ConvexHull;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___ConvexHull_OffsetPadding_forAlignmentOnly[32];
-			ConvexHull_tFCD7D4D7C8E9693133F18F2FBBA20162BD16B476 ___ConvexHull_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___m_Center_OffsetPadding[84];
-			float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___m_Center;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___m_Center_OffsetPadding_forAlignmentOnly[84];
-			float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___m_Center_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___m_ConvexHullData_OffsetPadding[96];
-			ConvexHullData_tD514B404A88B1B5D81B97EEADCE8AF017FA31F35 ___m_ConvexHullData;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___m_ConvexHullData_OffsetPadding_forAlignmentOnly[96];
-			ConvexHullData_tD514B404A88B1B5D81B97EEADCE8AF017FA31F35 ___m_ConvexHullData_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___m_Orientation_OffsetPadding[1736];
-			quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___m_Orientation;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___m_Orientation_OffsetPadding_forAlignmentOnly[1736];
-			quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___m_Orientation_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___m_Height_OffsetPadding[1752];
-			float ___m_Height;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___m_Height_OffsetPadding_forAlignmentOnly[1752];
-			float ___m_Height_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___m_Radius_OffsetPadding[1756];
-			float ___m_Radius;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___m_Radius_OffsetPadding_forAlignmentOnly[1756];
-			float ___m_Radius_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___m_SideCount_OffsetPadding[1760];
-			int32_t ___m_SideCount;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___m_SideCount_OffsetPadding_forAlignmentOnly[1760];
-			int32_t ___m_SideCount_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___m_MassProperties_OffsetPadding[1764];
-			MassProperties_t803C4E72B745E58D94806C64AF18066DCA195E04 ___m_MassProperties;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___m_MassProperties_OffsetPadding_forAlignmentOnly[1764];
-			MassProperties_t803C4E72B745E58D94806C64AF18066DCA195E04 ___m_MassProperties_forAlignmentOnly;
-		};
-	};
-};
-struct EntityComponentStore_tA85E100ECD667365B260A68DFD9DF9B7C04D037F 
-{
-	int32_t* ___m_ComponentTypeOrderVersion;
-	BlockAllocator_tE609150FFA2B257EBBBEEEFDF795FB7073A4E7AE ___m_ArchetypeChunkAllocator;
-	UnsafePtrList_1_t3BA56CBE50A217517D1FA78C345C0AF8242F8088 ___m_Archetypes;
-	ArchetypeListMap_t9B5C7F814630CC95D11AE3A6D713646CDE4A33AD ___m_TypeLookup;
-	int32_t ___m_ManagedComponentIndex;
-	int32_t ___m_ManagedComponentIndexCapacity;
-	UnsafeAppendBuffer_t9EC160EA10485CD9DD96EDCBCEA06C7BCEF81500 ___m_ManagedComponentFreeIndex;
-	ManagedDeferredCommands_t3585F563AFB19DC3B6EB9250562B62FC78A0E9A1 ___ManagedChangesTracker;
-	int32_t ___m_SharedComponentVersion;
-	int32_t ___m_SharedComponentGlobalVersion;
-	int32_t ___m_UnmanagedSharedComponentCount;
-	UnsafeList_1_t81DA7B1F50305CF2C5A3DAE7C5027E809A808B8C ___m_UnmanagedSharedComponentsByType;
-	UnsafeList_1_tEE6D0269E6E8E59E96623AA3410F283FE7B8CF65 ___m_UnmanagedSharedComponentTypes;
-	UnsafeList_1_tA21F92C4A814A112A95FFC7861B906E3523E4EEF ___m_UnmanagedSharedComponentInfo;
-	UnsafeParallelMultiHashMap_2_tF97D13A4436BE5A45CEFAE2066E0ABE4AB22DC94 ___m_HashLookup;
-	ChunkListChanges_tC57E06E14D1D6D3D87675D05619E0539A86564D8 ___m_ChunkListChangesTracker;
-	uint64_t ___m_WorldSequenceNumber;
-	uint64_t ___m_NextChunkSequenceNumber;
-	uint32_t ___m_GlobalSystemVersion;
-	int32_t ___m_IntentionallyInconsistent;
-	uint32_t ___m_ArchetypeTrackingVersion;
-	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_LinkedGroupType;
-	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_ChunkHeaderType;
-	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_PrefabType;
-	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_OmitLinkedEntityGroupFromPrefabInstanceType;
-	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_CleanupEntityType;
-	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_DisabledType;
-	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_EntityType;
-	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_SystemInstanceType;
-	ComponentType_t0CB4E9723924AAC17CE8F38A0080018ED412DBDA ___m_ChunkHeaderComponentType;
-	ComponentType_t0CB4E9723924AAC17CE8F38A0080018ED412DBDA ___m_EntityComponentType;
-	ComponentType_t0CB4E9723924AAC17CE8F38A0080018ED412DBDA ___m_SimulateComponentType;
-	TypeInfo_tD43B08A8D19156EEC98399693A96161F02139654* ___m_TypeInfos;
-	EntityOffsetInfo_tAA68D1FC74ADF57FB76987377354ED848C7CC9D1* ___m_EntityOffsetInfos;
-	int32_t ___m_DebugOnlyManagedAccess;
-	uint8_t ___memoryInitPattern;
-	uint8_t ___useMemoryInitPattern;
-	EntityNameStoreAccess_tF60EECC3572FC72F6BBE88730AC291BE9B45BAD6 ___m_NameStoreAccess;
-};
-struct EntityQueryManager_tCD6CFC49CDD19B4E639F214958CC0B81011ACD0A 
-{
-	ComponentDependencyManager_t88715270EBD172A299D4F6DB471143B7E0BCDB47* ___m_DependencyManager;
-	BlockAllocator_tE609150FFA2B257EBBBEEEFDF795FB7073A4E7AE ___m_EntityQueryDataChunkAllocator;
-	UnsafePtrList_1_t9303472093C8513F7E98E3EFE8C3560679C4CAA6 ___m_EntityQueryDatas;
-	UntypedUnsafeParallelHashMap_t926EFEEE26C4DE4FE2FA5A27FEA1D83CDD4B1B17 ___m_EntityQueryDataCacheUntyped;
-	int32_t ___m_EntityQueryMasksAllocated;
-	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_disabledTypeIndex;
-	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_prefabTypeIndex;
-	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_systemInstanceTypeIndex;
-	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_chunkHeaderTypeIndex;
-};
 struct LayoutConfig_tD448909812F1AA8DE14EAC340688D6FF41B52C87 
 {
 	LayoutDataAccess_t99AA56349D0BC76F3742B927F4F0DDB21511FBBA ___m_Access;
@@ -25505,28 +19829,6 @@ struct NativePassData_tC0F1669A8ED49F7203325B91DF9C473D65AA9CD2_marshaled_com
 	int32_t ___shadingRateFragmentSize;
 	int32_t ___primitiveShadingRateCombiner;
 	int32_t ___fragmentShadingRateCombiner;
-};
-struct PhysicsColliderAuthoringData_tAFC64D04147D02CB2712FFF24687391C9159BFCD 
-{
-	ShapeComputationDataBaking_t75627EA58940E62FCF8F4C2B6BAFA5E508BD210F ___ShapeComputationalData;
-	int32_t ___BlobIndex;
-	bool ___RecalculateBlob;
-};
-struct PhysicsColliderAuthoringData_tAFC64D04147D02CB2712FFF24687391C9159BFCD_marshaled_pinvoke
-{
-	ShapeComputationDataBaking_t75627EA58940E62FCF8F4C2B6BAFA5E508BD210F ___ShapeComputationalData;
-	int32_t ___BlobIndex;
-	int32_t ___RecalculateBlob;
-};
-struct PhysicsColliderAuthoringData_tAFC64D04147D02CB2712FFF24687391C9159BFCD_marshaled_com
-{
-	ShapeComputationDataBaking_t75627EA58940E62FCF8F4C2B6BAFA5E508BD210F ___ShapeComputationalData;
-	int32_t ___BlobIndex;
-	int32_t ___RecalculateBlob;
-};
-struct PrefabAssetReference_t5ED5CF37BAB8B0CA45F2B99F97AA5447955E9736 
-{
-	EntityPrefabReference_tB1CCEB52D81E222455C57723C8942155529D87F4 ____ReferenceId;
 };
 struct SimulationContext_t7508E23E69BE95270C27E2BF4B1E9D55CC131617 
 {
@@ -25729,22 +20031,6 @@ struct Broadphase_tC1E2B9B65552655603365967040B0D9370591EAB
 {
 	Tree_t915DC4D0BF2C1674C01D8D4DA200C0FA6F5A6BE7 ___StaticTree;
 	Tree_t915DC4D0BF2C1674C01D8D4DA200C0FA6F5A6BE7 ___DynamicTree;
-};
-struct EntityDataAccess_t98E1CF6F73892A92AA3FF870A4BD941364E9CD36 
-{
-	EntityComponentStore_tA85E100ECD667365B260A68DFD9DF9B7C04D037F ___m_EntityComponentStore;
-	EntityQueryManager_tCD6CFC49CDD19B4E639F214958CC0B81011ACD0A ___m_EntityQueryManager;
-	ComponentDependencyManager_t88715270EBD172A299D4F6DB471143B7E0BCDB47 ___m_DependencyManager;
-	UnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718 ___m_ManagedReferenceIndexList;
-	EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 ___m_UniversalQuery;
-	EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 ___m_UniversalQueryWithChunks;
-	EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 ___m_UniversalQueryWithSystems;
-	EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 ___m_UniversalQueryWithChunksAndSystems;
-	EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 ___m_EntityGuidQuery;
-	WorldUnmanaged_t7B736084B2D4749A9CE36AD9A7F9D930DAA9F88F ___m_WorldUnmanaged;
-	int32_t ___m_ManagedAccessHandle;
-	EntityArchetype_tE1D293B55B4783642BB593531A57460AB7709354 ___m_EntityAndSimulateOnlyArchetype;
-	UntypedUnsafeParallelHashMap_t926EFEEE26C4DE4FE2FA5A27FEA1D83CDD4B1B17 ___m_AliveEntityQueries;
 };
 struct Simulation_t29CF8DAC1185E3D240EE8CA17F8007E2A82FBABD 
 {
@@ -26360,10 +20646,6 @@ struct CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_StaticFields
 	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Default;
 	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Zero;
 };
-struct ConvexHullGenerationParameters_t4513C7C45D184A540D36836ADB60F0BC41F73839_StaticFields
-{
-	ConvexHullGenerationParameters_t4513C7C45D184A540D36836ADB60F0BC41F73839 ___Default;
-};
 struct EntityGuid_tAB9B163B73754C5D863D5E88B8E5A1D239433877_StaticFields
 {
 	EntityGuid_tAB9B163B73754C5D863D5E88B8E5A1D239433877 ___Null;
@@ -26385,10 +20667,6 @@ struct GeometryPoolHandle_t7EF37F11E23B05A26C1F72855D269B7A772B2271_StaticFields
 struct GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9_StaticFields
 {
 	Dictionary_2_t103D0AE280060A707280D1A6221B0F0DB05F988E* ___internPool;
-};
-struct Guid_t_StaticFields
-{
-	Guid_t ___Empty;
 };
 struct InstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B_StaticFields
 {
@@ -26582,10 +20860,6 @@ struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_StaticFields
 {
 	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___k_Identity;
 };
-struct ResourceCatalogData_t553E280FAF0BE667673BC323E80FAFBE374C731D_StaticFields
-{
-	int32_t ___CurrentFileFormatVersion;
-};
 struct ShadowSplitData_tC276A96F461DD73CFF6D94DB557D42A1643640DF_StaticFields
 {
 	int32_t ___maximumCullingPlaneCount;
@@ -26661,10 +20935,6 @@ struct EntityCommandBuffer_tFFB6458BC7FB90A6CF406831009EA1F9FC0CD008_StaticField
 	SharedStatic_1_t91D24BF9DAB0EDD81AA3013F2C4CBD0A98040667 ____PLAYBACK_WITH_TRACE;
 	SharedStatic_1_t91D24BF9DAB0EDD81AA3013F2C4CBD0A98040667 ____ENABLE_PRE_PLAYBACK_VALIDATION;
 };
-struct EntityCommandBufferData_t88C8EFD5BBEF42F8008AF73FA2C27B60E5A31DC2_StaticFields
-{
-	int32_t ___ALIGN_64_BIT;
-};
 struct LoadAudit_t417FC3BB0E7799755F8AD6FF4AB6386508CB7D0C_StaticFields
 {
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___LoadReasonMessages;
@@ -26672,18 +20942,6 @@ struct LoadAudit_t417FC3BB0E7799755F8AD6FF4AB6386508CB7D0C_StaticFields
 struct LocalTransform_t8D1FEB4386DEE0D22FA43322268BF76E9FF687BD_StaticFields
 {
 	LocalTransform_t8D1FEB4386DEE0D22FA43322268BF76E9FF687BD ___Identity;
-};
-struct Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54_StaticFields
-{
-	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___Default;
-};
-struct PhysicsStep_t1A9891223D301E27BE8110B5671CE63724FDA0F2_StaticFields
-{
-	PhysicsStep_t1A9891223D301E27BE8110B5671CE63724FDA0F2 ___Default;
-};
-struct PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2_StaticFields
-{
-	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___s_Format;
 };
 struct ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticFields
 {
@@ -26757,15 +21015,6 @@ struct Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_StaticFields
 	int32_t ___k_ParentShift;
 	uint32_t ___k_ParentMask;
 };
-struct EntityQueryImpl_t3E7DD11B3ECD6D708BF02ACF2C07B42A913F7574_StaticFields
-{
-	SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F ____bfp_ResetFilter;
-	SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F ____bfp_FreeCachedState;
-};
-struct LayoutCacheData_t1C9D16AB3B4EF0EC7A51422286D2E84ABBDEEA92_StaticFields
-{
-	LayoutCacheData_t1C9D16AB3B4EF0EC7A51422286D2E84ABBDEEA92 ___Default;
-};
 struct MotionData_t90ABA558E7577C91268DEB49905473E71E49974E_StaticFields
 {
 	MotionData_t90ABA558E7577C91268DEB49905473E71E49974E ___Zero;
@@ -26802,10 +21051,6 @@ struct XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_StaticFields
 	String_t* ___k_SettingsKey;
 	XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* ___s_RuntimeSettingsInstance;
 };
-struct LayoutStyleData_t4ECF9E0634219C4C7360FAFA6379DCCB964F2E2F_StaticFields
-{
-	LayoutStyleData_t4ECF9E0634219C4C7360FAFA6379DCCB964F2E2F ___Default;
-};
 struct ChunkStore_tBD034FE6F8953B7F26E172FFCEBE367D9FF48A3C_StaticFields
 {
 	int32_t ___log2ChunksPerMegachunk;
@@ -26826,11 +21071,6 @@ struct ChunkStore_tBD034FE6F8953B7F26E172FFCEBE367D9FF48A3C_StaticFields
 struct BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303_StaticFields
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___s_OutsidePanelCoordinates;
-};
-struct EntityDataAccess_t98E1CF6F73892A92AA3FF870A4BD941364E9CD36_StaticFields
-{
-	SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F ___s_ManagedPlaybackTrampoline;
-	RuntimeObject* ___s_DelegateGCPrevention;
 };
 struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115_StaticFields
 {
@@ -28315,6 +22555,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJNI_PopLocalFrame_m32AF6F9065
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJNI_GetObjectArrayElement_mC4CAF9744617F69EFCD95B71D95492DA20A0FACE (intptr_t ___0_array, int32_t ___1_index, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AndroidJNISafe_GetStringChars_mE246814CD8FF4EDDEE6EBF107367C4A8EAF03849 (intptr_t ___0_str, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__ctor_m0CEE7D570807333CE2C193A82AB3AB8D4F873A6B (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, intptr_t ___0_jobject, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* _AndroidJNIHelper_GetSignature_m414A7A6B98FB5565075E4C51F22C482F2BCEEF5F (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJNIHelper_GetFieldID_mDA4775DFA37126A7EFEBCA8E68EF9640F3D6EF01 (intptr_t ___0_javaClass, String_t* ___1_fieldName, String_t* ___2_signature, bool ___3_isStatic, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vector_get_IsHardwareAccelerated_m783509258751EBED64CBD9F387EC1BB4A15088AA (const RuntimeMethod* method) ;
 inline int32_t Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline (const RuntimeMethod* method)
 {
@@ -28350,1990 +22592,6 @@ inline void Vector_1__ctor_m48CD7847B9597F3193C9C0BA97ED64E276F4340A (Vector_1_t
 inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
 {
 	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisContactJacAngAndVelToReachCp_tB3A8C4E4C19170A691B9C4A20993F027A9495C95_mB13D6C644FBF7D45330850C487837A350C860863_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ContactJacAngAndVelToReachCp_tB3A8C4E4C19170A691B9C4A20993F027A9495C95);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisContactJacobian_t5C0300FF9DB31ECEC7ED382269CDFAE74A69E7D1_mA3DDD826C5C05069AFEF927BF8E94E8F191E2DD6_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ContactJacobian_t5C0300FF9DB31ECEC7ED382269CDFAE74A69E7D1);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisContactPairHeader_tA8C64AAEEF017149E77A6600B10A10F1A1C5648B_m390771D188BFC7495FCB3A56351B5E401291B516_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ContactPairHeader_tA8C64AAEEF017149E77A6600B10A10F1A1C5648B);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisContactPoint_t47F477F7B3EC7233E0B35F9CD2511780810E94C9_m2CD2F083C64D023E1F6BECCDBCB4FFD8058F93B5_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ContactPoint_t47F477F7B3EC7233E0B35F9CD2511780810E94C9);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisContentArchiveId_t597D4859829AE27318BBF350B3B7FBDCF8FC7030_m606B0BC3FF6B17441F39BD6B86AD60073901CEFB_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ContentArchiveId_t597D4859829AE27318BBF350B3B7FBDCF8FC7030);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisContentArchiveLocation_t2AEB3B8ED6FD6AE195A4975E12707D4EC919C1EE_m61E86AADC211747342392F3E78639714C594D3CF_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ContentArchiveLocation_t2AEB3B8ED6FD6AE195A4975E12707D4EC919C1EE);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisContentBlobLocation_tC8EF9E69A465CA84C000C4D551B29EDC640F8B0B_mDB405604F5D3ABC7CBC0325B6C58BA61CC3692A1_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ContentBlobLocation_tC8EF9E69A465CA84C000C4D551B29EDC640F8B0B);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisContentFile_t2CF8D8FD3314B9FBF06311DB08DF84D55556386B_m66F0BE1EDE48DE166136643A0C3F63650AE70B91_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ContentFile_t2CF8D8FD3314B9FBF06311DB08DF84D55556386B);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisContentFileId_t630F8A1A207C9248EE434BA833823A2D5C384FD7_m65ADB6FA4CDF3D140FA70FD5EECA5FB8FBFCFC7C_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ContentFileId_t630F8A1A207C9248EE434BA833823A2D5C384FD7);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisContentFileLocation_tD671B20ECC7C9595FEC83BCD3096CE125527FDFE_mC520FFF38D6089653E9B9F191F70A94E1502BEDB_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ContentFileLocation_tD671B20ECC7C9595FEC83BCD3096CE125527FDFE);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisContentObjectLocation_t7615B30D2B02ACABE1A08D147AD54B2BDFC92B14_mD58CE77E4BD20DF045A9B2FE07C3A50DFE00F0E3_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ContentObjectLocation_t7615B30D2B02ACABE1A08D147AD54B2BDFC92B14);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisContentSceneLocation_t3B5DEDEDD177DA3B0DFE62A809D2BE4AE90C8808_m39A2355F037203AC1ED74F6ED3DAF12C5F7D6C51_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ContentSceneLocation_t3B5DEDEDD177DA3B0DFE62A809D2BE4AE90C8808);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisConvertMeshJobData_t35F3B601671C4880929BC30A858410B14459E3B1_m82710E16270356F3AEDF29FF0F80FF4DB380D176_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ConvertMeshJobData_t35F3B601671C4880929BC30A858410B14459E3B1);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257_m9E3D683EC60135CD6FBE75AA00524DEB6A8CD6C9_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisConvexHullGenerationParameters_t4513C7C45D184A540D36836ADB60F0BC41F73839_mF680377329F4255AEBAD1B72FAB56195F2D8BB72_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ConvexHullGenerationParameters_t4513C7C45D184A540D36836ADB60F0BC41F73839);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisCopyMeshJobData_t8A9A7785E58E23442500E07C72C0C00E91B2BAF8_m6C9FAB081D0168AE80B325ED62DF6FB169FFF471_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(CopyMeshJobData_t8A9A7785E58E23442500E07C72C0C00E91B2BAF8);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisCullingSplit_tA645AE6542408220387BA7188513D7FEDBC1CAC0_mEE3DDAFA529F9402C6A7F47BFB9A6FF91410C2BE_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(CullingSplit_tA645AE6542408220387BA7188513D7FEDBC1CAC0);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisCullingSplitData_tCFA8EADD67BB0433DD4A1E9A32838187FE0B0B0E_m0010C87791241AE7E8DC923C558D581343F28239_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(CullingSplitData_tCFA8EADD67BB0433DD4A1E9A32838187FE0B0B0E);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisCustomPhysicsProxyDriver_tA12A54FDC4F2780192F2BCB674A38F48A584F225_m8AABB4D04E68C624BA2FA4CCEF0B99FE0EF38486_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(CustomPhysicsProxyDriver_tA12A54FDC4F2780192F2BCB674A38F48A584F225);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisCylinderCollider_tD57101F595251751D113096B4F5AF3F10A93F589_m178335D7A683B018A26663FF82125E434DCB5074_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(CylinderCollider_tD57101F595251751D113096B4F5AF3F10A93F589);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDebugOccluderStats_t7B4C48EC856FCC7FDF2811DF6C222E53DD80AD93_mA5C163CB44CAF9E617B206DA39D18DB94452D5C3_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DebugOccluderStats_t7B4C48EC856FCC7FDF2811DF6C222E53DD80AD93);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDecalEntity_t8CAF09C65939503449C4138ADCDC4907196293FD_m1440AF6547BEF7DEEE0A5A22BA8752E800903C93_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DecalEntity_t8CAF09C65939503449C4138ADCDC4907196293FD);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDecalSubDrawCall_t68CDD2E663F805776DE0281AB4FAEDC8B8D9EC49_m941CF5B284C7BFB5C22310040591648C8B1B2C20_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DecalSubDrawCall_t68CDD2E663F805776DE0281AB4FAEDC8B8D9EC49);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDeformedEntity_t8F7AE546463F5A6834571235356695DFFD2685E3_mE400A9B0AF27805593E98555A6CDB5C8E4793FEC_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DeformedEntity_t8F7AE546463F5A6834571235356695DFFD2685E3);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDeformedMeshIndex_tEBE2179D4DF3A39AC97BE4A9F245EE6749F89A0E_m58300B1B70CE7F086717B2A4C6D8735A01FA4AF0_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DeformedMeshIndex_tEBE2179D4DF3A39AC97BE4A9F245EE6749F89A0E);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDeltaStateEvent_tC11D9B5FD8A535C2D998D30F8624E6533044D859_m7D949175ACA5B6AFDCC74A6E345FEE142BF9CFB9_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DeltaStateEvent_tC11D9B5FD8A535C2D998D30F8624E6533044D859);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDisabled_t1C72FE38756BF6A95146AFE331F04FC71B3A79A6_mB4E8626BE5DB8C6C3E00C001C18999FB08725C79_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Disabled_t1C72FE38756BF6A95146AFE331F04FC71B3A79A6);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDistanceHit_t24623CA3232004563796E8AA41E409369C35643E_m888AA176AA106693C9DED76D387EC5111872A6D3_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DistanceHit_t24623CA3232004563796E8AA41E409369C35643E);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_mE4A49234E23602F164AFD4455C15DB62D199B934_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(double);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDoubleRewindableAllocators_t8D3615CDAAECEE59D64F85F9E0F46D07168A7069_m12CD64E162BDD4E9964F0A20D7221DF379B37569_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DoubleRewindableAllocators_t8D3615CDAAECEE59D64F85F9E0F46D07168A7069);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDrawBatch_t5B13B0C8AFD02B2878B6FA9ED48DDA1A0696F5FF_m0EBEBD2128AE76034999D9C0DA37948365288C7A_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DrawBatch_t5B13B0C8AFD02B2878B6FA9ED48DDA1A0696F5FF);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDrawBufferRange_t289089F19A7539FDA77D3E63416BAFBA0955E2D5_mCACBEBA408621EAA0B912D8387D4E285ABD691A7_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DrawBufferRange_t289089F19A7539FDA77D3E63416BAFBA0955E2D5);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDrawCommandBin_t5539B12FCDB48E97B70D54E10FD761C65A739361_m246A8BA417FF88EBFCFD43E4DB90E00556656136_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DrawCommandBin_t5539B12FCDB48E97B70D54E10FD761C65A739361);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDrawCommandSettings_t440C7C31DCA003CEF9C02C4F91854A1DCD486D4B_m954B2ACAB05E9179B6EE0442085497806857A0C8_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DrawCommandSettings_t440C7C31DCA003CEF9C02C4F91854A1DCD486D4B);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDrawCommandStream_t0A2BEB33831D3F47F3A3E1CCA7359B89C0429D0A_mE61A9AA7E54AD0FEB7B4D83CD1DE00A17E0BDB46_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DrawCommandStream_t0A2BEB33831D3F47F3A3E1CCA7359B89C0429D0A);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDrawCommandVisibility_t192861ABB8BE0514FBDCAB8FC83808D83178DEED_mEF91FE9F4B0AAD7FDC082B5A3CDAC1F9D5C085A3_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DrawCommandVisibility_t192861ABB8BE0514FBDCAB8FC83808D83178DEED);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDrawCommandWorkItem_tF70FA79285F3CB53DDEBCF4BF0F3447F11A3F045_m8CA79352773451A74592FF6D3865C61C002F5A17_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DrawCommandWorkItem_tF70FA79285F3CB53DDEBCF4BF0F3447F11A3F045);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDrawInstance_tBE712DD78F80BD1B66343AC3B9A55ACFE80E8AF8_mA0912F087969EA2E56B1480924BFCC6C901617FC_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DrawInstance_tBE712DD78F80BD1B66343AC3B9A55ACFE80E8AF8);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDrawKey_t3B4EE6E2AE19E9DD7C1731E60C6A7B39FEEA1C94_m41D9D4B2BF4BD67BF6F2A9113B1C57ADFED42AA6_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DrawKey_t3B4EE6E2AE19E9DD7C1731E60C6A7B39FEEA1C94);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDrawRange_tFF5914E68DE5FBB5AE71F729F834D72149A6B010_m7A714DA3FB7C0CFBC1691523B95F0BF376BA2F01_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DrawRange_tFF5914E68DE5FBB5AE71F729F834D72149A6B010);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDummySimulationData_tF08233F42595C527B5309E9066099D4D24B216A8_mC98989E76E8854E315639FDC5EED85AEA087E110_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DummySimulationData_tF08233F42595C527B5309E9066099D4D24B216A8);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDuplicateEntityGuid_tFBE3EBCFAFF9D1BEAC504030BFE1EB798EFCBA92_mB7F9AE536907A17ED34D67CE0E8DDDA4B1004822_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DuplicateEntityGuid_tFBE3EBCFAFF9D1BEAC504030BFE1EB798EFCBA92);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisDynamicBlobAssetBatch_tAF1A195EBA8DD36359A9439ED1BB2D99AD81F027_mB42BE557FD211C59CE7C30170B290F71275A669F_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(DynamicBlobAssetBatch_tAF1A195EBA8DD36359A9439ED1BB2D99AD81F027);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisECBChainHeapElement_tE83963A87C0B8B2EEDE315AF9DFF749A38C666DD_m72A92B4DB122FC4BC45F18FB459B619269492BC7_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ECBChainHeapElement_tE83963A87C0B8B2EEDE315AF9DFF749A38C666DD);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisECBChunk_tF8E51552DBA320AB90FCAE9CF1185FAFD3764F4F_mB2F57AD808C223787F8F2F7FE94F1CA09478E439_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ECBChunk_tF8E51552DBA320AB90FCAE9CF1185FAFD3764F4F);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEnsureUniqueColliderBlobTag_t5CA68843FE254E73ED98C7246C45164AE0F403F5_m1A509451E4D04E76951D8E2DB5CCEABD66727844_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(EnsureUniqueColliderBlobTag_t5CA68843FE254E73ED98C7246C45164AE0F403F5);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEntitiesGraphicsChunkInfo_t5431C496DFC8278759A095EDCE820FE102382C57_m92138ACCEE0A76F62C9A4EA2805A0B3B04CA4581_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(EntitiesGraphicsChunkInfo_t5431C496DFC8278759A095EDCE820FE102382C57);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEntity_t56176FC78C475061A82383D9E0CEE352C6C52ABD_m177EBEBF64B94FE192C8268AE6BCB9A563047C3C_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEntityArchetype_tE1D293B55B4783642BB593531A57460AB7709354_m433C92FAEA0BDEB5F8798B157EDA0CBE91F9866D_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(EntityArchetype_tE1D293B55B4783642BB593531A57460AB7709354);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEntityBatchInChunk_t59B2C040B5ABCCDF8F5EF73EA18CA2650526CD1C_mA5BE2E633862DEFF9A3C42775BBBEF7986C42B1B_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(EntityBatchInChunk_t59B2C040B5ABCCDF8F5EF73EA18CA2650526CD1C);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEntityCommandBuffer_tFFB6458BC7FB90A6CF406831009EA1F9FC0CD008_m0C69E7279031EC4CC5590B944F505E4FADF0E454_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(EntityCommandBuffer_tFFB6458BC7FB90A6CF406831009EA1F9FC0CD008);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEntityCommandBufferChain_tCC0FFFC083A93ADF15F28AAF7E69C8BB3D6F7CCB_m8B4CD5160A7C28D2A54CB1E185FC3B59AD633CC2_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(EntityCommandBufferChain_tCC0FFFC083A93ADF15F28AAF7E69C8BB3D6F7CCB);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEntityCommandBufferData_t88C8EFD5BBEF42F8008AF73FA2C27B60E5A31DC2_mF2283D03D9B90B77481B9489B742165F9BB40EF5_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(EntityCommandBufferData_t88C8EFD5BBEF42F8008AF73FA2C27B60E5A31DC2);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEntityDataAccess_t98E1CF6F73892A92AA3FF870A4BD941364E9CD36_m1D3A68FF0C582ADAE2A63F86DA45E6C4C5F713B9_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(EntityDataAccess_t98E1CF6F73892A92AA3FF870A4BD941364E9CD36);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEntityGuid_tAB9B163B73754C5D863D5E88B8E5A1D239433877_mAEF65C486D008558F825C99D85F94551E317B4DF_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(EntityGuid_tAB9B163B73754C5D863D5E88B8E5A1D239433877);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8_m08598794D3B261C40B450629DF5F06602A5AE07E_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEntityInChunk_t9C018862802ABC36E70290747CBFBF57FC0FC9FB_m305C96A2F16A347FC6B0498DCF95CD0051AF0CAF_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(EntityInChunk_t9C018862802ABC36E70290747CBFBF57FC0FC9FB);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEntityNameStoreAccessData_t5AC842F68D9F5083E23B12C17F81F43535F2ED1F_mBBB7A97578412E4A4A38B2F30EE24BE2425B70B8_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(EntityNameStoreAccessData_t5AC842F68D9F5083E23B12C17F81F43535F2ED1F);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEntityPair_tAE77526BDCBE660424523FF7A443FD4B367BDC1D_mC653BDDAA57611C2B6CBAD6FCD705AAF89B838B9_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(EntityPair_tAE77526BDCBE660424523FF7A443FD4B367BDC1D);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEntityPrefabReference_tB1CCEB52D81E222455C57723C8942155529D87F4_mFBB919BDCE8F3E9F6BB1AC9F036200F466C8E9C4_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(EntityPrefabReference_tB1CCEB52D81E222455C57723C8942155529D87F4);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90_mF43AD36D847A6D2D12EA7E90096181A2B02CA8E7_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEntityQueryData_t20DB32E7BB3F8732C371E45E8A8CEBCE62B61C26_m6F6CEE723F98A54C4DE93B0477F842A6F19A94EE_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(EntityQueryData_t20DB32E7BB3F8732C371E45E8A8CEBCE62B61C26);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEntityQueryImpl_t3E7DD11B3ECD6D708BF02ACF2C07B42A913F7574_m2F10D3E64E3CB71DD152025B3F5A3103ABB2DD07_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(EntityQueryImpl_t3E7DD11B3ECD6D708BF02ACF2C07B42A913F7574);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEntityReferenceChange_tF42C10FF22614A67E5DB929CAE2011B58F569BAE_m0025A843F392B2A083D1B45530364A94784FED51_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(EntityReferenceChange_tF42C10FF22614A67E5DB929CAE2011B58F569BAE);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisExternalEntityReference_tE59820343E2601A63B36BADC930E722D9238DC54_m708E6EBD5FDC64186D16157DAA3896ABC0203E48_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ExternalEntityReference_tE59820343E2601A63B36BADC930E722D9238DC54);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisEyes_t239151DFDE1BB47589CEBD22261A793F142B211D_mDA2B3B5A3F3E12B153DDBDBDF84F0927D320F0F9_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Eyes_t239151DFDE1BB47589CEBD22261A793F142B211D);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisFilteredArchetype_t01C3AC08A05A3462BEB416576B2850730C7D36A5_m227F17196153004040DF3CE968D6F89AD47A18FF_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(FilteredArchetype_t01C3AC08A05A3462BEB416576B2850730C7D36A5);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisFixedBytes128Align8_tF4DD5F2FA8A75B4C3DEB0C84EF71008D7ADC0C18_mD56E3D46A42DE0C7DBE106BDF8B9CDC3FBE06BF9_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(FixedBytes128Align8_tF4DD5F2FA8A75B4C3DEB0C84EF71008D7ADC0C18);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisFixedBytes32Align8_t07C7D543B487721FF9B88AD85209956AE423A779_m74A57E76622755E70AEC7FBA9B4E9D467C3F5C18_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(FixedBytes32Align8_t07C7D543B487721FF9B88AD85209956AE423A779);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisFixedBytes4096Align8_t28724035D70132BAB64D2ED1978E6D5D7253B086_mF891140A6F86BDE83D194BF91704AD8287324A90_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(FixedBytes4096Align8_t28724035D70132BAB64D2ED1978E6D5D7253B086);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisFixedBytes512Align8_tF679F1BEB42E790E58545972A29D0F31EE90386E_mC278CD73C6C3BDD00C575FF178136881D84D1567_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(FixedBytes512Align8_tF679F1BEB42E790E58545972A29D0F31EE90386E);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisFixedBytes64Align8_t84631A2A3E4A6CEF77C84D9B630BDF9720B945E1_mDCCA21D371CE452A80748BA22DEB48DAED238047_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(FixedBytes64Align8_t84631A2A3E4A6CEF77C84D9B630BDF9720B945E1);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisFixedString512Bytes_t0C425B0F2C07FEA1642C32BF8559116DF2BFF50E_mF481BC54116F45F6FA4BEA188585CF07CFAAEEC4_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(FixedString512Bytes_t0C425B0F2C07FEA1642C32BF8559116DF2BFF50E);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisFixedString64Bytes_t0F1B6FFAFD8C15898CD77D91A79AB36AA078E0A5_m22D66ADD6E859E12A9F63DE6FF1088C39E9A6586_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(FixedString64Bytes_t0F1B6FFAFD8C15898CD77D91A79AB36AA078E0A5);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisGCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC_m8233744D7AC98D7B526D73CB2482A8059C452649_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisGPUDrivenMeshLodInfo_tC906887AE63DADE17AC5F423639E74F740CB9061_mCE37B42AA76B96B6293FA8C015341908D56AF00B_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(GPUDrivenMeshLodInfo_tC906887AE63DADE17AC5F423639E74F740CB9061);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisGPUDrivenPackedMaterialData_t9AFE25D18C8FA6EB6A69AEF342C2A19DA824CF38_m59777A51AE61A128571997F6C3E702081E768B09_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(GPUDrivenPackedMaterialData_t9AFE25D18C8FA6EB6A69AEF342C2A19DA824CF38);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisGPUDrivenPackedRendererData_t52E9500043C2079223FCFF256E7CCF23CC7CE868_m81FF4E58F2FA7E7D99D825EBB2E2A51BA8FD24D5_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(GPUDrivenPackedRendererData_t52E9500043C2079223FCFF256E7CCF23CC7CE868);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisGPUDrivenRendererEditorData_t24652A12A94D8B8464B94D2A691269951AD0EDAB_m9F9C1503BB92045F4974C7F0CB1383BB5A328F1F_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(GPUDrivenRendererEditorData_t24652A12A94D8B8464B94D2A691269951AD0EDAB);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisGPUDrivenRendererMeshLodData_tFC0A33207178DDD3BD7B630CFB2B933D56EC073F_m7FA6D850B7C1414DA195AF56B7FE76341B5AE172_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(GPUDrivenRendererMeshLodData_tFC0A33207178DDD3BD7B630CFB2B933D56EC073F);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisGPUInstanceComponentDesc_tA386615944C32F7A0B71FF8B2F84E1A159C02E74_m4864089D619A901FB07E2DCB48537C15F9554407_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(GPUInstanceComponentDesc_tA386615944C32F7A0B71FF8B2F84E1A159C02E74);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisGPUInstanceIndex_t1B73FC29B273B0470A8E186E3C2F19CA6D8FBA78_m9FA55C1771EBABDC880FF9C5C91C840EA25173B4_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(GPUInstanceIndex_t1B73FC29B273B0470A8E186E3C2F19CA6D8FBA78);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisGeoPoolMeshChunk_t9B0F23B961DCDA4D5B63AB95F780203D0B7EC668_m66AF42F6CAC9FCED4498B4AD0F22F831F9C49E5B_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(GeoPoolMeshChunk_t9B0F23B961DCDA4D5B63AB95F780203D0B7EC668);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisGeometryPoolHandle_t7EF37F11E23B05A26C1F72855D269B7A772B2271_m9A4373BBED405020DFB9F2B9ACB9927C90DFDA43_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(GeometryPoolHandle_t7EF37F11E23B05A26C1F72855D269B7A772B2271);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisGfxUpdateBufferRange_t2991435FD0E056C19D7E3D4E524C13493F244B4C_m5869B2CC0B178CF931039F03DD40C1167D68F6C5_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(GfxUpdateBufferRange_t2991435FD0E056C19D7E3D4E524C13493F244B4C);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisGpuUploadOperation_t39F13CF397D975692B4BCE5E300604E3AB8CA152_mE5A4F0DE757647B8C7C4FCEF803F12A416E8FDF5_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(GpuUploadOperation_t39F13CF397D975692B4BCE5E300604E3AB8CA152);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisGraphicsArchetype_t9F776CA17A337DB797D4F98638C296AC11D98A2B_mC2F2E619B13803A3A671340EF8A45EC97EFCAA84_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(GraphicsArchetype_t9F776CA17A337DB797D4F98638C296AC11D98A2B);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisGuid_t_mE4623B8CD798CE92AF752B68092C7C3028CEB02A_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Guid_t);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisHandleData_t82BF6A136E0B5697C0EA3F051760AA77D25DA55E_m73321B9562F0447FECC6D236213ABE6A75F48ED6_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(HandleData_t82BF6A136E0B5697C0EA3F051760AA77D25DA55E);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisHaptic_t726DC803B929C8CAD018BB1CA2AB27931573CFD9_mFC9075C0A53021092CC731FEB79124F0E57F1EB6_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Haptic_t726DC803B929C8CAD018BB1CA2AB27931573CFD9);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisHash128_t2EA8F45F10BC2DF40B0CE9AE04F222072EB1345B_mCCA70DE9EA8F3019FD79181A059D31A972311F9C_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Hash128_t2EA8F45F10BC2DF40B0CE9AE04F222072EB1345B);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisHash128_t93367F504B687578F893CDBCD13FB95AC8A87A40_mD5FE0B9B88A0454D7B63A6414EF26E5CB116ED03_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisHashableShapeInputs_tA7B60F06514BFDD6A49C70D77AB4BDAC0C68300C_m7D37451B0EC2D09AD37A39FE78528FF00F8BF89E_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(HashableShapeInputs_tA7B60F06514BFDD6A49C70D77AB4BDAC0C68300C);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisHeapBlock_t44D3F86E0ED8F3C5FC9B70A056739AEBEA18640D_mBD65D1128C757F5BAE2FCEC1972811F1884EF03D_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(HeapBlock_t44D3F86E0ED8F3C5FC9B70A056739AEBEA18640D);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisImpulseEventData_tCD6236CABCDACEE584FE5F1D0248098EAFBA2A8C_m705F731005B663B96B72A4E47E22FA391751F942_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ImpulseEventData_tCD6236CABCDACEE584FE5F1D0248098EAFBA2A8C);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisImpulseEventSolverData_tC08156E590618804F0CC06D8829F8FCD7F789EF0_mD5358FE0774FF693F32B13277B07561620CE9DDC_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ImpulseEventSolverData_tC08156E590618804F0CC06D8829F8FCD7F789EF0);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisInclusiveRange_t1762A170B7A199C25DAC4CB39CB109710812A54D_mCF900E21B7451ED04C1D01CBE624D01846BA88CA_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(InclusiveRange_t1762A170B7A199C25DAC4CB39CB109710812A54D);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisIndexedInt_t24BCB89B541376CF44EFAC03B879082052E960F7_m8C907D62A441D54FA567C14001DEE5E578F38A94_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(IndexedInt_t24BCB89B541376CF44EFAC03B879082052E960F7);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisIndirectBufferAllocInfo_t144662EBC9E70E789D782D2340097DF38DCFAB02_mEC87528E3662E277CC9B8C8C78BB67DFA0F42E39_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(IndirectBufferAllocInfo_t144662EBC9E70E789D782D2340097DF38DCFAB02);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisIndirectBufferContext_tC867F1E4C07484F15773E7A382CCB107C57AC805_mD1E950B27DFDBB4F3236CCE77C7444E20687A0EE_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(IndirectBufferContext_tC867F1E4C07484F15773E7A382CCB107C57AC805);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisIndirectDrawInfo_t24CC9D6B2D8EB28E5C42E90B284B3031B81AAEDB_mB3AF0FE4F628350C7A4F409515FA6BB0C2B73A24_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(IndirectDrawInfo_t24CC9D6B2D8EB28E5C42E90B284B3031B81AAEDB);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisIndirectInstanceInfo_t94ECCE7BC6DF23C75D2354238F38A0008643F9DB_mCD3F2A814C3004BFC9680B8C8E62A1FCFCBD6702_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(IndirectInstanceInfo_t94ECCE7BC6DF23C75D2354238F38A0008643F9DB);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisInputEvent_t10F727342D1A79DCFC06529C203BB61C194AEBC5_m0A49629FF4362F75BF20F043E1BA1E7D050C76F9_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(InputEvent_t10F727342D1A79DCFC06529C203BB61C194AEBC5);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisInstanceCullerViewStats_tCFA9E28BF5D8B9489040BD5DDE21173331CE2173_m81447F3E26AB5685B90106910C37AB62344E669C_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(InstanceCullerViewStats_tCFA9E28BF5D8B9489040BD5DDE21173331CE2173);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisInstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B_mBAD669F0BB976D792016C03450D71D0FE2AF8458_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(InstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisInstanceOcclusionCullerShaderVariables_tAF12690F2EA15B17E95E7ECE9EB6846CAFFCE431_m50EA3632EB1CDEF0AC4FA6E77CE06A357B7F3BAA_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(InstanceOcclusionCullerShaderVariables_tAF12690F2EA15B17E95E7ECE9EB6846CAFFCE431);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisInstanceOcclusionEventStats_t39015A29B5AE8D08BF95679C8A25869BD8715AAD_m53812DEDA276745F17A69A42EA595F0A02F9C800_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(InstanceOcclusionEventStats_t39015A29B5AE8D08BF95679C8A25869BD8715AAD);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_mCB825B1D70E67004BF5727535B982744D7748AEC_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(int16_t);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mED481D505BF43CBD96972069EDD4E3509BE84931_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(int32_t);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mA4AB8080EA0E08D36EDABF8B0AEFBA312EF6DE36_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(int32_t);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m9712F6405A5D5C4128EAFA7860A222DE388ED6C5_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(int64_t);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisIntPtr_t_mB2B3CFF1CB804C99734D4E2F5D8A8C9DB0D209A8_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(intptr_t);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisJacobianHeader_t12F9556093EF60E1AB50BA6DAF6405027C58239C_mCBA6EA687FCD6DA76F46189C609905EBCEBCB22B_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(JacobianHeader_t12F9556093EF60E1AB50BA6DAF6405027C58239C);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisJacobianPolygonData_tA2F0C08A5E28D7E5BB6755EB8AF91544987F63DB_m4C410869CA9B606DFEFBA528EFBC4B9DF132ADC8_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(JacobianPolygonData_tA2F0C08A5E28D7E5BB6755EB8AF91544987F63DB);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisJobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08_m9648A6CA697B17B009BBEDCE817AF98293EA07A8_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisJoint_tF53F198CBCDE0DB6E5DF1E7B5CCB695358CEA3B6_mDE36AD15606693BD2051A92C5231AECBDBFAC3EC_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Joint_tF53F198CBCDE0DB6E5DF1E7B5CCB695358CEA3B6);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisKeyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0_m339D1D2C01481ACE12B92A420EE9D24E2787D539_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLODGroupCullingData_t511A004D7CBAE84368FCAA62A0348C24CB46EABF_mF1B8B6321D5C11A1EB0D0A034F8A74566DF36B2C_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LODGroupCullingData_t511A004D7CBAE84368FCAA62A0348C24CB46EABF);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLODGroupData_t270D641C75EEBF4612A34E2398D4D0A10A5B1241_m001723CF4B76E225F1A2389F3DB4528C18F6FA42_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LODGroupData_t270D641C75EEBF4612A34E2398D4D0A10A5B1241);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLODGroupWorldReferencePoint_t1C378B661E81968AF1118358C53D86DA215D7C7E_mACC8006F980A4B9FBBB2CF567399165C9963347B_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LODGroupWorldReferencePoint_t1C378B661E81968AF1118358C53D86DA215D7C7E);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLODRange_t67EDD8C5D2708AAA1E7012C5FD21E15B8A9C2F43_m53F7E2FC29B00A8E929C0DED5E8A1B4EEAE159E6_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LODRange_t67EDD8C5D2708AAA1E7012C5FD21E15B8A9C2F43);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLODWorldReferencePoint_t21EAD8082967CB50E841485D0DAFBE001E3F4E4D_m61B9BD3EF01B529B1953F22157E8A678679C1A5B_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LODWorldReferencePoint_t21EAD8082967CB50E841485D0DAFBE001E3F4E4D);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLayoutCacheData_t1C9D16AB3B4EF0EC7A51422286D2E84ABBDEEA92_m6AD907969ED820C7B597DBDE5A62251F0BAAEBB5_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LayoutCacheData_t1C9D16AB3B4EF0EC7A51422286D2E84ABBDEEA92);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLayoutComputedData_t37CD62B9A6B59283679F1126AD9C4BB9FD15B9C1_m8E2B97AA6AB1779936EAA4893F7CE096024BCE54_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LayoutComputedData_t37CD62B9A6B59283679F1126AD9C4BB9FD15B9C1);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLayoutConfigData_t6B1D36F00422E7EB7C51CF9103FC9D522B5481F4_m6BD3023222CB03E8462517B9F40193D9A085A1C2_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LayoutConfigData_t6B1D36F00422E7EB7C51CF9103FC9D522B5481F4);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLayoutHandle_tCFE060947B4EDC8F11BF5B480181493FB578BEB6_m6290CFB96E604D8EE938E92FB434438086E49023_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LayoutHandle_tCFE060947B4EDC8F11BF5B480181493FB578BEB6);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLayoutNodeData_t1D56A4D5BFA0B262C0B70873ADB2B38C6A677858_mF86E7726D232D0C06A598629B29651A120967D95_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LayoutNodeData_t1D56A4D5BFA0B262C0B70873ADB2B38C6A677858);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLayoutStyleData_t4ECF9E0634219C4C7360FAFA6379DCCB964F2E2F_mC9FE389F5DD604C6212396EF5EB740EA25ECA488_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LayoutStyleData_t4ECF9E0634219C4C7360FAFA6379DCCB964F2E2F);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLightDataGI_t47D2197E863C0DDA40C2182FBF0A21367E468E21_mB02E6C828323C4B414AB855EA914B81EADADEB68_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LightDataGI_t47D2197E863C0DDA40C2182FBF0A21367E468E21);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLightMaps_tF574E89080F860343CD3A088F59038A5AFDB3726_m22F07E4DCEB0249949F42223085E3C01AAF3C588_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LightMaps_tF574E89080F860343CD3A088F59038A5AFDB3726);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLightShadowCasterCullingInfo_tC79A492F8AA85DE1FE3AA0F5E1C023C672780D5E_m5DBBB3942F148BEB5A6E9ACB8B9EC5677DF8AB02_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LightShadowCasterCullingInfo_tC79A492F8AA85DE1FE3AA0F5E1C023C672780D5E);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLinearLimitJacobian_t3634C3D1538E90D311FF36B1F9E386B6AE1FB597_m736C0B20A278AF46FF7AF8641182C20CEF5E25B2_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LinearLimitJacobian_t3634C3D1538E90D311FF36B1F9E386B6AE1FB597);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLinearVelocityMotorJacobian_t09166EE3A51B9A5CCBEB720C5F6F969C01FB12D0_m1ACE5653AC09E01AD20EC3A180BB0955767633BB_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LinearVelocityMotorJacobian_t09166EE3A51B9A5CCBEB720C5F6F969C01FB12D0);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLinkedEntityGroup_t97546F2DE9AF4E5A8E97F4E215FCCA6395D0EB38_m116CA37221B7E61A00B6F468DBA8E4811CB96F89_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LinkedEntityGroup_t97546F2DE9AF4E5A8E97F4E215FCCA6395D0EB38);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLinkedEntityGroupBakingData_t614E70399B343A51B06D4BF1BF0508D2C4E99FAD_mC4016A9ED39E7151BBA25F8DC12A9F0D921BD670_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LinkedEntityGroupBakingData_t614E70399B343A51B06D4BF1BF0508D2C4E99FAD);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLinkedEntityGroupChange_t55954CE432F5A1206C8D0F998304A45ADEA1C842_m4AD21F1C288C63DFB06B62A5BF1CDBD9374CF93A_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LinkedEntityGroupChange_t55954CE432F5A1206C8D0F998304A45ADEA1C842);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLoadAudit_t417FC3BB0E7799755F8AD6FF4AB6386508CB7D0C_m8FD0223D421C43FF38C5456DA55F328B21166F32_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LoadAudit_t417FC3BB0E7799755F8AD6FF4AB6386508CB7D0C);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLocalToWorld_t23B3E8CDA5838EF771A49AC5B39A57AF233E038D_m621AF3ED9B935AD19C37B510E084212A53EC30A1_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LocalToWorld_t23B3E8CDA5838EF771A49AC5B39A57AF233E038D);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLocalTransform_t8D1FEB4386DEE0D22FA43322268BF76E9FF687BD_m6DDBF3A4DCAE84222721056A85C4881C00C5EFE6_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(LocalTransform_t8D1FEB4386DEE0D22FA43322268BF76E9FF687BD);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisLong1024_tEE887C506947419DC829213E6C7483D80AF5659F_m93A923BCA5B81DDC9C30AA705D6733C8CE385708_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Long1024_tEE887C506947419DC829213E6C7483D80AF5659F);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisMappedBuffer_t4BAABC09EAD5812AB933A8BA242095323D4282C7_m65759650F8D6585BCBA141E393192AA3FBDEDD7B_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(MappedBuffer_t4BAABC09EAD5812AB933A8BA242095323D4282C7);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisMassFactors_t0248D89F213B5E7928CCE1D10556FF730AD9AF30_mFF91F588967A8ECC3E91D187B7C6E96C8F3EEB1B_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(MassFactors_t0248D89F213B5E7928CCE1D10556FF730AD9AF30);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisMaterial_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54_m935FE47023EE82C4EEC3710DBC80D892583B00B7_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisMaterialColor_tAC698C84E888E79EC4A9B127035C1849DD3A53F0_mA99465DFB1AC93DD128318F1DF4C1B018C77D956_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(MaterialColor_tAC698C84E888E79EC4A9B127035C1849DD3A53F0);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisMaterialMeshIndex_tB2252C2B3D608EE2F5FB9D6C7606F95426D27E74_m34ED86AA5BA5B1AFDAFAA2B4727CD5C39192E9A2_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(MaterialMeshIndex_tB2252C2B3D608EE2F5FB9D6C7606F95426D27E74);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisMaterialMeshInfo_tA5DA20397A2C8CE93BBE1B1262E8B3448450117D_mDC9055BED28066DE84400EA772E5F020E7FE422A_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(MaterialMeshInfo_tA5DA20397A2C8CE93BBE1B1262E8B3448450117D);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisMaterialPropertyType_tA7F7CD55AE934857962A20B395A3777399183C29_m60A0E3F8879A943C4156FFAECA4F31B42DC70F8D_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(MaterialPropertyType_tA7F7CD55AE934857962A20B395A3777399183C29);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisMatrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_m3E93E3D3F245D3AACCB1346E8FEFD7BAC2ABBC4C_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisMeshDeformationBatch_t7476A404BFE0426781B91AFF17288C75C0353412_m8A778C22A0FEA45496217D8B055AEA170279EEA2_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(MeshDeformationBatch_t7476A404BFE0426781B91AFF17288C75C0353412);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisMeshLODComponent_tEC7D454A01180040B6C5AA441896A4FB66630910_mF0F95E80B09CCD137257C9AF6924C5916A71E74C_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(MeshLODComponent_tEC7D454A01180040B6C5AA441896A4FB66630910);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisMeshLODGroupComponent_tBC1E27840E50C37F1244F281D24AAEB721FA15CC_mCA584A32761B8D5557DD89CB475DDD72C657607D_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(MeshLODGroupComponent_tBC1E27840E50C37F1244F281D24AAEB721FA15CC);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisMeshRendererBakingData_tB57745402D0323D65CD2CF85D95648D4C699862E_mA660DC60D7FC47487E1AE78717E0E8447F96C048_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(MeshRendererBakingData_tB57745402D0323D65CD2CF85D95648D4C699862E);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisMeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A_mCCE360F24E552B1FB2E2380D875629DC410F55B4_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisMetadataValue_tB24D1ECC62550B3B37D7BFA11B02907047E7F937_m4E2B627D2726E91C3CA4F6823F1F20E956A193F5_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(MetadataValue_tB24D1ECC62550B3B37D7BFA11B02907047E7F937);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisModifiableContactPair_t8D3CA3E20AF1718A5421A6098D633DDA67399960_mC54F55F9EC7B43A45570471F1D8CFA82F37AFE1D_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ModifiableContactPair_t8D3CA3E20AF1718A5421A6098D633DDA67399960);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisMostRecentFixedTime_t6DD27BCC3288C652C0426E31DA2E0D25B8BDAB83_m370D2CF883F3323A164F1DB2345C8CF6AA282138_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(MostRecentFixedTime_t6DD27BCC3288C652C0426E31DA2E0D25B8BDAB83);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisMotionData_t90ABA558E7577C91268DEB49905473E71E49974E_mB0C0DEA433CA983C0BE9A51BC4E3170070ABAB33_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(MotionData_t90ABA558E7577C91268DEB49905473E71E49974E);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisMotionVelocity_t5E53D688AE1A087361B8A2DE3B4D3FE91F5478AF_m863C7256CD82680193284102955AEBDAF8911F85_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(MotionVelocity_t5E53D688AE1A087361B8A2DE3B4D3FE91F5478AF);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisMouseState_t0D9AD9D7629CA3F363E7C2AFD710A11D965408E1_m60C031CACB70E4594F830EF07B6BCF5FEB43538D_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(MouseState_t0D9AD9D7629CA3F363E7C2AFD710A11D965408E1);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisNativePassAttachment_t55DBA5EF1FDFC2F35EF13D395908A90497585ED4_m483350796842D803BD880DFDF5D4897FC64B0E39_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(NativePassAttachment_t55DBA5EF1FDFC2F35EF13D395908A90497585ED4);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisNativePassData_tC0F1669A8ED49F7203325B91DF9C473D65AA9CD2_mF7D32717724AC42D07D19CF8D38D428B7A8A3B52_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(NativePassData_tC0F1669A8ED49F7203325B91DF9C473D65AA9CD2);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisNudgeJobData_tC303DCF7D6A8683AA414D05AA13CB6FAD4BB4022_m36A8F361C24BE1FFA4CF98E4C7043B1A11DD7E68_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(NudgeJobData_tC303DCF7D6A8683AA414D05AA13CB6FAD4BB4022);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisObjectValueCache_tC3A0806E9BAA24D8E5B9B5438F10CC31431660FC_m813EA39B31249FC1E60E020147B6DB6A6CE2B47A_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ObjectValueCache_tC3A0806E9BAA24D8E5B9B5438F10CC31431660FC);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisOccluderDepthPyramidConstants_t299096B4539EC7AB7A58FC8D7636C0E3280E4627_mB0E36A30678F290202CF790F64FDABD61C0E4FDB_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(OccluderDepthPyramidConstants_t299096B4539EC7AB7A58FC8D7636C0E3280E4627);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisOccluderDerivedData_tF558D611762DC3E3DDB33625EEC5CF5A07F18933_m0AFDDA8AD0ACC0FB69C6FDB0516086EC82D594C1_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(OccluderDerivedData_tF558D611762DC3E3DDB33625EEC5CF5A07F18933);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisOccluderMipBounds_t8054D1DF47047C9BFC6D7C77F703BCE6EA4779BB_m6DF0D9527AA4C9DAAE39E5669A42D7FE43598BFB_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(OccluderMipBounds_t8054D1DF47047C9BFC6D7C77F703BCE6EA4779BB);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisOcclusionCullingCommonShaderVariables_t88F2739D504549F7A5FF95DD1D3598F6062FFF74_m3634617FCC0586139135B4C5B15EB5E4DA8E35EA_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(OcclusionCullingCommonShaderVariables_t88F2739D504549F7A5FF95DD1D3598F6062FFF74);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisOcclusionCullingDebugShaderVariables_tC6B7F442582F6F91DEBADAE753DB8490464FE185_m663BD9D7D3900AFE1F17906E4ACD10A7ABE007AE_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(OcclusionCullingDebugShaderVariables_tC6B7F442582F6F91DEBADAE753DB8490464FE185);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisOperation_t4FD1535C9B909614A4E778904D274CA549BE96D5_mDCFACED85BC2F9CFC77A6B0DBB8961E966C0E217_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Operation_t4FD1535C9B909614A4E778904D274CA549BE96D5);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisOverrideLightProbeAnchorComponent_t504C206585014F2857B080A3A841B78DB0CBE1FB_mA97DDA1A0E0735EB57D5F3A5BFC9FC33E4DCBDA3_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(OverrideLightProbeAnchorComponent_t504C206585014F2857B080A3A841B78DB0CBE1FB);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPackedComponent_t1F420B0BE93FF9B240DF895BF74ED0354F10D1D6_m890B83AD715597A45DBF6D8043247622A1CC0094_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PackedComponent_t1F420B0BE93FF9B240DF895BF74ED0354F10D1D6);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPackedComponentDataChange_t666FA9A2140462F6E22E37A895A80019BB12DCC2_m89B65FCF67EB465156766FC2F39DFD8F429E9AD7_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PackedComponentDataChange_t666FA9A2140462F6E22E37A895A80019BB12DCC2);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPackedMatrix_t465958AA7DEB970E30314C74EA59C06C4927A2DB_mB46054BEEB9807A3239E1DE3E01CD1E8411DD198_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PackedMatrix_t465958AA7DEB970E30314C74EA59C06C4927A2DB);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisParent_t473162287DAADFBE8C1A231B52DC5D0C80687304_m3F524C964A2719AE5EC5B7387599CC72E73408A8_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Parent_t473162287DAADFBE8C1A231B52DC5D0C80687304);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPassData_t88911D47229A306D70A3F6A7D3B2FC8FF12F8BAD_mDD5BDF7A6382FFBA1918E1D431AF3C19482B52DA_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PassData_t88911D47229A306D70A3F6A7D3B2FC8FF12F8BAD);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPassFragmentData_t67D0B4EC16AF3DBC4233CC7537B93A27C78BFA8C_m0844826275FBB3FB67595DEC0E2463B7B23D75B4_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PassFragmentData_t67D0B4EC16AF3DBC4233CC7537B93A27C78BFA8C);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPassInputData_tA1B8624F31DDB24770D8E0C8FA54189A567FC2DE_m53E986E36180F5161D751542473E24A6229049CF_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PassInputData_tA1B8624F31DDB24770D8E0C8FA54189A567FC2DE);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPassOutputData_t8EA364E560775D19D285839BA06710B337503E0D_mA855EC82BBA77DAE684850C9DCA63AFFFF7F50E4_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PassOutputData_t8EA364E560775D19D285839BA06710B337503E0D);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPassRandomWriteData_t5C298F6D2CA84B027F3D8A145304B0DCFDA1961B_m3E2A1A9C93A12064A0673ED79758D4308974B2C8_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PassRandomWriteData_t5C298F6D2CA84B027F3D8A145304B0DCFDA1961B);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPerWorldSystemInfo_t633E3D6D07B304920DCA0CE411AF821A19C0D756_m08F4680CA5633ABE518D5C37374A5D5BFA2FD504_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PerWorldSystemInfo_t633E3D6D07B304920DCA0CE411AF821A19C0D756);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsCollider_t26A94D6ECCA8ECDCAEA83F12DEA8ADC15153DCDA_mA65DB6C33BC1FD34D96621169DEBF326550667BC_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsCollider_t26A94D6ECCA8ECDCAEA83F12DEA8ADC15153DCDA);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsColliderAuthoringData_tAFC64D04147D02CB2712FFF24687391C9159BFCD_m015927826F9F134EC04649150BC2B5D3E9E66C93_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsColliderAuthoringData_tAFC64D04147D02CB2712FFF24687391C9159BFCD);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsColliderBakedData_t88F29679E0F65A704D5B2ABA268A9AD82BA3A0DF_m1C96844A444C5C8BE465F1EFF27FA85CFEB401AA_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsColliderBakedData_t88F29679E0F65A704D5B2ABA268A9AD82BA3A0DF);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsColliderKeyEntityPair_tAEF837B39E3949BB41536084707EE655C69D40FE_m8384780E7166A9646B0624EBE0A7C4950A0A2BDE_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsColliderKeyEntityPair_tAEF837B39E3949BB41536084707EE655C69D40FE);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsCompoundData_t25E7A437D24DFE2C810FCF3B2B950BB889513648_m6FB9A704B4C56B879A0CE804B21A00E9A1C9030D_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsCompoundData_t25E7A437D24DFE2C810FCF3B2B950BB889513648);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsConstrainedBodyPair_t11C5D7FDF2C7D1E0AC01DD9AA0E95492E8C14728_mF7320DA76D7D9BE3CCE14E69746D8BC4B1D8734F_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsConstrainedBodyPair_t11C5D7FDF2C7D1E0AC01DD9AA0E95492E8C14728);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsCustomTags_t3E62F244454E39BA2EF305D335EA418EC28925CE_m2BC632038CF308C61B10A625B4D3CEAFD4F08B3D_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsCustomTags_t3E62F244454E39BA2EF305D335EA418EC28925CE);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsDamping_tB2281F931BEED616E385A1C63DB97A5089C9259E_mC0F93B81615A4628C830E1A3B5E7835C9A35A5E2_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsDamping_tB2281F931BEED616E385A1C63DB97A5089C9259E);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsDebugDisplayData_tB85CD780ED4CFDB34C1236A3A166BD794C04ECCF_m6070A1E7FB7886D73EED86AFB13D9A4827354436_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsDebugDisplayData_tB85CD780ED4CFDB34C1236A3A166BD794C04ECCF);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsGraphicalInterpolationBuffer_t4425E9311BC421D1E03F6699B1CEDACD6598D8E9_m6DCD5E0235B4310E7CD153D246E3B9549600BB5C_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsGraphicalInterpolationBuffer_t4425E9311BC421D1E03F6699B1CEDACD6598D8E9);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsGraphicalSmoothing_t9C3A887741C265D0E64E04E05F9FB8DA8B2716A4_m31302AE0EC07FBD028662D39FF1D52C2F7D23481_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsGraphicalSmoothing_t9C3A887741C265D0E64E04E05F9FB8DA8B2716A4);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsGravityFactor_tB608287B830717BA7D35BEC77D2CF6A39A0DA8CC_mA9929CBC6E646B638B4A44DBF1B619C90B0BE3E8_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsGravityFactor_tB608287B830717BA7D35BEC77D2CF6A39A0DA8CC);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsJoint_t7E81076F134608B1FDEA0070C11135E9B30A0897_mD0EFED46DAEFED2E3092625F20AB25060B261712_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsJoint_t7E81076F134608B1FDEA0070C11135E9B30A0897);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsJointCompanion_t22502ED52DA1DDE59D85D11AB7EC77BB59FC02C9_mBC990FD9E1B0D57DA3D2647DB5A5AD89EEAFBC43_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsJointCompanion_t22502ED52DA1DDE59D85D11AB7EC77BB59FC02C9);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsMass_t89D2497E5A7CAD756D1DCA9A91394F291AB191A2_m9189471B0A229E0FA6C2527142BD28681996F6EE_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsMass_t89D2497E5A7CAD756D1DCA9A91394F291AB191A2);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsMassOverride_t4C8B1404AB70E3D18FE08C3AF27C6F8B6D0228F2_mFC542290BDEF5A82FAAF659A67FEC45C25FD32DB_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsMassOverride_t4C8B1404AB70E3D18FE08C3AF27C6F8B6D0228F2);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsMeshAuthoringData_t577A6EA087CAACE1AA977C0A620A2FDAC3285989_m1967AFD48B32063BF989D7A4046D0E0142254240_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsMeshAuthoringData_t577A6EA087CAACE1AA977C0A620A2FDAC3285989);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsStep_t1A9891223D301E27BE8110B5671CE63724FDA0F2_mC14909D435A84B9306E57BE9666291F557D3F60F_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsStep_t1A9891223D301E27BE8110B5671CE63724FDA0F2);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsTemporalCoherenceInfo_t687207DF0B7ABEFCF3D015765DE3B943AF917FD3_mB553C7AC78B3472363E2FB02DEF1A18148CDBD3F_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsTemporalCoherenceInfo_t687207DF0B7ABEFCF3D015765DE3B943AF917FD3);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsVelocity_tD8FD9AE4143DA8547016CDB52234BDF420F14DD2_m322E364AD84D46AE615E37F87C1302263D8891CD_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsVelocity_tD8FD9AE4143DA8547016CDB52234BDF420F14DD2);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsWorldIndex_t0854846356C37045E9B11936A6949B1A14704F09_m012C47DE8048CF58F3F34EDD70144443EC0DD7CD_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsWorldIndex_t0854846356C37045E9B11936A6949B1A14704F09);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsWorldIndexBakingData_t52C0D750845527DE9C3235CDF24583283B9909E0_m73A58D54A0B8AC79CB0891080D32A9A979496B53_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsWorldIndexBakingData_t52C0D750845527DE9C3235CDF24583283B9909E0);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPhysicsWorldSingleton_t378ADEC7BEB4615C6B7972AB0EC26DF2BD864AFA_mAD9773B6E64C67B106C0ED07A6DB2997ABD49837_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PhysicsWorldSingleton_t378ADEC7BEB4615C6B7972AB0EC26DF2BD864AFA);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPlane_t7492FDA226E7E1A4521F1B170122B8FEC435660E_m37867ED5C175E6BEF0BC2E4ED97C1C5329AE724F_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Plane_t7492FDA226E7E1A4521F1B170122B8FEC435660E);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPlane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C_mC98A334942D13D3EBBEAE20C5BB187A0A0ADF14E_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF_m7C3DFB2A74C9254282C1A99B8E1C887F69FFF9D9_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_mDCA91FD9ABE8609261601E79BFA106713CBF7A1C_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPose_t3BF6349DC18B6BAF6A192896C06390F3A907CF10_m012CBF927BD9C4E3EC0B91F6016C46F8305AA7BD_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Pose_t3BF6349DC18B6BAF6A192896C06390F3A907CF10);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2_m5602DE4A526FB8228B28470E4E32C719A0955D68_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPositionMotorJacobian_t6A3AAAAECBC99ADCA2315F4AA171F633444DD2EE_m2B28DCE4F16772E8A51AF0313E2BB33F92ABB7DA_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PositionMotorJacobian_t6A3AAAAECBC99ADCA2315F4AA171F633444DD2EE);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPostTransformMatrix_t4E6015656BF644B8026BEF23B38DC1DAE7C8A78D_m4925C37C0045BAC361807F3BA4E1DBAA23BDCCA7_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PostTransformMatrix_t4E6015656BF644B8026BEF23B38DC1DAE7C8A78D);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPrefabAssetReference_t5ED5CF37BAB8B0CA45F2B99F97AA5447955E9736_mA28AFA95130742DFBA2D565670903E6BCDC0EC4A_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PrefabAssetReference_t5ED5CF37BAB8B0CA45F2B99F97AA5447955E9736);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPrefabLoadResult_t81CAFC4F52A88EFB85401C3704EDFB2956B22E56_m80B40FAE90F3B06457ADACB52DC91729AED5AA05_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PrefabLoadResult_t81CAFC4F52A88EFB85401C3704EDFB2956B22E56);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPrefabState_tE65B9DFE4119E82D14D57789235BAB749C428751_m2A318CAE585381E20EF83FF7EAEAD2985A6FB24B_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PrefabState_tE65B9DFE4119E82D14D57789235BAB749C428751);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPreviousParent_t4879AE063F14CAD6263F68FB5BCBFDC18889BEDD_m46C6E61B612B86286532890678CC7C09F490B69F_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PreviousParent_t4879AE063F14CAD6263F68FB5BCBFDC18889BEDD);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisPublicEntityRef_t499E2838255A5FCF6E1CE9B5E7C366D795D9D634_mD98DF8831FC3B4155BE32E4A618F3DE046A037C3_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(PublicEntityRef_t499E2838255A5FCF6E1CE9B5E7C366D795D9D634);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisQuaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_m37DD322328DA83780B700E31BC9725EB652C968D_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRadialSpawnerConfig_tDF7922862CC7BCCA25D9C7AC1DED01011D9875A4_m7E1133EDFD95CEA72A2258701B18E2CE999A6259_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RadialSpawnerConfig_tDF7922862CC7BCCA25D9C7AC1DED01011D9875A4);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRangeKey_t6D4869B364ADC52DCAE541898513EF33CEE8878C_m63602F8AC994D9585B0B7D476C9081C77EA6A8D5_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RangeKey_t6D4869B364ADC52DCAE541898513EF33CEE8878C);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRaycastHit_tE3537BC5FE6F1F4DBEE4843517092CBCDF0B5D56_m478EAD3C8DA7DDF122513319295139F309DFD512_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RaycastHit_tE3537BC5FE6F1F4DBEE4843517092CBCDF0B5D56);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA_mBB8E03C1CCE04BAA49DF0EF1A08717DA4ABA9306_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisReadCommand_t5DB46BD58D686FDDFBD8AB7600B9CF676DC7D97F_mD7C55F587DDE58CAD082495E075DDBBF6227FA66_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ReadCommand_t5DB46BD58D686FDDFBD8AB7600B9CF676DC7D97F);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRemoteContentCatalogData_t32F84FD2CF243010159A9091363799DA1ED7C404_mB4EE3904FB07598B49B4EC0C3213833F2199C94C_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RemoteContentCatalogData_t32F84FD2CF243010159A9091363799DA1ED7C404);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRemoteContentId_t27977325179FF4C511004EBF35A0B38AA71D66B0_m73C770D3E4CF7D3609C1EFE31176252862A9114D_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RemoteContentId_t27977325179FF4C511004EBF35A0B38AA71D66B0);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRemoteContentLocation_t600FAD240C089026DD5CAFCBC44B128555506F7D_m8316F1402986D964C23CBF2FE5E18A5FBE38EAFA_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RemoteContentLocation_t600FAD240C089026DD5CAFCBC44B128555506F7D);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRenderBounds_tE83D2C345D9E9FBEA1E680C79E47CCF6A46AFA0A_mCCC2E8AE51011FFAB4D336C86E655B8F929C0F11_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RenderBounds_tE83D2C345D9E9FBEA1E680C79E47CCF6A46AFA0A);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRenderFilterSettings_tE8053BFE10C3626CC40390F392F131A4E3B7590C_mA9FA77BC50C287E8797C48254DC998E65B52C8E9_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RenderFilterSettings_tE8053BFE10C3626CC40390F392F131A4E3B7590C);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRenderMeshUnmanaged_tE7BB4BC0043D5F2763A5D79EF50E34D65BAFB9C0_mF12FACE10355ED9F9EEEB1D17909146DB8C8D15F_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RenderMeshUnmanaged_tE7BB4BC0043D5F2763A5D79EF50E34D65BAFB9C0);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRenderStateBlock_tFC570EF2C8F3A817FECD578E385D18CEEEA06733_m767CECEA1AD7302EB3A63D52264019953AD7EEFF_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RenderStateBlock_tFC570EF2C8F3A817FECD578E385D18CEEEA06733);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRenderTextureDescriptor_t69845881CE6437E4E61F92074F2F84079F23FA46_m73506FFAF405DEDC50670573256991FBD4AC13A9_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RenderTextureDescriptor_t69845881CE6437E4E61F92074F2F84079F23FA46);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRequestSceneHeader_tFB164D8BD279642D1C1FF039036393F4C8A31AC6_m72FF29D922F068E6F8BD8C050762F4E49465AB74_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RequestSceneHeader_tFB164D8BD279642D1C1FF039036393F4C8A31AC6);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRequestSceneLoaded_t84D63EB24CFB758BF46A3B4DDB00140B84E2F9B4_m8DFCF87AA9C84D9781E490335D927EEC970E8B4A_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RequestSceneLoaded_t84D63EB24CFB758BF46A3B4DDB00140B84E2F9B4);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisResolvedSceneHash_t5CA34693F082AFC6F60F638176577BDA620C9B20_m81469D61BB93EEC16B66BBAF0C32F238A9E003E2_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ResolvedSceneHash_t5CA34693F082AFC6F60F638176577BDA620C9B20);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisResolvedSectionEntity_tD18069CE6AD2FA61A39B747F346310DD10B77CEE_m6DEDE0F787CB17666B57F65B3C5A2FD514FDD22D_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ResolvedSectionEntity_tD18069CE6AD2FA61A39B747F346310DD10B77CEE);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisResolvedSectionPath_t87B9F3F0B0115B2D7CCADAD376C33481F1B5BE1D_m2BEA034E8466A03576E2604191ADFA82E59CCC6F_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ResolvedSectionPath_t87B9F3F0B0115B2D7CCADAD376C33481F1B5BE1D);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisResourceCatalogData_t553E280FAF0BE667673BC323E80FAFBE374C731D_mF28E856D36A6707B72A80DD4BF1CE403C7C93E68_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ResourceCatalogData_t553E280FAF0BE667673BC323E80FAFBE374C731D);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_m1F57B9715D735244A632018503BF5D3462B563E6_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisResourceMetaData_t33D9E99B0AF1E2471B52ADD29434DEC2F0C92524_m02F3627AC51B1268E7DF52BEB1B9416B649679B2_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ResourceMetaData_t33D9E99B0AF1E2471B52ADD29434DEC2F0C92524);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisResourceReaderData_t1B57A9C4CC76875899745E115AA53FF40C6412EC_mE56CDE53F76D1370C5A935091F4AEF46DA25E10C_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ResourceReaderData_t1B57A9C4CC76875899745E115AA53FF40C6412EC);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisResourceUnversionedData_t3F4B539E7806E513C53A94EAABF5F969AAA384CC_mBCC8C40730B4B90B9484C5CB03A5F9EF4D3552F3_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ResourceUnversionedData_t3F4B539E7806E513C53A94EAABF5F969AAA384CC);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisResourceVersionedData_tC935A106FCF6C0800974D2C98DBE14E19A19B1DC_m9CC2D1DD582FC9187AE0AE1C358C85C8685AAB52_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(ResourceVersionedData_tC935A106FCF6C0800974D2C98DBE14E19A19B1DC);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306_m4D9E7AD7B61BE490608890636250E290F92CB6A1_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRetainBlobAssetPtr_tB58F0A9A302FCFEFE95EAB011F522AFFB283873F_m7AC7032D91B1B5CF9E58BA13CAAB4BF58EC03B55_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RetainBlobAssetPtr_tB58F0A9A302FCFEFE95EAB011F522AFFB283873F);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRewindableAllocator_tB18F8ADC8F2EE36E1F51FCCCFF0AC093108EF254_m80CD4673E566D696BEC252AA29FF292AA5265366_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RewindableAllocator_tB18F8ADC8F2EE36E1F51FCCCFF0AC093108EF254);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRigidBody_t1F09F1AFFC17A49EEA39F56D11705984FC7AC90F_m7E8D14B7873FAB11F18F679FAD62095930D621CE_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RigidBody_t1F09F1AFFC17A49EEA39F56D11705984FC7AC90F);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD_m700AAAE5C9ADB6DDAB9D99C3A4AB395B4456A5E9_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRigidbodyBakingData_t8EB12AE048EE91B3F926F0B18055B96754194AE1_m103C3100DCE14EF723947AB104016D863A863756_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RigidbodyBakingData_t8EB12AE048EE91B3F926F0B18055B96754194AE1);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 49626
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRootLODRange_tE8326688FFD668D4F94CFA3D3FD1FFF29A851BDE_mD84C5B945BDE95121D121149AF06CB18D5D7BB43_gshared (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(RootLODRange_tE8326688FFD668D4F94CFA3D3FD1FFF29A851BDE);
-		return (int32_t)L_0;
-	}
 }
 // Method Definition Index: 49626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisRootLODWorldReferencePoint_t402BFA80364BFC8AC31A752126AF65FF4DD1D49D_mE98493EBA738142AEF74813B89198042F4791343_gshared (const RuntimeMethod* method) 
@@ -45520,7 +37778,7 @@ IL_0051:
 		return;
 	}
 }
-// Method Definition Index: 115213
+// Method Definition Index: 115175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLoaderHelper_CreateIntegratedSubsystem_TisRuntimeObject_TisRuntimeObject_mBAF3746971CDCF6B58182FF66E5A2B681461DFC7_gshared (XRLoaderHelper_tE96E7AE003148D5319D20BAD7E02654367E41DCC* __this, List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ___0_descriptors, String_t* ___1_id, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -45533,7 +37791,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLoaderHelper_CreateIntegratedSubsystem
 		return;
 	}
 }
-// Method Definition Index: 115214
+// Method Definition Index: 115176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLoaderHelper_CreateStandaloneSubsystem_TisRuntimeObject_TisRuntimeObject_m4A018972895E62D6EF6C8AED44E9F620D5A14199_gshared (XRLoaderHelper_tE96E7AE003148D5319D20BAD7E02654367E41DCC* __this, List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ___0_descriptors, String_t* ___1_id, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -45546,7 +37804,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLoaderHelper_CreateStandaloneSubsystem
 		return;
 	}
 }
-// Method Definition Index: 115212
+// Method Definition Index: 115174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLoaderHelper_CreateSubsystem_TisRuntimeObject_TisRuntimeObject_m4FA794B59AA23B850EE0DF5DA0776E9DD231D768_gshared (XRLoaderHelper_tE96E7AE003148D5319D20BAD7E02654367E41DCC* __this, List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ___0_descriptors, String_t* ___1_id, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -45692,7 +37950,7 @@ IL_0088:
 		return;
 	}
 }
-// Method Definition Index: 115212
+// Method Definition Index: 115174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLoaderHelper_CreateSubsystem_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_m59B7D4D241C4A6E51188583FAEEFC7D1B6D512D0_gshared (XRLoaderHelper_tE96E7AE003148D5319D20BAD7E02654367E41DCC* __this, List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* ___0_descriptors, String_t* ___1_id, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -45841,7 +38099,7 @@ IL_0088:
 		return;
 	}
 }
-// Method Definition Index: 115211
+// Method Definition Index: 115173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLoaderHelper_DestroySubsystem_TisRuntimeObject_mF0CB81C6BD9DA12D6E8C21703A18E939389A1185_gshared (XRLoaderHelper_tE96E7AE003148D5319D20BAD7E02654367E41DCC* __this, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -45906,7 +38164,7 @@ IL_0040:
 		return;
 	}
 }
-// Method Definition Index: 115208
+// Method Definition Index: 115170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XRLoaderHelper_GetLoadedSubsystem_TisRuntimeObject_mA4965EC76CEF5709AA6B2611C065E12BD5CA8ACB_gshared (XRLoaderHelper_tE96E7AE003148D5319D20BAD7E02654367E41DCC* __this, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -45934,7 +38192,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XRLoaderHelper_GetLoadedSubsys
 		return ((RuntimeObject*)IsInst((RuntimeObject*)L_5, il2cpp_rgctx_data(method->rgctx_data, 1)));
 	}
 }
-// Method Definition Index: 115209
+// Method Definition Index: 115171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLoaderHelper_StartSubsystem_TisRuntimeObject_mC3EF63B68F73D6809F68E225847BB59D472A2EA5_gshared (XRLoaderHelper_tE96E7AE003148D5319D20BAD7E02654367E41DCC* __this, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -45968,7 +38226,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 115210
+// Method Definition Index: 115172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLoaderHelper_StopSubsystem_TisRuntimeObject_m26C61BBD9562F521BC7DE34ABC8E6AA01E656572_gshared (XRLoaderHelper_tE96E7AE003148D5319D20BAD7E02654367E41DCC* __this, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -46002,7 +38260,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 115229
+// Method Definition Index: 115191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XRManagerSettings_ActiveLoaderAs_TisRuntimeObject_m9672E32C32CA1F82DB7CE86C58E9B91C5A8983CD_gshared (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -46013,7 +38271,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XRManagerSettings_ActiveLoader
 		return ((RuntimeObject*)IsInst((RuntimeObject*)L_0, il2cpp_rgctx_data(method->rgctx_data, 0)));
 	}
 }
-// Method Definition Index: 115575
+// Method Definition Index: 115537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagerUtility_IsLoaderActive_TisRuntimeObject_mD343517453BD38D763D6B3A8EFF70C9599C9D0B8_gshared (const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -51851,6 +44109,1281 @@ IL_02b1:
 		return L_128;
 	}
 }
+// Method Definition Index: 108483
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float _AndroidJNIHelper_ConvertFromJNIArray_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m6634501B2BC58937A4D852F6F2D8D55A9DFB6F64_gshared (intptr_t ___0_array, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidReflection_tD59014B286F902906DBB75DA3473897D35684908_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral24CC8D396132365E532646F936DFC8579E2299B2);
+		il2cpp_rgctx_method_init(method);
+	}
+	Type_t* V_0 = NULL;
+	int32_t V_1 = 0;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_2 = NULL;
+	int32_t V_3 = 0;
+	bool V_4 = false;
+	int32_t V_5 = 0;
+	intptr_t V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* V_8 = NULL;
+	int32_t V_9 = 0;
+	bool V_10 = false;
+	int32_t V_11 = 0;
+	intptr_t V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float V_13 = 0.0f;
+	int32_t G_B25_0 = 0;
+	int32_t G_B42_0 = 0;
+	Type_t* G_B55_0 = NULL;
+	String_t* G_B55_1 = NULL;
+	Type_t* G_B54_0 = NULL;
+	String_t* G_B54_1 = NULL;
+	String_t* G_B56_0 = NULL;
+	String_t* G_B56_1 = NULL;
+	{
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_1;
+		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
+		NullCheck(L_1);
+		Type_t* L_2;
+		L_2 = VirtualFuncInvoker0< Type_t* >::Invoke(48, L_1);
+		V_0 = L_2;
+		Type_t* L_3 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(AndroidReflection_tD59014B286F902906DBB75DA3473897D35684908_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = AndroidReflection_IsPrimitive_mA41A9ECECE3D73679C79DC8B0FDD32B59570DF25(L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_0136;
+		}
+	}
+	{
+		Type_t* L_5 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.int32_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_7;
+		L_7 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_6, NULL);
+		bool L_8;
+		L_8 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_5, L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		intptr_t L_9 = ___0_array;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10;
+		L_10 = AndroidJNISafe_FromIntArray_mC4C4DC70FFA39CD6E3E02FDAC7192324E6D4614E(L_9, NULL);
+		return ((*(float*)UnBox((RuntimeObject*)L_10, il2cpp_rgctx_data(method->rgctx_data, 1))));
+	}
+
+IL_0039:
+	{
+		Type_t* L_11 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_12 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.boolean_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_13;
+		L_13 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_12, NULL);
+		bool L_14;
+		L_14 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_11, L_13, NULL);
+		if (!L_14)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		intptr_t L_15 = ___0_array;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_16;
+		L_16 = AndroidJNISafe_FromBooleanArray_m36ED740401185EC0A959CA0F96A324A69E668646(L_15, NULL);
+		return ((*(float*)UnBox((RuntimeObject*)L_16, il2cpp_rgctx_data(method->rgctx_data, 1))));
+	}
+
+IL_0057:
+	{
+		Type_t* L_17 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_18 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.byte_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_19;
+		L_19 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_18, NULL);
+		bool L_20;
+		L_20 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_17, L_19, NULL);
+		if (!L_20)
+		{
+			goto IL_007f;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9((RuntimeObject*)_stringLiteral24CC8D396132365E532646F936DFC8579E2299B2, NULL);
+		intptr_t L_21 = ___0_array;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_22;
+		L_22 = AndroidJNISafe_FromByteArray_mB06EF0FDBF6C738231E8F9D4998C38551131C4C5(L_21, NULL);
+		return ((*(float*)UnBox((RuntimeObject*)L_22, il2cpp_rgctx_data(method->rgctx_data, 1))));
+	}
+
+IL_007f:
+	{
+		Type_t* L_23 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_24 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.sbyte_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_25;
+		L_25 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_24, NULL);
+		bool L_26;
+		L_26 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_23, L_25, NULL);
+		if (!L_26)
+		{
+			goto IL_009d;
+		}
+	}
+	{
+		intptr_t L_27 = ___0_array;
+		SByteU5BU5D_t88116DA68378C3333DB73E7D36C1A06AFAA91913* L_28;
+		L_28 = AndroidJNISafe_FromSByteArray_m261D638D8B059AB777BEF0BEFDD0822717DFF2B1(L_27, NULL);
+		return ((*(float*)UnBox((RuntimeObject*)L_28, il2cpp_rgctx_data(method->rgctx_data, 1))));
+	}
+
+IL_009d:
+	{
+		Type_t* L_29 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_30 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.int16_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_31;
+		L_31 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_30, NULL);
+		bool L_32;
+		L_32 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_29, L_31, NULL);
+		if (!L_32)
+		{
+			goto IL_00bb;
+		}
+	}
+	{
+		intptr_t L_33 = ___0_array;
+		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_34;
+		L_34 = AndroidJNISafe_FromShortArray_m62C0CB2D0BAE96D4B8CE365630361150EBE884FC(L_33, NULL);
+		return ((*(float*)UnBox((RuntimeObject*)L_34, il2cpp_rgctx_data(method->rgctx_data, 1))));
+	}
+
+IL_00bb:
+	{
+		Type_t* L_35 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_36 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.int64_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_37;
+		L_37 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_36, NULL);
+		bool L_38;
+		L_38 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_35, L_37, NULL);
+		if (!L_38)
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		intptr_t L_39 = ___0_array;
+		Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D* L_40;
+		L_40 = AndroidJNISafe_FromLongArray_mC4D73C0DA27F212947AB85AA2030A35BECDF8288(L_39, NULL);
+		return ((*(float*)UnBox((RuntimeObject*)L_40, il2cpp_rgctx_data(method->rgctx_data, 1))));
+	}
+
+IL_00d9:
+	{
+		Type_t* L_41 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_42 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.single_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_43;
+		L_43 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_42, NULL);
+		bool L_44;
+		L_44 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_41, L_43, NULL);
+		if (!L_44)
+		{
+			goto IL_00f7;
+		}
+	}
+	{
+		intptr_t L_45 = ___0_array;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_46;
+		L_46 = AndroidJNISafe_FromFloatArray_mDE02985159EEFD2CB28611C797AC21DE8B6300B8(L_45, NULL);
+		return ((*(float*)UnBox((RuntimeObject*)L_46, il2cpp_rgctx_data(method->rgctx_data, 1))));
+	}
+
+IL_00f7:
+	{
+		Type_t* L_47 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_48 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.double_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_49;
+		L_49 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_48, NULL);
+		bool L_50;
+		L_50 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_47, L_49, NULL);
+		if (!L_50)
+		{
+			goto IL_0115;
+		}
+	}
+	{
+		intptr_t L_51 = ___0_array;
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_52;
+		L_52 = AndroidJNISafe_FromDoubleArray_mDEA8F2C7854101272F3A2733F351B570AAD5D9D9(L_51, NULL);
+		return ((*(float*)UnBox((RuntimeObject*)L_52, il2cpp_rgctx_data(method->rgctx_data, 1))));
+	}
+
+IL_0115:
+	{
+		Type_t* L_53 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_54 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.char_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_55;
+		L_55 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_54, NULL);
+		bool L_56;
+		L_56 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_53, L_55, NULL);
+		if (!L_56)
+		{
+			goto IL_02b1;
+		}
+	}
+	{
+		intptr_t L_57 = ___0_array;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_58;
+		L_58 = AndroidJNISafe_FromCharArray_m54EDC9D2BE92F9973F4E00EE953EE242B231EA96(L_57, NULL);
+		return ((*(float*)UnBox((RuntimeObject*)L_58, il2cpp_rgctx_data(method->rgctx_data, 1))));
+	}
+
+IL_0136:
+	{
+		Type_t* L_59 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_60 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.string_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_61;
+		L_61 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_60, NULL);
+		bool L_62;
+		L_62 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_59, L_61, NULL);
+		if (!L_62)
+		{
+			goto IL_01dc;
+		}
+	}
+	{
+		intptr_t L_63 = ___0_array;
+		int32_t L_64;
+		L_64 = AndroidJNISafe_GetArrayLength_m809419F04C9BB93FED5B4A89F0539231C9B90E6F(L_63, NULL);
+		V_1 = L_64;
+		int32_t L_65 = V_1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_66 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)L_65);
+		V_2 = L_66;
+		int32_t L_67 = V_1;
+		if (L_67)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_68 = V_2;
+		return ((*(float*)UnBox((RuntimeObject*)L_68, il2cpp_rgctx_data(method->rgctx_data, 1))));
+	}
+
+IL_0163:
+	{
+		int32_t L_69 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
+		int32_t L_70 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
+		if ((((int32_t)L_69) > ((int32_t)L_70)))
+		{
+			goto IL_016e;
+		}
+	}
+	{
+		int32_t L_71 = V_1;
+		G_B25_0 = L_71;
+		goto IL_0173;
+	}
+
+IL_016e:
+	{
+		il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
+		int32_t L_72 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
+		G_B25_0 = L_72;
+	}
+
+IL_0173:
+	{
+		V_3 = G_B25_0;
+		int32_t L_73 = V_3;
+		AndroidJNISafe_PushLocalFrame_mBD80F37B9AA8EF3360C22C260458B0B8CAC0876B(L_73, NULL);
+		V_4 = (bool)1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_01c5:
+			{
+				{
+					bool L_74 = V_4;
+					if (!L_74)
+					{
+						goto IL_01d4;
+					}
+				}
+				{
+					intptr_t L_75;
+					L_75 = AndroidJNI_PopLocalFrame_m32AF6F9065F09D80BFDD3F573B62C782F392E609(0, NULL);
+				}
+
+IL_01d4:
+				{
+					return;
+				}
+			}
+		});
+		try
+		{
+			{
+				V_5 = 0;
+				goto IL_01be_1;
+			}
+
+IL_0182_1:
+			{
+				int32_t L_76 = V_5;
+				il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
+				int32_t L_77 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
+				if (((int32_t)(L_76%L_77)))
+				{
+					goto IL_01a3_1;
+				}
+			}
+			{
+				intptr_t L_78;
+				L_78 = AndroidJNI_PopLocalFrame_m32AF6F9065F09D80BFDD3F573B62C782F392E609(0, NULL);
+				V_4 = (bool)0;
+				int32_t L_79 = V_3;
+				AndroidJNISafe_PushLocalFrame_mBD80F37B9AA8EF3360C22C260458B0B8CAC0876B(L_79, NULL);
+				V_4 = (bool)1;
+			}
+
+IL_01a3_1:
+			{
+				intptr_t L_80 = ___0_array;
+				int32_t L_81 = V_5;
+				intptr_t L_82;
+				L_82 = AndroidJNI_GetObjectArrayElement_mC4CAF9744617F69EFCD95B71D95492DA20A0FACE(L_80, L_81, NULL);
+				V_6 = L_82;
+				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_83 = V_2;
+				int32_t L_84 = V_5;
+				intptr_t L_85 = V_6;
+				String_t* L_86;
+				L_86 = AndroidJNISafe_GetStringChars_mE246814CD8FF4EDDEE6EBF107367C4A8EAF03849(L_85, NULL);
+				NullCheck(L_83);
+				(L_83)->SetAt(static_cast<il2cpp_array_size_t>(L_84), (String_t*)L_86);
+				int32_t L_87 = V_5;
+				V_5 = ((int32_t)il2cpp_codegen_add(L_87, 1));
+			}
+
+IL_01be_1:
+			{
+				int32_t L_88 = V_5;
+				int32_t L_89 = V_1;
+				if ((((int32_t)L_88) < ((int32_t)L_89)))
+				{
+					goto IL_0182_1;
+				}
+			}
+			{
+				goto IL_01d5;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_01d5:
+	{
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_90 = V_2;
+		return ((*(float*)UnBox((RuntimeObject*)L_90, il2cpp_rgctx_data(method->rgctx_data, 1))));
+	}
+
+IL_01dc:
+	{
+		Type_t* L_91 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_92 = { reinterpret_cast<intptr_t> (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_0_0_0_var) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_93;
+		L_93 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_92, NULL);
+		bool L_94;
+		L_94 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_91, L_93, NULL);
+		if (!L_94)
+		{
+			goto IL_028f;
+		}
+	}
+	{
+		intptr_t L_95 = ___0_array;
+		int32_t L_96;
+		L_96 = AndroidJNISafe_GetArrayLength_m809419F04C9BB93FED5B4A89F0539231C9B90E6F(L_95, NULL);
+		V_7 = L_96;
+		int32_t L_97 = V_7;
+		AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* L_98 = (AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001*)(AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001*)SZArrayNew(AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001_il2cpp_TypeInfo_var, (uint32_t)L_97);
+		V_8 = L_98;
+		int32_t L_99 = V_7;
+		if (L_99)
+		{
+			goto IL_020e;
+		}
+	}
+	{
+		AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* L_100 = V_8;
+		return ((*(float*)UnBox((RuntimeObject*)L_100, il2cpp_rgctx_data(method->rgctx_data, 1))));
+	}
+
+IL_020e:
+	{
+		int32_t L_101 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
+		int32_t L_102 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
+		if ((((int32_t)L_101) > ((int32_t)L_102)))
+		{
+			goto IL_021b;
+		}
+	}
+	{
+		int32_t L_103 = V_7;
+		G_B42_0 = L_103;
+		goto IL_0220;
+	}
+
+IL_021b:
+	{
+		il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
+		int32_t L_104 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
+		G_B42_0 = L_104;
+	}
+
+IL_0220:
+	{
+		V_9 = G_B42_0;
+		int32_t L_105 = V_9;
+		AndroidJNISafe_PushLocalFrame_mBD80F37B9AA8EF3360C22C260458B0B8CAC0876B(L_105, NULL);
+		V_10 = (bool)1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0277:
+			{
+				{
+					bool L_106 = V_10;
+					if (!L_106)
+					{
+						goto IL_0286;
+					}
+				}
+				{
+					intptr_t L_107;
+					L_107 = AndroidJNI_PopLocalFrame_m32AF6F9065F09D80BFDD3F573B62C782F392E609(0, NULL);
+				}
+
+IL_0286:
+				{
+					return;
+				}
+			}
+		});
+		try
+		{
+			{
+				V_11 = 0;
+				goto IL_026f_1;
+			}
+
+IL_0231_1:
+			{
+				int32_t L_108 = V_11;
+				il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
+				int32_t L_109 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
+				if (((int32_t)(L_108%L_109)))
+				{
+					goto IL_0253_1;
+				}
+			}
+			{
+				intptr_t L_110;
+				L_110 = AndroidJNI_PopLocalFrame_m32AF6F9065F09D80BFDD3F573B62C782F392E609(0, NULL);
+				V_10 = (bool)0;
+				int32_t L_111 = V_9;
+				AndroidJNISafe_PushLocalFrame_mBD80F37B9AA8EF3360C22C260458B0B8CAC0876B(L_111, NULL);
+				V_10 = (bool)1;
+			}
+
+IL_0253_1:
+			{
+				intptr_t L_112 = ___0_array;
+				int32_t L_113 = V_11;
+				intptr_t L_114;
+				L_114 = AndroidJNI_GetObjectArrayElement_mC4CAF9744617F69EFCD95B71D95492DA20A0FACE(L_112, L_113, NULL);
+				V_12 = L_114;
+				AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* L_115 = V_8;
+				int32_t L_116 = V_11;
+				intptr_t L_117 = V_12;
+				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_118 = (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)il2cpp_codegen_object_new(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_il2cpp_TypeInfo_var);
+				AndroidJavaObject__ctor_m0CEE7D570807333CE2C193A82AB3AB8D4F873A6B(L_118, L_117, NULL);
+				NullCheck(L_115);
+				ArrayElementTypeCheck (L_115, L_118);
+				(L_115)->SetAt(static_cast<il2cpp_array_size_t>(L_116), (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_118);
+				int32_t L_119 = V_11;
+				V_11 = ((int32_t)il2cpp_codegen_add(L_119, 1));
+			}
+
+IL_026f_1:
+			{
+				int32_t L_120 = V_11;
+				int32_t L_121 = V_7;
+				if ((((int32_t)L_120) < ((int32_t)L_121)))
+				{
+					goto IL_0231_1;
+				}
+			}
+			{
+				goto IL_0287;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0287:
+	{
+		AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* L_122 = V_8;
+		return ((*(float*)UnBox((RuntimeObject*)L_122, il2cpp_rgctx_data(method->rgctx_data, 1))));
+	}
+
+IL_028f:
+	{
+		Type_t* L_123 = V_0;
+		Type_t* L_124 = L_123;
+		if (L_124)
+		{
+			G_B55_0 = L_124;
+			G_B55_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral51253131B895C2F8066BCC47E62D44F18F43446C));
+			goto IL_029c;
+		}
+		G_B54_0 = L_124;
+		G_B54_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral51253131B895C2F8066BCC47E62D44F18F43446C));
+	}
+	{
+		G_B56_0 = ((String_t*)(NULL));
+		G_B56_1 = G_B54_1;
+		goto IL_02a1;
+	}
+
+IL_029c:
+	{
+		NullCheck((RuntimeObject*)G_B55_0);
+		String_t* L_125;
+		L_125 = VirtualFuncInvoker0< String_t* >::Invoke(3, (RuntimeObject*)G_B55_0);
+		G_B56_0 = L_125;
+		G_B56_1 = G_B55_1;
+	}
+
+IL_02a1:
+	{
+		String_t* L_126;
+		L_126 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(G_B56_1, G_B56_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D)), NULL);
+		Exception_t* L_127 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
+		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_127, L_126, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_127, method);
+	}
+
+IL_02b1:
+	{
+		il2cpp_codegen_initobj((&V_13), sizeof(float));
+		float L_128 = V_13;
+		return L_128;
+	}
+}
+// Method Definition Index: 108483
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _AndroidJNIHelper_ConvertFromJNIArray_TisIl2CppFullySharedGenericAny_mD6B660A63955117687D6131FC1DB255161D1A2BA_gshared (intptr_t ___0_array, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidReflection_tD59014B286F902906DBB75DA3473897D35684908_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral24CC8D396132365E532646F936DFC8579E2299B2);
+		il2cpp_rgctx_method_init(method);
+	}
+	const uint32_t SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->rgctx_data, 1));
+	const Il2CppFullySharedGenericAny L_11 = alloca(SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
+	const Il2CppFullySharedGenericAny L_19 = L_11;
+	const Il2CppFullySharedGenericAny L_27 = L_11;
+	const Il2CppFullySharedGenericAny L_35 = L_11;
+	const Il2CppFullySharedGenericAny L_43 = L_11;
+	const Il2CppFullySharedGenericAny L_51 = L_11;
+	const Il2CppFullySharedGenericAny L_59 = L_11;
+	const Il2CppFullySharedGenericAny L_67 = L_11;
+	const Il2CppFullySharedGenericAny L_75 = L_11;
+	const Il2CppFullySharedGenericAny L_87 = L_11;
+	const Il2CppFullySharedGenericAny L_111 = L_11;
+	const Il2CppFullySharedGenericAny L_123 = L_11;
+	const Il2CppFullySharedGenericAny L_147 = L_11;
+	const Il2CppFullySharedGenericAny L_154 = L_11;
+	Type_t* V_0 = NULL;
+	int32_t V_1 = 0;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_2 = NULL;
+	int32_t V_3 = 0;
+	bool V_4 = false;
+	int32_t V_5 = 0;
+	intptr_t V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* V_8 = NULL;
+	int32_t V_9 = 0;
+	bool V_10 = false;
+	int32_t V_11 = 0;
+	intptr_t V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	Il2CppFullySharedGenericAny V_13 = alloca(SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
+	memset(V_13, 0, SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
+	int32_t G_B25_0 = 0;
+	int32_t G_B42_0 = 0;
+	Type_t* G_B55_0 = NULL;
+	String_t* G_B55_1 = NULL;
+	Type_t* G_B54_0 = NULL;
+	String_t* G_B54_1 = NULL;
+	String_t* G_B56_0 = NULL;
+	String_t* G_B56_1 = NULL;
+	{
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_1;
+		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
+		NullCheck(L_1);
+		Type_t* L_2;
+		L_2 = VirtualFuncInvoker0< Type_t* >::Invoke(48, L_1);
+		V_0 = L_2;
+		Type_t* L_3 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(AndroidReflection_tD59014B286F902906DBB75DA3473897D35684908_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = AndroidReflection_IsPrimitive_mA41A9ECECE3D73679C79DC8B0FDD32B59570DF25(L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_0136;
+		}
+	}
+	{
+		Type_t* L_5 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.int32_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_7;
+		L_7 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_6, NULL);
+		bool L_8;
+		L_8 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_5, L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		intptr_t L_9 = ___0_array;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10;
+		L_10 = AndroidJNISafe_FromIntArray_mC4C4DC70FFA39CD6E3E02FDAC7192324E6D4614E(L_9, NULL);
+		void* L_12 = UnBox_Any((RuntimeObject*)L_10, il2cpp_rgctx_data(method->rgctx_data, 1), L_11);
+		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_12)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
+		return;
+	}
+
+IL_0039:
+	{
+		Type_t* L_13 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_14 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.boolean_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_15;
+		L_15 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_14, NULL);
+		bool L_16;
+		L_16 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_13, L_15, NULL);
+		if (!L_16)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		intptr_t L_17 = ___0_array;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_18;
+		L_18 = AndroidJNISafe_FromBooleanArray_m36ED740401185EC0A959CA0F96A324A69E668646(L_17, NULL);
+		void* L_20 = UnBox_Any((RuntimeObject*)L_18, il2cpp_rgctx_data(method->rgctx_data, 1), L_19);
+		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_20)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
+		return;
+	}
+
+IL_0057:
+	{
+		Type_t* L_21 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_22 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.byte_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_23;
+		L_23 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_22, NULL);
+		bool L_24;
+		L_24 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_21, L_23, NULL);
+		if (!L_24)
+		{
+			goto IL_007f;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9((RuntimeObject*)_stringLiteral24CC8D396132365E532646F936DFC8579E2299B2, NULL);
+		intptr_t L_25 = ___0_array;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_26;
+		L_26 = AndroidJNISafe_FromByteArray_mB06EF0FDBF6C738231E8F9D4998C38551131C4C5(L_25, NULL);
+		void* L_28 = UnBox_Any((RuntimeObject*)L_26, il2cpp_rgctx_data(method->rgctx_data, 1), L_27);
+		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_28)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
+		return;
+	}
+
+IL_007f:
+	{
+		Type_t* L_29 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_30 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.sbyte_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_31;
+		L_31 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_30, NULL);
+		bool L_32;
+		L_32 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_29, L_31, NULL);
+		if (!L_32)
+		{
+			goto IL_009d;
+		}
+	}
+	{
+		intptr_t L_33 = ___0_array;
+		SByteU5BU5D_t88116DA68378C3333DB73E7D36C1A06AFAA91913* L_34;
+		L_34 = AndroidJNISafe_FromSByteArray_m261D638D8B059AB777BEF0BEFDD0822717DFF2B1(L_33, NULL);
+		void* L_36 = UnBox_Any((RuntimeObject*)L_34, il2cpp_rgctx_data(method->rgctx_data, 1), L_35);
+		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_36)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
+		return;
+	}
+
+IL_009d:
+	{
+		Type_t* L_37 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_38 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.int16_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_39;
+		L_39 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_38, NULL);
+		bool L_40;
+		L_40 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_37, L_39, NULL);
+		if (!L_40)
+		{
+			goto IL_00bb;
+		}
+	}
+	{
+		intptr_t L_41 = ___0_array;
+		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_42;
+		L_42 = AndroidJNISafe_FromShortArray_m62C0CB2D0BAE96D4B8CE365630361150EBE884FC(L_41, NULL);
+		void* L_44 = UnBox_Any((RuntimeObject*)L_42, il2cpp_rgctx_data(method->rgctx_data, 1), L_43);
+		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_44)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
+		return;
+	}
+
+IL_00bb:
+	{
+		Type_t* L_45 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_46 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.int64_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_47;
+		L_47 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_46, NULL);
+		bool L_48;
+		L_48 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_45, L_47, NULL);
+		if (!L_48)
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		intptr_t L_49 = ___0_array;
+		Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D* L_50;
+		L_50 = AndroidJNISafe_FromLongArray_mC4D73C0DA27F212947AB85AA2030A35BECDF8288(L_49, NULL);
+		void* L_52 = UnBox_Any((RuntimeObject*)L_50, il2cpp_rgctx_data(method->rgctx_data, 1), L_51);
+		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_52)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
+		return;
+	}
+
+IL_00d9:
+	{
+		Type_t* L_53 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_54 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.single_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_55;
+		L_55 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_54, NULL);
+		bool L_56;
+		L_56 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_53, L_55, NULL);
+		if (!L_56)
+		{
+			goto IL_00f7;
+		}
+	}
+	{
+		intptr_t L_57 = ___0_array;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_58;
+		L_58 = AndroidJNISafe_FromFloatArray_mDE02985159EEFD2CB28611C797AC21DE8B6300B8(L_57, NULL);
+		void* L_60 = UnBox_Any((RuntimeObject*)L_58, il2cpp_rgctx_data(method->rgctx_data, 1), L_59);
+		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_60)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
+		return;
+	}
+
+IL_00f7:
+	{
+		Type_t* L_61 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_62 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.double_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_63;
+		L_63 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_62, NULL);
+		bool L_64;
+		L_64 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_61, L_63, NULL);
+		if (!L_64)
+		{
+			goto IL_0115;
+		}
+	}
+	{
+		intptr_t L_65 = ___0_array;
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_66;
+		L_66 = AndroidJNISafe_FromDoubleArray_mDEA8F2C7854101272F3A2733F351B570AAD5D9D9(L_65, NULL);
+		void* L_68 = UnBox_Any((RuntimeObject*)L_66, il2cpp_rgctx_data(method->rgctx_data, 1), L_67);
+		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_68)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
+		return;
+	}
+
+IL_0115:
+	{
+		Type_t* L_69 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_70 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.char_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_71;
+		L_71 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_70, NULL);
+		bool L_72;
+		L_72 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_69, L_71, NULL);
+		if (!L_72)
+		{
+			goto IL_02b1;
+		}
+	}
+	{
+		intptr_t L_73 = ___0_array;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_74;
+		L_74 = AndroidJNISafe_FromCharArray_m54EDC9D2BE92F9973F4E00EE953EE242B231EA96(L_73, NULL);
+		void* L_76 = UnBox_Any((RuntimeObject*)L_74, il2cpp_rgctx_data(method->rgctx_data, 1), L_75);
+		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_76)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
+		return;
+	}
+
+IL_0136:
+	{
+		Type_t* L_77 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_78 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.string_class->byval_arg) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_79;
+		L_79 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_78, NULL);
+		bool L_80;
+		L_80 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_77, L_79, NULL);
+		if (!L_80)
+		{
+			goto IL_01dc;
+		}
+	}
+	{
+		intptr_t L_81 = ___0_array;
+		int32_t L_82;
+		L_82 = AndroidJNISafe_GetArrayLength_m809419F04C9BB93FED5B4A89F0539231C9B90E6F(L_81, NULL);
+		V_1 = L_82;
+		int32_t L_83 = V_1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_84 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)L_83);
+		V_2 = L_84;
+		int32_t L_85 = V_1;
+		if (L_85)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_86 = V_2;
+		void* L_88 = UnBox_Any((RuntimeObject*)L_86, il2cpp_rgctx_data(method->rgctx_data, 1), L_87);
+		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_88)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
+		return;
+	}
+
+IL_0163:
+	{
+		int32_t L_89 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
+		int32_t L_90 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
+		if ((((int32_t)L_89) > ((int32_t)L_90)))
+		{
+			goto IL_016e;
+		}
+	}
+	{
+		int32_t L_91 = V_1;
+		G_B25_0 = L_91;
+		goto IL_0173;
+	}
+
+IL_016e:
+	{
+		il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
+		int32_t L_92 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
+		G_B25_0 = L_92;
+	}
+
+IL_0173:
+	{
+		V_3 = G_B25_0;
+		int32_t L_93 = V_3;
+		AndroidJNISafe_PushLocalFrame_mBD80F37B9AA8EF3360C22C260458B0B8CAC0876B(L_93, NULL);
+		V_4 = (bool)1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_01c5:
+			{
+				{
+					bool L_94 = V_4;
+					if (!L_94)
+					{
+						goto IL_01d4;
+					}
+				}
+				{
+					intptr_t L_95;
+					L_95 = AndroidJNI_PopLocalFrame_m32AF6F9065F09D80BFDD3F573B62C782F392E609(0, NULL);
+				}
+
+IL_01d4:
+				{
+					return;
+				}
+			}
+		});
+		try
+		{
+			{
+				V_5 = 0;
+				goto IL_01be_1;
+			}
+
+IL_0182_1:
+			{
+				int32_t L_96 = V_5;
+				il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
+				int32_t L_97 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
+				if (((int32_t)(L_96%L_97)))
+				{
+					goto IL_01a3_1;
+				}
+			}
+			{
+				intptr_t L_98;
+				L_98 = AndroidJNI_PopLocalFrame_m32AF6F9065F09D80BFDD3F573B62C782F392E609(0, NULL);
+				V_4 = (bool)0;
+				int32_t L_99 = V_3;
+				AndroidJNISafe_PushLocalFrame_mBD80F37B9AA8EF3360C22C260458B0B8CAC0876B(L_99, NULL);
+				V_4 = (bool)1;
+			}
+
+IL_01a3_1:
+			{
+				intptr_t L_100 = ___0_array;
+				int32_t L_101 = V_5;
+				intptr_t L_102;
+				L_102 = AndroidJNI_GetObjectArrayElement_mC4CAF9744617F69EFCD95B71D95492DA20A0FACE(L_100, L_101, NULL);
+				V_6 = L_102;
+				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_103 = V_2;
+				int32_t L_104 = V_5;
+				intptr_t L_105 = V_6;
+				String_t* L_106;
+				L_106 = AndroidJNISafe_GetStringChars_mE246814CD8FF4EDDEE6EBF107367C4A8EAF03849(L_105, NULL);
+				NullCheck(L_103);
+				(L_103)->SetAt(static_cast<il2cpp_array_size_t>(L_104), (String_t*)L_106);
+				int32_t L_107 = V_5;
+				V_5 = ((int32_t)il2cpp_codegen_add(L_107, 1));
+			}
+
+IL_01be_1:
+			{
+				int32_t L_108 = V_5;
+				int32_t L_109 = V_1;
+				if ((((int32_t)L_108) < ((int32_t)L_109)))
+				{
+					goto IL_0182_1;
+				}
+			}
+			{
+				goto IL_01d5;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_01d5:
+	{
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_110 = V_2;
+		void* L_112 = UnBox_Any((RuntimeObject*)L_110, il2cpp_rgctx_data(method->rgctx_data, 1), L_111);
+		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_112)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
+		return;
+	}
+
+IL_01dc:
+	{
+		Type_t* L_113 = V_0;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_114 = { reinterpret_cast<intptr_t> (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_0_0_0_var) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_115;
+		L_115 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_114, NULL);
+		bool L_116;
+		L_116 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_113, L_115, NULL);
+		if (!L_116)
+		{
+			goto IL_028f;
+		}
+	}
+	{
+		intptr_t L_117 = ___0_array;
+		int32_t L_118;
+		L_118 = AndroidJNISafe_GetArrayLength_m809419F04C9BB93FED5B4A89F0539231C9B90E6F(L_117, NULL);
+		V_7 = L_118;
+		int32_t L_119 = V_7;
+		AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* L_120 = (AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001*)(AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001*)SZArrayNew(AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001_il2cpp_TypeInfo_var, (uint32_t)L_119);
+		V_8 = L_120;
+		int32_t L_121 = V_7;
+		if (L_121)
+		{
+			goto IL_020e;
+		}
+	}
+	{
+		AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* L_122 = V_8;
+		void* L_124 = UnBox_Any((RuntimeObject*)L_122, il2cpp_rgctx_data(method->rgctx_data, 1), L_123);
+		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_124)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
+		return;
+	}
+
+IL_020e:
+	{
+		int32_t L_125 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
+		int32_t L_126 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
+		if ((((int32_t)L_125) > ((int32_t)L_126)))
+		{
+			goto IL_021b;
+		}
+	}
+	{
+		int32_t L_127 = V_7;
+		G_B42_0 = L_127;
+		goto IL_0220;
+	}
+
+IL_021b:
+	{
+		il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
+		int32_t L_128 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
+		G_B42_0 = L_128;
+	}
+
+IL_0220:
+	{
+		V_9 = G_B42_0;
+		int32_t L_129 = V_9;
+		AndroidJNISafe_PushLocalFrame_mBD80F37B9AA8EF3360C22C260458B0B8CAC0876B(L_129, NULL);
+		V_10 = (bool)1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0277:
+			{
+				{
+					bool L_130 = V_10;
+					if (!L_130)
+					{
+						goto IL_0286;
+					}
+				}
+				{
+					intptr_t L_131;
+					L_131 = AndroidJNI_PopLocalFrame_m32AF6F9065F09D80BFDD3F573B62C782F392E609(0, NULL);
+				}
+
+IL_0286:
+				{
+					return;
+				}
+			}
+		});
+		try
+		{
+			{
+				V_11 = 0;
+				goto IL_026f_1;
+			}
+
+IL_0231_1:
+			{
+				int32_t L_132 = V_11;
+				il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
+				int32_t L_133 = ((_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_StaticFields*)il2cpp_codegen_static_fields_for(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var))->___FRAME_SIZE_FOR_ARRAYS;
+				if (((int32_t)(L_132%L_133)))
+				{
+					goto IL_0253_1;
+				}
+			}
+			{
+				intptr_t L_134;
+				L_134 = AndroidJNI_PopLocalFrame_m32AF6F9065F09D80BFDD3F573B62C782F392E609(0, NULL);
+				V_10 = (bool)0;
+				int32_t L_135 = V_9;
+				AndroidJNISafe_PushLocalFrame_mBD80F37B9AA8EF3360C22C260458B0B8CAC0876B(L_135, NULL);
+				V_10 = (bool)1;
+			}
+
+IL_0253_1:
+			{
+				intptr_t L_136 = ___0_array;
+				int32_t L_137 = V_11;
+				intptr_t L_138;
+				L_138 = AndroidJNI_GetObjectArrayElement_mC4CAF9744617F69EFCD95B71D95492DA20A0FACE(L_136, L_137, NULL);
+				V_12 = L_138;
+				AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* L_139 = V_8;
+				int32_t L_140 = V_11;
+				intptr_t L_141 = V_12;
+				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_142 = (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)il2cpp_codegen_object_new(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_il2cpp_TypeInfo_var);
+				AndroidJavaObject__ctor_m0CEE7D570807333CE2C193A82AB3AB8D4F873A6B(L_142, L_141, NULL);
+				NullCheck(L_139);
+				ArrayElementTypeCheck (L_139, L_142);
+				(L_139)->SetAt(static_cast<il2cpp_array_size_t>(L_140), (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_142);
+				int32_t L_143 = V_11;
+				V_11 = ((int32_t)il2cpp_codegen_add(L_143, 1));
+			}
+
+IL_026f_1:
+			{
+				int32_t L_144 = V_11;
+				int32_t L_145 = V_7;
+				if ((((int32_t)L_144) < ((int32_t)L_145)))
+				{
+					goto IL_0231_1;
+				}
+			}
+			{
+				goto IL_0287;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0287:
+	{
+		AndroidJavaObjectU5BU5D_tBCEB142050F282B940177011644246618E002001* L_146 = V_8;
+		void* L_148 = UnBox_Any((RuntimeObject*)L_146, il2cpp_rgctx_data(method->rgctx_data, 1), L_147);
+		il2cpp_codegen_memcpy(il2cppRetVal, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_148)), SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
+		return;
+	}
+
+IL_028f:
+	{
+		Type_t* L_149 = V_0;
+		Type_t* L_150 = L_149;
+		if (L_150)
+		{
+			G_B55_0 = L_150;
+			G_B55_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral51253131B895C2F8066BCC47E62D44F18F43446C));
+			goto IL_029c;
+		}
+		G_B54_0 = L_150;
+		G_B54_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral51253131B895C2F8066BCC47E62D44F18F43446C));
+	}
+	{
+		G_B56_0 = ((String_t*)(NULL));
+		G_B56_1 = G_B54_1;
+		goto IL_02a1;
+	}
+
+IL_029c:
+	{
+		NullCheck((RuntimeObject*)G_B55_0);
+		String_t* L_151;
+		L_151 = VirtualFuncInvoker0< String_t* >::Invoke(3, (RuntimeObject*)G_B55_0);
+		G_B56_0 = L_151;
+		G_B56_1 = G_B55_1;
+	}
+
+IL_02a1:
+	{
+		String_t* L_152;
+		L_152 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(G_B56_1, G_B56_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D)), NULL);
+		Exception_t* L_153 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
+		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_153, L_152, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_153, method);
+	}
+
+IL_02b1:
+	{
+		il2cpp_codegen_initobj((Il2CppFullySharedGenericAny*)V_13, SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
+		il2cpp_codegen_memcpy(L_154, V_13, SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
+		il2cpp_codegen_memcpy(il2cppRetVal, L_154, SizeOf_ArrayType_t15B09198CBBCA055D6DA2DC75D66B572B87D0FBF);
+		return;
+	}
+}
+// Method Definition Index: 108487
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t _AndroidJNIHelper_GetFieldID_TisIl2CppFullySharedGenericAny_m5714D44FF454CB672C9F04F1316533DAD6C6BCBB_gshared (intptr_t ___0_jclass, String_t* ___1_fieldName, bool ___2_isStatic, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	{
+		intptr_t L_0 = ___0_jclass;
+		String_t* L_1 = ___1_fieldName;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_2 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_3;
+		L_3 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_2, NULL);
+		il2cpp_codegen_runtime_class_init_inline(_AndroidJNIHelper_tA796944DDB1B1459DF68C9FFA518F452C81364F3_il2cpp_TypeInfo_var);
+		String_t* L_4;
+		L_4 = _AndroidJNIHelper_GetSignature_m414A7A6B98FB5565075E4C51F22C482F2BCEEF5F((RuntimeObject*)L_3, NULL);
+		bool L_5 = ___2_isStatic;
+		intptr_t L_6;
+		L_6 = AndroidJNIHelper_GetFieldID_mDA4775DFA37126A7EFEBCA8E68EF9640F3D6EF01(L_0, L_1, L_4, L_5, NULL);
+		return L_6;
+	}
+}
 // Method Definition Index: 17619
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677 VisualElement_get_hierarchy_m2E897DE4CFD349E65CFA38EFF6BAAFECE2F4E3E4_inline (VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* __this, const RuntimeMethod* method) 
 {
@@ -51962,7 +45495,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t6AC1E63E8A7AEC25512ADBCAD
 		return L_0;
 	}
 }
-// Method Definition Index: 115227
+// Method Definition Index: 115189
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* XRManagerSettings_get_activeLoader_mFB3B679005792D3DF871EAA7120DD86DCA1D5DEA_inline (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	{
@@ -51971,7 +45504,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRLoader_t80B1B1934C40561C5352ABC
 		return L_0;
 	}
 }
-// Method Definition Index: 115186
+// Method Definition Index: 115148
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* XRGeneralSettings_get_Instance_m9F222F982E62E066E119754858D8E73CFE42048C_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51987,7 +45520,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRGeneralSettings_t8F8D096944606B
 		return L_0;
 	}
 }
-// Method Definition Index: 115184
+// Method Definition Index: 115146
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* XRGeneralSettings_get_Manager_m112FEB4E6DFB7B5F5C4A2DEC4E975CF2EBD51B42_inline (XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -51996,7 +45529,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRManagerSettings_t7923B66EB3FEE5
 		return L_0;
 	}
 }
-// Method Definition Index: 115225
+// Method Definition Index: 115187
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* XRManagerSettings_get_activeLoaders_m47D0FF16B7012A87F56D93124DC5D8DA0ACA591F_inline (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	{
@@ -52071,7 +45604,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_subsystemTypeOverr
 		return;
 	}
 }
-// Method Definition Index: 115789
+// Method Definition Index: 115751
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m5B6CC1D65A88A7944C5EC7175D8CFC7E8229CE30_gshared_inline (bool* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52079,7 +45612,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisBool
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115789
+// Method Definition Index: 115751
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisContentFileId_t630F8A1A207C9248EE434BA833823A2D5C384FD7_m01D2486E5139DD8D56B5A959FBDD5892F83B5C23_gshared_inline (ContentFileId_t630F8A1A207C9248EE434BA833823A2D5C384FD7* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52087,7 +45620,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisCont
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115789
+// Method Definition Index: 115751
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisEntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8_m982C8C3F5794345811F8A479DE3F462251F37154_gshared_inline (EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52095,7 +45628,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisEnti
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115789
+// Method Definition Index: 115751
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisFixedBytes126_tC223222E11A3E93A15FE1C62C3429FC169DBC989_m3D004B295A2AA75B22399C1EA2DC30123F0D02C1_gshared_inline (FixedBytes126_tC223222E11A3E93A15FE1C62C3429FC169DBC989* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52103,7 +45636,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisFixe
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115789
+// Method Definition Index: 115751
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisFixedBytes30_t7721F11929A3AC08287DF5E6D7AEF85CCEE04AD2_m50D26DEC763A34560B6849E0A02251B905526807_gshared_inline (FixedBytes30_t7721F11929A3AC08287DF5E6D7AEF85CCEE04AD2* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52111,7 +45644,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisFixe
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115789
+// Method Definition Index: 115751
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisFixedBytes4094_t8611441D8BDC6A677C2D9E551086F59EFBFCBBE5_m30DF4DAD84649B8DD4C0350BBB77518C82618F07_gshared_inline (FixedBytes4094_t8611441D8BDC6A677C2D9E551086F59EFBFCBBE5* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52119,7 +45652,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisFixe
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115789
+// Method Definition Index: 115751
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisFixedBytes510_t95B284C3FF966246998B23701C3F0F55C6BD7973_m3287C65BAF239697E68B2A861706BD4304574CD8_gshared_inline (FixedBytes510_t95B284C3FF966246998B23701C3F0F55C6BD7973* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52127,7 +45660,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisFixe
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115789
+// Method Definition Index: 115751
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisFixedBytes62_t25CC23B7A3CF922DF0D1F0BFD5F801864D4FFD2A_m313334AC003D67EE6328C62A0BC8EBCB3CAF3D2E_gshared_inline (FixedBytes62_t25CC23B7A3CF922DF0D1F0BFD5F801864D4FFD2A* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52135,7 +45668,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisFixe
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115789
+// Method Definition Index: 115751
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisHash128_t2EA8F45F10BC2DF40B0CE9AE04F222072EB1345B_m7A606DE415BC6DEB945A3BBC065BFD14C7EACFE5_gshared_inline (Hash128_t2EA8F45F10BC2DF40B0CE9AE04F222072EB1345B* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52143,7 +45676,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisHash
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115789
+// Method Definition Index: 115751
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisHash128_t93367F504B687578F893CDBCD13FB95AC8A87A40_m7A6B39371150C251F04C80361EE992A5B067F78A_gshared_inline (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52151,7 +45684,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisHash
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115789
+// Method Definition Index: 115751
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m8544D06F32E3436CE779A52F9FF3B72256EBAFAC_gshared_inline (int32_t* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52159,7 +45692,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisInt3
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115789
+// Method Definition Index: 115751
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mE7633848AE991A764B88582BA7288CD89F95F83A_gshared_inline (int32_t* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52167,7 +45700,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisInt3
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115789
+// Method Definition Index: 115751
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisRigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD_mEEF30E06512C0B10EE66BC10707C0275A405C575_gshared_inline (RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52175,7 +45708,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisRigi
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115789
+// Method Definition Index: 115751
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisUInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_mFAC58C9127FC43F35561DF7E5179BF7D2E6174B1_gshared_inline (uint32_t* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52183,7 +45716,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ILSupport_AddressOf_TisUInt
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 115790
+// Method Definition Index: 115752
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR FixedString128Bytes_tEBC488E0CC30C6D842951A4E6F09AC58677F1952* ILSupport_AsRef_TisFixedString128Bytes_tEBC488E0CC30C6D842951A4E6F09AC58677F1952_m630073FF4D9A6EF9122092466AADDB187F5834ED_gshared_inline (FixedString128Bytes_tEBC488E0CC30C6D842951A4E6F09AC58677F1952* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52191,7 +45724,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR FixedString128Bytes_tEBC488E0CC30
 		return L_0;
 	}
 }
-// Method Definition Index: 115790
+// Method Definition Index: 115752
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR FixedString32Bytes_t0FB200DC482825CC1EF24B4640201CC039631824* ILSupport_AsRef_TisFixedString32Bytes_t0FB200DC482825CC1EF24B4640201CC039631824_mA71E69E902D8DDF286A0CEEAD8E1D29605C6EDC6_gshared_inline (FixedString32Bytes_t0FB200DC482825CC1EF24B4640201CC039631824* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52199,7 +45732,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR FixedString32Bytes_t0FB200DC48282
 		return L_0;
 	}
 }
-// Method Definition Index: 115790
+// Method Definition Index: 115752
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR FixedString4096Bytes_t0F6BC703C749C343D1A18E09973BEE0AF0CDFC21* ILSupport_AsRef_TisFixedString4096Bytes_t0F6BC703C749C343D1A18E09973BEE0AF0CDFC21_m096CE4305D6523DEDF56B42E078674DF8BC53DEF_gshared_inline (FixedString4096Bytes_t0F6BC703C749C343D1A18E09973BEE0AF0CDFC21* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52207,7 +45740,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR FixedString4096Bytes_t0F6BC703C74
 		return L_0;
 	}
 }
-// Method Definition Index: 115790
+// Method Definition Index: 115752
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR FixedString512Bytes_t0C425B0F2C07FEA1642C32BF8559116DF2BFF50E* ILSupport_AsRef_TisFixedString512Bytes_t0C425B0F2C07FEA1642C32BF8559116DF2BFF50E_mD7122EE8F9F7BCF9F3CE5DAF1DCC391F6E2E94B7_gshared_inline (FixedString512Bytes_t0C425B0F2C07FEA1642C32BF8559116DF2BFF50E* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52215,7 +45748,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR FixedString512Bytes_t0C425B0F2C07
 		return L_0;
 	}
 }
-// Method Definition Index: 115790
+// Method Definition Index: 115752
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR FixedString64Bytes_t0F1B6FFAFD8C15898CD77D91A79AB36AA078E0A5* ILSupport_AsRef_TisFixedString64Bytes_t0F1B6FFAFD8C15898CD77D91A79AB36AA078E0A5_m0FEBA4BC8DE3310D268E25E270607ACD5EE737CA_gshared_inline (FixedString64Bytes_t0F1B6FFAFD8C15898CD77D91A79AB36AA078E0A5* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52223,7 +45756,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR FixedString64Bytes_t0F1B6FFAFD8C1
 		return L_0;
 	}
 }
-// Method Definition Index: 115790
+// Method Definition Index: 115752
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeText_tB3B319AB46B15213BEA974C11E1027DB69484C39* ILSupport_AsRef_TisNativeText_tB3B319AB46B15213BEA974C11E1027DB69484C39_m235513163F3C65928B444F56B0BC80057593DA15_gshared_inline (NativeText_tB3B319AB46B15213BEA974C11E1027DB69484C39* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52231,7 +45764,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeText_tB3B319AB46B15213BEA97
 		return L_0;
 	}
 }
-// Method Definition Index: 115790
+// Method Definition Index: 115752
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnsafeText_t93F5D82C1FF7AB12B0E621B9D0EC9855D005FF67* ILSupport_AsRef_TisUnsafeText_t93F5D82C1FF7AB12B0E621B9D0EC9855D005FF67_mFAF1D7058D23717A69DBCF2DAAC5BA43E26FEDFC_gshared_inline (UnsafeText_t93F5D82C1FF7AB12B0E621B9D0EC9855D005FF67* ___0_thing, const RuntimeMethod* method) 
 {
 	{
@@ -52239,7 +45772,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnsafeText_t93F5D82C1FF7AB12B0E62
 		return L_0;
 	}
 }
-// Method Definition Index: 115790
+// Method Definition Index: 115752
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ReadOnly_t7FCE1D9551E2596FECD15F574B336E3F361F7AD0* ILSupport_AsRef_TisReadOnly_t7FCE1D9551E2596FECD15F574B336E3F361F7AD0_m65CDBDA6684A5DFA49EB489B560472561BA48E8A_gshared_inline (ReadOnly_t7FCE1D9551E2596FECD15F574B336E3F361F7AD0* ___0_thing, const RuntimeMethod* method) 
 {
 	{

@@ -116,7 +116,6 @@ struct ExecuteJobFunction_t8B85BE20CC34A932775618E7E1D56ABFA12F5222;
 struct ExecuteJobFunction_t7965F2138130667C8E3CDAC4D871DC5DC2452BC0;
 struct ExecuteJobFunction_t4102D342F6364A0A72EC1B26EFFCA86DC88E787D;
 struct ExecuteJobFunction_tFED3C055D636568101492C6597B53C117AA76EF6;
-struct ExecuteJobFunction_t43747613587D1106ABD2B578302EC559B8D17C3C;
 struct ExecuteJobFunction_tB36BEE44848446C24D30265ADE479625EB8E34A3;
 struct ExecuteJobFunction_tD6C92A74E7B2D9A3B56990280DFE3400223A2338;
 struct ExecuteJobFunction_t9E2DD0A79D254E1534BA2EF9D40094BB8422C4C9;
@@ -140,6 +139,7 @@ struct ExecuteJobFunction_tC576A789D12786C521E196B674B3CB839D52B923;
 struct ExecuteJobFunction_tDACC811AA5193747F5852AC61F25ACF8C16B5D9E;
 struct ExecuteJobFunction_t38C595A196E8D5EDAC2D4C4A774970BA48276F78;
 struct ExecuteJobFunction_tA1A6646A548C88D5C65DC8D44A32458508CD8152;
+struct ExecuteJobFunction_t3FAAEAB25558B686566C377AFBA94D32F1547AF4;
 struct IEnumerator_1_t327FF232159D9644239A65F54312F684DB7BE375;
 struct IEnumerator_1_t97B9AB04C0449B820BFAB8FCC3AA6A827EB1F3AB;
 struct IEnumerator_1_tFF867A2A24D9D333C50BE914ABD54805E7EF0E09;
@@ -1096,16 +1096,6 @@ struct JobChunkProducer_1_tFE94E24226BE84345F08E6D274882F15EAF0C3B3
 		uint8_t JobChunkProducer_1_t249757EDDCD2C0A60DDC3E075A67E1A6E348F9E2__padding[1];
 	};
 };
-struct JobChunkProducer_1_t8B692FC21FF155F214A4FBFD99BDA1B7661C107B 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t JobChunkProducer_1_t249757EDDCD2C0A60DDC3E075A67E1A6E348F9E2__padding[1];
-	};
-};
 struct JobChunkProducer_1_t4FB95A04CD908C0E6A0FAD147A8C407BC72F090B 
 {
 	union
@@ -1337,6 +1327,16 @@ struct JobChunkProducer_1_tCA1DAC916BA8FE8DE8C7D4C4A40398C07CFF4308
 	};
 };
 struct JobChunkProducer_1_tDD5DD644BACE20D79429ABB2A15B19A2E5808A81 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t JobChunkProducer_1_t249757EDDCD2C0A60DDC3E075A67E1A6E348F9E2__padding[1];
+	};
+};
+struct JobChunkProducer_1_tCCD483F1009299FBDD6AE473BDAFBE1E41C713C1 
 {
 	union
 	{
@@ -2501,15 +2501,13 @@ struct BufferTypeHandle_1_t53034562CF26DD84E984DFD3BC402B045C28AD9C
 	uint8_t ___m_IsReadOnly;
 	int32_t ___m_Length;
 };
-struct ComponentTypeHandle_1_t9D3FD425A9AA2CAA38C3A9F8621A8843336BF3F4 
+struct ComponentLookup_1_t6F2B35048FC274906710B37C0A57D1F519A11FB8 
 {
-	LookupCache_t3C0A5C02880755A14500AADCA75DC1CB85D12851 ___m_LookupCache;
+	EntityDataAccess_t98E1CF6F73892A92AA3FF870A4BD941364E9CD36* ___m_Access;
+	LookupCache_t3C0A5C02880755A14500AADCA75DC1CB85D12851 ___m_Cache;
 	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_TypeIndex;
-	int32_t ___m_SizeInChunk;
 	uint32_t ___m_GlobalSystemVersion;
-	uint8_t ___m_IsReadOnly;
 	uint8_t ___m_IsZeroSized;
-	int32_t ___m_Length;
 };
 struct ComponentTypeHandle_1_t919D23F81332A011DF7EB1837FADD53E63778665 
 {
@@ -2631,6 +2629,16 @@ struct ComponentTypeHandle_1_t4109DFAD38EDB405509C789E32A73F03C90DFE78
 	uint8_t ___m_IsZeroSized;
 	int32_t ___m_Length;
 };
+struct ComponentTypeHandle_1_t6C7AA029E004359BA29974A4B4581D3A31BCB141 
+{
+	LookupCache_t3C0A5C02880755A14500AADCA75DC1CB85D12851 ___m_LookupCache;
+	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_TypeIndex;
+	int32_t ___m_SizeInChunk;
+	uint32_t ___m_GlobalSystemVersion;
+	uint8_t ___m_IsReadOnly;
+	uint8_t ___m_IsZeroSized;
+	int32_t ___m_Length;
+};
 struct ComponentTypeHandle_1_t27638FC19830B2483E7B8BDFA61F11DAC5511749 
 {
 	LookupCache_t3C0A5C02880755A14500AADCA75DC1CB85D12851 ___m_LookupCache;
@@ -2711,16 +2719,6 @@ struct ComponentTypeHandle_1_tBF0863BDEFFF1A66A06BDB3B6AA73A932D281109
 	uint8_t ___m_IsZeroSized;
 	int32_t ___m_Length;
 };
-struct ComponentTypeHandle_1_tAAFC7257830CE9D1C456F58F9AA4528154F367E0 
-{
-	LookupCache_t3C0A5C02880755A14500AADCA75DC1CB85D12851 ___m_LookupCache;
-	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_TypeIndex;
-	int32_t ___m_SizeInChunk;
-	uint32_t ___m_GlobalSystemVersion;
-	uint8_t ___m_IsReadOnly;
-	uint8_t ___m_IsZeroSized;
-	int32_t ___m_Length;
-};
 struct ComponentTypeHandle_1_t7207CB096BE35519BCE3B1A4D6088A6D9247D35A 
 {
 	LookupCache_t3C0A5C02880755A14500AADCA75DC1CB85D12851 ___m_LookupCache;
@@ -2752,6 +2750,16 @@ struct ComponentTypeHandle_1_t3F0B41A13A704BCD34A922D755CAC0EFA75217E1
 	int32_t ___m_Length;
 };
 struct ComponentTypeHandle_1_t7CBA5F48B44E08FC2166953418340B6D0B2D3754 
+{
+	LookupCache_t3C0A5C02880755A14500AADCA75DC1CB85D12851 ___m_LookupCache;
+	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_TypeIndex;
+	int32_t ___m_SizeInChunk;
+	uint32_t ___m_GlobalSystemVersion;
+	uint8_t ___m_IsReadOnly;
+	uint8_t ___m_IsZeroSized;
+	int32_t ___m_Length;
+};
+struct ComponentTypeHandle_1_t1C78A362F825C17BAA2ACB4C16658309EE07C1EA 
 {
 	LookupCache_t3C0A5C02880755A14500AADCA75DC1CB85D12851 ___m_LookupCache;
 	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___m_TypeIndex;
@@ -5237,6 +5245,13 @@ struct UpdateLODGroupWorldReferencePointsJob_tF284134D15E16A242BCAC5CC1CE22D9F0A
 	ComponentTypeHandle_1_tEEE2A5C7BC9EBACD051B2BC1B43C739F75FEA206 ___LocalToWorld;
 	ComponentTypeHandle_1_t8FD45E1923D3636A3D4A0FD1EA2FB32CD056EDF9 ___LODGroupWorldReferencePoint;
 };
+struct UpdateLODRangesJob_t9AD59EB632F3100B85F5539361FFD89593372018 
+{
+	ComponentLookup_1_t6F2B35048FC274906710B37C0A57D1F519A11FB8 ___MeshLODGroupComponent;
+	ComponentTypeHandle_1_t6C7AA029E004359BA29974A4B4581D3A31BCB141 ___MeshLODComponent;
+	ComponentTypeHandle_1_t7207CB096BE35519BCE3B1A4D6088A6D9247D35A ___RootLODRange;
+	ComponentTypeHandle_1_t98A36BBD44FFD1B7852ADEB9019D066076342F4F ___LODRange;
+};
 struct TypeInfo_tD43B08A8D19156EEC98399693A96161F02139654 
 {
 	alignas(4) TypeIndex_t18365699387F045FB6E4ED39554CD5BE82A04F7C ___TypeIndex;
@@ -5359,13 +5374,8 @@ struct EntryProcessingInfo_tE4803801829E2739380552B9DE313B056A9C9289_marshaled_c
 struct TypeHandle_tF432562C41A58793C1045F825709C1C5CC10D583 
 {
 	ComponentTypeHandle_1_tD2C719E8A6966824913D5AD5C6D951719F598D44 _____Unity_Transforms_LocalTransform_RW_ComponentTypeHandle;
+	ComponentTypeHandle_1_t1C78A362F825C17BAA2ACB4C16658309EE07C1EA _____Unity_Rendering_URPMaterialPropertyBaseColor_RW_ComponentTypeHandle;
 	ComponentTypeHandle_1_t3F0B41A13A704BCD34A922D755CAC0EFA75217E1 _____Rotator_RO_ComponentTypeHandle;
-};
-struct TypeHandle_t7FCEBB7FB91DF0BD1BD66C8682D5B1BD5BD4C3D3 
-{
-	ComponentTypeHandle_1_tD2C719E8A6966824913D5AD5C6D951719F598D44 _____Unity_Transforms_LocalTransform_RW_ComponentTypeHandle;
-	ComponentTypeHandle_1_tAAFC7257830CE9D1C456F58F9AA4528154F367E0 _____Unity_Transforms_PostTransformMatrix_RW_ComponentTypeHandle;
-	ComponentTypeHandle_1_t9D3FD425A9AA2CAA38C3A9F8621A8843336BF3F4 _____AmplitudeBar_RO_ComponentTypeHandle;
 };
 struct TypeHandle_t62430C769E54F749D00FB73A2AAD7AFEB7AA8AFB 
 {
@@ -5541,6 +5551,15 @@ struct JobChunkWrapper_1_t5DB25B1688A8FE1A8CEB94D3542B38324C29A059
 struct JobChunkWrapper_1_t235C8DD7B25C04D87AD2D0EC8A886BD21E8E7AD0 
 {
 	UpdateLODGroupWorldReferencePointsJob_tF284134D15E16A242BCAC5CC1CE22D9F0A37285F ___JobData;
+	UnsafeMatchingArchetypePtrList_t7BE58FA0D1C0757782B0CA05207B0E07690ED566 ___MatchingArchetypes;
+	UnsafeCachedChunkList_t48CE8479B1EEA20F34D6EB59806214668DB204A3 ___CachedChunks;
+	EntityQueryFilter_t4A9651CB7DA59AFE8AAF946C19EC6B0D1ACA2F8B ___Filter;
+	int32_t ___IsParallel;
+	int32_t ___QueryHasEnableableComponents;
+};
+struct JobChunkWrapper_1_tF2A9AE42E5CB9072C3D39A1668FB9801E276489B 
+{
+	UpdateLODRangesJob_t9AD59EB632F3100B85F5539361FFD89593372018 ___JobData;
 	UnsafeMatchingArchetypePtrList_t7BE58FA0D1C0757782B0CA05207B0E07690ED566 ___MatchingArchetypes;
 	UnsafeCachedChunkList_t48CE8479B1EEA20F34D6EB59806214668DB204A3 ___CachedChunks;
 	EntityQueryFilter_t4A9651CB7DA59AFE8AAF946C19EC6B0D1ACA2F8B ___Filter;
@@ -5901,13 +5920,6 @@ struct RotateJob_tDFD41132A98F1BD2D17D5B874C2A4895970EEAD1
 	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___AudioEntity;
 	float ___AmplitudeScale;
 	TypeHandle_tF432562C41A58793C1045F825709C1C5CC10D583 _____TypeHandle;
-};
-struct ScaleBarJob_t4375E241AE9FA0685DB235437BEFD165A08B6409 
-{
-	BufferLookup_1_tBC375CDB7DA08F65DF92880401EDAE20D95FE88D ___AmplitudeLookup;
-	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___AudioEntity;
-	float ___AmplitudeScale;
-	TypeHandle_t7FCEBB7FB91DF0BD1BD66C8682D5B1BD5BD4C3D3 _____TypeHandle;
 };
 struct UnsafeChunkCacheIterator_t595E9A29B280EFAB784DC3BE958813F7EA5BFCA0 
 {
@@ -6379,6 +6391,9 @@ struct ExecuteJobFunction_t38C595A196E8D5EDAC2D4C4A774970BA48276F78  : public Mu
 struct ExecuteJobFunction_tA1A6646A548C88D5C65DC8D44A32458508CD8152  : public MulticastDelegate_t
 {
 };
+struct ExecuteJobFunction_t3FAAEAB25558B686566C377AFBA94D32F1547AF4  : public MulticastDelegate_t
+{
+};
 struct Iterator_1_t663C454E8122995A9F7D16861978B365A00FA909  : public RuntimeObject
 {
 	int32_t ___threadId;
@@ -6481,15 +6496,6 @@ struct JobChunkWrapper_1_tB4E6FFBBA0232D64A2A242A320983CBCC183DC86
 struct JobChunkWrapper_1_t6C9EE551AF9A3DEFF3A5175F6B38F085A86AD849 
 {
 	RotateJob_tDFD41132A98F1BD2D17D5B874C2A4895970EEAD1 ___JobData;
-	UnsafeMatchingArchetypePtrList_t7BE58FA0D1C0757782B0CA05207B0E07690ED566 ___MatchingArchetypes;
-	UnsafeCachedChunkList_t48CE8479B1EEA20F34D6EB59806214668DB204A3 ___CachedChunks;
-	EntityQueryFilter_t4A9651CB7DA59AFE8AAF946C19EC6B0D1ACA2F8B ___Filter;
-	int32_t ___IsParallel;
-	int32_t ___QueryHasEnableableComponents;
-};
-struct JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012 
-{
-	ScaleBarJob_t4375E241AE9FA0685DB235437BEFD165A08B6409 ___JobData;
 	UnsafeMatchingArchetypePtrList_t7BE58FA0D1C0757782B0CA05207B0E07690ED566 ___MatchingArchetypes;
 	UnsafeCachedChunkList_t48CE8479B1EEA20F34D6EB59806214668DB204A3 ___CachedChunks;
 	EntityQueryFilter_t4A9651CB7DA59AFE8AAF946C19EC6B0D1ACA2F8B ___Filter;
@@ -6639,9 +6645,6 @@ struct ExecuteJobFunction_t4102D342F6364A0A72EC1B26EFFCA86DC88E787D  : public Mu
 {
 };
 struct ExecuteJobFunction_tFED3C055D636568101492C6597B53C117AA76EF6  : public MulticastDelegate_t
-{
-};
-struct ExecuteJobFunction_t43747613587D1106ABD2B578302EC559B8D17C3C  : public MulticastDelegate_t
 {
 };
 struct ExecuteJobFunction_tD6C92A74E7B2D9A3B56990280DFE3400223A2338  : public MulticastDelegate_t
@@ -7055,10 +7058,6 @@ struct JobChunkProducer_1_tFE94E24226BE84345F08E6D274882F15EAF0C3B3_StaticFields
 {
 	SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F ___reflectionData;
 };
-struct JobChunkProducer_1_t8B692FC21FF155F214A4FBFD99BDA1B7661C107B_StaticFields
-{
-	SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F ___reflectionData;
-};
 struct JobChunkProducer_1_t4FB95A04CD908C0E6A0FAD147A8C407BC72F090B_StaticFields
 {
 	SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F ___reflectionData;
@@ -7152,6 +7151,10 @@ struct JobChunkProducer_1_tCA1DAC916BA8FE8DE8C7D4C4A40398C07CFF4308_StaticFields
 	SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F ___reflectionData;
 };
 struct JobChunkProducer_1_tDD5DD644BACE20D79429ABB2A15B19A2E5808A81_StaticFields
+{
+	SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F ___reflectionData;
+};
+struct JobChunkProducer_1_tCCD483F1009299FBDD6AE473BDAFBE1E41C713C1_StaticFields
 {
 	SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F ___reflectionData;
 };
@@ -7594,9 +7597,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SharedStatic_1_t0A9894CA2483CA9491C550F8D66FB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecuteJobFunction__ctor_m88A1D4A10CB7D10C3D27C8FB4079A025578A20C4_gshared (ExecuteJobFunction_tFED3C055D636568101492C6597B53C117AA76EF6* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkProducer_1_ExecuteInternal_m81D974811AEE7A0D59D17A8845056081DF0EF3B5_gshared (JobChunkWrapper_1_t6C9EE551AF9A3DEFF3A5175F6B38F085A86AD849* ___0_jobWrapper, intptr_t ___1_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___2_ranges, int32_t ___3_jobIndex, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F SharedStatic_1_GetOrCreate_TisJobChunkProducer_1_tFE94E24226BE84345F08E6D274882F15EAF0C3B3_mE5351DE14402953B28A40C296C3ADD65017E0BB7_gshared (uint32_t ___0_alignment, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecuteJobFunction__ctor_mBE462D6509DF664972EA9A46DD11E6967BDE549C_gshared (ExecuteJobFunction_t43747613587D1106ABD2B578302EC559B8D17C3C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkProducer_1_ExecuteInternal_mA285A6A45F7A08277EEB622517744D77E7FF47E3_gshared (JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* ___0_jobWrapper, intptr_t ___1_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___2_ranges, int32_t ___3_jobIndex, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F SharedStatic_1_GetOrCreate_TisJobChunkProducer_1_t8B692FC21FF155F214A4FBFD99BDA1B7661C107B_m84DBD36534B89345085912EDEDA6E1194CD133BE_gshared (uint32_t ___0_alignment, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecuteJobFunction__ctor_m629290D0A43EA45489744819E9D6594E5F8E5869_gshared (ExecuteJobFunction_tB36BEE44848446C24D30265ADE479625EB8E34A3* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkProducer_1_ExecuteInternal_mF9BEBD5D2B4707B6E4D80633F6C2067963220567_gshared (JobChunkWrapper_1_tC431B368B4679EB1159229502AAD8AC9065D92B5* ___0_jobWrapper, intptr_t ___1_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___2_ranges, int32_t ___3_jobIndex, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F SharedStatic_1_GetOrCreate_TisJobChunkProducer_1_t4FB95A04CD908C0E6A0FAD147A8C407BC72F090B_m9B3A0E8D609E4648EA13AC2CDCAB133E339F45AF_gshared (uint32_t ___0_alignment, const RuntimeMethod* method) ;
@@ -7666,6 +7666,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SharedStatic_1_t0A9894CA2483CA9491C550F8D66FB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecuteJobFunction__ctor_m8E334AA28E2C3CBC6805030FAB8F37D044EF645E_gshared (ExecuteJobFunction_tA1A6646A548C88D5C65DC8D44A32458508CD8152* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkProducer_1_ExecuteInternal_m689D9A470EB2529B4B24FB130A19519B4272834D_gshared (JobChunkWrapper_1_t235C8DD7B25C04D87AD2D0EC8A886BD21E8E7AD0* ___0_jobWrapper, intptr_t ___1_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___2_ranges, int32_t ___3_jobIndex, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F SharedStatic_1_GetOrCreate_TisJobChunkProducer_1_tDD5DD644BACE20D79429ABB2A15B19A2E5808A81_m77EF9AA34BCC6C31CCC4EED44DACE4851EEE21B2_gshared (uint32_t ___0_alignment, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecuteJobFunction__ctor_mFDC7CF5DE380FFFBFACC0429F5EB6064407D056C_gshared (ExecuteJobFunction_t3FAAEAB25558B686566C377AFBA94D32F1547AF4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkProducer_1_ExecuteInternal_m224EDA02DB74E515F4597D1F0DD1F590040EBB24_gshared (JobChunkWrapper_1_tF2A9AE42E5CB9072C3D39A1668FB9801E276489B* ___0_jobWrapper, intptr_t ___1_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___2_ranges, int32_t ___3_jobIndex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F SharedStatic_1_GetOrCreate_TisJobChunkProducer_1_tCCD483F1009299FBDD6AE473BDAFBE1E41C713C1_mE23C6F47F89189AA2B1CADDA84492DBF3B6B9D1F_gshared (uint32_t ___0_alignment, const RuntimeMethod* method) ;
 
 inline void InternalEnumerator_1__ctor_mABCE9CF00CBFB8C91E6F9B7EFDB2FF22A6EE03D5 (InternalEnumerator_1_tD9944CA971037F5F1DE9E3A66E2E4BA78B224E99* __this, RuntimeArray* ___0_array, const RuntimeMethod* method)
 {
@@ -8951,19 +8954,6 @@ inline SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F SharedStatic_1_G
 {
 	return ((  SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F (*) (uint32_t, const RuntimeMethod*))SharedStatic_1_GetOrCreate_TisJobChunkProducer_1_tFE94E24226BE84345F08E6D274882F15EAF0C3B3_mE5351DE14402953B28A40C296C3ADD65017E0BB7_gshared)(___0_alignment, method);
 }
-inline void ExecuteJobFunction__ctor_mBE462D6509DF664972EA9A46DD11E6967BDE549C (ExecuteJobFunction_t43747613587D1106ABD2B578302EC559B8D17C3C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
-{
-	((  void (*) (ExecuteJobFunction_t43747613587D1106ABD2B578302EC559B8D17C3C*, RuntimeObject*, intptr_t, const RuntimeMethod*))ExecuteJobFunction__ctor_mBE462D6509DF664972EA9A46DD11E6967BDE549C_gshared)(__this, ___0_object, ___1_method, method);
-}
-inline void JobChunkProducer_1_ExecuteInternal_mA285A6A45F7A08277EEB622517744D77E7FF47E3 (JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* ___0_jobWrapper, intptr_t ___1_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___2_ranges, int32_t ___3_jobIndex, const RuntimeMethod* method)
-{
-	((  void (*) (JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012*, intptr_t, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3*, int32_t, const RuntimeMethod*))JobChunkProducer_1_ExecuteInternal_mA285A6A45F7A08277EEB622517744D77E7FF47E3_gshared)(___0_jobWrapper, ___1_bufferRangePatchData, ___2_ranges, ___3_jobIndex, method);
-}
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ScaleBarJob_Unity_Entities_IJobChunk_Execute_mC6673EF66F2D1F39BAF073C11AFAB49BE8158E20 (ScaleBarJob_t4375E241AE9FA0685DB235437BEFD165A08B6409* IL2CPP_PARAMETER_RESTRICT __this, ArchetypeChunk_tF9C2266ECFAB3A9C58EADE74121F80C845F0CCC5* ___0_chunk, int32_t ___1_unfilteredChunkIndex, bool ___2_useEnabledMask, v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61* ___3_chunkEnabledMask, const RuntimeMethod* method) ;
-inline SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F SharedStatic_1_GetOrCreate_TisJobChunkProducer_1_t8B692FC21FF155F214A4FBFD99BDA1B7661C107B_m84DBD36534B89345085912EDEDA6E1194CD133BE (uint32_t ___0_alignment, const RuntimeMethod* method)
-{
-	return ((  SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F (*) (uint32_t, const RuntimeMethod*))SharedStatic_1_GetOrCreate_TisJobChunkProducer_1_t8B692FC21FF155F214A4FBFD99BDA1B7661C107B_m84DBD36534B89345085912EDEDA6E1194CD133BE_gshared)(___0_alignment, method);
-}
 inline void ExecuteJobFunction__ctor_m629290D0A43EA45489744819E9D6594E5F8E5869 (ExecuteJobFunction_tB36BEE44848446C24D30265ADE479625EB8E34A3* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
 	((  void (*) (ExecuteJobFunction_tB36BEE44848446C24D30265ADE479625EB8E34A3*, RuntimeObject*, intptr_t, const RuntimeMethod*))ExecuteJobFunction__ctor_m629290D0A43EA45489744819E9D6594E5F8E5869_gshared)(__this, ___0_object, ___1_method, method);
@@ -9262,6 +9252,19 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void UpdateLODGroupWorldRefe
 inline SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F SharedStatic_1_GetOrCreate_TisJobChunkProducer_1_tDD5DD644BACE20D79429ABB2A15B19A2E5808A81_m77EF9AA34BCC6C31CCC4EED44DACE4851EEE21B2 (uint32_t ___0_alignment, const RuntimeMethod* method)
 {
 	return ((  SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F (*) (uint32_t, const RuntimeMethod*))SharedStatic_1_GetOrCreate_TisJobChunkProducer_1_tDD5DD644BACE20D79429ABB2A15B19A2E5808A81_m77EF9AA34BCC6C31CCC4EED44DACE4851EEE21B2_gshared)(___0_alignment, method);
+}
+inline void ExecuteJobFunction__ctor_mFDC7CF5DE380FFFBFACC0429F5EB6064407D056C (ExecuteJobFunction_t3FAAEAB25558B686566C377AFBA94D32F1547AF4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (ExecuteJobFunction_t3FAAEAB25558B686566C377AFBA94D32F1547AF4*, RuntimeObject*, intptr_t, const RuntimeMethod*))ExecuteJobFunction__ctor_mFDC7CF5DE380FFFBFACC0429F5EB6064407D056C_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline void JobChunkProducer_1_ExecuteInternal_m224EDA02DB74E515F4597D1F0DD1F590040EBB24 (JobChunkWrapper_1_tF2A9AE42E5CB9072C3D39A1668FB9801E276489B* ___0_jobWrapper, intptr_t ___1_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___2_ranges, int32_t ___3_jobIndex, const RuntimeMethod* method)
+{
+	((  void (*) (JobChunkWrapper_1_tF2A9AE42E5CB9072C3D39A1668FB9801E276489B*, intptr_t, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3*, int32_t, const RuntimeMethod*))JobChunkProducer_1_ExecuteInternal_m224EDA02DB74E515F4597D1F0DD1F590040EBB24_gshared)(___0_jobWrapper, ___1_bufferRangePatchData, ___2_ranges, ___3_jobIndex, method);
+}
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void UpdateLODRangesJob_Unity_Entities_IJobChunk_Execute_mE42CEC7BD135F5A402E105C22761A2B7A8532686 (UpdateLODRangesJob_t9AD59EB632F3100B85F5539361FFD89593372018* IL2CPP_PARAMETER_RESTRICT __this, ArchetypeChunk_tF9C2266ECFAB3A9C58EADE74121F80C845F0CCC5* ___0_chunk, int32_t ___1_unfilteredChunkIndex, bool ___2_useEnabledMask, v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61* ___3_chunkEnabledMask, const RuntimeMethod* method) ;
+inline SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F SharedStatic_1_GetOrCreate_TisJobChunkProducer_1_tCCD483F1009299FBDD6AE473BDAFBE1E41C713C1_mE23C6F47F89189AA2B1CADDA84492DBF3B6B9D1F (uint32_t ___0_alignment, const RuntimeMethod* method)
+{
+	return ((  SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F (*) (uint32_t, const RuntimeMethod*))SharedStatic_1_GetOrCreate_TisJobChunkProducer_1_tCCD483F1009299FBDD6AE473BDAFBE1E41C713C1_mE23C6F47F89189AA2B1CADDA84492DBF3B6B9D1F_gshared)(___0_alignment, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hint_Unlikely_m1EF9F222AAE0D7381F834FEB8150C13EBF7F49F2 (bool ___0_condition, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t* ArchetypeChunkData_GetChunkEntityCountArray_m8D7C922A386261B3F6EF477E325E1FB3A68592BF_inline (ArchetypeChunkData_t5D1EB2889C02131353F4F231F4908F0E872BDBF5* __this, const RuntimeMethod* method) ;
@@ -23554,291 +23557,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkProducer_1__cctor_m93CBAC55221D5
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Method Definition Index: 33133
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkProducer_1_Initialize_m31E2EDBA76F9F9DCB9680DBAF6CF0A43CA48BAE2_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SharedStatic_1_get_Data_m6B971FC25FA15EF3646DC3DE9FFA1D910AE67EA1_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:346>
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		intptr_t* L_0;
-		L_0 = SharedStatic_1_get_Data_m6B971FC25FA15EF3646DC3DE9FFA1D910AE67EA1((&((JobChunkProducer_1_t8B692FC21FF155F214A4FBFD99BDA1B7661C107B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___reflectionData), SharedStatic_1_get_Data_m6B971FC25FA15EF3646DC3DE9FFA1D910AE67EA1_RuntimeMethod_var);
-		intptr_t L_1 = *((intptr_t*)L_0);
-		bool L_2;
-		L_2 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_1, 0, NULL);
-		if (!L_2)
-		{
-			goto IL_0047;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:347>
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		intptr_t* L_3;
-		L_3 = SharedStatic_1_get_Data_m6B971FC25FA15EF3646DC3DE9FFA1D910AE67EA1((&((JobChunkProducer_1_t8B692FC21FF155F214A4FBFD99BDA1B7661C107B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___reflectionData), SharedStatic_1_get_Data_m6B971FC25FA15EF3646DC3DE9FFA1D910AE67EA1_RuntimeMethod_var);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_4 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_5;
-		L_5 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_4, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 3)) };
-		Type_t* L_7;
-		L_7 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_6, NULL);
-		ExecuteJobFunction_t43747613587D1106ABD2B578302EC559B8D17C3C* L_8 = (ExecuteJobFunction_t43747613587D1106ABD2B578302EC559B8D17C3C*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		ExecuteJobFunction__ctor_mBE462D6509DF664972EA9A46DD11E6967BDE549C(L_8, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
-		intptr_t L_9;
-		L_9 = JobsUtility_CreateJobReflectionData_m2F52FE7D02258B3A1C8B18E516CA230356DC9490(L_5, L_7, (RuntimeObject*)L_8, NULL);
-		*((intptr_t*)L_3) = (intptr_t)L_9;
-	}
-
-IL_0047:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:348>
-		return;
-	}
-}
-// Method Definition Index: 33134
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkProducer_1_Execute_mAEA9240D91B3954A09C89E53978E063DFFC1111E_gshared (JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* ___0_jobWrapper, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:364>
-		JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* L_0 = ___0_jobWrapper;
-		intptr_t L_1 = ___2_bufferRangePatchData;
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_2 = ___3_ranges;
-		int32_t L_3 = ___4_jobIndex;
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		JobChunkProducer_1_ExecuteInternal_mA285A6A45F7A08277EEB622517744D77E7FF47E3(L_0, L_1, L_2, L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:365>
-		return;
-	}
-}
-// Method Definition Index: 33135
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkProducer_1_ExecuteInternal_mA285A6A45F7A08277EEB622517744D77E7FF47E3_gshared (JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* ___0_jobWrapper, intptr_t ___1_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___2_ranges, int32_t ___3_jobIndex, const RuntimeMethod* method) 
-{
-	UnsafeCachedChunkList_t48CE8479B1EEA20F34D6EB59806214668DB204A3 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	UnsafeChunkCacheIterator_t595E9A29B280EFAB784DC3BE958813F7EA5BFCA0 V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	bool V_2 = false;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	int32_t V_5 = 0;
-	ChunkIndex_t932E9A325E198362B9521CAD777D34C98F26792A* V_6 = NULL;
-	ArchetypeChunk_tF9C2266ECFAB3A9C58EADE74121F80C845F0CCC5 V_7;
-	memset((&V_7), 0, sizeof(V_7));
-	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_8;
-	memset((&V_8), 0, sizeof(V_8));
-	int32_t V_9 = 0;
-	int32_t V_10 = 0;
-	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_11;
-	memset((&V_11), 0, sizeof(V_11));
-	ArchetypeChunk_tF9C2266ECFAB3A9C58EADE74121F80C845F0CCC5 V_12;
-	memset((&V_12), 0, sizeof(V_12));
-	int32_t V_13 = 0;
-	uint8_t V_14 = 0x0;
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:373>
-		JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* L_0 = ___0_jobWrapper;
-		UnsafeCachedChunkList_t48CE8479B1EEA20F34D6EB59806214668DB204A3 L_1 = L_0->___CachedChunks;
-		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:374>
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:375>
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:376>
-		JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* L_2 = ___0_jobWrapper;
-		EntityQueryFilter_t4A9651CB7DA59AFE8AAF946C19EC6B0D1ACA2F8B* L_3 = (EntityQueryFilter_t4A9651CB7DA59AFE8AAF946C19EC6B0D1ACA2F8B*)(&L_2->___Filter);
-		JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* L_4 = ___0_jobWrapper;
-		int32_t L_5 = L_4->___QueryHasEnableableComponents;
-		JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* L_6 = ___0_jobWrapper;
-		UnsafeCachedChunkList_t48CE8479B1EEA20F34D6EB59806214668DB204A3 L_7 = L_6->___CachedChunks;
-		JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* L_8 = ___0_jobWrapper;
-		UnsafeMatchingArchetypePtrList_t7BE58FA0D1C0757782B0CA05207B0E07690ED566* L_9 = (UnsafeMatchingArchetypePtrList_t7BE58FA0D1C0757782B0CA05207B0E07690ED566*)(&L_8->___MatchingArchetypes);
-		MatchingArchetype_t1D80A6ED7DFEC90CD004B3D338666243DB31D7D9** L_10;
-		L_10 = UnsafeMatchingArchetypePtrList_get_Ptr_mB3D87332ACA44E460C04BE0980062299360C3715(L_9, NULL);
-		UnsafeChunkCacheIterator_t595E9A29B280EFAB784DC3BE958813F7EA5BFCA0 L_11;
-		memset((&L_11), 0, sizeof(L_11));
-		UnsafeChunkCacheIterator__ctor_m8C7B9D9DF9F01FFCE816EA8369FF606994BD6F3F((&L_11), L_3, (bool)((!(((uint32_t)L_5) <= ((uint32_t)0)))? 1 : 0), L_7, L_10, NULL);
-		V_1 = L_11;
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:378>
-		JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* L_12 = ___0_jobWrapper;
-		int32_t L_13 = L_12->___IsParallel;
-		V_2 = (bool)((((int32_t)L_13) == ((int32_t)1))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:379>
-		JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* L_14 = ___0_jobWrapper;
-		EntityQueryFilter_t4A9651CB7DA59AFE8AAF946C19EC6B0D1ACA2F8B* L_15 = (EntityQueryFilter_t4A9651CB7DA59AFE8AAF946C19EC6B0D1ACA2F8B*)(&L_14->___Filter);
-		bool L_16;
-		L_16 = EntityQueryFilter_get_RequiresMatchesFilter_mE75B9A9EB4397E4364063D44B5B9094BDA71885E(L_15, NULL);
-		V_3 = L_16;
-	}
-
-IL_0043:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:382>
-		V_4 = 0;
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:383>
-		int32_t L_17;
-		L_17 = UnsafeCachedChunkList_get_Length_m85AD4ADE679D273897CDA1211BF7AF2CFB0DD144((&V_0), NULL);
-		V_5 = L_17;
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:386>
-		bool L_18 = V_2;
-		if (!L_18)
-		{
-			goto IL_0062;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:389>
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_19 = ___2_ranges;
-		int32_t L_20 = ___3_jobIndex;
-		bool L_21;
-		L_21 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_19, L_20, (&V_4), (&V_5), NULL);
-		if (!L_21)
-		{
-			goto IL_0123;
-		}
-	}
-
-IL_0062:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:394>
-		JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* L_22 = ___0_jobWrapper;
-		int32_t L_23 = L_22->___QueryHasEnableableComponents;
-		if (L_23)
-		{
-			goto IL_00d5;
-		}
-	}
-	{
-		bool L_24 = V_3;
-		if (L_24)
-		{
-			goto IL_00d5;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:397>
-		ChunkIndex_t932E9A325E198362B9521CAD777D34C98F26792A* L_25;
-		L_25 = UnsafeCachedChunkList_get_ChunkIndices_m23D1D0D4A6DB3DC973C45A700D2F298557A54D27((&V_0), NULL);
-		V_6 = L_25;
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:398>
-		ChunkIndex_t932E9A325E198362B9521CAD777D34C98F26792A L_26;
-		L_26 = ChunkIndex_get_Null_m6B07C5750E46B9A322C11D91647BF231FECB9CCA(NULL);
-		UnsafeCachedChunkList_t48CE8479B1EEA20F34D6EB59806214668DB204A3 L_27 = V_0;
-		EntityComponentStore_tA85E100ECD667365B260A68DFD9DF9B7C04D037F* L_28 = L_27.___EntityComponentStore;
-		ArchetypeChunk__ctor_mD90520C738E66816770FA07B3E68C8DA92A8A518((&V_7), L_26, L_28, NULL);
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:399>
-		il2cpp_codegen_initobj((&V_8), sizeof(v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61));
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:400>
-		int32_t L_29 = V_4;
-		V_9 = L_29;
-		goto IL_00cd;
-	}
-
-IL_0096:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:402>
-		ChunkIndex_t932E9A325E198362B9521CAD777D34C98F26792A* L_30 = V_6;
-		int32_t L_31 = V_9;
-		uint32_t L_32 = sizeof(ChunkIndex_t932E9A325E198362B9521CAD777D34C98F26792A);
-		ChunkIndex_t932E9A325E198362B9521CAD777D34C98F26792A L_33 = (*(ChunkIndex_t932E9A325E198362B9521CAD777D34C98F26792A*)((ChunkIndex_t932E9A325E198362B9521CAD777D34C98F26792A*)il2cpp_codegen_add((intptr_t)L_30, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_31), (int32_t)L_32)))));
-		(&V_7)->___m_Chunk = L_33;
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:421>
-		JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* L_34 = ___0_jobWrapper;
-		ScaleBarJob_t4375E241AE9FA0685DB235437BEFD165A08B6409* L_35 = (ScaleBarJob_t4375E241AE9FA0685DB235437BEFD165A08B6409*)(&L_34->___JobData);
-		int32_t L_36 = V_9;
-		ScaleBarJob_Unity_Entities_IJobChunk_Execute_mC6673EF66F2D1F39BAF073C11AFAB49BE8158E20(L_35, (&V_7), L_36, (bool)0, (&V_8), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:400>
-		int32_t L_37 = V_9;
-		V_9 = ((int32_t)il2cpp_codegen_add(L_37, 1));
-	}
-
-IL_00cd:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:400>
-		int32_t L_38 = V_9;
-		int32_t L_39 = V_5;
-		if ((((int32_t)L_38) < ((int32_t)L_39)))
-		{
-			goto IL_0096;
-		}
-	}
-	{
-		goto IL_011d;
-	}
-
-IL_00d5:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:428>
-		int32_t L_40 = V_5;
-		(&V_1)->___Length = L_40;
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:429>
-		int32_t L_41 = V_4;
-		V_10 = ((int32_t)il2cpp_codegen_subtract(L_41, 1));
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:431>
-		il2cpp_codegen_initobj((&V_11), sizeof(v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61));
-	}
-
-IL_00ec:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:432>
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:433>
-		bool L_42;
-		L_42 = UnsafeChunkCacheIterator_MoveNextChunk_mC489F02BEC0D26202113DA2989D3D88F3D8D4BD8_inline((&V_1), (&V_10), (&V_12), (&V_13), (&V_14), (&V_11), NULL);
-		if (!L_42)
-		{
-			goto IL_011d;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:452>
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:453>
-		JobChunkWrapper_1_t63A67558D9BFACB1C62B7261A61F08B9EDC89012* L_43 = ___0_jobWrapper;
-		ScaleBarJob_t4375E241AE9FA0685DB235437BEFD165A08B6409* L_44 = (ScaleBarJob_t4375E241AE9FA0685DB235437BEFD165A08B6409*)(&L_43->___JobData);
-		int32_t L_45 = V_10;
-		uint8_t L_46 = V_14;
-		ScaleBarJob_Unity_Entities_IJobChunk_Execute_mC6673EF66F2D1F39BAF073C11AFAB49BE8158E20(L_44, (&V_12), L_45, (bool)((!(((uint32_t)L_46) <= ((uint32_t)0)))? 1 : 0), (&V_11), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:454>
-		goto IL_00ec;
-	}
-
-IL_011d:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:458>
-		bool L_47 = V_2;
-		if (L_47)
-		{
-			goto IL_0043;
-		}
-	}
-
-IL_0123:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:461>
-		return;
-	}
-}
-// Method Definition Index: 33136
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkProducer_1__cctor_mBC8A37A47441D232793D856A29449088599591CD_gshared (const RuntimeMethod* method) 
-{
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:341>
-		SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F L_0;
-		L_0 = SharedStatic_1_GetOrCreate_TisJobChunkProducer_1_t8B692FC21FF155F214A4FBFD99BDA1B7661C107B_m84DBD36534B89345085912EDEDA6E1194CD133BE((uint32_t)0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
-		((JobChunkProducer_1_t8B692FC21FF155F214A4FBFD99BDA1B7661C107B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___reflectionData = L_0;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// Method Definition Index: 33133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkProducer_1_Initialize_mE7D97EAFB4392938AC7A7A7A02484874BF81BFD1_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30664,6 +30382,291 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkProducer_1__cctor_m332F30ED80610
 		SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F L_0;
 		L_0 = SharedStatic_1_GetOrCreate_TisJobChunkProducer_1_tDD5DD644BACE20D79429ABB2A15B19A2E5808A81_m77EF9AA34BCC6C31CCC4EED44DACE4851EEE21B2((uint32_t)0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		((JobChunkProducer_1_tDD5DD644BACE20D79429ABB2A15B19A2E5808A81_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___reflectionData = L_0;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 33133
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkProducer_1_Initialize_m5608E2727F2A9592B795E36BC1E498EB0CB038CF_gshared (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SharedStatic_1_get_Data_m6B971FC25FA15EF3646DC3DE9FFA1D910AE67EA1_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:346>
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		intptr_t* L_0;
+		L_0 = SharedStatic_1_get_Data_m6B971FC25FA15EF3646DC3DE9FFA1D910AE67EA1((&((JobChunkProducer_1_tCCD483F1009299FBDD6AE473BDAFBE1E41C713C1_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___reflectionData), SharedStatic_1_get_Data_m6B971FC25FA15EF3646DC3DE9FFA1D910AE67EA1_RuntimeMethod_var);
+		intptr_t L_1 = *((intptr_t*)L_0);
+		bool L_2;
+		L_2 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_1, 0, NULL);
+		if (!L_2)
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:347>
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		intptr_t* L_3;
+		L_3 = SharedStatic_1_get_Data_m6B971FC25FA15EF3646DC3DE9FFA1D910AE67EA1((&((JobChunkProducer_1_tCCD483F1009299FBDD6AE473BDAFBE1E41C713C1_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___reflectionData), SharedStatic_1_get_Data_m6B971FC25FA15EF3646DC3DE9FFA1D910AE67EA1_RuntimeMethod_var);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_4 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_5;
+		L_5 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_4, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 3)) };
+		Type_t* L_7;
+		L_7 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_6, NULL);
+		ExecuteJobFunction_t3FAAEAB25558B686566C377AFBA94D32F1547AF4* L_8 = (ExecuteJobFunction_t3FAAEAB25558B686566C377AFBA94D32F1547AF4*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		ExecuteJobFunction__ctor_mFDC7CF5DE380FFFBFACC0429F5EB6064407D056C(L_8, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
+		intptr_t L_9;
+		L_9 = JobsUtility_CreateJobReflectionData_m2F52FE7D02258B3A1C8B18E516CA230356DC9490(L_5, L_7, (RuntimeObject*)L_8, NULL);
+		*((intptr_t*)L_3) = (intptr_t)L_9;
+	}
+
+IL_0047:
+	{
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:348>
+		return;
+	}
+}
+// Method Definition Index: 33134
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkProducer_1_Execute_m7711158D401FC4495C7D4117FCD5EE495C1349BE_gshared (JobChunkWrapper_1_tF2A9AE42E5CB9072C3D39A1668FB9801E276489B* ___0_jobWrapper, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:364>
+		JobChunkWrapper_1_tF2A9AE42E5CB9072C3D39A1668FB9801E276489B* L_0 = ___0_jobWrapper;
+		intptr_t L_1 = ___2_bufferRangePatchData;
+		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_2 = ___3_ranges;
+		int32_t L_3 = ___4_jobIndex;
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		JobChunkProducer_1_ExecuteInternal_m224EDA02DB74E515F4597D1F0DD1F590040EBB24(L_0, L_1, L_2, L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:365>
+		return;
+	}
+}
+// Method Definition Index: 33135
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkProducer_1_ExecuteInternal_m224EDA02DB74E515F4597D1F0DD1F590040EBB24_gshared (JobChunkWrapper_1_tF2A9AE42E5CB9072C3D39A1668FB9801E276489B* ___0_jobWrapper, intptr_t ___1_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___2_ranges, int32_t ___3_jobIndex, const RuntimeMethod* method) 
+{
+	UnsafeCachedChunkList_t48CE8479B1EEA20F34D6EB59806214668DB204A3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	UnsafeChunkCacheIterator_t595E9A29B280EFAB784DC3BE958813F7EA5BFCA0 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	bool V_3 = false;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	ChunkIndex_t932E9A325E198362B9521CAD777D34C98F26792A* V_6 = NULL;
+	ArchetypeChunk_tF9C2266ECFAB3A9C58EADE74121F80C845F0CCC5 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	ArchetypeChunk_tF9C2266ECFAB3A9C58EADE74121F80C845F0CCC5 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	int32_t V_13 = 0;
+	uint8_t V_14 = 0x0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:373>
+		JobChunkWrapper_1_tF2A9AE42E5CB9072C3D39A1668FB9801E276489B* L_0 = ___0_jobWrapper;
+		UnsafeCachedChunkList_t48CE8479B1EEA20F34D6EB59806214668DB204A3 L_1 = L_0->___CachedChunks;
+		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:374>
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:375>
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:376>
+		JobChunkWrapper_1_tF2A9AE42E5CB9072C3D39A1668FB9801E276489B* L_2 = ___0_jobWrapper;
+		EntityQueryFilter_t4A9651CB7DA59AFE8AAF946C19EC6B0D1ACA2F8B* L_3 = (EntityQueryFilter_t4A9651CB7DA59AFE8AAF946C19EC6B0D1ACA2F8B*)(&L_2->___Filter);
+		JobChunkWrapper_1_tF2A9AE42E5CB9072C3D39A1668FB9801E276489B* L_4 = ___0_jobWrapper;
+		int32_t L_5 = L_4->___QueryHasEnableableComponents;
+		JobChunkWrapper_1_tF2A9AE42E5CB9072C3D39A1668FB9801E276489B* L_6 = ___0_jobWrapper;
+		UnsafeCachedChunkList_t48CE8479B1EEA20F34D6EB59806214668DB204A3 L_7 = L_6->___CachedChunks;
+		JobChunkWrapper_1_tF2A9AE42E5CB9072C3D39A1668FB9801E276489B* L_8 = ___0_jobWrapper;
+		UnsafeMatchingArchetypePtrList_t7BE58FA0D1C0757782B0CA05207B0E07690ED566* L_9 = (UnsafeMatchingArchetypePtrList_t7BE58FA0D1C0757782B0CA05207B0E07690ED566*)(&L_8->___MatchingArchetypes);
+		MatchingArchetype_t1D80A6ED7DFEC90CD004B3D338666243DB31D7D9** L_10;
+		L_10 = UnsafeMatchingArchetypePtrList_get_Ptr_mB3D87332ACA44E460C04BE0980062299360C3715(L_9, NULL);
+		UnsafeChunkCacheIterator_t595E9A29B280EFAB784DC3BE958813F7EA5BFCA0 L_11;
+		memset((&L_11), 0, sizeof(L_11));
+		UnsafeChunkCacheIterator__ctor_m8C7B9D9DF9F01FFCE816EA8369FF606994BD6F3F((&L_11), L_3, (bool)((!(((uint32_t)L_5) <= ((uint32_t)0)))? 1 : 0), L_7, L_10, NULL);
+		V_1 = L_11;
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:378>
+		JobChunkWrapper_1_tF2A9AE42E5CB9072C3D39A1668FB9801E276489B* L_12 = ___0_jobWrapper;
+		int32_t L_13 = L_12->___IsParallel;
+		V_2 = (bool)((((int32_t)L_13) == ((int32_t)1))? 1 : 0);
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:379>
+		JobChunkWrapper_1_tF2A9AE42E5CB9072C3D39A1668FB9801E276489B* L_14 = ___0_jobWrapper;
+		EntityQueryFilter_t4A9651CB7DA59AFE8AAF946C19EC6B0D1ACA2F8B* L_15 = (EntityQueryFilter_t4A9651CB7DA59AFE8AAF946C19EC6B0D1ACA2F8B*)(&L_14->___Filter);
+		bool L_16;
+		L_16 = EntityQueryFilter_get_RequiresMatchesFilter_mE75B9A9EB4397E4364063D44B5B9094BDA71885E(L_15, NULL);
+		V_3 = L_16;
+	}
+
+IL_0043:
+	{
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:382>
+		V_4 = 0;
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:383>
+		int32_t L_17;
+		L_17 = UnsafeCachedChunkList_get_Length_m85AD4ADE679D273897CDA1211BF7AF2CFB0DD144((&V_0), NULL);
+		V_5 = L_17;
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:386>
+		bool L_18 = V_2;
+		if (!L_18)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:389>
+		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_19 = ___2_ranges;
+		int32_t L_20 = ___3_jobIndex;
+		bool L_21;
+		L_21 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_19, L_20, (&V_4), (&V_5), NULL);
+		if (!L_21)
+		{
+			goto IL_0123;
+		}
+	}
+
+IL_0062:
+	{
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:394>
+		JobChunkWrapper_1_tF2A9AE42E5CB9072C3D39A1668FB9801E276489B* L_22 = ___0_jobWrapper;
+		int32_t L_23 = L_22->___QueryHasEnableableComponents;
+		if (L_23)
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		bool L_24 = V_3;
+		if (L_24)
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:397>
+		ChunkIndex_t932E9A325E198362B9521CAD777D34C98F26792A* L_25;
+		L_25 = UnsafeCachedChunkList_get_ChunkIndices_m23D1D0D4A6DB3DC973C45A700D2F298557A54D27((&V_0), NULL);
+		V_6 = L_25;
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:398>
+		ChunkIndex_t932E9A325E198362B9521CAD777D34C98F26792A L_26;
+		L_26 = ChunkIndex_get_Null_m6B07C5750E46B9A322C11D91647BF231FECB9CCA(NULL);
+		UnsafeCachedChunkList_t48CE8479B1EEA20F34D6EB59806214668DB204A3 L_27 = V_0;
+		EntityComponentStore_tA85E100ECD667365B260A68DFD9DF9B7C04D037F* L_28 = L_27.___EntityComponentStore;
+		ArchetypeChunk__ctor_mD90520C738E66816770FA07B3E68C8DA92A8A518((&V_7), L_26, L_28, NULL);
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:399>
+		il2cpp_codegen_initobj((&V_8), sizeof(v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61));
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:400>
+		int32_t L_29 = V_4;
+		V_9 = L_29;
+		goto IL_00cd;
+	}
+
+IL_0096:
+	{
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:402>
+		ChunkIndex_t932E9A325E198362B9521CAD777D34C98F26792A* L_30 = V_6;
+		int32_t L_31 = V_9;
+		uint32_t L_32 = sizeof(ChunkIndex_t932E9A325E198362B9521CAD777D34C98F26792A);
+		ChunkIndex_t932E9A325E198362B9521CAD777D34C98F26792A L_33 = (*(ChunkIndex_t932E9A325E198362B9521CAD777D34C98F26792A*)((ChunkIndex_t932E9A325E198362B9521CAD777D34C98F26792A*)il2cpp_codegen_add((intptr_t)L_30, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_31), (int32_t)L_32)))));
+		(&V_7)->___m_Chunk = L_33;
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:421>
+		JobChunkWrapper_1_tF2A9AE42E5CB9072C3D39A1668FB9801E276489B* L_34 = ___0_jobWrapper;
+		UpdateLODRangesJob_t9AD59EB632F3100B85F5539361FFD89593372018* L_35 = (UpdateLODRangesJob_t9AD59EB632F3100B85F5539361FFD89593372018*)(&L_34->___JobData);
+		int32_t L_36 = V_9;
+		UpdateLODRangesJob_Unity_Entities_IJobChunk_Execute_mE42CEC7BD135F5A402E105C22761A2B7A8532686(L_35, (&V_7), L_36, (bool)0, (&V_8), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:400>
+		int32_t L_37 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00cd:
+	{
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:400>
+		int32_t L_38 = V_9;
+		int32_t L_39 = V_5;
+		if ((((int32_t)L_38) < ((int32_t)L_39)))
+		{
+			goto IL_0096;
+		}
+	}
+	{
+		goto IL_011d;
+	}
+
+IL_00d5:
+	{
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:428>
+		int32_t L_40 = V_5;
+		(&V_1)->___Length = L_40;
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:429>
+		int32_t L_41 = V_4;
+		V_10 = ((int32_t)il2cpp_codegen_subtract(L_41, 1));
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:431>
+		il2cpp_codegen_initobj((&V_11), sizeof(v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61));
+	}
+
+IL_00ec:
+	{
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:432>
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:433>
+		bool L_42;
+		L_42 = UnsafeChunkCacheIterator_MoveNextChunk_mC489F02BEC0D26202113DA2989D3D88F3D8D4BD8_inline((&V_1), (&V_10), (&V_12), (&V_13), (&V_14), (&V_11), NULL);
+		if (!L_42)
+		{
+			goto IL_011d;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:452>
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:453>
+		JobChunkWrapper_1_tF2A9AE42E5CB9072C3D39A1668FB9801E276489B* L_43 = ___0_jobWrapper;
+		UpdateLODRangesJob_t9AD59EB632F3100B85F5539361FFD89593372018* L_44 = (UpdateLODRangesJob_t9AD59EB632F3100B85F5539361FFD89593372018*)(&L_43->___JobData);
+		int32_t L_45 = V_10;
+		uint8_t L_46 = V_14;
+		UpdateLODRangesJob_Unity_Entities_IJobChunk_Execute_mE42CEC7BD135F5A402E105C22761A2B7A8532686(L_44, (&V_12), L_45, (bool)((!(((uint32_t)L_46) <= ((uint32_t)0)))? 1 : 0), (&V_11), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:454>
+		goto IL_00ec;
+	}
+
+IL_011d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:458>
+		bool L_47 = V_2;
+		if (L_47)
+		{
+			goto IL_0043;
+		}
+	}
+
+IL_0123:
+	{
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:461>
+		return;
+	}
+}
+// Method Definition Index: 33136
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkProducer_1__cctor_m7638A8739DC58013735C967BFF342DF34E915178_gshared (const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/IJobChunk.cs:341>
+		SharedStatic_1_t0A9894CA2483CA9491C550F8D66FBA5213718E9F L_0;
+		L_0 = SharedStatic_1_GetOrCreate_TisJobChunkProducer_1_tCCD483F1009299FBDD6AE473BDAFBE1E41C713C1_mE23C6F47F89189AA2B1CADDA84492DBF3B6B9D1F((uint32_t)0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		((JobChunkProducer_1_tCCD483F1009299FBDD6AE473BDAFBE1E41C713C1_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___reflectionData = L_0;
 		return;
 	}
 }

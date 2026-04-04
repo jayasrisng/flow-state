@@ -106,6 +106,17 @@ struct InvokerFuncInvoker3<R, T1*, T2*, T3>
 		return ret;
 	}
 };
+template <typename T1, typename T2>
+struct ConstrainedActionInvoker2;
+template <typename T1, typename T2>
+struct ConstrainedActionInvoker2<T1, T2*>
+{
+	static inline void Invoke (RuntimeClass* type, const RuntimeMethod* constrainedMethod, void* boxBuffer, void* obj, T1 p1, T2* p2)
+	{
+		void* params[2] = { &p1, p2 };
+		il2cpp_codegen_runtime_constrained_call(type, constrainedMethod, boxBuffer, obj, params, params[1]);
+	}
+};
 
 struct Action_1_t29D76190B51538DD0A12FCB471FA7F533D7943F7;
 struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
@@ -128,8 +139,6 @@ struct ITypedVisit_1_t53608BD7835C289C026C46FC395DBD50A90D777F;
 struct ITypedVisit_1_tCACE589459DC5CE76F2F9CA4D62C888BFE0CB15C;
 struct ITypedVisit_1_t29E0F429C2D1ACE11B280847C73FF3BF0D11FD3D;
 struct ITypedVisit_1_tA1E36AB75620EE9D98181F222BAD9FA0BDC40A99;
-struct ITypedVisit_1_tD2DD8F7100DD7ED694168DF7879C9DBBDFE4699A;
-struct ITypedVisit_1_t23A4DC3BDF01AC1194B413627D7981FC40C3DE49;
 struct ITypedVisit_1_t47CA71635953F7C59DA2BD072ED3C0E6FBEAC2AC;
 struct ITypedVisit_1_t99459F65D01F032FF4C7AA5CF518E203B7A29F46;
 struct ITypedVisit_1_t9F938CEAB08AC9E21FB06D63F7EE5B43181A94F1;
@@ -187,12 +196,6 @@ struct List_1_tF42FEB6C3B18B7E7C8F2DE1FEBA00D2491736317;
 struct List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A;
 struct MergedKeyedCollection_2_t3A426BAACF78C1FFEA721E09D9A20CB7710A2A4F;
 struct MergedKeyedCollection_2_tE445ABAA266533535457D5C39A76E38682E2DF94;
-struct Property_2_t1BDEF6AF2E84F588A8B264BCE2073CF7C1BC9847;
-struct Property_2_t4B699AF240F63BEE5925033BC82883950528C4B0;
-struct Property_2_t82F83FF5276378A61B7F1AA5ABC9A7691A29A3D3;
-struct Property_2_t12CA9708C3760AD4FE4CE4094AC01BFFA327A9FE;
-struct Property_2_t4214D5666464CEE51F044573A59C738C2D562085;
-struct Property_2_t7B85DB0978338665E8C9D675C3291F86A38F594A;
 struct Property_2_t70F4B5E70F578E0789B2FB075C362A3AB7D6A560;
 struct Property_2_t726AE59B20B9BCF86C7637A5CB4EFBB67F1AF350;
 struct Property_2_t5B47977DCA77B79BC89C116C0BED26E4D4948623;
@@ -290,6 +293,9 @@ struct Property_2_tE9B27417C17E0D8EA0D6A88F71B3C9347F2332A3;
 struct Property_2_tBCBDD000638A0F3DC6BFE7A44386EC8C73E02E3C;
 struct Property_2_t565DDC56AF9A8714EE9A9669624CB8FF3908C554;
 struct Property_2_t90BA70D6772C82D6E1FDB632766C532DB7844354;
+struct UnsafeList_1_t8AC8BEAAD08F12105DCE5C42810B8EAC6C9B5EF8;
+struct UnsafeList_1_t01F63DF0FAEC1F049C346A8DE04B0510B7C79084;
+struct UnsafeList_1_tD862182C55A7D6ECCFF4F0AF2AA2CD7B3F5BF172;
 struct SlotU5BU5D_tF596AD324082C553DB364C768406A40BB3C85343;
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
@@ -314,12 +320,12 @@ struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263;
 struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129;
 struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F;
 struct Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235;
+struct Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31;
 struct ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB;
 struct Delegate_t;
 struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
 struct Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD;
 struct FieldInfo_t;
-struct FilterFunctionDefinition_tFE41DB19FFB74F4D2B54BF44D1D2051B57FC82F2;
 struct Font_tC95270EA3198038970422D78B74A7F2E218A96B6;
 struct FontAsset_t61A6446D934E582651044E33D250EA8D306AB958;
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
@@ -351,11 +357,13 @@ struct UnsafePackedBinaryStream_tA167AA778E63332B246152289D19AED3846C8DFE;
 struct VectorImage_t7BD8CE948377FFE95FCA0C48014ACDFC13B8F8FC;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct EntityRemapInfo_tA64FEC7BEE0C8ABFC0CA4682E455222E284E913D;
+struct Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F;
 
 IL2CPP_EXTERN_C RuntimeClass* Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Delegate_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885_il2cpp_TypeInfo_var;
@@ -363,12 +371,15 @@ IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F724
 IL2CPP_EXTERN_C RuntimeClass* IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* MemberUtility_t504048F94C6B7999AC58DF9426BEF52003E9C79E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* MethodInfo_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral110D1733D85BF5EFB139B95FF286BB627337195E;
 IL2CPP_EXTERN_C String_t* _stringLiteral44F1E7DB2E8AAD233857868896DFEFE5A63EECEF;
 IL2CPP_EXTERN_C String_t* _stringLiteral4E3BEC05C920F32F86740D8CDDA5F47847F01CBF;
+IL2CPP_EXTERN_C String_t* _stringLiteral5B55E99D2378945F711DB994B7430E820BA05B5D;
 IL2CPP_EXTERN_C String_t* _stringLiteral6B84C223C597EA5D24F707973167E04ECF07D7DE;
 IL2CPP_EXTERN_C String_t* _stringLiteral7ECFB57A0D1B5CE741045B6B75AB6521BC5B5C0F;
 IL2CPP_EXTERN_C String_t* _stringLiteral99114D2718EFDC1BFFB41866DC4BFC8066C1B7D2;
@@ -380,10 +391,12 @@ IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC
 IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlySpan_1__ctor_m0FC0B92549C2968E80B5F75A85F28B96DBFCFD63_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Span_1__ctor_m947BF95D54571BF3897F96822B7A8FDA5853497B_RuntimeMethod_var;
+struct Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
+struct Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F;
 
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
@@ -501,30 +514,6 @@ struct MergedKeyedCollection_2_t3A426BAACF78C1FFEA721E09D9A20CB7710A2A4F  : publ
 {
 	Dictionary_2_tEE19ECF01E343FBED5A14E287BDE6618BC406DA3* ___collections;
 	Dictionary_2_tEE19ECF01E343FBED5A14E287BDE6618BC406DA3* ___collectionsLookup;
-};
-struct Property_2_t1BDEF6AF2E84F588A8B264BCE2073CF7C1BC9847  : public RuntimeObject
-{
-	List_1_t4A27DCC9A4080D8DA642DEA4EFFEBA72D6471715* ___m_Attributes;
-};
-struct Property_2_t4B699AF240F63BEE5925033BC82883950528C4B0  : public RuntimeObject
-{
-	List_1_t4A27DCC9A4080D8DA642DEA4EFFEBA72D6471715* ___m_Attributes;
-};
-struct Property_2_t82F83FF5276378A61B7F1AA5ABC9A7691A29A3D3  : public RuntimeObject
-{
-	List_1_t4A27DCC9A4080D8DA642DEA4EFFEBA72D6471715* ___m_Attributes;
-};
-struct Property_2_t12CA9708C3760AD4FE4CE4094AC01BFFA327A9FE  : public RuntimeObject
-{
-	List_1_t4A27DCC9A4080D8DA642DEA4EFFEBA72D6471715* ___m_Attributes;
-};
-struct Property_2_t4214D5666464CEE51F044573A59C738C2D562085  : public RuntimeObject
-{
-	List_1_t4A27DCC9A4080D8DA642DEA4EFFEBA72D6471715* ___m_Attributes;
-};
-struct Property_2_t7B85DB0978338665E8C9D675C3291F86A38F594A  : public RuntimeObject
-{
-	List_1_t4A27DCC9A4080D8DA642DEA4EFFEBA72D6471715* ___m_Attributes;
 };
 struct Property_2_t70F4B5E70F578E0789B2FB075C362A3AB7D6A560  : public RuntimeObject
 {
@@ -938,12 +927,6 @@ struct TypeTraits_1_tF91BA2C79345F433195944D0618AB02D92236B21  : public RuntimeO
 struct TypeTraits_1_tB01FA3B4A03D597A48820CE7FCC333DCA70FACC9  : public RuntimeObject
 {
 };
-struct TypeTraits_1_t21080F26F6131ECBC06910EE13D1DE330D245551  : public RuntimeObject
-{
-};
-struct TypeTraits_1_tEF2C95ABDED3781386EFBB0AF525325B038C0FC5  : public RuntimeObject
-{
-};
 struct TypeTraits_1_tA6D1100439FC903C4E5199EE4D277273E18BF039  : public RuntimeObject
 {
 };
@@ -1104,6 +1087,18 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 {
 };
+struct AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55 
+{
+	float ___U3CMaxFractionU3Ek__BackingField;
+};
+struct AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21 
+{
+	float ___U3CMaxFractionU3Ek__BackingField;
+};
+struct AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3 
+{
+	float ___U3CMaxFractionU3Ek__BackingField;
+};
 struct ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 
 {
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____array;
@@ -1115,6 +1110,18 @@ struct ArraySegment_1_t00CCB00D2C671984CD055C219135EB0500C79178
 	__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* ____array;
 	int32_t ____offset;
 	int32_t ____count;
+};
+struct NativeList_1_tE94D791CB60EF0493831B293FCA709C1F674752D 
+{
+	UnsafeList_1_t8AC8BEAAD08F12105DCE5C42810B8EAC6C9B5EF8* ___m_ListData;
+};
+struct NativeList_1_t7B5673D7D43011DD8BF892715CCF73BC89700283 
+{
+	UnsafeList_1_t01F63DF0FAEC1F049C346A8DE04B0510B7C79084* ___m_ListData;
+};
+struct NativeList_1_t9A623DEB9B3834E1FE9126D46127B8C965F49AF1 
+{
+	UnsafeList_1_tD862182C55A7D6ECCFF4F0AF2AA2CD7B3F5BF172* ___m_ListData;
 };
 struct ReadOnlyMemory_1_t63F301BF893B0AB689953D86A641168CA66D2399 
 {
@@ -1211,6 +1218,16 @@ struct BatchMeshID_t34167B7C1D0503C43A01A7BD213DFC367525D2A0
 {
 	uint32_t ___value;
 };
+struct BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB 
+{
+	int32_t ___Offset;
+	int32_t ___Length;
+};
+struct BodyIndexPair_tB942BA0456ED6DD5ADD47CDDE354395DCCDB0F19 
+{
+	int32_t ___BodyIndexB;
+	int32_t ___BodyIndexA;
+};
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
 {
 	bool ___m_value;
@@ -1222,6 +1239,16 @@ struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3
 struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17 
 {
 	Il2CppChar ___m_value;
+};
+struct ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 
+{
+	uint32_t ___U3CValueU3Ek__BackingField;
+};
+struct CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A 
+{
+	uint32_t ___BelongsTo;
+	uint32_t ___CollidesWith;
+	int32_t ___GroupIndex;
 };
 struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
 {
@@ -1291,6 +1318,16 @@ struct Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B
 			uint8_t ___a_forAlignmentOnly;
 		};
 	};
+};
+struct CustomTagsPair_tB212292D6CE08CFF8B06BBAC5F7B01F5821932BD 
+{
+	uint8_t ___CustomTagsB;
+	uint8_t ___CustomTagsA;
+};
+struct Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD 
+{
+	int32_t ___Index;
+	int32_t ___Version;
 };
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
 {
@@ -1450,6 +1487,13 @@ struct float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E
 	float ___y;
 	float ___z;
 };
+struct float4_t89D9A294E7A79BD81BFBDD18654508532958555E 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
 struct StateChangeMonitorListener_t8DDE11DEF769AE92B7A6B6554D41511AA2A7BDDA 
 {
 	InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___control;
@@ -1496,6 +1540,65 @@ struct BitRegion_tFE885CE2CC6C0287CF86BF59672C19D86D8DFC4C
 	uint32_t ___bitOffset;
 	uint32_t ___sizeInBits;
 };
+struct U3CFacePlanesU3Ee__FixedBuffer_tBF9F10886166ADF4F93DC6C6799ABE01233693D0 
+{
+	union
+	{
+		struct
+		{
+			uint8_t ___FixedElementField;
+		};
+		uint8_t U3CFacePlanesU3Ee__FixedBuffer_tBF9F10886166ADF4F93DC6C6799ABE01233693D0__padding[32];
+	};
+};
+struct U3CFaceVertexIndicesU3Ee__FixedBuffer_t3FF966622EB3CE1D4174C29B3F7C20C9BBB7872F 
+{
+	union
+	{
+		struct
+		{
+			uint8_t ___FixedElementField;
+		};
+		uint8_t U3CFaceVertexIndicesU3Ee__FixedBuffer_t3FF966622EB3CE1D4174C29B3F7C20C9BBB7872F__padding[8];
+	};
+};
+struct U3CFacesU3Ee__FixedBuffer_t023B00F3D3069591659891DE5C53F01576B04D44 
+{
+	union
+	{
+		struct
+		{
+			uint8_t ___FixedElementField;
+		};
+		uint8_t U3CFacesU3Ee__FixedBuffer_t023B00F3D3069591659891DE5C53F01576B04D44__padding[8];
+	};
+};
+struct U3CVerticesU3Ee__FixedBuffer_tEE785B23A797E99A14DD83BAE2F9D7039F616D0D 
+{
+	union
+	{
+		struct
+		{
+			uint8_t ___FixedElementField;
+		};
+		uint8_t U3CVerticesU3Ee__FixedBuffer_tEE785B23A797E99A14DD83BAE2F9D7039F616D0D__padding[48];
+	};
+};
+struct AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D 
+{
+	float ___U3CMaxFractionU3Ek__BackingField;
+	NativeList_1_tE94D791CB60EF0493831B293FCA709C1F674752D ___AllHits;
+};
+struct AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F 
+{
+	float ___U3CMaxFractionU3Ek__BackingField;
+	NativeList_1_t7B5673D7D43011DD8BF892715CCF73BC89700283 ___AllHits;
+};
+struct AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7 
+{
+	float ___U3CMaxFractionU3Ek__BackingField;
+	NativeList_1_t9A623DEB9B3834E1FE9126D46127B8C965F49AF1 ___AllHits;
+};
 struct ByReference_1_t9C85BCCAAF8C525B6C06B07E922D8D217BE8D6FC 
 {
 	intptr_t ____value;
@@ -1540,6 +1643,131 @@ struct ByReference_1_t607C1F3BC28B0E21B969461CDB0720FB01A82141
 {
 	intptr_t ____value;
 };
+struct QueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7 
+{
+	void* ___m_CollectorPtr;
+	bool ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#ifndef QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke_define
+#define QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke_define
+struct QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke
+{
+	void* ___m_CollectorPtr;
+	int32_t ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#endif
+#ifndef QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com_define
+#define QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com_define
+struct QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com
+{
+	void* ___m_CollectorPtr;
+	int32_t ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#endif
+struct QueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9 
+{
+	void* ___m_CollectorPtr;
+	bool ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#ifndef QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke_define
+#define QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke_define
+struct QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke
+{
+	void* ___m_CollectorPtr;
+	int32_t ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#endif
+#ifndef QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com_define
+#define QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com_define
+struct QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com
+{
+	void* ___m_CollectorPtr;
+	int32_t ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#endif
+struct QueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A 
+{
+	void* ___m_CollectorPtr;
+	bool ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#ifndef QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke_define
+#define QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke_define
+struct QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke
+{
+	void* ___m_CollectorPtr;
+	int32_t ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#endif
+#ifndef QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com_define
+#define QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com_define
+struct QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com
+{
+	void* ___m_CollectorPtr;
+	int32_t ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#endif
+struct QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77 
+{
+	void* ___m_CollectorPtr;
+	bool ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#ifndef QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke_define
+#define QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke_define
+struct QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke
+{
+	void* ___m_CollectorPtr;
+	int32_t ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#endif
+#ifndef QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com_define
+#define QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com_define
+struct QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com
+{
+	void* ___m_CollectorPtr;
+	int32_t ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#endif
+struct QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E 
+{
+	void* ___m_CollectorPtr;
+	bool ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#ifndef QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke_define
+#define QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke_define
+struct QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke
+{
+	void* ___m_CollectorPtr;
+	int32_t ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#endif
+#ifndef QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com_define
+#define QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com_define
+struct QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com
+{
+	void* ___m_CollectorPtr;
+	int32_t ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#endif
+struct Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Min;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Max;
+};
 struct Allocator_t996642592271AAD9EE688F142741D512C07B5824 
 {
 	int32_t ___value__;
@@ -1559,6 +1787,29 @@ struct BatchDrawCommandFlags_tC502FA322382A3181F0800B1EA5A5654027FE034
 struct BatchDrawCommandType_t4829A9A68B9A2A75028B65A098842BC3B95F7BED 
 {
 	int32_t ___value__;
+};
+struct ColliderKeyPath_tC8627D980794CEE654A484E67DE189563AF33352 
+{
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___m_Key;
+	uint32_t ___m_NumKeyBits;
+};
+struct ColliderType_t05432742B7C1C85770E165353B7AC9781EBA531A 
+{
+	uint8_t ___value__;
+};
+struct CollisionType_t6275C2BE859F424F31C0DF2898B5E09DA46783EC 
+{
+	uint8_t ___value__;
+};
+struct ConvexHull_tFCD7D4D7C8E9693133F18F2FBBA20162BD16B476 
+{
+	float ___ConvexRadius;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___VerticesBlob;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___FacePlanesBlob;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___FacesBlob;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___FaceVertexIndicesBlob;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___FaceLinksBlob;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___VertexEdgesBlob;
 };
 struct Cursor_t24C3B5095F65B86794C4F7EA168E324DFDA9EE82 
 {
@@ -1626,10 +1877,6 @@ struct Delegate_t_marshaled_com
 	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
 	int32_t ___method_is_virtual;
 };
-struct EasingMode_tEF87477B9B9EB2524525550AE5ABEBC00FC7B0DF 
-{
-	int32_t ___value__;
-};
 struct Exception_t  : public RuntimeObject
 {
 	String_t* ____className;
@@ -1687,14 +1934,6 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
-struct FilterFunctionType_tF29290365A61009BE6F2EF6C6C6218E72CB9F64A 
-{
-	int32_t ___value__;
-};
-struct FilterParameterType_t7250262A78079140235AAFF6F4FA3CCB2F99E390 
-{
-	int32_t ___value__;
-};
 struct GradientColorKey_tBD03A613338639E3774A10265CC5F3619C13421A 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color;
@@ -1708,6 +1947,12 @@ struct Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C
 {
 	int32_t ___value__;
 };
+struct Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A 
+{
+	float ___m_BoundingRadius;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___m_BvhNodesBlob;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___m_SectionsBlob;
+};
 struct MeshTopology_t815FF5CF04D62195A23E2DF8A5C0A071F11FBCBF 
 {
 	int32_t ___value__;
@@ -1718,6 +1963,11 @@ struct MeshUpdateFlags_tCCD32DF7F112AE37CA85E45959DC6CDF64444DF6
 };
 struct MethodInfo_t  : public MethodBase_t
 {
+};
+struct MotionExpansion_tBF0C336E0490D93EC74C11885EECEDCF9C7F68E2 
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Linear;
+	float ___Uniform;
 };
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
@@ -1735,6 +1985,16 @@ struct Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Normal;
 	float ___m_Distance;
+};
+struct QueryInteraction_tF491A36EC825D87473ECAA0FB3FFD9A9C6D70A94 
+{
+	uint8_t ___value__;
+};
+struct Ray_t124E07778F6E7DD39B2622ED0CA11FCDAE655FA7 
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Origin;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___m_Displacement;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___U3CReciprocalDisplacementU3Ek__BackingField;
 };
 struct Repeat_tC0330B75B12D24B063BA5151AF3BB73B85D8B840 
 {
@@ -1808,6 +2068,16 @@ struct VisitExceptionKind_t7E6C3EABD5439F2B4CA31C246B2AA4AC16A77DF5
 {
 	int32_t ___value__;
 };
+struct float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___c0;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___c1;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___c2;
+};
+struct quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 
+{
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value;
+};
 struct Unit_t21DCD5C095F7DC1A0B9A47CAF8CAD3E7776CD3DB 
 {
 	int32_t ___value__;
@@ -1834,9 +2104,58 @@ struct Unit_t7A9C3ABB0618BEBFDC1813D07080CE0C145448ED
 {
 	int32_t ___value__;
 };
+struct Context_tA288FF72592E6F0DDD8DDD66C6C16ABC3ED873F4 
+{
+	BodyIndexPair_tB942BA0456ED6DD5ADD47CDDE354395DCCDB0F19 ___BodyIndices;
+	CustomTagsPair_tB212292D6CE08CFF8B06BBAC5F7B01F5821932BD ___BodyCustomTags;
+	bool ___BothMotionsAreKinematic;
+	Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F* ___ContactWriter;
+	float ___ScaleA;
+	float ___ScaleB;
+};
+struct Context_tA288FF72592E6F0DDD8DDD66C6C16ABC3ED873F4_marshaled_pinvoke
+{
+	BodyIndexPair_tB942BA0456ED6DD5ADD47CDDE354395DCCDB0F19 ___BodyIndices;
+	CustomTagsPair_tB212292D6CE08CFF8B06BBAC5F7B01F5821932BD ___BodyCustomTags;
+	int32_t ___BothMotionsAreKinematic;
+	Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F* ___ContactWriter;
+	float ___ScaleA;
+	float ___ScaleB;
+};
+struct Context_tA288FF72592E6F0DDD8DDD66C6C16ABC3ED873F4_marshaled_com
+{
+	BodyIndexPair_tB942BA0456ED6DD5ADD47CDDE354395DCCDB0F19 ___BodyIndices;
+	CustomTagsPair_tB212292D6CE08CFF8B06BBAC5F7B01F5821932BD ___BodyCustomTags;
+	int32_t ___BothMotionsAreKinematic;
+	Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F* ___ContactWriter;
+	float ___ScaleA;
+	float ___ScaleB;
+};
+struct CombinePolicy_tE4E765B3EA711C02D7384972FC4F39D710A47D35 
+{
+	uint8_t ___value__;
+};
+struct MaterialFlags_t39DD5F916491200F9D407024468B7A37808F24C6 
+{
+	uint8_t ___value__;
+};
 struct Source_t2086FE87EC4CC7556694833EB21AC29B4F5DA9D3 
 {
 	int32_t ___value__;
+};
+struct ConvexHullData_tD57B3A37BF82A3090ACF7AFB5F872A6FC3293D0C 
+{
+	union
+	{
+		struct
+		{
+			U3CFacePlanesU3Ee__FixedBuffer_tBF9F10886166ADF4F93DC6C6799ABE01233693D0 ___FacePlanes;
+			U3CVerticesU3Ee__FixedBuffer_tEE785B23A797E99A14DD83BAE2F9D7039F616D0D ___Vertices;
+			U3CFacesU3Ee__FixedBuffer_t023B00F3D3069591659891DE5C53F01576B04D44 ___Faces;
+			U3CFaceVertexIndicesU3Ee__FixedBuffer_t3FF966622EB3CE1D4174C29B3F7C20C9BBB7872F ___FaceVertexIndices;
+		};
+		uint8_t ConvexHullData_tD57B3A37BF82A3090ACF7AFB5F872A6FC3293D0C__padding[96];
+	};
 };
 struct NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C 
 {
@@ -2002,20 +2321,28 @@ struct BatchDrawRange_t736D745E918A629658B80A0F7D2D17DAFBA6172F
 	uint32_t ___drawCommandsCount;
 	BatchFilterSettings_t24CAFF037E8C667ABC0B23D55D6CC7125947CDE2 ___filterSettings;
 };
-struct EasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4 
+struct ColliderHeader_t02773740D4FD32942FC0FFA46DC6EA5032DDE3FC 
 {
-	int32_t ___m_Mode;
-};
-struct FilterParameter_tC6BAE67835BA35634A769B28BF35314AF42BE060 
-{
-	int32_t ___m_Type;
-	float ___m_FloatValue;
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_ColorValue;
+	uint8_t ___Type;
+	uint8_t ___CollisionType;
+	uint8_t ___Version;
+	uint8_t ___Magic;
+	uint32_t ___ForceUniqueBlobID;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
 };
 struct Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 
 {
 	float ___m_Value;
 	int32_t ___m_Unit;
+};
+struct Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 
+{
+	uint8_t ___Flags;
+	uint8_t ___FrictionCombinePolicy;
+	uint8_t ___RestitutionCombinePolicy;
+	uint8_t ___CustomTags;
+	float ___Friction;
+	float ___Restitution;
 };
 struct Member_tC451ED4AC43F0B8B413D36E5A0D96FFA9B8B48F5  : public RuntimeObject
 {
@@ -2049,6 +2376,11 @@ struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvo
 struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 {
 	Delegate_t_marshaled_com** ___delegates;
+};
+struct RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD 
+{
+	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___rot;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___pos;
 };
 struct StyleBackground_t28A4439F46056BAFA6F4450CD1DE8F333571C97B 
 {
@@ -2196,6 +2528,11 @@ struct VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE
 {
 	int32_t ___U3CIgnoreExceptionsU3Ek__BackingField;
 };
+struct MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC 
+{
+	float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___Rotation;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Translation;
+};
 struct Action_1_t29D76190B51538DD0A12FCB471FA7F533D7943F7  : public MulticastDelegate_t
 {
 };
@@ -2204,13 +2541,6 @@ struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87  : public MulticastDel
 };
 struct Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99  : public MulticastDelegate_t
 {
-};
-struct FixedBuffer4_1_tFD261E0E1A5ECEFC54C0B0B89FA6BFEE477E4D8C 
-{
-	FilterParameter_tC6BAE67835BA35634A769B28BF35314AF42BE060 _____0;
-	FilterParameter_tC6BAE67835BA35634A769B28BF35314AF42BE060 _____1;
-	FilterParameter_tC6BAE67835BA35634A769B28BF35314AF42BE060 _____2;
-	FilterParameter_tC6BAE67835BA35634A769B28BF35314AF42BE060 _____3;
 };
 struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
 {
@@ -2230,8 +2560,62 @@ struct BackgroundSize_t809883E2D7BB1D8D85B4C3E1DBE189F187DB25E7
 	Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___m_X;
 	Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___m_Y;
 };
+struct Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31 
+{
+	ColliderHeader_t02773740D4FD32942FC0FFA46DC6EA5032DDE3FC ___m_Header;
+};
+struct ColliderCastHit_tB66CAC9AB42CCE701322D245A18D09CBB7474755 
+{
+	float ___U3CFractionU3Ek__BackingField;
+	int32_t ___U3CRigidBodyIndexU3Ek__BackingField;
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___U3CColliderKeyU3Ek__BackingField;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___U3CMaterialU3Ek__BackingField;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___U3CEntityU3Ek__BackingField;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___U3CPositionU3Ek__BackingField;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___U3CSurfaceNormalU3Ek__BackingField;
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___QueryColliderKey;
+};
+struct ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B 
+{
+	uint8_t ___Type;
+	uint8_t ___CollisionType;
+	uint8_t ___Version;
+	uint8_t ___Magic;
+	uint32_t ___ForceUniqueBlobID;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___Material;
+};
+struct DistanceHit_t24623CA3232004563796E8AA41E409369C35643E 
+{
+	float ___U3CFractionU3Ek__BackingField;
+	int32_t ___U3CRigidBodyIndexU3Ek__BackingField;
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___U3CColliderKeyU3Ek__BackingField;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___U3CMaterialU3Ek__BackingField;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___U3CEntityU3Ek__BackingField;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___U3CPositionU3Ek__BackingField;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___U3CSurfaceNormalU3Ek__BackingField;
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___QueryColliderKey;
+};
 struct IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
+};
+struct MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236 
+{
+	ColliderHeader_t02773740D4FD32942FC0FFA46DC6EA5032DDE3FC ___m_Header;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 ___m_Aabb;
+	int32_t ___m_MemorySize;
+	Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A ___Mesh;
+	uint32_t ___U3CNumColliderKeyBitsU3Ek__BackingField;
+};
+struct RaycastHit_tE3537BC5FE6F1F4DBEE4843517092CBCDF0B5D56 
+{
+	float ___U3CFractionU3Ek__BackingField;
+	int32_t ___U3CRigidBodyIndexU3Ek__BackingField;
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___U3CColliderKeyU3Ek__BackingField;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___U3CMaterialU3Ek__BackingField;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___U3CEntityU3Ek__BackingField;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___U3CPositionU3Ek__BackingField;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___U3CSurfaceNormalU3Ek__BackingField;
 };
 struct Rotate_tE965CA0281A547AB38B881A3416FF97756D3F4D7 
 {
@@ -2294,6 +2678,95 @@ struct Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E_marshaled_com
 	float ___m_Z;
 	int32_t ___m_isNone;
 };
+struct CompositeCompositeLeafCollector_t2D42E4E3038BB5DD1D0D227288B64ABB159A9C8E 
+{
+	Context_tA288FF72592E6F0DDD8DDD66C6C16ABC3ED873F4 ___m_Context;
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___m_CompositeColliderA;
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___m_CompositeColliderB;
+	MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC ___m_WorldFromA;
+	MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC ___m_WorldFromB;
+	MotionExpansion_tBF0C336E0490D93EC74C11885EECEDCF9C7F68E2 ___m_Expansion;
+	bool ___m_Flipped;
+	ColliderKeyPath_tC8627D980794CEE654A484E67DE189563AF33352 ___m_KeyPath;
+};
+struct CompositeCompositeLeafCollector_t2D42E4E3038BB5DD1D0D227288B64ABB159A9C8E_marshaled_pinvoke
+{
+	Context_tA288FF72592E6F0DDD8DDD66C6C16ABC3ED873F4_marshaled_pinvoke ___m_Context;
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___m_CompositeColliderA;
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___m_CompositeColliderB;
+	MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC ___m_WorldFromA;
+	MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC ___m_WorldFromB;
+	MotionExpansion_tBF0C336E0490D93EC74C11885EECEDCF9C7F68E2 ___m_Expansion;
+	int32_t ___m_Flipped;
+	ColliderKeyPath_tC8627D980794CEE654A484E67DE189563AF33352 ___m_KeyPath;
+};
+struct CompositeCompositeLeafCollector_t2D42E4E3038BB5DD1D0D227288B64ABB159A9C8E_marshaled_com
+{
+	Context_tA288FF72592E6F0DDD8DDD66C6C16ABC3ED873F4_marshaled_com ___m_Context;
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___m_CompositeColliderA;
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___m_CompositeColliderB;
+	MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC ___m_WorldFromA;
+	MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC ___m_WorldFromB;
+	MotionExpansion_tBF0C336E0490D93EC74C11885EECEDCF9C7F68E2 ___m_Expansion;
+	int32_t ___m_Flipped;
+	ColliderKeyPath_tC8627D980794CEE654A484E67DE189563AF33352 ___m_KeyPath;
+};
+struct CompositeTerrainLeafCollector_tEB04C37446ABF4C74C677CB20F5173F36178BCC0 
+{
+	Context_tA288FF72592E6F0DDD8DDD66C6C16ABC3ED873F4 ___m_Context;
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___m_CompositeColliderA;
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___m_TerrainColliderB;
+	MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC ___m_WorldFromA;
+	MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC ___m_WorldFromB;
+	float ___m_MaxDistance;
+	bool ___m_Flipped;
+	ColliderKeyPath_tC8627D980794CEE654A484E67DE189563AF33352 ___m_KeyPath;
+};
+struct CompositeTerrainLeafCollector_tEB04C37446ABF4C74C677CB20F5173F36178BCC0_marshaled_pinvoke
+{
+	Context_tA288FF72592E6F0DDD8DDD66C6C16ABC3ED873F4_marshaled_pinvoke ___m_Context;
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___m_CompositeColliderA;
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___m_TerrainColliderB;
+	MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC ___m_WorldFromA;
+	MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC ___m_WorldFromB;
+	float ___m_MaxDistance;
+	int32_t ___m_Flipped;
+	ColliderKeyPath_tC8627D980794CEE654A484E67DE189563AF33352 ___m_KeyPath;
+};
+struct CompositeTerrainLeafCollector_tEB04C37446ABF4C74C677CB20F5173F36178BCC0_marshaled_com
+{
+	Context_tA288FF72592E6F0DDD8DDD66C6C16ABC3ED873F4_marshaled_com ___m_Context;
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___m_CompositeColliderA;
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___m_TerrainColliderB;
+	MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC ___m_WorldFromA;
+	MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC ___m_WorldFromB;
+	float ___m_MaxDistance;
+	int32_t ___m_Flipped;
+	ColliderKeyPath_tC8627D980794CEE654A484E67DE189563AF33352 ___m_KeyPath;
+};
+struct ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D 
+{
+	MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC ___Transform;
+	float ___m_Scale;
+};
+struct ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E 
+{
+	float ___U3CMaxFractionU3Ek__BackingField;
+	int32_t ___U3CNumHitsU3Ek__BackingField;
+	ColliderCastHit_tB66CAC9AB42CCE701322D245A18D09CBB7474755 ___m_ClosestHit;
+};
+struct ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0 
+{
+	float ___U3CMaxFractionU3Ek__BackingField;
+	int32_t ___U3CNumHitsU3Ek__BackingField;
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___m_ClosestHit;
+};
+struct ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE 
+{
+	float ___U3CMaxFractionU3Ek__BackingField;
+	int32_t ___U3CNumHitsU3Ek__BackingField;
+	RaycastHit_tE3537BC5FE6F1F4DBEE4843517092CBCDF0B5D56 ___m_ClosestHit;
+};
 struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
 {
 };
@@ -2301,26 +2774,78 @@ struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : 
 {
 	RuntimeObject* ____actualValue;
 };
-struct FilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF 
+struct PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF 
 {
-	int32_t ___m_Type;
-	FixedBuffer4_1_tFD261E0E1A5ECEFC54C0B0B89FA6BFEE477E4D8C ___m_Parameters;
-	int32_t ___m_ParameterCount;
-	FilterFunctionDefinition_tFE41DB19FFB74F4D2B54BF44D1D2051B57FC82F2* ___m_CustomDefinition;
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B ___m_Header;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B ___m_Header_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ConvexHull_OffsetPadding[32];
+			ConvexHull_tFCD7D4D7C8E9693133F18F2FBBA20162BD16B476 ___ConvexHull;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ConvexHull_OffsetPadding_forAlignmentOnly[32];
+			ConvexHull_tFCD7D4D7C8E9693133F18F2FBBA20162BD16B476 ___ConvexHull_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ConvexHullData_OffsetPadding[96];
+			ConvexHullData_tD57B3A37BF82A3090ACF7AFB5F872A6FC3293D0C ___m_ConvexHullData;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ConvexHullData_OffsetPadding_forAlignmentOnly[96];
+			ConvexHullData_tD57B3A37BF82A3090ACF7AFB5F872A6FC3293D0C ___m_ConvexHullData_forAlignmentOnly;
+		};
+	};
 };
-struct FilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF_marshaled_pinvoke
+struct QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 
 {
-	int32_t ___m_Type;
-	FixedBuffer4_1_tFD261E0E1A5ECEFC54C0B0B89FA6BFEE477E4D8C ___m_Parameters;
-	int32_t ___m_ParameterCount;
-	FilterFunctionDefinition_tFE41DB19FFB74F4D2B54BF44D1D2051B57FC82F2* ___m_CustomDefinition;
+	int32_t ___RigidBodyIndex;
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___ColliderKey;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___Entity;
+	uint32_t ___NumColliderKeyBits;
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D ___WorldFromLocalTransform;
+	bool ___IsInitialized;
+	float ___InvTargetScale;
+	bool ___IsFlipped;
 };
-struct FilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF_marshaled_com
+struct QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_pinvoke
 {
-	int32_t ___m_Type;
-	FixedBuffer4_1_tFD261E0E1A5ECEFC54C0B0B89FA6BFEE477E4D8C ___m_Parameters;
-	int32_t ___m_ParameterCount;
-	FilterFunctionDefinition_tFE41DB19FFB74F4D2B54BF44D1D2051B57FC82F2* ___m_CustomDefinition;
+	int32_t ___RigidBodyIndex;
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___ColliderKey;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___Entity;
+	uint32_t ___NumColliderKeyBits;
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D ___WorldFromLocalTransform;
+	int32_t ___IsInitialized;
+	float ___InvTargetScale;
+	int32_t ___IsFlipped;
+};
+struct QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_com
+{
+	int32_t ___RigidBodyIndex;
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___ColliderKey;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___Entity;
+	uint32_t ___NumColliderKeyBits;
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D ___WorldFromLocalTransform;
+	int32_t ___IsInitialized;
+	float ___InvTargetScale;
+	int32_t ___IsFlipped;
 };
 struct StyleBackgroundPosition_t707AF9D66EF808C1B1DE174CAB623D97A653C3F3 
 {
@@ -2371,6 +2896,100 @@ struct StyleTranslate_tF9528CA4B45EE4EB2C4D294336A83D88DB6AF089_marshaled_com
 {
 	Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E_marshaled_com ___m_Value;
 	int32_t ___m_Keyword;
+};
+struct ChildCollider_tD7324951E4667897FBD59E29A4B3D2AF737F5585 
+{
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___m_Collider;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF ___m_Polygon;
+	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___U3CTransformFromChildU3Ek__BackingField;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___Entity;
+};
+struct ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 
+{
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___Collider;
+	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___U3COrientationU3Ek__BackingField;
+	Ray_t124E07778F6E7DD39B2622ED0CA11FCDAE655FA7 ___Ray;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 ___QueryContext;
+	float ___U3CQueryColliderScaleU3Ek__BackingField;
+};
+struct ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1_marshaled_pinvoke
+{
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___Collider;
+	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___U3COrientationU3Ek__BackingField;
+	Ray_t124E07778F6E7DD39B2622ED0CA11FCDAE655FA7 ___Ray;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_pinvoke ___QueryContext;
+	float ___U3CQueryColliderScaleU3Ek__BackingField;
+};
+struct ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1_marshaled_com
+{
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___Collider;
+	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___U3COrientationU3Ek__BackingField;
+	Ray_t124E07778F6E7DD39B2622ED0CA11FCDAE655FA7 ___Ray;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_com ___QueryContext;
+	float ___U3CQueryColliderScaleU3Ek__BackingField;
+};
+struct ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 
+{
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___Collider;
+	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___Transform;
+	float ___Scale;
+	float ___MaxDistance;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 ___QueryContext;
+};
+struct ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363_marshaled_pinvoke
+{
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___Collider;
+	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___Transform;
+	float ___Scale;
+	float ___MaxDistance;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_pinvoke ___QueryContext;
+};
+struct ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363_marshaled_com
+{
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___Collider;
+	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___Transform;
+	float ___Scale;
+	float ___MaxDistance;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_com ___QueryContext;
+};
+struct PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D 
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Position;
+	float ___MaxDistance;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 ___QueryContext;
+};
+struct PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D_marshaled_pinvoke
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Position;
+	float ___MaxDistance;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_pinvoke ___QueryContext;
+};
+struct PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D_marshaled_com
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Position;
+	float ___MaxDistance;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_com ___QueryContext;
+};
+struct RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 
+{
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
+	Ray_t124E07778F6E7DD39B2622ED0CA11FCDAE655FA7 ___Ray;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 ___QueryContext;
+};
+struct RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5_marshaled_pinvoke
+{
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
+	Ray_t124E07778F6E7DD39B2622ED0CA11FCDAE655FA7 ___Ray;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_pinvoke ___QueryContext;
+};
+struct RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5_marshaled_com
+{
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
+	Ray_t124E07778F6E7DD39B2622ED0CA11FCDAE655FA7 ___Ray;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_com ___QueryContext;
 };
 struct List_1_t242CDEAEC9C92000DA96982CDB9D592DDE2AADAF_StaticFields
 {
@@ -2537,46 +3156,6 @@ struct TypeTraits_1_tF91BA2C79345F433195944D0618AB02D92236B21_StaticFields
 	bool ___U3CIsLazyLoadReferenceU3Ek__BackingField;
 };
 struct TypeTraits_1_tB01FA3B4A03D597A48820CE7FCC333DCA70FACC9_StaticFields
-{
-	bool ___U3CIsValueTypeU3Ek__BackingField;
-	bool ___U3CIsPrimitiveU3Ek__BackingField;
-	bool ___U3CIsInterfaceU3Ek__BackingField;
-	bool ___U3CIsAbstractU3Ek__BackingField;
-	bool ___U3CIsArrayU3Ek__BackingField;
-	bool ___U3CIsMultidimensionalArrayU3Ek__BackingField;
-	bool ___U3CIsEnumU3Ek__BackingField;
-	bool ___U3CIsEnumFlagsU3Ek__BackingField;
-	bool ___U3CIsNullableU3Ek__BackingField;
-	bool ___U3CIsObjectU3Ek__BackingField;
-	bool ___U3CIsStringU3Ek__BackingField;
-	bool ___U3CIsContainerU3Ek__BackingField;
-	bool ___U3CCanBeNullU3Ek__BackingField;
-	bool ___U3CIsPrimitiveOrStringU3Ek__BackingField;
-	bool ___U3CIsAbstractOrInterfaceU3Ek__BackingField;
-	bool ___U3CIsUnityObjectU3Ek__BackingField;
-	bool ___U3CIsLazyLoadReferenceU3Ek__BackingField;
-};
-struct TypeTraits_1_t21080F26F6131ECBC06910EE13D1DE330D245551_StaticFields
-{
-	bool ___U3CIsValueTypeU3Ek__BackingField;
-	bool ___U3CIsPrimitiveU3Ek__BackingField;
-	bool ___U3CIsInterfaceU3Ek__BackingField;
-	bool ___U3CIsAbstractU3Ek__BackingField;
-	bool ___U3CIsArrayU3Ek__BackingField;
-	bool ___U3CIsMultidimensionalArrayU3Ek__BackingField;
-	bool ___U3CIsEnumU3Ek__BackingField;
-	bool ___U3CIsEnumFlagsU3Ek__BackingField;
-	bool ___U3CIsNullableU3Ek__BackingField;
-	bool ___U3CIsObjectU3Ek__BackingField;
-	bool ___U3CIsStringU3Ek__BackingField;
-	bool ___U3CIsContainerU3Ek__BackingField;
-	bool ___U3CCanBeNullU3Ek__BackingField;
-	bool ___U3CIsPrimitiveOrStringU3Ek__BackingField;
-	bool ___U3CIsAbstractOrInterfaceU3Ek__BackingField;
-	bool ___U3CIsUnityObjectU3Ek__BackingField;
-	bool ___U3CIsLazyLoadReferenceU3Ek__BackingField;
-};
-struct TypeTraits_1_tEF2C95ABDED3781386EFBB0AF525325B038C0FC5_StaticFields
 {
 	bool ___U3CIsValueTypeU3Ek__BackingField;
 	bool ___U3CIsPrimitiveU3Ek__BackingField;
@@ -3395,6 +3974,15 @@ struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
 {
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_categoryForLatin1;
 };
+struct ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_StaticFields
+{
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___Empty;
+};
+struct CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_StaticFields
+{
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Default;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Zero;
+};
 struct IntPtr_t_StaticFields
 {
 	intptr_t ___Zero;
@@ -3470,13 +4058,25 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 {
 	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
 };
+struct quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_StaticFields
+{
+	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___identity;
+};
 struct Angle_t0229F612898D65B3CC646C40A32D93D8A33C1DFC_StaticFields
 {
 	Dictionary_2_t29FB78C9E5DF443E2A5880E4E9B7C86E516670E0* ___s_AngleUnitLookup;
 };
+struct Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54_StaticFields
+{
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___Default;
+};
 struct Member_tC451ED4AC43F0B8B413D36E5A0D96FFA9B8B48F5_StaticFields
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___EmptyObjects;
+};
+struct RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD_StaticFields
+{
+	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___identity;
 };
 struct Type_t_StaticFields
 {
@@ -3925,28 +4525,10 @@ struct ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389  : public RuntimeAr
 };
 
 
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_mDB94662967E66AC074FE137EE4BD9FE82C76C0AB_gshared_inline (const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_m00FCB5EF45C052616B43E1773B7FECC659D28F6E_gshared_inline (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_m58049885E9A50A1E1AD86770962CD850582C15FA_gshared (RuntimeObject* ___0_visitor, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_mDDCC371571712BD98B3A2EAA177F5D2E5E97FAD5_gshared_inline (const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_m1D8B7A9107E1AC42133ADBB9D3E09F84BCC142DF_gshared_inline (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisEasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4_m8431B85C36BFE6201EBD58C50E40268C4AEB6C0B_gshared (RuntimeObject* ___0_visitor, EasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_m79D8FA08631C626F7FCAE35C6AB6D27641CB64A5_gshared_inline (const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_mCAB59B476E83A9FC33AEEB292490925EFEC11577_gshared_inline (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisFilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF_m27B4D956F8905C28802D3FAF150F66AB8C045337_gshared (RuntimeObject* ___0_visitor, FilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_m686F9F739041D767C3ACA256B3A68D6573B73B61_gshared_inline (const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_mCD2F075EE8FA987FED25F36ACC13C6D0F4A32693_gshared_inline (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisFontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C_m9B0B7646EE8175AAB89B0E47A9EBA1FABF84CA11_gshared (RuntimeObject* ___0_visitor, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_mE0F90826548B0C3102050B135AABD7FCF73A5120_gshared_inline (const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_m11497792427A6500E5BEC1F44B26CED5E4E210BB_gshared_inline (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD5D8197C711F0C773E9A76A2EB64004F163AA61C_gshared (RuntimeObject* ___0_visitor, int32_t* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_mB145F76964DE36569385F83F550741253F97BC8B_gshared_inline (const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_m38FEC63D8762D52AF73C146A830156829593F37C_gshared_inline (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mECB26B6AD8323EC326585F2EA43B7CBBA7944441_gshared (RuntimeObject* ___0_visitor, int32_t* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_m109DD5445E24831B7BC78C7D27802788FA113D53_gshared_inline (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_m09227AE5DDADBF5BD70FFF0379C4BA16C0052EC2_gshared_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisMaterialDefinition_t25B84AF58B1F4D1990933E5EBCD2DE6989ECB8CD_mA7CA7DC5C941CCF4C915A727CC48754CDCD338B9_gshared (RuntimeObject* ___0_visitor, MaterialDefinition_t25B84AF58B1F4D1990933E5EBCD2DE6989ECB8CD* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_m735F17A1CDBD434E62378EBF10F8B56495139E17_gshared_inline (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_m15C2D35A2D23101135FF92723A5F1C06CA8FA59D_gshared_inline (const RuntimeMethod* method) ;
@@ -4032,6 +4614,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisVector3_t24C
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_m8B51B3AEA65EC34EAFAD896939C0A44BFBF1ACCB_gshared_inline (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_m05E481F16A257ECD973A363BCEF527673F29E6DF_gshared_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mEC4B690CCA6BBB84D8E78CCB55E836805CBC63E6_gshared (RuntimeObject* ___0_visitor, bool* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_mE0F90826548B0C3102050B135AABD7FCF73A5120_gshared_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_m11497792427A6500E5BEC1F44B26CED5E4E210BB_gshared_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD5D8197C711F0C773E9A76A2EB64004F163AA61C_gshared (RuntimeObject* ___0_visitor, int32_t* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_mCB1B27C406D615A2CD4A75A47FE61D04C686F9B2_gshared_inline (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_mBBCA30F0833F69BAF3B73FEED6706A98ADDD8F7A_gshared_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisAngle_t0229F612898D65B3CC646C40A32D93D8A33C1DFC_mD1E1633B89116D9842FB845A059E61CD98B9685F_gshared (RuntimeObject* ___0_visitor, Angle_t0229F612898D65B3CC646C40A32D93D8A33C1DFC* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method) ;
@@ -4041,6 +4626,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisSerializedVa
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_mD8C1C97EEFB80C1D10345B27C921B3107DC17719_gshared_inline (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_m34379A3583A38EDDB72134FED4BEF56D2A5D0BC5_gshared_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisBackground_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8_m19B2FCF1A06F95D35BBA46022A7C6DEA45FCC1EB_gshared (RuntimeObject* ___0_visitor, Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_mB145F76964DE36569385F83F550741253F97BC8B_gshared_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_m38FEC63D8762D52AF73C146A830156829593F37C_gshared_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mECB26B6AD8323EC326585F2EA43B7CBBA7944441_gshared (RuntimeObject* ___0_visitor, int32_t* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_m0593429012E73872335C7F3058A5D2027B1FF643_gshared_inline (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_mF477B5DC4E7614585579DE3FDB399B21C104CB4E_gshared_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisBackgroundPosition_tF0822B29FC27A67205A9893EBE03D03B799B8B56_m53A3644D6BE36860B39AFE8F535672A1DB741889_gshared (RuntimeObject* ___0_visitor, BackgroundPosition_tF0822B29FC27A67205A9893EBE03D03B799B8B56* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method) ;
@@ -4050,9 +4638,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisBackgroundRe
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_m1E761EC4F6A20442B87753E1E6E8EA11B5FEE574_gshared_inline (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_mD14761B683AB06C19DEE30867E250C46F6C8A11B_gshared_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisBackgroundSize_t809883E2D7BB1D8D85B4C3E1DBE189F187DB25E7_m4200F4495E60034D3CFD0D8B5C9CCE829007BA33_gshared (RuntimeObject* ___0_visitor, BackgroundSize_t809883E2D7BB1D8D85B4C3E1DBE189F187DB25E7* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_mDB94662967E66AC074FE137EE4BD9FE82C76C0AB_gshared_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_m00FCB5EF45C052616B43E1773B7FECC659D28F6E_gshared_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_m58049885E9A50A1E1AD86770962CD850582C15FA_gshared (RuntimeObject* ___0_visitor, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_mAAD948E1BCC65D96F56C5DAD5F0A83D116272304_gshared_inline (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_m03C73EA225C7C6C16C2639EB5F76A808A2788050_gshared_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisCursor_t24C3B5095F65B86794C4F7EA168E324DFDA9EE82_m8C6262448559B4235309EDCDD9A96E7D54D80245_gshared (RuntimeObject* ___0_visitor, Cursor_t24C3B5095F65B86794C4F7EA168E324DFDA9EE82* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_m686F9F739041D767C3ACA256B3A68D6573B73B61_gshared_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_mCD2F075EE8FA987FED25F36ACC13C6D0F4A32693_gshared_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisFontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C_m9B0B7646EE8175AAB89B0E47A9EBA1FABF84CA11_gshared (RuntimeObject* ___0_visitor, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_m0D87D0851EC5F34630C609FC128C8673317DCEAA_gshared_inline (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_mA5B381E720E0FDAE69EC5B76BA5DD0C67DEABD63_gshared_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyContainer_Accept_TisLength_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256_m991F23402D966D410BBC89F0A2AD615D3CEC81D6_gshared (RuntimeObject* ___0_visitor, Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method) ;
@@ -4169,15 +4763,76 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetListForChannel_TisVector2_t1FD6F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetListForChannel_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_mC5F005A2C8491C9C9E68663E4A501DC3A7E9DDDC_gshared (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, int32_t ___0_channel, int32_t ___1_format, int32_t ___2_dim, List_1_tF42FEB6C3B18B7E7C8F2DE1FEBA00D2491736317* ___3_values, int32_t ___4_start, int32_t ___5_length, int32_t ___6_flags, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetVertices_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m107090F8A9B31E27C8DD9982DE5567B817626500_gshared (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD ___0_inVertices, int32_t ___1_start, int32_t ___2_length, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetVertices_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_mBC81CB2840875EFBD19532ADDFD7A3CD0C14B808_gshared (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 ___0_inVertices, int32_t ___1_start, int32_t ___2_length, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetVertices_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m213DEDED00F7E6918C1DC386996C2DB69B63C2BB_gshared (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD ___0_inVertices, int32_t ___1_start, int32_t ___2_length, int32_t ___3_flags, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetVertices_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_m1C5674C297CC8C2E99A8FADBE263B65A92734F23_gshared (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 ___0_inVertices, int32_t ___1_start, int32_t ___2_length, int32_t ___3_flags, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool QueryWrappers_BoxCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_m76C2FE012A3C1AE13E755F8DF52812BB996EF632_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_target, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___2_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___4_direction, float ___5_maxDistance, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* ___6_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___7_filter, uint8_t ___8_queryInteraction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_BoxCastCustom_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_m9ABAB18F9E329583941611DA0E070DD8B06F04CF_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool QueryWrappers_BoxCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_m758EACDE418E993D8EF9E667F4EA9D01D2F2E163_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_target, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___2_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___4_direction, float ___5_maxDistance, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* ___6_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___7_filter, uint8_t ___8_queryInteraction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_BoxCastCustom_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_mC97969E2DA4794F71CDDD3A35DFC3A09FA9F6F8E_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool QueryWrappers_BoxCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_mF64453D256450E5F7D8CEB28071B8FCFECB74BC1_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_target, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___2_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___4_direction, float ___5_maxDistance, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* ___6_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___7_filter, uint8_t ___8_queryInteraction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_BoxCastCustom_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_mD952EFFADF6C12F1040DBEFE8EAD323E906ADA24_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_BoxCastCustom_TisIl2CppFullySharedGenericStruct_mA71A8EE021DE2F2B15AF764E9A29CE75B266782B_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, Il2CppFullySharedGenericStruct* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderCollider_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mE3BE742EFFEBD15D834BD6C88C9DDCB7BD6EBBC8_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mD5B27AACA8C805DE15F91AE9F86C16A1FA4E7B95_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_PointCollider_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC42E8049228291EF6F9A364C062DF09BCCFDA523_gshared (PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m4E99FE58F60B83416258BF69199B6F9CBA186496_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderCollider_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mFE231828ABAFC584D804F3F2435D14175B0C13FD_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m930FD18AF5BAF002F0A479B1C0A71C2E82CFBF65_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_PointCollider_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mE9A95F30CB2FFBA147C4F44BEA9DCA884795B6B8_gshared (PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mA2E68C3ED29EFC415E2196D836A8F4CEB3F61A8F_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderCollider_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA2FE3713CE3FDC369B51910666DFA71442326B83_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mB44420546FA342C1725B063340470AF521108BA8_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_PointCollider_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA2FF1698558188ADAC06283249E1478DD1E4D1B2_gshared (PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA72E60E0590FB810F686FAFEFCB65031CCE004CE_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderCollider_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m27FF8CA967BEEA621776A8E02C39D9DB985BDE73_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m272D6F5E7772E1184B0F342675EAB1F4C46447D1_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_PointCollider_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mAA9B208C53BB9FA97A9B54CBB60916D551C653D1_gshared (PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m0F8D3531B5484335B66B639E6994671EF7BF6147_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderCollider_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m1B06B026D689AB005DBD9597BD3E610A1DD99E52_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m50A2BAE1435DED718460FED8AAC6AA9693B09321_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_PointCollider_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m97511F1982F8E3FC7595FE488A68DFC35CE52C4B_gshared (PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m0DECCEBD40C81C95C6DA711E91D16B2391D9C2BE_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisIl2CppFullySharedGenericStruct_mB6E68377B667A49BFA01EE35F81D39A4F122AEC0_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisIl2CppFullySharedGenericStruct_m0021A0BA7747535393D4116E441F5568EF6DD147_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool QueryWrappers_CapsuleCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_m9FA26D624BC143B010FE261180E93B9E82621299_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_target, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_point2, float ___3_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___4_direction, float ___5_maxDistance, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* ___6_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___7_filter, uint8_t ___8_queryInteraction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CapsuleCastCustom_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_mC2D106C155099C2A35715C7782EE87D8D553C18B_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point2, float ___2_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool QueryWrappers_CapsuleCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_mAC2BEC785F9DBC29FFAA6201B2C32CA1AE51EFC5_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_target, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_point2, float ___3_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___4_direction, float ___5_maxDistance, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* ___6_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___7_filter, uint8_t ___8_queryInteraction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CapsuleCastCustom_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_m4747F232058B9C1858913E8192DF13752E68D450_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point2, float ___2_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool QueryWrappers_CapsuleCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_m694E545CF2DA25A61ADB051C733AB7BDC1A09E62_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_target, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_point2, float ___3_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___4_direction, float ___5_maxDistance, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* ___6_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___7_filter, uint8_t ___8_queryInteraction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CapsuleCastCustom_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_m143DB038088C86456557FC1B15474A93D69F8E88_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point2, float ___2_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CapsuleCastCustom_TisIl2CppFullySharedGenericStruct_m12C7711C1F6B690694A9B2CFFA544E415A366404_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point2, float ___2_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, Il2CppFullySharedGenericStruct* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderCastQueries_ColliderCollider_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_mC49BC79667819C951B89BD989973BAC0246E753F_gshared (ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastCollider_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_mF2241662C2B9DE8C93A312BD078527CEA1437098_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderCastQueries_ColliderCollider_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_m022482D81F1AA2D43CE6BECB9C95C4D51F2A0F7E_gshared (ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastCollider_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_mCAB270CAD161E12310723AC185CB597A7405E27F_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderCastQueries_ColliderCollider_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_mEE8F9454E039C781D998CC833C29D9A6CC35F187_gshared (ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastCollider_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_m72C69B9606D79BE5F74962EF3EE91EFA993CC07D_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderCastQueries_ColliderCollider_TisQueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7_m39E754322B6EB1CB13760F4E601D010094EDE63B_gshared (ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, QueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastCollider_TisQueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7_m749DC81CF19EFD0AE405D2E8E82CE89B0BF59BDD_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, QueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderCastQueries_ColliderCollider_TisQueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9_m06684A3B4F85A0EC0BC80BA5F80FEAE923E41349_gshared (ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, QueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastCollider_TisQueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9_m84BE41F17F0D867D861A19BC2605AEDEC55FF88C_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, QueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderCastQueries_ColliderCollider_TisQueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A_m8122446AABB8D82BBD4FB8C835C8BB83DA101125_gshared (ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, QueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastCollider_TisQueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A_m5272BD15F59B40B122EA0D6C059A62DE46574E68_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, QueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastCollider_TisIl2CppFullySharedGenericStruct_mFD3A8BAB67145D49F6A43370C7BAE7C2CA6276C2_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RaycastQueries_RayCollider_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_mFBF61098B4DB0EBE134901717525475E2E864423_gshared (RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_collider, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastRay_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_mB8CF8753768B9A7000FF23CFC4C0BFCDE912E92D_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RaycastQueries_RayCollider_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_mD6611CAFB9CA75F05F2EA1D04908657A8C9A2D46_gshared (RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_collider, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastRay_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m7515DC90490F489DE06E16C984BA3E59D3D129E7_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RaycastQueries_RayCollider_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_m5D28DF815135D9834EEB58F2CD120F24719384CE_gshared (RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_collider, ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastRay_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_mC3E27CBDF3AC62D205F9897DA22861C5CEBD9677_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastRay_TisIl2CppFullySharedGenericStruct_m72C508C7FAC08C3A4180E2AD16992EE1EC624938_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshCollider_GetLeaves_TisIl2CppFullySharedGenericStruct_mCBF15121E2397F29363238F025A4EAEB00EF6CB5_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, Il2CppFullySharedGenericStruct* ___0_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshCollider_GetLeaves_TisCompositeCompositeLeafCollector_t2D42E4E3038BB5DD1D0D227288B64ABB159A9C8E_m42854FD56C62217A8752D31791868268EFDC8092_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, CompositeCompositeLeafCollector_t2D42E4E3038BB5DD1D0D227288B64ABB159A9C8E* ___0_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshCollider_GetLeaves_TisCompositeTerrainLeafCollector_tEB04C37446ABF4C74C677CB20F5173F36178BCC0_m3CB24B3BF8C1D35DDEB83B1965F72759AF6FDD35_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, CompositeTerrainLeafCollector_tEB04C37446ABF4C74C677CB20F5173F36178BCC0* ___0_collector, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UnsafeUtility_As_TisRuntimeObject_m0FFD91677D5F942D9FA7112820E0596B59865532_gshared (RuntimeObject* ___0_from, const RuntimeMethod* method) ;
 
-inline bool TypeTraits_1_get_CanBeNull_mDB94662967E66AC074FE137EE4BD9FE82C76C0AB_inline (const RuntimeMethod* method)
+inline bool TypeTraits_1_get_CanBeNull_m109DD5445E24831B7BC78C7D27802788FA113D53_inline (const RuntimeMethod* method)
 {
-	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_CanBeNull_mDB94662967E66AC074FE137EE4BD9FE82C76C0AB_gshared_inline)(method);
+	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_CanBeNull_m109DD5445E24831B7BC78C7D27802788FA113D53_gshared_inline)(method);
 }
-inline bool TypeTraits_1_get_IsValueType_m00FCB5EF45C052616B43E1773B7FECC659D28F6E_inline (const RuntimeMethod* method)
+inline bool TypeTraits_1_get_IsValueType_m09227AE5DDADBF5BD70FFF0379C4BA16C0052EC2_inline (const RuntimeMethod* method)
 {
-	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_IsValueType_m00FCB5EF45C052616B43E1773B7FECC659D28F6E_gshared_inline)(method);
+	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_IsValueType_m09227AE5DDADBF5BD70FFF0379C4BA16C0052EC2_gshared_inline)(method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___0_handle, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172 (Type_t* ___0_left, Type_t* ___1_right, const RuntimeMethod* method) ;
@@ -4188,78 +4843,6 @@ inline void HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E (HashSet_1
 inline bool HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
 {
 	return ((  bool (*) (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885*, RuntimeObject*, const RuntimeMethod*))HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_gshared)(__this, ___0_item, method);
-}
-inline void PropertyContainer_Accept_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_m58049885E9A50A1E1AD86770962CD850582C15FA (RuntimeObject* ___0_visitor, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method)
-{
-	((  void (*) (RuntimeObject*, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE, const RuntimeMethod*))PropertyContainer_Accept_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_m58049885E9A50A1E1AD86770962CD850582C15FA_gshared)(___0_visitor, ___1_container, ___2_parameters, method);
-}
-inline bool TypeTraits_1_get_CanBeNull_mDDCC371571712BD98B3A2EAA177F5D2E5E97FAD5_inline (const RuntimeMethod* method)
-{
-	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_CanBeNull_mDDCC371571712BD98B3A2EAA177F5D2E5E97FAD5_gshared_inline)(method);
-}
-inline bool TypeTraits_1_get_IsValueType_m1D8B7A9107E1AC42133ADBB9D3E09F84BCC142DF_inline (const RuntimeMethod* method)
-{
-	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_IsValueType_m1D8B7A9107E1AC42133ADBB9D3E09F84BCC142DF_gshared_inline)(method);
-}
-inline void PropertyContainer_Accept_TisEasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4_m8431B85C36BFE6201EBD58C50E40268C4AEB6C0B (RuntimeObject* ___0_visitor, EasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method)
-{
-	((  void (*) (RuntimeObject*, EasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4*, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE, const RuntimeMethod*))PropertyContainer_Accept_TisEasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4_m8431B85C36BFE6201EBD58C50E40268C4AEB6C0B_gshared)(___0_visitor, ___1_container, ___2_parameters, method);
-}
-inline bool TypeTraits_1_get_CanBeNull_m79D8FA08631C626F7FCAE35C6AB6D27641CB64A5_inline (const RuntimeMethod* method)
-{
-	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_CanBeNull_m79D8FA08631C626F7FCAE35C6AB6D27641CB64A5_gshared_inline)(method);
-}
-inline bool TypeTraits_1_get_IsValueType_mCAB59B476E83A9FC33AEEB292490925EFEC11577_inline (const RuntimeMethod* method)
-{
-	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_IsValueType_mCAB59B476E83A9FC33AEEB292490925EFEC11577_gshared_inline)(method);
-}
-inline void PropertyContainer_Accept_TisFilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF_m27B4D956F8905C28802D3FAF150F66AB8C045337 (RuntimeObject* ___0_visitor, FilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method)
-{
-	((  void (*) (RuntimeObject*, FilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF*, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE, const RuntimeMethod*))PropertyContainer_Accept_TisFilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF_m27B4D956F8905C28802D3FAF150F66AB8C045337_gshared)(___0_visitor, ___1_container, ___2_parameters, method);
-}
-inline bool TypeTraits_1_get_CanBeNull_m686F9F739041D767C3ACA256B3A68D6573B73B61_inline (const RuntimeMethod* method)
-{
-	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_CanBeNull_m686F9F739041D767C3ACA256B3A68D6573B73B61_gshared_inline)(method);
-}
-inline bool TypeTraits_1_get_IsValueType_mCD2F075EE8FA987FED25F36ACC13C6D0F4A32693_inline (const RuntimeMethod* method)
-{
-	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_IsValueType_mCD2F075EE8FA987FED25F36ACC13C6D0F4A32693_gshared_inline)(method);
-}
-inline void PropertyContainer_Accept_TisFontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C_m9B0B7646EE8175AAB89B0E47A9EBA1FABF84CA11 (RuntimeObject* ___0_visitor, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method)
-{
-	((  void (*) (RuntimeObject*, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C*, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE, const RuntimeMethod*))PropertyContainer_Accept_TisFontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C_m9B0B7646EE8175AAB89B0E47A9EBA1FABF84CA11_gshared)(___0_visitor, ___1_container, ___2_parameters, method);
-}
-inline bool TypeTraits_1_get_CanBeNull_mE0F90826548B0C3102050B135AABD7FCF73A5120_inline (const RuntimeMethod* method)
-{
-	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_CanBeNull_mE0F90826548B0C3102050B135AABD7FCF73A5120_gshared_inline)(method);
-}
-inline bool TypeTraits_1_get_IsValueType_m11497792427A6500E5BEC1F44B26CED5E4E210BB_inline (const RuntimeMethod* method)
-{
-	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_IsValueType_m11497792427A6500E5BEC1F44B26CED5E4E210BB_gshared_inline)(method);
-}
-inline void PropertyContainer_Accept_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD5D8197C711F0C773E9A76A2EB64004F163AA61C (RuntimeObject* ___0_visitor, int32_t* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method)
-{
-	((  void (*) (RuntimeObject*, int32_t*, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE, const RuntimeMethod*))PropertyContainer_Accept_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD5D8197C711F0C773E9A76A2EB64004F163AA61C_gshared)(___0_visitor, ___1_container, ___2_parameters, method);
-}
-inline bool TypeTraits_1_get_CanBeNull_mB145F76964DE36569385F83F550741253F97BC8B_inline (const RuntimeMethod* method)
-{
-	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_CanBeNull_mB145F76964DE36569385F83F550741253F97BC8B_gshared_inline)(method);
-}
-inline bool TypeTraits_1_get_IsValueType_m38FEC63D8762D52AF73C146A830156829593F37C_inline (const RuntimeMethod* method)
-{
-	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_IsValueType_m38FEC63D8762D52AF73C146A830156829593F37C_gshared_inline)(method);
-}
-inline void PropertyContainer_Accept_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mECB26B6AD8323EC326585F2EA43B7CBBA7944441 (RuntimeObject* ___0_visitor, int32_t* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method)
-{
-	((  void (*) (RuntimeObject*, int32_t*, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE, const RuntimeMethod*))PropertyContainer_Accept_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mECB26B6AD8323EC326585F2EA43B7CBBA7944441_gshared)(___0_visitor, ___1_container, ___2_parameters, method);
-}
-inline bool TypeTraits_1_get_CanBeNull_m109DD5445E24831B7BC78C7D27802788FA113D53_inline (const RuntimeMethod* method)
-{
-	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_CanBeNull_m109DD5445E24831B7BC78C7D27802788FA113D53_gshared_inline)(method);
-}
-inline bool TypeTraits_1_get_IsValueType_m09227AE5DDADBF5BD70FFF0379C4BA16C0052EC2_inline (const RuntimeMethod* method)
-{
-	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_IsValueType_m09227AE5DDADBF5BD70FFF0379C4BA16C0052EC2_gshared_inline)(method);
 }
 inline void PropertyContainer_Accept_TisMaterialDefinition_t25B84AF58B1F4D1990933E5EBCD2DE6989ECB8CD_mA7CA7DC5C941CCF4C915A727CC48754CDCD338B9 (RuntimeObject* ___0_visitor, MaterialDefinition_t25B84AF58B1F4D1990933E5EBCD2DE6989ECB8CD* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method)
 {
@@ -4601,6 +5184,18 @@ inline void PropertyContainer_Accept_TisBoolean_t09A6377A54BE2F9E6985A8149F19234
 {
 	((  void (*) (RuntimeObject*, bool*, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE, const RuntimeMethod*))PropertyContainer_Accept_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mEC4B690CCA6BBB84D8E78CCB55E836805CBC63E6_gshared)(___0_visitor, ___1_container, ___2_parameters, method);
 }
+inline bool TypeTraits_1_get_CanBeNull_mE0F90826548B0C3102050B135AABD7FCF73A5120_inline (const RuntimeMethod* method)
+{
+	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_CanBeNull_mE0F90826548B0C3102050B135AABD7FCF73A5120_gshared_inline)(method);
+}
+inline bool TypeTraits_1_get_IsValueType_m11497792427A6500E5BEC1F44B26CED5E4E210BB_inline (const RuntimeMethod* method)
+{
+	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_IsValueType_m11497792427A6500E5BEC1F44B26CED5E4E210BB_gshared_inline)(method);
+}
+inline void PropertyContainer_Accept_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD5D8197C711F0C773E9A76A2EB64004F163AA61C (RuntimeObject* ___0_visitor, int32_t* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method)
+{
+	((  void (*) (RuntimeObject*, int32_t*, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE, const RuntimeMethod*))PropertyContainer_Accept_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD5D8197C711F0C773E9A76A2EB64004F163AA61C_gshared)(___0_visitor, ___1_container, ___2_parameters, method);
+}
 inline bool TypeTraits_1_get_CanBeNull_mCB1B27C406D615A2CD4A75A47FE61D04C686F9B2_inline (const RuntimeMethod* method)
 {
 	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_CanBeNull_mCB1B27C406D615A2CD4A75A47FE61D04C686F9B2_gshared_inline)(method);
@@ -4636,6 +5231,18 @@ inline bool TypeTraits_1_get_IsValueType_m34379A3583A38EDDB72134FED4BEF56D2A5D0B
 inline void PropertyContainer_Accept_TisBackground_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8_m19B2FCF1A06F95D35BBA46022A7C6DEA45FCC1EB (RuntimeObject* ___0_visitor, Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method)
 {
 	((  void (*) (RuntimeObject*, Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8*, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE, const RuntimeMethod*))PropertyContainer_Accept_TisBackground_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8_m19B2FCF1A06F95D35BBA46022A7C6DEA45FCC1EB_gshared)(___0_visitor, ___1_container, ___2_parameters, method);
+}
+inline bool TypeTraits_1_get_CanBeNull_mB145F76964DE36569385F83F550741253F97BC8B_inline (const RuntimeMethod* method)
+{
+	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_CanBeNull_mB145F76964DE36569385F83F550741253F97BC8B_gshared_inline)(method);
+}
+inline bool TypeTraits_1_get_IsValueType_m38FEC63D8762D52AF73C146A830156829593F37C_inline (const RuntimeMethod* method)
+{
+	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_IsValueType_m38FEC63D8762D52AF73C146A830156829593F37C_gshared_inline)(method);
+}
+inline void PropertyContainer_Accept_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mECB26B6AD8323EC326585F2EA43B7CBBA7944441 (RuntimeObject* ___0_visitor, int32_t* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method)
+{
+	((  void (*) (RuntimeObject*, int32_t*, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE, const RuntimeMethod*))PropertyContainer_Accept_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mECB26B6AD8323EC326585F2EA43B7CBBA7944441_gshared)(___0_visitor, ___1_container, ___2_parameters, method);
 }
 inline bool TypeTraits_1_get_CanBeNull_m0593429012E73872335C7F3058A5D2027B1FF643_inline (const RuntimeMethod* method)
 {
@@ -4673,6 +5280,18 @@ inline void PropertyContainer_Accept_TisBackgroundSize_t809883E2D7BB1D8D85B4C3E1
 {
 	((  void (*) (RuntimeObject*, BackgroundSize_t809883E2D7BB1D8D85B4C3E1DBE189F187DB25E7*, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE, const RuntimeMethod*))PropertyContainer_Accept_TisBackgroundSize_t809883E2D7BB1D8D85B4C3E1DBE189F187DB25E7_m4200F4495E60034D3CFD0D8B5C9CCE829007BA33_gshared)(___0_visitor, ___1_container, ___2_parameters, method);
 }
+inline bool TypeTraits_1_get_CanBeNull_mDB94662967E66AC074FE137EE4BD9FE82C76C0AB_inline (const RuntimeMethod* method)
+{
+	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_CanBeNull_mDB94662967E66AC074FE137EE4BD9FE82C76C0AB_gshared_inline)(method);
+}
+inline bool TypeTraits_1_get_IsValueType_m00FCB5EF45C052616B43E1773B7FECC659D28F6E_inline (const RuntimeMethod* method)
+{
+	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_IsValueType_m00FCB5EF45C052616B43E1773B7FECC659D28F6E_gshared_inline)(method);
+}
+inline void PropertyContainer_Accept_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_m58049885E9A50A1E1AD86770962CD850582C15FA (RuntimeObject* ___0_visitor, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method)
+{
+	((  void (*) (RuntimeObject*, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE, const RuntimeMethod*))PropertyContainer_Accept_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_m58049885E9A50A1E1AD86770962CD850582C15FA_gshared)(___0_visitor, ___1_container, ___2_parameters, method);
+}
 inline bool TypeTraits_1_get_CanBeNull_mAAD948E1BCC65D96F56C5DAD5F0A83D116272304_inline (const RuntimeMethod* method)
 {
 	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_CanBeNull_mAAD948E1BCC65D96F56C5DAD5F0A83D116272304_gshared_inline)(method);
@@ -4684,6 +5303,18 @@ inline bool TypeTraits_1_get_IsValueType_m03C73EA225C7C6C16C2639EB5F76A808A27880
 inline void PropertyContainer_Accept_TisCursor_t24C3B5095F65B86794C4F7EA168E324DFDA9EE82_m8C6262448559B4235309EDCDD9A96E7D54D80245 (RuntimeObject* ___0_visitor, Cursor_t24C3B5095F65B86794C4F7EA168E324DFDA9EE82* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method)
 {
 	((  void (*) (RuntimeObject*, Cursor_t24C3B5095F65B86794C4F7EA168E324DFDA9EE82*, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE, const RuntimeMethod*))PropertyContainer_Accept_TisCursor_t24C3B5095F65B86794C4F7EA168E324DFDA9EE82_m8C6262448559B4235309EDCDD9A96E7D54D80245_gshared)(___0_visitor, ___1_container, ___2_parameters, method);
+}
+inline bool TypeTraits_1_get_CanBeNull_m686F9F739041D767C3ACA256B3A68D6573B73B61_inline (const RuntimeMethod* method)
+{
+	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_CanBeNull_m686F9F739041D767C3ACA256B3A68D6573B73B61_gshared_inline)(method);
+}
+inline bool TypeTraits_1_get_IsValueType_mCD2F075EE8FA987FED25F36ACC13C6D0F4A32693_inline (const RuntimeMethod* method)
+{
+	return ((  bool (*) (const RuntimeMethod*))TypeTraits_1_get_IsValueType_mCD2F075EE8FA987FED25F36ACC13C6D0F4A32693_gshared_inline)(method);
+}
+inline void PropertyContainer_Accept_TisFontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C_m9B0B7646EE8175AAB89B0E47A9EBA1FABF84CA11 (RuntimeObject* ___0_visitor, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C* ___1_container, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE ___2_parameters, const RuntimeMethod* method)
+{
+	((  void (*) (RuntimeObject*, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C*, VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE, const RuntimeMethod*))PropertyContainer_Accept_TisFontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C_m9B0B7646EE8175AAB89B0E47A9EBA1FABF84CA11_gshared)(___0_visitor, ___1_container, ___2_parameters, method);
 }
 inline bool TypeTraits_1_get_CanBeNull_m0D87D0851EC5F34630C609FC128C8673317DCEAA_inline (const RuntimeMethod* method)
 {
@@ -5205,6 +5836,258 @@ inline void Mesh_SetVertices_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E
 {
 	((  void (*) (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*, NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6, int32_t, int32_t, const RuntimeMethod*))Mesh_SetVertices_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_mBC81CB2840875EFBD19532ADDFD7A3CD0C14B808_gshared)(__this, ___0_inVertices, ___1_start, ___2_length, method);
 }
+inline void Mesh_SetVertices_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m213DEDED00F7E6918C1DC386996C2DB69B63C2BB (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD ___0_inVertices, int32_t ___1_start, int32_t ___2_length, int32_t ___3_flags, const RuntimeMethod* method)
+{
+	((  void (*) (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*, NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD, int32_t, int32_t, int32_t, const RuntimeMethod*))Mesh_SetVertices_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m213DEDED00F7E6918C1DC386996C2DB69B63C2BB_gshared)(__this, ___0_inVertices, ___1_start, ___2_length, ___3_flags, method);
+}
+inline void Mesh_SetVertices_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_m1C5674C297CC8C2E99A8FADBE263B65A92734F23 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 ___0_inVertices, int32_t ___1_start, int32_t ___2_length, int32_t ___3_flags, const RuntimeMethod* method)
+{
+	((  void (*) (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*, NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6, int32_t, int32_t, int32_t, const RuntimeMethod*))Mesh_SetVertices_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_m1C5674C297CC8C2E99A8FADBE263B65A92734F23_gshared)(__this, ___0_inVertices, ___1_start, ___2_length, ___3_flags, method);
+}
+inline bool QueryWrappers_BoxCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_m76C2FE012A3C1AE13E755F8DF52812BB996EF632 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_target, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___2_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___4_direction, float ___5_maxDistance, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* ___6_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___7_filter, uint8_t ___8_queryInteraction, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D*, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A, uint8_t, const RuntimeMethod*))QueryWrappers_BoxCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_m76C2FE012A3C1AE13E755F8DF52812BB996EF632_gshared)(___0_target, ___1_center, ___2_orientation, ___3_halfExtents, ___4_direction, ___5_maxDistance, ___6_collector, ___7_filter, ___8_queryInteraction, method);
+}
+inline bool MeshCollider_BoxCastCustom_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_m9ABAB18F9E329583941611DA0E070DD8B06F04CF (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D*, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A, uint8_t, const RuntimeMethod*))MeshCollider_BoxCastCustom_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_m9ABAB18F9E329583941611DA0E070DD8B06F04CF_gshared)(__this, ___0_center, ___1_orientation, ___2_halfExtents, ___3_direction, ___4_maxDistance, ___5_collector, ___6_filter, ___7_queryInteraction, method);
+}
+inline bool QueryWrappers_BoxCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_m758EACDE418E993D8EF9E667F4EA9D01D2F2E163 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_target, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___2_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___4_direction, float ___5_maxDistance, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* ___6_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___7_filter, uint8_t ___8_queryInteraction, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55*, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A, uint8_t, const RuntimeMethod*))QueryWrappers_BoxCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_m758EACDE418E993D8EF9E667F4EA9D01D2F2E163_gshared)(___0_target, ___1_center, ___2_orientation, ___3_halfExtents, ___4_direction, ___5_maxDistance, ___6_collector, ___7_filter, ___8_queryInteraction, method);
+}
+inline bool MeshCollider_BoxCastCustom_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_mC97969E2DA4794F71CDDD3A35DFC3A09FA9F6F8E (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55*, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A, uint8_t, const RuntimeMethod*))MeshCollider_BoxCastCustom_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_mC97969E2DA4794F71CDDD3A35DFC3A09FA9F6F8E_gshared)(__this, ___0_center, ___1_orientation, ___2_halfExtents, ___3_direction, ___4_maxDistance, ___5_collector, ___6_filter, ___7_queryInteraction, method);
+}
+inline bool QueryWrappers_BoxCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_mF64453D256450E5F7D8CEB28071B8FCFECB74BC1 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_target, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___2_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___4_direction, float ___5_maxDistance, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* ___6_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___7_filter, uint8_t ___8_queryInteraction, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E*, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A, uint8_t, const RuntimeMethod*))QueryWrappers_BoxCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_mF64453D256450E5F7D8CEB28071B8FCFECB74BC1_gshared)(___0_target, ___1_center, ___2_orientation, ___3_halfExtents, ___4_direction, ___5_maxDistance, ___6_collector, ___7_filter, ___8_queryInteraction, method);
+}
+inline bool MeshCollider_BoxCastCustom_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_mD952EFFADF6C12F1040DBEFE8EAD323E906ADA24 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E*, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A, uint8_t, const RuntimeMethod*))MeshCollider_BoxCastCustom_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_mD952EFFADF6C12F1040DBEFE8EAD323E906ADA24_gshared)(__this, ___0_center, ___1_orientation, ___2_halfExtents, ___3_direction, ___4_maxDistance, ___5_collector, ___6_filter, ___7_queryInteraction, method);
+}
+inline bool MeshCollider_BoxCastCustom_TisIl2CppFullySharedGenericStruct_mA71A8EE021DE2F2B15AF764E9A29CE75B266782B (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, Il2CppFullySharedGenericStruct* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, Il2CppFullySharedGenericStruct*, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A, uint8_t, const RuntimeMethod*))MeshCollider_BoxCastCustom_TisIl2CppFullySharedGenericStruct_mA71A8EE021DE2F2B15AF764E9A29CE75B266782B_gshared)(__this, ___0_center, ___1_orientation, ___2_halfExtents, ___3_direction, ___4_maxDistance, ___5_collector, ___6_filter, ___7_queryInteraction, method);
+}
+inline bool DistanceQueries_ColliderCollider_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mE3BE742EFFEBD15D834BD6C88C9DDCB7BD6EBBC8 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))DistanceQueries_ColliderCollider_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mE3BE742EFFEBD15D834BD6C88C9DDCB7BD6EBBC8_gshared)(___0_input, ___1_target, ___2_collector, method);
+}
+inline bool MeshCollider_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mD5B27AACA8C805DE15F91AE9F86C16A1FA4E7B95 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))MeshCollider_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mD5B27AACA8C805DE15F91AE9F86C16A1FA4E7B95_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DistanceQueries_PointCollider_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC42E8049228291EF6F9A364C062DF09BCCFDA523 (PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))DistanceQueries_PointCollider_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC42E8049228291EF6F9A364C062DF09BCCFDA523_gshared)(___0_input, ___1_target, ___2_collector, method);
+}
+inline bool MeshCollider_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m4E99FE58F60B83416258BF69199B6F9CBA186496 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))MeshCollider_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m4E99FE58F60B83416258BF69199B6F9CBA186496_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DistanceQueries_ColliderCollider_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mFE231828ABAFC584D804F3F2435D14175B0C13FD (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))DistanceQueries_ColliderCollider_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mFE231828ABAFC584D804F3F2435D14175B0C13FD_gshared)(___0_input, ___1_target, ___2_collector, method);
+}
+inline bool MeshCollider_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m930FD18AF5BAF002F0A479B1C0A71C2E82CFBF65 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))MeshCollider_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m930FD18AF5BAF002F0A479B1C0A71C2E82CFBF65_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DistanceQueries_PointCollider_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mE9A95F30CB2FFBA147C4F44BEA9DCA884795B6B8 (PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))DistanceQueries_PointCollider_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mE9A95F30CB2FFBA147C4F44BEA9DCA884795B6B8_gshared)(___0_input, ___1_target, ___2_collector, method);
+}
+inline bool MeshCollider_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mA2E68C3ED29EFC415E2196D836A8F4CEB3F61A8F (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))MeshCollider_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mA2E68C3ED29EFC415E2196D836A8F4CEB3F61A8F_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DistanceQueries_ColliderCollider_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA2FE3713CE3FDC369B51910666DFA71442326B83 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))DistanceQueries_ColliderCollider_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA2FE3713CE3FDC369B51910666DFA71442326B83_gshared)(___0_input, ___1_target, ___2_collector, method);
+}
+inline bool MeshCollider_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mB44420546FA342C1725B063340470AF521108BA8 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))MeshCollider_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mB44420546FA342C1725B063340470AF521108BA8_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DistanceQueries_PointCollider_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA2FF1698558188ADAC06283249E1478DD1E4D1B2 (PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))DistanceQueries_PointCollider_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA2FF1698558188ADAC06283249E1478DD1E4D1B2_gshared)(___0_input, ___1_target, ___2_collector, method);
+}
+inline bool MeshCollider_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA72E60E0590FB810F686FAFEFCB65031CCE004CE (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))MeshCollider_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA72E60E0590FB810F686FAFEFCB65031CCE004CE_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DistanceQueries_ColliderCollider_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m27FF8CA967BEEA621776A8E02C39D9DB985BDE73 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))DistanceQueries_ColliderCollider_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m27FF8CA967BEEA621776A8E02C39D9DB985BDE73_gshared)(___0_input, ___1_target, ___2_collector, method);
+}
+inline bool MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m272D6F5E7772E1184B0F342675EAB1F4C46447D1 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m272D6F5E7772E1184B0F342675EAB1F4C46447D1_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DistanceQueries_PointCollider_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mAA9B208C53BB9FA97A9B54CBB60916D551C653D1 (PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))DistanceQueries_PointCollider_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mAA9B208C53BB9FA97A9B54CBB60916D551C653D1_gshared)(___0_input, ___1_target, ___2_collector, method);
+}
+inline bool MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m0F8D3531B5484335B66B639E6994671EF7BF6147 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m0F8D3531B5484335B66B639E6994671EF7BF6147_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DistanceQueries_ColliderCollider_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m1B06B026D689AB005DBD9597BD3E610A1DD99E52 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))DistanceQueries_ColliderCollider_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m1B06B026D689AB005DBD9597BD3E610A1DD99E52_gshared)(___0_input, ___1_target, ___2_collector, method);
+}
+inline bool MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m50A2BAE1435DED718460FED8AAC6AA9693B09321 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m50A2BAE1435DED718460FED8AAC6AA9693B09321_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool DistanceQueries_PointCollider_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m97511F1982F8E3FC7595FE488A68DFC35CE52C4B (PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))DistanceQueries_PointCollider_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m97511F1982F8E3FC7595FE488A68DFC35CE52C4B_gshared)(___0_input, ___1_target, ___2_collector, method);
+}
+inline bool MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m0DECCEBD40C81C95C6DA711E91D16B2391D9C2BE (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m0DECCEBD40C81C95C6DA711E91D16B2391D9C2BE_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool MeshCollider_CalculateDistance_TisIl2CppFullySharedGenericStruct_mB6E68377B667A49BFA01EE35F81D39A4F122AEC0 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, Il2CppFullySharedGenericStruct*, const RuntimeMethod*))MeshCollider_CalculateDistance_TisIl2CppFullySharedGenericStruct_mB6E68377B667A49BFA01EE35F81D39A4F122AEC0_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool MeshCollider_CalculateDistance_TisIl2CppFullySharedGenericStruct_m0021A0BA7747535393D4116E441F5568EF6DD147 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, Il2CppFullySharedGenericStruct*, const RuntimeMethod*))MeshCollider_CalculateDistance_TisIl2CppFullySharedGenericStruct_m0021A0BA7747535393D4116E441F5568EF6DD147_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool QueryWrappers_CapsuleCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_m9FA26D624BC143B010FE261180E93B9E82621299 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_target, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_point2, float ___3_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___4_direction, float ___5_maxDistance, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* ___6_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___7_filter, uint8_t ___8_queryInteraction, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D*, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A, uint8_t, const RuntimeMethod*))QueryWrappers_CapsuleCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_m9FA26D624BC143B010FE261180E93B9E82621299_gshared)(___0_target, ___1_point1, ___2_point2, ___3_radius, ___4_direction, ___5_maxDistance, ___6_collector, ___7_filter, ___8_queryInteraction, method);
+}
+inline bool MeshCollider_CapsuleCastCustom_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_mC2D106C155099C2A35715C7782EE87D8D553C18B (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point2, float ___2_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D*, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A, uint8_t, const RuntimeMethod*))MeshCollider_CapsuleCastCustom_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_mC2D106C155099C2A35715C7782EE87D8D553C18B_gshared)(__this, ___0_point1, ___1_point2, ___2_radius, ___3_direction, ___4_maxDistance, ___5_collector, ___6_filter, ___7_queryInteraction, method);
+}
+inline bool QueryWrappers_CapsuleCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_mAC2BEC785F9DBC29FFAA6201B2C32CA1AE51EFC5 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_target, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_point2, float ___3_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___4_direction, float ___5_maxDistance, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* ___6_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___7_filter, uint8_t ___8_queryInteraction, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55*, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A, uint8_t, const RuntimeMethod*))QueryWrappers_CapsuleCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_mAC2BEC785F9DBC29FFAA6201B2C32CA1AE51EFC5_gshared)(___0_target, ___1_point1, ___2_point2, ___3_radius, ___4_direction, ___5_maxDistance, ___6_collector, ___7_filter, ___8_queryInteraction, method);
+}
+inline bool MeshCollider_CapsuleCastCustom_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_m4747F232058B9C1858913E8192DF13752E68D450 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point2, float ___2_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55*, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A, uint8_t, const RuntimeMethod*))MeshCollider_CapsuleCastCustom_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_m4747F232058B9C1858913E8192DF13752E68D450_gshared)(__this, ___0_point1, ___1_point2, ___2_radius, ___3_direction, ___4_maxDistance, ___5_collector, ___6_filter, ___7_queryInteraction, method);
+}
+inline bool QueryWrappers_CapsuleCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_m694E545CF2DA25A61ADB051C733AB7BDC1A09E62 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_target, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_point2, float ___3_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___4_direction, float ___5_maxDistance, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* ___6_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___7_filter, uint8_t ___8_queryInteraction, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E*, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A, uint8_t, const RuntimeMethod*))QueryWrappers_CapsuleCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_m694E545CF2DA25A61ADB051C733AB7BDC1A09E62_gshared)(___0_target, ___1_point1, ___2_point2, ___3_radius, ___4_direction, ___5_maxDistance, ___6_collector, ___7_filter, ___8_queryInteraction, method);
+}
+inline bool MeshCollider_CapsuleCastCustom_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_m143DB038088C86456557FC1B15474A93D69F8E88 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point2, float ___2_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E*, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A, uint8_t, const RuntimeMethod*))MeshCollider_CapsuleCastCustom_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_m143DB038088C86456557FC1B15474A93D69F8E88_gshared)(__this, ___0_point1, ___1_point2, ___2_radius, ___3_direction, ___4_maxDistance, ___5_collector, ___6_filter, ___7_queryInteraction, method);
+}
+inline bool MeshCollider_CapsuleCastCustom_TisIl2CppFullySharedGenericStruct_m12C7711C1F6B690694A9B2CFFA544E415A366404 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point2, float ___2_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, Il2CppFullySharedGenericStruct* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, Il2CppFullySharedGenericStruct*, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A, uint8_t, const RuntimeMethod*))MeshCollider_CapsuleCastCustom_TisIl2CppFullySharedGenericStruct_m12C7711C1F6B690694A9B2CFFA544E415A366404_gshared)(__this, ___0_point1, ___1_point2, ___2_radius, ___3_direction, ___4_maxDistance, ___5_collector, ___6_filter, ___7_queryInteraction, method);
+}
+inline bool ColliderCastQueries_ColliderCollider_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_mC49BC79667819C951B89BD989973BAC0246E753F (ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D*, const RuntimeMethod*))ColliderCastQueries_ColliderCollider_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_mC49BC79667819C951B89BD989973BAC0246E753F_gshared)(___0_input, ___1_target, ___2_collector, method);
+}
+inline bool MeshCollider_CastCollider_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_mF2241662C2B9DE8C93A312BD078527CEA1437098 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D*, const RuntimeMethod*))MeshCollider_CastCollider_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_mF2241662C2B9DE8C93A312BD078527CEA1437098_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool ColliderCastQueries_ColliderCollider_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_m022482D81F1AA2D43CE6BECB9C95C4D51F2A0F7E (ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55*, const RuntimeMethod*))ColliderCastQueries_ColliderCollider_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_m022482D81F1AA2D43CE6BECB9C95C4D51F2A0F7E_gshared)(___0_input, ___1_target, ___2_collector, method);
+}
+inline bool MeshCollider_CastCollider_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_mCAB270CAD161E12310723AC185CB597A7405E27F (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55*, const RuntimeMethod*))MeshCollider_CastCollider_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_mCAB270CAD161E12310723AC185CB597A7405E27F_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool ColliderCastQueries_ColliderCollider_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_mEE8F9454E039C781D998CC833C29D9A6CC35F187 (ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E*, const RuntimeMethod*))ColliderCastQueries_ColliderCollider_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_mEE8F9454E039C781D998CC833C29D9A6CC35F187_gshared)(___0_input, ___1_target, ___2_collector, method);
+}
+inline bool MeshCollider_CastCollider_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_m72C69B9606D79BE5F74962EF3EE91EFA993CC07D (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E*, const RuntimeMethod*))MeshCollider_CastCollider_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_m72C69B9606D79BE5F74962EF3EE91EFA993CC07D_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool ColliderCastQueries_ColliderCollider_TisQueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7_m39E754322B6EB1CB13760F4E601D010094EDE63B (ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, QueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, QueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7*, const RuntimeMethod*))ColliderCastQueries_ColliderCollider_TisQueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7_m39E754322B6EB1CB13760F4E601D010094EDE63B_gshared)(___0_input, ___1_target, ___2_collector, method);
+}
+inline bool MeshCollider_CastCollider_TisQueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7_m749DC81CF19EFD0AE405D2E8E82CE89B0BF59BDD (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, QueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1, QueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7*, const RuntimeMethod*))MeshCollider_CastCollider_TisQueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7_m749DC81CF19EFD0AE405D2E8E82CE89B0BF59BDD_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool ColliderCastQueries_ColliderCollider_TisQueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9_m06684A3B4F85A0EC0BC80BA5F80FEAE923E41349 (ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, QueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, QueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9*, const RuntimeMethod*))ColliderCastQueries_ColliderCollider_TisQueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9_m06684A3B4F85A0EC0BC80BA5F80FEAE923E41349_gshared)(___0_input, ___1_target, ___2_collector, method);
+}
+inline bool MeshCollider_CastCollider_TisQueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9_m84BE41F17F0D867D861A19BC2605AEDEC55FF88C (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, QueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1, QueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9*, const RuntimeMethod*))MeshCollider_CastCollider_TisQueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9_m84BE41F17F0D867D861A19BC2605AEDEC55FF88C_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool ColliderCastQueries_ColliderCollider_TisQueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A_m8122446AABB8D82BBD4FB8C835C8BB83DA101125 (ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, QueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, QueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A*, const RuntimeMethod*))ColliderCastQueries_ColliderCollider_TisQueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A_m8122446AABB8D82BBD4FB8C835C8BB83DA101125_gshared)(___0_input, ___1_target, ___2_collector, method);
+}
+inline bool MeshCollider_CastCollider_TisQueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A_m5272BD15F59B40B122EA0D6C059A62DE46574E68 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, QueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1, QueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A*, const RuntimeMethod*))MeshCollider_CastCollider_TisQueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A_m5272BD15F59B40B122EA0D6C059A62DE46574E68_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool MeshCollider_CastCollider_TisIl2CppFullySharedGenericStruct_mFD3A8BAB67145D49F6A43370C7BAE7C2CA6276C2 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1, Il2CppFullySharedGenericStruct*, const RuntimeMethod*))MeshCollider_CastCollider_TisIl2CppFullySharedGenericStruct_mFD3A8BAB67145D49F6A43370C7BAE7C2CA6276C2_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool RaycastQueries_RayCollider_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_mFBF61098B4DB0EBE134901717525475E2E864423 (RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_collider, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7*, const RuntimeMethod*))RaycastQueries_RayCollider_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_mFBF61098B4DB0EBE134901717525475E2E864423_gshared)(___0_input, ___1_collider, ___2_collector, method);
+}
+inline bool MeshCollider_CastRay_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_mB8CF8753768B9A7000FF23CFC4C0BFCDE912E92D (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7*, const RuntimeMethod*))MeshCollider_CastRay_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_mB8CF8753768B9A7000FF23CFC4C0BFCDE912E92D_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool RaycastQueries_RayCollider_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_mD6611CAFB9CA75F05F2EA1D04908657A8C9A2D46 (RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_collider, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3*, const RuntimeMethod*))RaycastQueries_RayCollider_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_mD6611CAFB9CA75F05F2EA1D04908657A8C9A2D46_gshared)(___0_input, ___1_collider, ___2_collector, method);
+}
+inline bool MeshCollider_CastRay_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m7515DC90490F489DE06E16C984BA3E59D3D129E7 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3*, const RuntimeMethod*))MeshCollider_CastRay_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m7515DC90490F489DE06E16C984BA3E59D3D129E7_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool RaycastQueries_RayCollider_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_m5D28DF815135D9834EEB58F2CD120F24719384CE (RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_collider, ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE*, const RuntimeMethod*))RaycastQueries_RayCollider_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_m5D28DF815135D9834EEB58F2CD120F24719384CE_gshared)(___0_input, ___1_collider, ___2_collector, method);
+}
+inline bool MeshCollider_CastRay_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_mC3E27CBDF3AC62D205F9897DA22861C5CEBD9677 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE*, const RuntimeMethod*))MeshCollider_CastRay_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_mC3E27CBDF3AC62D205F9897DA22861C5CEBD9677_gshared)(__this, ___0_input, ___1_collector, method);
+}
+inline bool MeshCollider_CastRay_TisIl2CppFullySharedGenericStruct_m72C508C7FAC08C3A4180E2AD16992EE1EC624938 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, Il2CppFullySharedGenericStruct*, const RuntimeMethod*))MeshCollider_CastRay_TisIl2CppFullySharedGenericStruct_m72C508C7FAC08C3A4180E2AD16992EE1EC624938_gshared)(__this, ___0_input, ___1_collector, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolygonCollider_InitNoVertices_mF3BF26F07F9CFBFA942C54CB6C31454F97F4ADC6 (PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF* __this, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___0_filter, Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___1_material, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Mesh_GetFirstPolygon_m0BEF1A9E278026C52E8A9D5DBB3360D2B4471742 (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* __this, uint32_t* ___0_meshKey, PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF* ___1_polygon, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChildCollider__ctor_mE47B74487EB464635EC7DD428663F5214C6ED066 (ChildCollider_tD7324951E4667897FBD59E29A4B3D2AF737F5585* __this, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___0_collider, RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___1_transform, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t MeshCollider_get_NumColliderKeyBits_m702C5616D4C050048ADAC8DFD85D7497CB456E6B_inline (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColliderKey__ctor_m7510A7D08E50F26BFD5E238C6EBB74F78475CB1A (ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56* __this, uint32_t ___0_numSubKeyBits, uint32_t ___1_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Mesh_GetNextPolygon_m5D0BF5E0746E2E3BE53CA5C6CCEF38857142C291 (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* __this, uint32_t ___0_previousMeshKey, uint32_t* ___1_meshKey, PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF* ___2_polygon, const RuntimeMethod* method) ;
+inline void MeshCollider_GetLeaves_TisIl2CppFullySharedGenericStruct_mCBF15121E2397F29363238F025A4EAEB00EF6CB5 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, Il2CppFullySharedGenericStruct* ___0_collector, const RuntimeMethod* method)
+{
+	((  void (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, Il2CppFullySharedGenericStruct*, const RuntimeMethod*))MeshCollider_GetLeaves_TisIl2CppFullySharedGenericStruct_mCBF15121E2397F29363238F025A4EAEB00EF6CB5_gshared)(__this, ___0_collector, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompositeCompositeLeafCollector_AddLeaf_m1669E48D18B2423CD5E4A7F4FAB0A0F03A46662F (CompositeCompositeLeafCollector_t2D42E4E3038BB5DD1D0D227288B64ABB159A9C8E* __this, ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___0_key, ChildCollider_tD7324951E4667897FBD59E29A4B3D2AF737F5585* ___1_leaf, const RuntimeMethod* method) ;
+inline void MeshCollider_GetLeaves_TisCompositeCompositeLeafCollector_t2D42E4E3038BB5DD1D0D227288B64ABB159A9C8E_m42854FD56C62217A8752D31791868268EFDC8092 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, CompositeCompositeLeafCollector_t2D42E4E3038BB5DD1D0D227288B64ABB159A9C8E* ___0_collector, const RuntimeMethod* method)
+{
+	((  void (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, CompositeCompositeLeafCollector_t2D42E4E3038BB5DD1D0D227288B64ABB159A9C8E*, const RuntimeMethod*))MeshCollider_GetLeaves_TisCompositeCompositeLeafCollector_t2D42E4E3038BB5DD1D0D227288B64ABB159A9C8E_m42854FD56C62217A8752D31791868268EFDC8092_gshared)(__this, ___0_collector, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompositeTerrainLeafCollector_AddLeaf_mEFA91D275C8F8E5AAF12BE01A13830E9CAA1EC27 (CompositeTerrainLeafCollector_tEB04C37446ABF4C74C677CB20F5173F36178BCC0* __this, ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___0_key, ChildCollider_tD7324951E4667897FBD59E29A4B3D2AF737F5585* ___1_leaf, const RuntimeMethod* method) ;
+inline void MeshCollider_GetLeaves_TisCompositeTerrainLeafCollector_tEB04C37446ABF4C74C677CB20F5173F36178BCC0_m3CB24B3BF8C1D35DDEB83B1965F72759AF6FDD35 (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, CompositeTerrainLeafCollector_tEB04C37446ABF4C74C677CB20F5173F36178BCC0* ___0_collector, const RuntimeMethod* method)
+{
+	((  void (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, CompositeTerrainLeafCollector_tEB04C37446ABF4C74C677CB20F5173F36178BCC0*, const RuntimeMethod*))MeshCollider_GetLeaves_TisCompositeTerrainLeafCollector_tEB04C37446ABF4C74C677CB20F5173F36178BCC0_m3CB24B3BF8C1D35DDEB83B1965F72759AF6FDD35_gshared)(__this, ___0_collector, method);
+}
 inline ListPrivateFieldAccess_1_t53688B2A9D9ACB2645C9EC09B87E3F7F8664F00D* UnsafeUtility_As_TisListPrivateFieldAccess_1_t53688B2A9D9ACB2645C9EC09B87E3F7F8664F00D_mF34BB00F023AE7858824BB59AD1C866292E6BC07 (RuntimeObject* ___0_from, const RuntimeMethod* method)
 {
 	return ((  ListPrivateFieldAccess_1_t53688B2A9D9ACB2645C9EC09B87E3F7F8664F00D* (*) (RuntimeObject*, const RuntimeMethod*))UnsafeUtility_As_TisRuntimeObject_m0FFD91677D5F942D9FA7112820E0596B59865532_gshared)(___0_from, method);
@@ -5224,1096 +6107,6 @@ inline ListPrivateFieldAccess_1_t81F55330C2FC8FFF91FC25D10AF7FC2724CCEC6A* Unsaf
 inline ListPrivateFieldAccess_1_tBAB6E9622489C11BDD8461ABE2E7E8EE660190D6* UnsafeUtility_As_TisListPrivateFieldAccess_1_tBAB6E9622489C11BDD8461ABE2E7E8EE660190D6_mE5FD3C189A791B18279B00F6A758B785560A43C2 (RuntimeObject* ___0_from, const RuntimeMethod* method)
 {
 	return ((  ListPrivateFieldAccess_1_tBAB6E9622489C11BDD8461ABE2E7E8EE660190D6* (*) (RuntimeObject*, const RuntimeMethod*))UnsafeUtility_As_TisRuntimeObject_m0FFD91677D5F942D9FA7112820E0596B59865532_gshared)(___0_from, method);
-}
-// Method Definition Index: 34406
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagedObjectRemap_Unity_Properties_IPropertyVisitor_Visit_TisRuntimeObject_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_mF1E55D8F3F61E8C90D8FEC7E14EF607F8E29EAE0_gshared (ManagedObjectRemap_t2C260EF5CC0BA28EA5167CF7AC270C394D5AE031* __this, Property_2_t1BDEF6AF2E84F588A8B264BCE2073CF7C1BC9847* ___0_property, RuntimeObject** ___1_container, const RuntimeMethod* method) 
-{
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_rgctx_method_init(method);
-	}
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	RuntimeObject* V_1 = NULL;
-	VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:117>
-		Property_2_t1BDEF6AF2E84F588A8B264BCE2073CF7C1BC9847* L_0 = ___0_property;
-		RuntimeObject** L_1 = ___1_container;
-		NullCheck(L_0);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
-		L_2 = VirtualFuncInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F, RuntimeObject** >::Invoke(16, L_0, L_1);
-		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:119>
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 5));
-		bool L_3;
-		L_3 = TypeTraits_1_get_CanBeNull_mDB94662967E66AC074FE137EE4BD9FE82C76C0AB_inline(il2cpp_rgctx_method(method->rgctx_data, 4));
-		if (!L_3)
-		{
-			goto IL_0018;
-		}
-	}
-	{
-		goto IL_0018;
-	}
-
-IL_0018:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:122>
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 5));
-		bool L_5;
-		L_5 = TypeTraits_1_get_IsValueType_m00FCB5EF45C052616B43E1773B7FECC659D28F6E_inline(il2cpp_rgctx_method(method->rgctx_data, 6));
-		if (L_5)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.string_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_7;
-		L_7 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_6, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_8 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 7)) };
-		Type_t* L_9;
-		L_9 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_8, NULL);
-		bool L_10;
-		L_10 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_7, L_9, NULL);
-		if (!L_10)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:124>
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_11 = __this->___m_References;
-		if (L_11)
-		{
-			goto IL_004d;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:125>
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_12 = (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885*)il2cpp_codegen_object_new(HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885_il2cpp_TypeInfo_var);
-		HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E(L_12, HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_RuntimeMethod_var);
-		__this->___m_References = L_12;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_References), (void*)L_12);
-	}
-
-IL_004d:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:127>
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_13 = __this->___m_References;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14 = V_0;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15 = L_14;
-		RuntimeObject* L_16 = Box(il2cpp_rgctx_data_no_init(method->rgctx_data, 3), &L_15);
-		NullCheck(L_13);
-		bool L_17;
-		L_17 = HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B(L_13, L_16, HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_RuntimeMethod_var);
-		if (L_17)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:128>
-		return;
-	}
-
-IL_0061:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:131>
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18 = V_0;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_19 = L_18;
-		RuntimeObject* L_20 = Box(il2cpp_rgctx_data_no_init(method->rgctx_data, 3), &L_19);
-		if (!((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_20, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)))
-		{
-			goto IL_006f;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:132>
-		return;
-	}
-
-IL_006f:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:134>
-		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)__this, il2cpp_rgctx_data(method->rgctx_data, 8)));
-		RuntimeObject* L_21 = V_1;
-		if (!L_21)
-		{
-			goto IL_008c;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:136>
-		RuntimeObject* L_22 = V_1;
-		Property_2_t1BDEF6AF2E84F588A8B264BCE2073CF7C1BC9847* L_23 = ___0_property;
-		RuntimeObject** L_24 = ___1_container;
-		NullCheck(L_22);
-		GenericInterfaceActionInvoker3< Property_2_t1BDEF6AF2E84F588A8B264BCE2073CF7C1BC9847*, RuntimeObject**, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* >::Invoke(il2cpp_rgctx_method(method->rgctx_data, 9), L_22, L_23, L_24, (&V_0));
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:137>
-		Property_2_t1BDEF6AF2E84F588A8B264BCE2073CF7C1BC9847* L_25 = ___0_property;
-		RuntimeObject** L_26 = ___1_container;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_27 = V_0;
-		NullCheck(L_25);
-		VirtualActionInvoker2< RuntimeObject**, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(17, L_25, L_26, L_27);
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:138>
-		return;
-	}
-
-IL_008c:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:141>
-		il2cpp_codegen_initobj((&V_2), sizeof(VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE));
-		VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE L_28 = V_2;
-		PropertyContainer_Accept_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_m58049885E9A50A1E1AD86770962CD850582C15FA((RuntimeObject*)__this, (&V_0), L_28, il2cpp_rgctx_method(method->rgctx_data, 12));
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:143>
-		Property_2_t1BDEF6AF2E84F588A8B264BCE2073CF7C1BC9847* L_29 = ___0_property;
-		NullCheck(L_29);
-		bool L_30;
-		L_30 = VirtualFuncInvoker0< bool >::Invoke(15, L_29);
-		if (L_30)
-		{
-			goto IL_00b4;
-		}
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 5));
-		bool L_31;
-		L_31 = TypeTraits_1_get_IsValueType_m00FCB5EF45C052616B43E1773B7FECC659D28F6E_inline(il2cpp_rgctx_method(method->rgctx_data, 6));
-		if (!L_31)
-		{
-			goto IL_00b4;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:144>
-		Property_2_t1BDEF6AF2E84F588A8B264BCE2073CF7C1BC9847* L_32 = ___0_property;
-		RuntimeObject** L_33 = ___1_container;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_34 = V_0;
-		NullCheck(L_32);
-		VirtualActionInvoker2< RuntimeObject**, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(17, L_32, L_33, L_34);
-	}
-
-IL_00b4:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:145>
-		return;
-	}
-}
-// Method Definition Index: 34406
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagedObjectRemap_Unity_Properties_IPropertyVisitor_Visit_TisRuntimeObject_TisEasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4_m018893780B33886CB656C24FE97A1E6065328282_gshared (ManagedObjectRemap_t2C260EF5CC0BA28EA5167CF7AC270C394D5AE031* __this, Property_2_t4B699AF240F63BEE5925033BC82883950528C4B0* ___0_property, RuntimeObject** ___1_container, const RuntimeMethod* method) 
-{
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_rgctx_method_init(method);
-	}
-	EasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	RuntimeObject* V_1 = NULL;
-	VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:117>
-		Property_2_t4B699AF240F63BEE5925033BC82883950528C4B0* L_0 = ___0_property;
-		RuntimeObject** L_1 = ___1_container;
-		NullCheck(L_0);
-		EasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4 L_2;
-		L_2 = VirtualFuncInvoker1< EasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4, RuntimeObject** >::Invoke(16, L_0, L_1);
-		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:119>
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 5));
-		bool L_3;
-		L_3 = TypeTraits_1_get_CanBeNull_mDDCC371571712BD98B3A2EAA177F5D2E5E97FAD5_inline(il2cpp_rgctx_method(method->rgctx_data, 4));
-		if (!L_3)
-		{
-			goto IL_0018;
-		}
-	}
-	{
-		goto IL_0018;
-	}
-
-IL_0018:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:122>
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 5));
-		bool L_5;
-		L_5 = TypeTraits_1_get_IsValueType_m1D8B7A9107E1AC42133ADBB9D3E09F84BCC142DF_inline(il2cpp_rgctx_method(method->rgctx_data, 6));
-		if (L_5)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.string_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_7;
-		L_7 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_6, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_8 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 7)) };
-		Type_t* L_9;
-		L_9 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_8, NULL);
-		bool L_10;
-		L_10 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_7, L_9, NULL);
-		if (!L_10)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:124>
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_11 = __this->___m_References;
-		if (L_11)
-		{
-			goto IL_004d;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:125>
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_12 = (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885*)il2cpp_codegen_object_new(HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885_il2cpp_TypeInfo_var);
-		HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E(L_12, HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_RuntimeMethod_var);
-		__this->___m_References = L_12;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_References), (void*)L_12);
-	}
-
-IL_004d:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:127>
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_13 = __this->___m_References;
-		EasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4 L_14 = V_0;
-		EasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4 L_15 = L_14;
-		RuntimeObject* L_16 = Box(il2cpp_rgctx_data_no_init(method->rgctx_data, 3), &L_15);
-		NullCheck(L_13);
-		bool L_17;
-		L_17 = HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B(L_13, L_16, HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_RuntimeMethod_var);
-		if (L_17)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:128>
-		return;
-	}
-
-IL_0061:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:131>
-		EasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4 L_18 = V_0;
-		EasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4 L_19 = L_18;
-		RuntimeObject* L_20 = Box(il2cpp_rgctx_data_no_init(method->rgctx_data, 3), &L_19);
-		if (!((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_20, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)))
-		{
-			goto IL_006f;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:132>
-		return;
-	}
-
-IL_006f:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:134>
-		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)__this, il2cpp_rgctx_data(method->rgctx_data, 8)));
-		RuntimeObject* L_21 = V_1;
-		if (!L_21)
-		{
-			goto IL_008c;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:136>
-		RuntimeObject* L_22 = V_1;
-		Property_2_t4B699AF240F63BEE5925033BC82883950528C4B0* L_23 = ___0_property;
-		RuntimeObject** L_24 = ___1_container;
-		NullCheck(L_22);
-		GenericInterfaceActionInvoker3< Property_2_t4B699AF240F63BEE5925033BC82883950528C4B0*, RuntimeObject**, EasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4* >::Invoke(il2cpp_rgctx_method(method->rgctx_data, 9), L_22, L_23, L_24, (&V_0));
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:137>
-		Property_2_t4B699AF240F63BEE5925033BC82883950528C4B0* L_25 = ___0_property;
-		RuntimeObject** L_26 = ___1_container;
-		EasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4 L_27 = V_0;
-		NullCheck(L_25);
-		VirtualActionInvoker2< RuntimeObject**, EasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4 >::Invoke(17, L_25, L_26, L_27);
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:138>
-		return;
-	}
-
-IL_008c:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:141>
-		il2cpp_codegen_initobj((&V_2), sizeof(VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE));
-		VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE L_28 = V_2;
-		PropertyContainer_Accept_TisEasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4_m8431B85C36BFE6201EBD58C50E40268C4AEB6C0B((RuntimeObject*)__this, (&V_0), L_28, il2cpp_rgctx_method(method->rgctx_data, 12));
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:143>
-		Property_2_t4B699AF240F63BEE5925033BC82883950528C4B0* L_29 = ___0_property;
-		NullCheck(L_29);
-		bool L_30;
-		L_30 = VirtualFuncInvoker0< bool >::Invoke(15, L_29);
-		if (L_30)
-		{
-			goto IL_00b4;
-		}
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 5));
-		bool L_31;
-		L_31 = TypeTraits_1_get_IsValueType_m1D8B7A9107E1AC42133ADBB9D3E09F84BCC142DF_inline(il2cpp_rgctx_method(method->rgctx_data, 6));
-		if (!L_31)
-		{
-			goto IL_00b4;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:144>
-		Property_2_t4B699AF240F63BEE5925033BC82883950528C4B0* L_32 = ___0_property;
-		RuntimeObject** L_33 = ___1_container;
-		EasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4 L_34 = V_0;
-		NullCheck(L_32);
-		VirtualActionInvoker2< RuntimeObject**, EasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4 >::Invoke(17, L_32, L_33, L_34);
-	}
-
-IL_00b4:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:145>
-		return;
-	}
-}
-// Method Definition Index: 34406
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagedObjectRemap_Unity_Properties_IPropertyVisitor_Visit_TisRuntimeObject_TisFilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF_m49C338DAC2493A7621CEB84E08754D3A3C0448BA_gshared (ManagedObjectRemap_t2C260EF5CC0BA28EA5167CF7AC270C394D5AE031* __this, Property_2_t82F83FF5276378A61B7F1AA5ABC9A7691A29A3D3* ___0_property, RuntimeObject** ___1_container, const RuntimeMethod* method) 
-{
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_rgctx_method_init(method);
-	}
-	FilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	RuntimeObject* V_1 = NULL;
-	VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:117>
-		Property_2_t82F83FF5276378A61B7F1AA5ABC9A7691A29A3D3* L_0 = ___0_property;
-		RuntimeObject** L_1 = ___1_container;
-		NullCheck(L_0);
-		FilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF L_2;
-		L_2 = VirtualFuncInvoker1< FilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF, RuntimeObject** >::Invoke(16, L_0, L_1);
-		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:119>
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 5));
-		bool L_3;
-		L_3 = TypeTraits_1_get_CanBeNull_m79D8FA08631C626F7FCAE35C6AB6D27641CB64A5_inline(il2cpp_rgctx_method(method->rgctx_data, 4));
-		if (!L_3)
-		{
-			goto IL_0018;
-		}
-	}
-	{
-		goto IL_0018;
-	}
-
-IL_0018:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:122>
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 5));
-		bool L_5;
-		L_5 = TypeTraits_1_get_IsValueType_mCAB59B476E83A9FC33AEEB292490925EFEC11577_inline(il2cpp_rgctx_method(method->rgctx_data, 6));
-		if (L_5)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.string_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_7;
-		L_7 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_6, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_8 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 7)) };
-		Type_t* L_9;
-		L_9 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_8, NULL);
-		bool L_10;
-		L_10 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_7, L_9, NULL);
-		if (!L_10)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:124>
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_11 = __this->___m_References;
-		if (L_11)
-		{
-			goto IL_004d;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:125>
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_12 = (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885*)il2cpp_codegen_object_new(HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885_il2cpp_TypeInfo_var);
-		HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E(L_12, HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_RuntimeMethod_var);
-		__this->___m_References = L_12;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_References), (void*)L_12);
-	}
-
-IL_004d:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:127>
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_13 = __this->___m_References;
-		FilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF L_14 = V_0;
-		FilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF L_15 = L_14;
-		RuntimeObject* L_16 = Box(il2cpp_rgctx_data_no_init(method->rgctx_data, 3), &L_15);
-		NullCheck(L_13);
-		bool L_17;
-		L_17 = HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B(L_13, L_16, HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_RuntimeMethod_var);
-		if (L_17)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:128>
-		return;
-	}
-
-IL_0061:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:131>
-		FilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF L_18 = V_0;
-		FilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF L_19 = L_18;
-		RuntimeObject* L_20 = Box(il2cpp_rgctx_data_no_init(method->rgctx_data, 3), &L_19);
-		if (!((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_20, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)))
-		{
-			goto IL_006f;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:132>
-		return;
-	}
-
-IL_006f:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:134>
-		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)__this, il2cpp_rgctx_data(method->rgctx_data, 8)));
-		RuntimeObject* L_21 = V_1;
-		if (!L_21)
-		{
-			goto IL_008c;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:136>
-		RuntimeObject* L_22 = V_1;
-		Property_2_t82F83FF5276378A61B7F1AA5ABC9A7691A29A3D3* L_23 = ___0_property;
-		RuntimeObject** L_24 = ___1_container;
-		NullCheck(L_22);
-		GenericInterfaceActionInvoker3< Property_2_t82F83FF5276378A61B7F1AA5ABC9A7691A29A3D3*, RuntimeObject**, FilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF* >::Invoke(il2cpp_rgctx_method(method->rgctx_data, 9), L_22, L_23, L_24, (&V_0));
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:137>
-		Property_2_t82F83FF5276378A61B7F1AA5ABC9A7691A29A3D3* L_25 = ___0_property;
-		RuntimeObject** L_26 = ___1_container;
-		FilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF L_27 = V_0;
-		NullCheck(L_25);
-		VirtualActionInvoker2< RuntimeObject**, FilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF >::Invoke(17, L_25, L_26, L_27);
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:138>
-		return;
-	}
-
-IL_008c:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:141>
-		il2cpp_codegen_initobj((&V_2), sizeof(VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE));
-		VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE L_28 = V_2;
-		PropertyContainer_Accept_TisFilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF_m27B4D956F8905C28802D3FAF150F66AB8C045337((RuntimeObject*)__this, (&V_0), L_28, il2cpp_rgctx_method(method->rgctx_data, 12));
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:143>
-		Property_2_t82F83FF5276378A61B7F1AA5ABC9A7691A29A3D3* L_29 = ___0_property;
-		NullCheck(L_29);
-		bool L_30;
-		L_30 = VirtualFuncInvoker0< bool >::Invoke(15, L_29);
-		if (L_30)
-		{
-			goto IL_00b4;
-		}
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 5));
-		bool L_31;
-		L_31 = TypeTraits_1_get_IsValueType_mCAB59B476E83A9FC33AEEB292490925EFEC11577_inline(il2cpp_rgctx_method(method->rgctx_data, 6));
-		if (!L_31)
-		{
-			goto IL_00b4;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:144>
-		Property_2_t82F83FF5276378A61B7F1AA5ABC9A7691A29A3D3* L_32 = ___0_property;
-		RuntimeObject** L_33 = ___1_container;
-		FilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF L_34 = V_0;
-		NullCheck(L_32);
-		VirtualActionInvoker2< RuntimeObject**, FilterFunction_t32E0707BD9D9F770A2A7578985A5C163FC1AAEFF >::Invoke(17, L_32, L_33, L_34);
-	}
-
-IL_00b4:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:145>
-		return;
-	}
-}
-// Method Definition Index: 34406
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagedObjectRemap_Unity_Properties_IPropertyVisitor_Visit_TisRuntimeObject_TisFontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C_m1FA875A92DB3944D04F8A79B7B4CFC5ABE7F41F7_gshared (ManagedObjectRemap_t2C260EF5CC0BA28EA5167CF7AC270C394D5AE031* __this, Property_2_t12CA9708C3760AD4FE4CE4094AC01BFFA327A9FE* ___0_property, RuntimeObject** ___1_container, const RuntimeMethod* method) 
-{
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_rgctx_method_init(method);
-	}
-	FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	RuntimeObject* V_1 = NULL;
-	VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:117>
-		Property_2_t12CA9708C3760AD4FE4CE4094AC01BFFA327A9FE* L_0 = ___0_property;
-		RuntimeObject** L_1 = ___1_container;
-		NullCheck(L_0);
-		FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C L_2;
-		L_2 = VirtualFuncInvoker1< FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C, RuntimeObject** >::Invoke(16, L_0, L_1);
-		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:119>
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 5));
-		bool L_3;
-		L_3 = TypeTraits_1_get_CanBeNull_m686F9F739041D767C3ACA256B3A68D6573B73B61_inline(il2cpp_rgctx_method(method->rgctx_data, 4));
-		if (!L_3)
-		{
-			goto IL_0018;
-		}
-	}
-	{
-		goto IL_0018;
-	}
-
-IL_0018:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:122>
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 5));
-		bool L_5;
-		L_5 = TypeTraits_1_get_IsValueType_mCD2F075EE8FA987FED25F36ACC13C6D0F4A32693_inline(il2cpp_rgctx_method(method->rgctx_data, 6));
-		if (L_5)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.string_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_7;
-		L_7 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_6, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_8 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 7)) };
-		Type_t* L_9;
-		L_9 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_8, NULL);
-		bool L_10;
-		L_10 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_7, L_9, NULL);
-		if (!L_10)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:124>
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_11 = __this->___m_References;
-		if (L_11)
-		{
-			goto IL_004d;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:125>
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_12 = (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885*)il2cpp_codegen_object_new(HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885_il2cpp_TypeInfo_var);
-		HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E(L_12, HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_RuntimeMethod_var);
-		__this->___m_References = L_12;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_References), (void*)L_12);
-	}
-
-IL_004d:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:127>
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_13 = __this->___m_References;
-		FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C L_14 = V_0;
-		FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C L_15 = L_14;
-		RuntimeObject* L_16 = Box(il2cpp_rgctx_data_no_init(method->rgctx_data, 3), &L_15);
-		NullCheck(L_13);
-		bool L_17;
-		L_17 = HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B(L_13, L_16, HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_RuntimeMethod_var);
-		if (L_17)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:128>
-		return;
-	}
-
-IL_0061:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:131>
-		FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C L_18 = V_0;
-		FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C L_19 = L_18;
-		RuntimeObject* L_20 = Box(il2cpp_rgctx_data_no_init(method->rgctx_data, 3), &L_19);
-		if (!((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_20, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)))
-		{
-			goto IL_006f;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:132>
-		return;
-	}
-
-IL_006f:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:134>
-		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)__this, il2cpp_rgctx_data(method->rgctx_data, 8)));
-		RuntimeObject* L_21 = V_1;
-		if (!L_21)
-		{
-			goto IL_008c;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:136>
-		RuntimeObject* L_22 = V_1;
-		Property_2_t12CA9708C3760AD4FE4CE4094AC01BFFA327A9FE* L_23 = ___0_property;
-		RuntimeObject** L_24 = ___1_container;
-		NullCheck(L_22);
-		GenericInterfaceActionInvoker3< Property_2_t12CA9708C3760AD4FE4CE4094AC01BFFA327A9FE*, RuntimeObject**, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C* >::Invoke(il2cpp_rgctx_method(method->rgctx_data, 9), L_22, L_23, L_24, (&V_0));
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:137>
-		Property_2_t12CA9708C3760AD4FE4CE4094AC01BFFA327A9FE* L_25 = ___0_property;
-		RuntimeObject** L_26 = ___1_container;
-		FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C L_27 = V_0;
-		NullCheck(L_25);
-		VirtualActionInvoker2< RuntimeObject**, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C >::Invoke(17, L_25, L_26, L_27);
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:138>
-		return;
-	}
-
-IL_008c:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:141>
-		il2cpp_codegen_initobj((&V_2), sizeof(VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE));
-		VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE L_28 = V_2;
-		PropertyContainer_Accept_TisFontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C_m9B0B7646EE8175AAB89B0E47A9EBA1FABF84CA11((RuntimeObject*)__this, (&V_0), L_28, il2cpp_rgctx_method(method->rgctx_data, 12));
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:143>
-		Property_2_t12CA9708C3760AD4FE4CE4094AC01BFFA327A9FE* L_29 = ___0_property;
-		NullCheck(L_29);
-		bool L_30;
-		L_30 = VirtualFuncInvoker0< bool >::Invoke(15, L_29);
-		if (L_30)
-		{
-			goto IL_00b4;
-		}
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 5));
-		bool L_31;
-		L_31 = TypeTraits_1_get_IsValueType_mCD2F075EE8FA987FED25F36ACC13C6D0F4A32693_inline(il2cpp_rgctx_method(method->rgctx_data, 6));
-		if (!L_31)
-		{
-			goto IL_00b4;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:144>
-		Property_2_t12CA9708C3760AD4FE4CE4094AC01BFFA327A9FE* L_32 = ___0_property;
-		RuntimeObject** L_33 = ___1_container;
-		FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C L_34 = V_0;
-		NullCheck(L_32);
-		VirtualActionInvoker2< RuntimeObject**, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C >::Invoke(17, L_32, L_33, L_34);
-	}
-
-IL_00b4:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:145>
-		return;
-	}
-}
-// Method Definition Index: 34406
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagedObjectRemap_Unity_Properties_IPropertyVisitor_Visit_TisRuntimeObject_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mAB776AF5268CC8B3E2A961FE908CCCA12DBB6D8E_gshared (ManagedObjectRemap_t2C260EF5CC0BA28EA5167CF7AC270C394D5AE031* __this, Property_2_t4214D5666464CEE51F044573A59C738C2D562085* ___0_property, RuntimeObject** ___1_container, const RuntimeMethod* method) 
-{
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_rgctx_method_init(method);
-	}
-	int32_t V_0 = 0;
-	RuntimeObject* V_1 = NULL;
-	VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:117>
-		Property_2_t4214D5666464CEE51F044573A59C738C2D562085* L_0 = ___0_property;
-		RuntimeObject** L_1 = ___1_container;
-		NullCheck(L_0);
-		int32_t L_2;
-		L_2 = VirtualFuncInvoker1< int32_t, RuntimeObject** >::Invoke(16, L_0, L_1);
-		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:119>
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 5));
-		bool L_3;
-		L_3 = TypeTraits_1_get_CanBeNull_mE0F90826548B0C3102050B135AABD7FCF73A5120_inline(il2cpp_rgctx_method(method->rgctx_data, 4));
-		if (!L_3)
-		{
-			goto IL_0018;
-		}
-	}
-	{
-		goto IL_0018;
-	}
-
-IL_0018:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:122>
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 5));
-		bool L_5;
-		L_5 = TypeTraits_1_get_IsValueType_m11497792427A6500E5BEC1F44B26CED5E4E210BB_inline(il2cpp_rgctx_method(method->rgctx_data, 6));
-		if (L_5)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.string_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_7;
-		L_7 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_6, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_8 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 7)) };
-		Type_t* L_9;
-		L_9 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_8, NULL);
-		bool L_10;
-		L_10 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_7, L_9, NULL);
-		if (!L_10)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:124>
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_11 = __this->___m_References;
-		if (L_11)
-		{
-			goto IL_004d;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:125>
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_12 = (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885*)il2cpp_codegen_object_new(HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885_il2cpp_TypeInfo_var);
-		HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E(L_12, HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_RuntimeMethod_var);
-		__this->___m_References = L_12;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_References), (void*)L_12);
-	}
-
-IL_004d:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:127>
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_13 = __this->___m_References;
-		int32_t L_14 = V_0;
-		int32_t L_15 = L_14;
-		RuntimeObject* L_16 = Box(il2cpp_rgctx_data_no_init(method->rgctx_data, 3), &L_15);
-		NullCheck(L_13);
-		bool L_17;
-		L_17 = HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B(L_13, L_16, HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_RuntimeMethod_var);
-		if (L_17)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:128>
-		return;
-	}
-
-IL_0061:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:131>
-		int32_t L_18 = V_0;
-		int32_t L_19 = L_18;
-		RuntimeObject* L_20 = Box(il2cpp_rgctx_data_no_init(method->rgctx_data, 3), &L_19);
-		if (!((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_20, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)))
-		{
-			goto IL_006f;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:132>
-		return;
-	}
-
-IL_006f:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:134>
-		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)__this, il2cpp_rgctx_data(method->rgctx_data, 8)));
-		RuntimeObject* L_21 = V_1;
-		if (!L_21)
-		{
-			goto IL_008c;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:136>
-		RuntimeObject* L_22 = V_1;
-		Property_2_t4214D5666464CEE51F044573A59C738C2D562085* L_23 = ___0_property;
-		RuntimeObject** L_24 = ___1_container;
-		NullCheck(L_22);
-		GenericInterfaceActionInvoker3< Property_2_t4214D5666464CEE51F044573A59C738C2D562085*, RuntimeObject**, int32_t* >::Invoke(il2cpp_rgctx_method(method->rgctx_data, 9), L_22, L_23, L_24, (&V_0));
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:137>
-		Property_2_t4214D5666464CEE51F044573A59C738C2D562085* L_25 = ___0_property;
-		RuntimeObject** L_26 = ___1_container;
-		int32_t L_27 = V_0;
-		NullCheck(L_25);
-		VirtualActionInvoker2< RuntimeObject**, int32_t >::Invoke(17, L_25, L_26, L_27);
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:138>
-		return;
-	}
-
-IL_008c:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:141>
-		il2cpp_codegen_initobj((&V_2), sizeof(VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE));
-		VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE L_28 = V_2;
-		PropertyContainer_Accept_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD5D8197C711F0C773E9A76A2EB64004F163AA61C((RuntimeObject*)__this, (&V_0), L_28, il2cpp_rgctx_method(method->rgctx_data, 12));
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:143>
-		Property_2_t4214D5666464CEE51F044573A59C738C2D562085* L_29 = ___0_property;
-		NullCheck(L_29);
-		bool L_30;
-		L_30 = VirtualFuncInvoker0< bool >::Invoke(15, L_29);
-		if (L_30)
-		{
-			goto IL_00b4;
-		}
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 5));
-		bool L_31;
-		L_31 = TypeTraits_1_get_IsValueType_m11497792427A6500E5BEC1F44B26CED5E4E210BB_inline(il2cpp_rgctx_method(method->rgctx_data, 6));
-		if (!L_31)
-		{
-			goto IL_00b4;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:144>
-		Property_2_t4214D5666464CEE51F044573A59C738C2D562085* L_32 = ___0_property;
-		RuntimeObject** L_33 = ___1_container;
-		int32_t L_34 = V_0;
-		NullCheck(L_32);
-		VirtualActionInvoker2< RuntimeObject**, int32_t >::Invoke(17, L_32, L_33, L_34);
-	}
-
-IL_00b4:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:145>
-		return;
-	}
-}
-// Method Definition Index: 34406
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagedObjectRemap_Unity_Properties_IPropertyVisitor_Visit_TisRuntimeObject_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m39954ABCDED4D60D8C8921639491EE86DCC43F99_gshared (ManagedObjectRemap_t2C260EF5CC0BA28EA5167CF7AC270C394D5AE031* __this, Property_2_t7B85DB0978338665E8C9D675C3291F86A38F594A* ___0_property, RuntimeObject** ___1_container, const RuntimeMethod* method) 
-{
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_rgctx_method_init(method);
-	}
-	int32_t V_0 = 0;
-	RuntimeObject* V_1 = NULL;
-	VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:117>
-		Property_2_t7B85DB0978338665E8C9D675C3291F86A38F594A* L_0 = ___0_property;
-		RuntimeObject** L_1 = ___1_container;
-		NullCheck(L_0);
-		int32_t L_2;
-		L_2 = VirtualFuncInvoker1< int32_t, RuntimeObject** >::Invoke(16, L_0, L_1);
-		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:119>
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 5));
-		bool L_3;
-		L_3 = TypeTraits_1_get_CanBeNull_mB145F76964DE36569385F83F550741253F97BC8B_inline(il2cpp_rgctx_method(method->rgctx_data, 4));
-		if (!L_3)
-		{
-			goto IL_0018;
-		}
-	}
-	{
-		goto IL_0018;
-	}
-
-IL_0018:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:122>
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 5));
-		bool L_5;
-		L_5 = TypeTraits_1_get_IsValueType_m38FEC63D8762D52AF73C146A830156829593F37C_inline(il2cpp_rgctx_method(method->rgctx_data, 6));
-		if (L_5)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.string_class->byval_arg) };
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
-		Type_t* L_7;
-		L_7 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_6, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_8 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 7)) };
-		Type_t* L_9;
-		L_9 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_8, NULL);
-		bool L_10;
-		L_10 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_7, L_9, NULL);
-		if (!L_10)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:124>
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_11 = __this->___m_References;
-		if (L_11)
-		{
-			goto IL_004d;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:125>
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_12 = (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885*)il2cpp_codegen_object_new(HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885_il2cpp_TypeInfo_var);
-		HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E(L_12, HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_RuntimeMethod_var);
-		__this->___m_References = L_12;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_References), (void*)L_12);
-	}
-
-IL_004d:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:127>
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_13 = __this->___m_References;
-		int32_t L_14 = V_0;
-		int32_t L_15 = L_14;
-		RuntimeObject* L_16 = Box(il2cpp_rgctx_data_no_init(method->rgctx_data, 3), &L_15);
-		NullCheck(L_13);
-		bool L_17;
-		L_17 = HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B(L_13, L_16, HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_RuntimeMethod_var);
-		if (L_17)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:128>
-		return;
-	}
-
-IL_0061:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:131>
-		int32_t L_18 = V_0;
-		int32_t L_19 = L_18;
-		RuntimeObject* L_20 = Box(il2cpp_rgctx_data_no_init(method->rgctx_data, 3), &L_19);
-		if (!((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_20, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)))
-		{
-			goto IL_006f;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:132>
-		return;
-	}
-
-IL_006f:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:134>
-		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)__this, il2cpp_rgctx_data(method->rgctx_data, 8)));
-		RuntimeObject* L_21 = V_1;
-		if (!L_21)
-		{
-			goto IL_008c;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:136>
-		RuntimeObject* L_22 = V_1;
-		Property_2_t7B85DB0978338665E8C9D675C3291F86A38F594A* L_23 = ___0_property;
-		RuntimeObject** L_24 = ___1_container;
-		NullCheck(L_22);
-		GenericInterfaceActionInvoker3< Property_2_t7B85DB0978338665E8C9D675C3291F86A38F594A*, RuntimeObject**, int32_t* >::Invoke(il2cpp_rgctx_method(method->rgctx_data, 9), L_22, L_23, L_24, (&V_0));
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:137>
-		Property_2_t7B85DB0978338665E8C9D675C3291F86A38F594A* L_25 = ___0_property;
-		RuntimeObject** L_26 = ___1_container;
-		int32_t L_27 = V_0;
-		NullCheck(L_25);
-		VirtualActionInvoker2< RuntimeObject**, int32_t >::Invoke(17, L_25, L_26, L_27);
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:138>
-		return;
-	}
-
-IL_008c:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:141>
-		il2cpp_codegen_initobj((&V_2), sizeof(VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE));
-		VisitParameters_tF21AC3343F90A7925EEA69AA73269B7F2DCE66CE L_28 = V_2;
-		PropertyContainer_Accept_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mECB26B6AD8323EC326585F2EA43B7CBBA7944441((RuntimeObject*)__this, (&V_0), L_28, il2cpp_rgctx_method(method->rgctx_data, 12));
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:143>
-		Property_2_t7B85DB0978338665E8C9D675C3291F86A38F594A* L_29 = ___0_property;
-		NullCheck(L_29);
-		bool L_30;
-		L_30 = VirtualFuncInvoker0< bool >::Invoke(15, L_29);
-		if (L_30)
-		{
-			goto IL_00b4;
-		}
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 5));
-		bool L_31;
-		L_31 = TypeTraits_1_get_IsValueType_m38FEC63D8762D52AF73C146A830156829593F37C_inline(il2cpp_rgctx_method(method->rgctx_data, 6));
-		if (!L_31)
-		{
-			goto IL_00b4;
-		}
-	}
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:144>
-		Property_2_t7B85DB0978338665E8C9D675C3291F86A38F594A* L_32 = ___0_property;
-		RuntimeObject** L_33 = ___1_container;
-		int32_t L_34 = V_0;
-		NullCheck(L_32);
-		VirtualActionInvoker2< RuntimeObject**, int32_t >::Invoke(17, L_32, L_33, L_34);
-	}
-
-IL_00b4:
-	{
-		//<source_info:./Library/PackageCache/com.unity.entities@55bdc42e3b8d/Unity.Entities/Properties/ManagedObjectRemap.cs:145>
-		return;
-	}
 }
 // Method Definition Index: 34406
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagedObjectRemap_Unity_Properties_IPropertyVisitor_Visit_TisRuntimeObject_TisMaterialDefinition_t25B84AF58B1F4D1990933E5EBCD2DE6989ECB8CD_m99EC2007453F6FD08223C26CFA8EDD11663B357C_gshared (ManagedObjectRemap_t2C260EF5CC0BA28EA5167CF7AC270C394D5AE031* __this, Property_2_t70F4B5E70F578E0789B2FB075C362A3AB7D6A560* ___0_property, RuntimeObject** ___1_container, const RuntimeMethod* method) 
@@ -30031,6 +29824,1282 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetVertices_Tisfloat3_t4AB5D88249AD
 		return;
 	}
 }
+// Method Definition Index: 51070
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetVertices_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m107090F8A9B31E27C8DD9982DE5567B817626500_gshared (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD ___0_inVertices, int32_t ___1_start, int32_t ___2_length, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD L_0 = ___0_inVertices;
+		int32_t L_1 = ___1_start;
+		int32_t L_2 = ___2_length;
+		Mesh_SetVertices_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m213DEDED00F7E6918C1DC386996C2DB69B63C2BB(__this, L_0, L_1, L_2, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return;
+	}
+}
+// Method Definition Index: 51070
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetVertices_TisIl2CppFullySharedGenericStruct_m8A18C2DD85A9F6D2D61F2643CDF0E79307A5CEA1_gshared (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 ___0_inVertices, int32_t ___1_start, int32_t ___2_length, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_0 = ___0_inVertices;
+		int32_t L_1 = ___1_start;
+		int32_t L_2 = ___2_length;
+		((  void (*) (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*, NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18, int32_t, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(__this, L_0, L_1, L_2, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return;
+	}
+}
+// Method Definition Index: 51070
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetVertices_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_mBC81CB2840875EFBD19532ADDFD7A3CD0C14B808_gshared (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 ___0_inVertices, int32_t ___1_start, int32_t ___2_length, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 L_0 = ___0_inVertices;
+		int32_t L_1 = ___1_start;
+		int32_t L_2 = ___2_length;
+		Mesh_SetVertices_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_m1C5674C297CC8C2E99A8FADBE263B65A92734F23(__this, L_0, L_1, L_2, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return;
+	}
+}
+// Method Definition Index: 51071
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetVertices_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m213DEDED00F7E6918C1DC386996C2DB69B63C2BB_gshared (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD ___0_inVertices, int32_t ___1_start, int32_t ___2_length, int32_t ___3_flags, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		int32_t L_0;
+		L_0 = UnsafeUtility_SizeOf_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_mB2AF8CA03DEC485BAD3A37CCBE5CDEBA3C67758C_inline(il2cpp_rgctx_method(method->rgctx_data, 0));
+		if ((((int32_t)L_0) == ((int32_t)((int32_t)12))))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_1 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5B55E99D2378945F711DB994B7430E820BA05B5D)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, method);
+	}
+
+IL_0014:
+	{
+		NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD L_2 = ___0_inVertices;
+		void* L_3;
+		L_3 = NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_mA130037B6C4CF7B12123658533F7D99560925865_inline(L_2, il2cpp_rgctx_method(method->rgctx_data, 2));
+		intptr_t L_4;
+		L_4 = IntPtr_op_Explicit_mE2CEC14C61FD5E2159A03EA2AD97F5CDC5BB9F4D(L_3, NULL);
+		int32_t L_5;
+		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_inVertices))->___m_Length);
+		int32_t L_6 = ___1_start;
+		int32_t L_7 = ___2_length;
+		int32_t L_8 = ___3_flags;
+		Mesh_SetSizedNativeArrayForChannel_m6571CA632A3B7D9F2D110B5F76D47652A8B81372(__this, (int32_t)0, (int32_t)0, 3, L_4, L_5, L_6, L_7, L_8, NULL);
+		return;
+	}
+}
+// Method Definition Index: 51071
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetVertices_TisIl2CppFullySharedGenericStruct_m019B9059D7AF28E367D078D856E4FD61153A347B_gshared (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 ___0_inVertices, int32_t ___1_start, int32_t ___2_length, int32_t ___3_flags, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		int32_t L_0;
+		L_0 = ((  int32_t (*) (const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))(il2cpp_rgctx_method(method->rgctx_data, 0));
+		if ((((int32_t)L_0) == ((int32_t)((int32_t)12))))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_1 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5B55E99D2378945F711DB994B7430E820BA05B5D)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, method);
+	}
+
+IL_0014:
+	{
+		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_2 = ___0_inVertices;
+		void* L_3;
+		L_3 = ((  void* (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))(L_2, il2cpp_rgctx_method(method->rgctx_data, 2));
+		intptr_t L_4;
+		L_4 = IntPtr_op_Explicit_mE2CEC14C61FD5E2159A03EA2AD97F5CDC5BB9F4D(L_3, NULL);
+		int32_t L_5;
+		L_5 = ((  int32_t (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))((&___0_inVertices), il2cpp_rgctx_method(method->rgctx_data, 3));
+		int32_t L_6 = ___1_start;
+		int32_t L_7 = ___2_length;
+		int32_t L_8 = ___3_flags;
+		Mesh_SetSizedNativeArrayForChannel_m6571CA632A3B7D9F2D110B5F76D47652A8B81372(__this, (int32_t)0, (int32_t)0, 3, L_4, L_5, L_6, L_7, L_8, NULL);
+		return;
+	}
+}
+// Method Definition Index: 51071
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetVertices_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_m1C5674C297CC8C2E99A8FADBE263B65A92734F23_gshared (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 ___0_inVertices, int32_t ___1_start, int32_t ___2_length, int32_t ___3_flags, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		int32_t L_0;
+		L_0 = UnsafeUtility_SizeOf_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_m3AD29AA7E6279412E3C8AA9DAA54CF2186113297_inline(il2cpp_rgctx_method(method->rgctx_data, 0));
+		if ((((int32_t)L_0) == ((int32_t)((int32_t)12))))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_1 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5B55E99D2378945F711DB994B7430E820BA05B5D)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, method);
+	}
+
+IL_0014:
+	{
+		NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 L_2 = ___0_inVertices;
+		void* L_3;
+		L_3 = NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_m80E73BDB817CDAB5D3E0DDA8699F761C66ADE063_inline(L_2, il2cpp_rgctx_method(method->rgctx_data, 2));
+		intptr_t L_4;
+		L_4 = IntPtr_op_Explicit_mE2CEC14C61FD5E2159A03EA2AD97F5CDC5BB9F4D(L_3, NULL);
+		int32_t L_5;
+		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_inVertices))->___m_Length);
+		int32_t L_6 = ___1_start;
+		int32_t L_7 = ___2_length;
+		int32_t L_8 = ___3_flags;
+		Mesh_SetSizedNativeArrayForChannel_m6571CA632A3B7D9F2D110B5F76D47652A8B81372(__this, (int32_t)0, (int32_t)0, 3, L_4, L_5, L_6, L_7, L_8, NULL);
+		return;
+	}
+}
+// Method Definition Index: 68575
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_BoxCastCustom_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_m9ABAB18F9E329583941611DA0E070DD8B06F04CF_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:782>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_center;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_1 = ___1_orientation;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___2_halfExtents;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = ___3_direction;
+		float L_4 = ___4_maxDistance;
+		AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* L_5 = ___5_collector;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_6 = ___6_filter;
+		uint8_t L_7 = ___7_queryInteraction;
+		bool L_8;
+		L_8 = QueryWrappers_BoxCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_m76C2FE012A3C1AE13E755F8DF52812BB996EF632(__this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_BoxCastCustom_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_m9ABAB18F9E329583941611DA0E070DD8B06F04CF_AdjustorThunk (RuntimeObject* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_BoxCastCustom_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_m9ABAB18F9E329583941611DA0E070DD8B06F04CF(_thisAdjusted, ___0_center, ___1_orientation, ___2_halfExtents, ___3_direction, ___4_maxDistance, ___5_collector, ___6_filter, ___7_queryInteraction, method);
+	return _returnValue;
+}
+// Method Definition Index: 68575
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_BoxCastCustom_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_mC97969E2DA4794F71CDDD3A35DFC3A09FA9F6F8E_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:782>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_center;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_1 = ___1_orientation;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___2_halfExtents;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = ___3_direction;
+		float L_4 = ___4_maxDistance;
+		AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* L_5 = ___5_collector;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_6 = ___6_filter;
+		uint8_t L_7 = ___7_queryInteraction;
+		bool L_8;
+		L_8 = QueryWrappers_BoxCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_m758EACDE418E993D8EF9E667F4EA9D01D2F2E163(__this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_BoxCastCustom_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_mC97969E2DA4794F71CDDD3A35DFC3A09FA9F6F8E_AdjustorThunk (RuntimeObject* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_BoxCastCustom_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_mC97969E2DA4794F71CDDD3A35DFC3A09FA9F6F8E(_thisAdjusted, ___0_center, ___1_orientation, ___2_halfExtents, ___3_direction, ___4_maxDistance, ___5_collector, ___6_filter, ___7_queryInteraction, method);
+	return _returnValue;
+}
+// Method Definition Index: 68575
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_BoxCastCustom_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_mD952EFFADF6C12F1040DBEFE8EAD323E906ADA24_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:782>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_center;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_1 = ___1_orientation;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___2_halfExtents;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = ___3_direction;
+		float L_4 = ___4_maxDistance;
+		ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* L_5 = ___5_collector;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_6 = ___6_filter;
+		uint8_t L_7 = ___7_queryInteraction;
+		bool L_8;
+		L_8 = QueryWrappers_BoxCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_mF64453D256450E5F7D8CEB28071B8FCFECB74BC1(__this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_BoxCastCustom_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_mD952EFFADF6C12F1040DBEFE8EAD323E906ADA24_AdjustorThunk (RuntimeObject* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_BoxCastCustom_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_mD952EFFADF6C12F1040DBEFE8EAD323E906ADA24(_thisAdjusted, ___0_center, ___1_orientation, ___2_halfExtents, ___3_direction, ___4_maxDistance, ___5_collector, ___6_filter, ___7_queryInteraction, method);
+	return _returnValue;
+}
+// Method Definition Index: 68575
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_BoxCastCustom_TisIl2CppFullySharedGenericStruct_mA71A8EE021DE2F2B15AF764E9A29CE75B266782B_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, Il2CppFullySharedGenericStruct* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:782>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_center;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_1 = ___1_orientation;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___2_halfExtents;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = ___3_direction;
+		float L_4 = ___4_maxDistance;
+		Il2CppFullySharedGenericStruct* L_5 = ___5_collector;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_6 = ___6_filter;
+		uint8_t L_7 = ___7_queryInteraction;
+		bool L_8;
+		L_8 = ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, Il2CppFullySharedGenericStruct*, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A, uint8_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(__this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_BoxCastCustom_TisIl2CppFullySharedGenericStruct_mA71A8EE021DE2F2B15AF764E9A29CE75B266782B_AdjustorThunk (RuntimeObject* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_center, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_orientation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_halfExtents, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, Il2CppFullySharedGenericStruct* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_BoxCastCustom_TisIl2CppFullySharedGenericStruct_mA71A8EE021DE2F2B15AF764E9A29CE75B266782B(_thisAdjusted, ___0_center, ___1_orientation, ___2_halfExtents, ___3_direction, ___4_maxDistance, ___5_collector, ___6_filter, ___7_queryInteraction, method);
+	return _returnValue;
+}
+// Method Definition Index: 68575
+// Method Definition Index: 68558
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mD5B27AACA8C805DE15F91AE9F86C16A1FA4E7B95_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:544>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:545>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:547>
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = DistanceQueries_ColliderCollider_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mE3BE742EFFEBD15D834BD6C88C9DDCB7BD6EBBC8(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mD5B27AACA8C805DE15F91AE9F86C16A1FA4E7B95_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mD5B27AACA8C805DE15F91AE9F86C16A1FA4E7B95(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68554
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m4E99FE58F60B83416258BF69199B6F9CBA186496_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:503>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:504>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:506>
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = DistanceQueries_PointCollider_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC42E8049228291EF6F9A364C062DF09BCCFDA523(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m4E99FE58F60B83416258BF69199B6F9CBA186496_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CalculateDistance_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m4E99FE58F60B83416258BF69199B6F9CBA186496(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68558
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m930FD18AF5BAF002F0A479B1C0A71C2E82CFBF65_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:544>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:545>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:547>
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = DistanceQueries_ColliderCollider_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mFE231828ABAFC584D804F3F2435D14175B0C13FD(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m930FD18AF5BAF002F0A479B1C0A71C2E82CFBF65_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m930FD18AF5BAF002F0A479B1C0A71C2E82CFBF65(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68554
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mA2E68C3ED29EFC415E2196D836A8F4CEB3F61A8F_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:503>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:504>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:506>
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = DistanceQueries_PointCollider_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mE9A95F30CB2FFBA147C4F44BEA9DCA884795B6B8(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mA2E68C3ED29EFC415E2196D836A8F4CEB3F61A8F_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CalculateDistance_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mA2E68C3ED29EFC415E2196D836A8F4CEB3F61A8F(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68558
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mB44420546FA342C1725B063340470AF521108BA8_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:544>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:545>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:547>
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = DistanceQueries_ColliderCollider_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA2FE3713CE3FDC369B51910666DFA71442326B83(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mB44420546FA342C1725B063340470AF521108BA8_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mB44420546FA342C1725B063340470AF521108BA8(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68554
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA72E60E0590FB810F686FAFEFCB65031CCE004CE_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:503>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:504>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:506>
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = DistanceQueries_PointCollider_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA2FF1698558188ADAC06283249E1478DD1E4D1B2(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA72E60E0590FB810F686FAFEFCB65031CCE004CE_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CalculateDistance_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA72E60E0590FB810F686FAFEFCB65031CCE004CE(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68558
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m272D6F5E7772E1184B0F342675EAB1F4C46447D1_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:544>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:545>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:547>
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = DistanceQueries_ColliderCollider_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m27FF8CA967BEEA621776A8E02C39D9DB985BDE73(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m272D6F5E7772E1184B0F342675EAB1F4C46447D1_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m272D6F5E7772E1184B0F342675EAB1F4C46447D1(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68554
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m0F8D3531B5484335B66B639E6994671EF7BF6147_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:503>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:504>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:506>
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = DistanceQueries_PointCollider_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mAA9B208C53BB9FA97A9B54CBB60916D551C653D1(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m0F8D3531B5484335B66B639E6994671EF7BF6147_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m0F8D3531B5484335B66B639E6994671EF7BF6147(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68558
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m50A2BAE1435DED718460FED8AAC6AA9693B09321_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:544>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:545>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:547>
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = DistanceQueries_ColliderCollider_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m1B06B026D689AB005DBD9597BD3E610A1DD99E52(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m50A2BAE1435DED718460FED8AAC6AA9693B09321_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m50A2BAE1435DED718460FED8AAC6AA9693B09321(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68554
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m0DECCEBD40C81C95C6DA711E91D16B2391D9C2BE_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:503>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:504>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:506>
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = DistanceQueries_PointCollider_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m97511F1982F8E3FC7595FE488A68DFC35CE52C4B(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m0DECCEBD40C81C95C6DA711E91D16B2391D9C2BE_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CalculateDistance_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m0DECCEBD40C81C95C6DA711E91D16B2391D9C2BE(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68558
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisIl2CppFullySharedGenericStruct_mB6E68377B667A49BFA01EE35F81D39A4F122AEC0_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:544>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:545>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:547>
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		Il2CppFullySharedGenericStruct* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, Il2CppFullySharedGenericStruct*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CalculateDistance_TisIl2CppFullySharedGenericStruct_mB6E68377B667A49BFA01EE35F81D39A4F122AEC0_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CalculateDistance_TisIl2CppFullySharedGenericStruct_mB6E68377B667A49BFA01EE35F81D39A4F122AEC0(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68554
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CalculateDistance_TisIl2CppFullySharedGenericStruct_m0021A0BA7747535393D4116E441F5568EF6DD147_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:503>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:504>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:506>
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		Il2CppFullySharedGenericStruct* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = ((  bool (*) (PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, Il2CppFullySharedGenericStruct*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CalculateDistance_TisIl2CppFullySharedGenericStruct_m0021A0BA7747535393D4116E441F5568EF6DD147_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CalculateDistance_TisIl2CppFullySharedGenericStruct_m0021A0BA7747535393D4116E441F5568EF6DD147(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68558
+// Method Definition Index: 68554
+// Method Definition Index: 68579
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CapsuleCastCustom_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_mC2D106C155099C2A35715C7782EE87D8D553C18B_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point2, float ___2_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:842>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_point1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___1_point2;
+		float L_2 = ___2_radius;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = ___3_direction;
+		float L_4 = ___4_maxDistance;
+		AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* L_5 = ___5_collector;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_6 = ___6_filter;
+		uint8_t L_7 = ___7_queryInteraction;
+		bool L_8;
+		L_8 = QueryWrappers_CapsuleCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_m9FA26D624BC143B010FE261180E93B9E82621299(__this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CapsuleCastCustom_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_mC2D106C155099C2A35715C7782EE87D8D553C18B_AdjustorThunk (RuntimeObject* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point2, float ___2_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CapsuleCastCustom_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_mC2D106C155099C2A35715C7782EE87D8D553C18B(_thisAdjusted, ___0_point1, ___1_point2, ___2_radius, ___3_direction, ___4_maxDistance, ___5_collector, ___6_filter, ___7_queryInteraction, method);
+	return _returnValue;
+}
+// Method Definition Index: 68579
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CapsuleCastCustom_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_m4747F232058B9C1858913E8192DF13752E68D450_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point2, float ___2_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:842>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_point1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___1_point2;
+		float L_2 = ___2_radius;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = ___3_direction;
+		float L_4 = ___4_maxDistance;
+		AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* L_5 = ___5_collector;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_6 = ___6_filter;
+		uint8_t L_7 = ___7_queryInteraction;
+		bool L_8;
+		L_8 = QueryWrappers_CapsuleCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_mAC2BEC785F9DBC29FFAA6201B2C32CA1AE51EFC5(__this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CapsuleCastCustom_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_m4747F232058B9C1858913E8192DF13752E68D450_AdjustorThunk (RuntimeObject* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point2, float ___2_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CapsuleCastCustom_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_m4747F232058B9C1858913E8192DF13752E68D450(_thisAdjusted, ___0_point1, ___1_point2, ___2_radius, ___3_direction, ___4_maxDistance, ___5_collector, ___6_filter, ___7_queryInteraction, method);
+	return _returnValue;
+}
+// Method Definition Index: 68579
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CapsuleCastCustom_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_m143DB038088C86456557FC1B15474A93D69F8E88_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point2, float ___2_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:842>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_point1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___1_point2;
+		float L_2 = ___2_radius;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = ___3_direction;
+		float L_4 = ___4_maxDistance;
+		ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* L_5 = ___5_collector;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_6 = ___6_filter;
+		uint8_t L_7 = ___7_queryInteraction;
+		bool L_8;
+		L_8 = QueryWrappers_CapsuleCastCustom_TisMeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_m694E545CF2DA25A61ADB051C733AB7BDC1A09E62(__this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CapsuleCastCustom_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_m143DB038088C86456557FC1B15474A93D69F8E88_AdjustorThunk (RuntimeObject* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point2, float ___2_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CapsuleCastCustom_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_m143DB038088C86456557FC1B15474A93D69F8E88(_thisAdjusted, ___0_point1, ___1_point2, ___2_radius, ___3_direction, ___4_maxDistance, ___5_collector, ___6_filter, ___7_queryInteraction, method);
+	return _returnValue;
+}
+// Method Definition Index: 68579
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CapsuleCastCustom_TisIl2CppFullySharedGenericStruct_m12C7711C1F6B690694A9B2CFFA544E415A366404_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point2, float ___2_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, Il2CppFullySharedGenericStruct* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:842>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_point1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___1_point2;
+		float L_2 = ___2_radius;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = ___3_direction;
+		float L_4 = ___4_maxDistance;
+		Il2CppFullySharedGenericStruct* L_5 = ___5_collector;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_6 = ___6_filter;
+		uint8_t L_7 = ___7_queryInteraction;
+		bool L_8;
+		L_8 = ((  bool (*) (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float, Il2CppFullySharedGenericStruct*, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A, uint8_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(__this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CapsuleCastCustom_TisIl2CppFullySharedGenericStruct_m12C7711C1F6B690694A9B2CFFA544E415A366404_AdjustorThunk (RuntimeObject* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_point1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point2, float ___2_radius, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___3_direction, float ___4_maxDistance, Il2CppFullySharedGenericStruct* ___5_collector, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___6_filter, uint8_t ___7_queryInteraction, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CapsuleCastCustom_TisIl2CppFullySharedGenericStruct_m12C7711C1F6B690694A9B2CFFA544E415A366404(_thisAdjusted, ___0_point1, ___1_point2, ___2_radius, ___3_direction, ___4_maxDistance, ___5_collector, ___6_filter, ___7_queryInteraction, method);
+	return _returnValue;
+}
+// Method Definition Index: 68579
+// Method Definition Index: 68550
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastCollider_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_mF2241662C2B9DE8C93A312BD078527CEA1437098_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:462>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:463>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:465>
+		ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = ColliderCastQueries_ColliderCollider_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_mC49BC79667819C951B89BD989973BAC0246E753F(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CastCollider_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_mF2241662C2B9DE8C93A312BD078527CEA1437098_AdjustorThunk (RuntimeObject* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, AllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CastCollider_TisAllHitsCollector_1_t72E4DE6877C1414C13B8416386C63D186D23C88D_mF2241662C2B9DE8C93A312BD078527CEA1437098(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68550
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastCollider_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_mCAB270CAD161E12310723AC185CB597A7405E27F_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:462>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:463>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:465>
+		ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = ColliderCastQueries_ColliderCollider_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_m022482D81F1AA2D43CE6BECB9C95C4D51F2A0F7E(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CastCollider_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_mCAB270CAD161E12310723AC185CB597A7405E27F_AdjustorThunk (RuntimeObject* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, AnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CastCollider_TisAnyHitCollector_1_t92E33416F9116436187D99550BA71F124C79FE55_mCAB270CAD161E12310723AC185CB597A7405E27F(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68550
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastCollider_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_m72C69B9606D79BE5F74962EF3EE91EFA993CC07D_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:462>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:463>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:465>
+		ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = ColliderCastQueries_ColliderCollider_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_mEE8F9454E039C781D998CC833C29D9A6CC35F187(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CastCollider_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_m72C69B9606D79BE5F74962EF3EE91EFA993CC07D_AdjustorThunk (RuntimeObject* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, ClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CastCollider_TisClosestHitCollector_1_tB397ADEE6F47693016E539BAFB01B9AC79B2EB3E_m72C69B9606D79BE5F74962EF3EE91EFA993CC07D(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68550
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastCollider_TisQueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7_m749DC81CF19EFD0AE405D2E8E82CE89B0BF59BDD_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, QueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:462>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:463>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:465>
+		ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		QueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = ColliderCastQueries_ColliderCollider_TisQueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7_m39E754322B6EB1CB13760F4E601D010094EDE63B(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CastCollider_TisQueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7_m749DC81CF19EFD0AE405D2E8E82CE89B0BF59BDD_AdjustorThunk (RuntimeObject* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, QueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CastCollider_TisQueryInteractionCollector_2_t30D5650B881FC83CA74D00BAE1E0EA3781A717A7_m749DC81CF19EFD0AE405D2E8E82CE89B0BF59BDD(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68550
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastCollider_TisQueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9_m84BE41F17F0D867D861A19BC2605AEDEC55FF88C_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, QueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:462>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:463>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:465>
+		ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		QueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = ColliderCastQueries_ColliderCollider_TisQueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9_m06684A3B4F85A0EC0BC80BA5F80FEAE923E41349(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CastCollider_TisQueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9_m84BE41F17F0D867D861A19BC2605AEDEC55FF88C_AdjustorThunk (RuntimeObject* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, QueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CastCollider_TisQueryInteractionCollector_2_t26F39296F62AC4A5739BC1D7AA75C1FC064C5AA9_m84BE41F17F0D867D861A19BC2605AEDEC55FF88C(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68550
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastCollider_TisQueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A_m5272BD15F59B40B122EA0D6C059A62DE46574E68_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, QueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:462>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:463>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:465>
+		ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		QueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = ColliderCastQueries_ColliderCollider_TisQueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A_m8122446AABB8D82BBD4FB8C835C8BB83DA101125(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CastCollider_TisQueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A_m5272BD15F59B40B122EA0D6C059A62DE46574E68_AdjustorThunk (RuntimeObject* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, QueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CastCollider_TisQueryInteractionCollector_2_t28BA1D561D5C2E695DB94C29C10658A66305451A_m5272BD15F59B40B122EA0D6C059A62DE46574E68(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68550
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastCollider_TisIl2CppFullySharedGenericStruct_mFD3A8BAB67145D49F6A43370C7BAE7C2CA6276C2_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:462>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:463>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:465>
+		ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		Il2CppFullySharedGenericStruct* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = ((  bool (*) (ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, Il2CppFullySharedGenericStruct*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CastCollider_TisIl2CppFullySharedGenericStruct_mFD3A8BAB67145D49F6A43370C7BAE7C2CA6276C2_AdjustorThunk (RuntimeObject* __this, ColliderCastInput_t729D5FBF516A9D44DEDA93EDA2821DC342878BE1 ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CastCollider_TisIl2CppFullySharedGenericStruct_mFD3A8BAB67145D49F6A43370C7BAE7C2CA6276C2(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68550
+// Method Definition Index: 68544
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastRay_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_mB8CF8753768B9A7000FF23CFC4C0BFCDE912E92D_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:408>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:409>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:411>
+		RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = RaycastQueries_RayCollider_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_mFBF61098B4DB0EBE134901717525475E2E864423(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CastRay_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_mB8CF8753768B9A7000FF23CFC4C0BFCDE912E92D_AdjustorThunk (RuntimeObject* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CastRay_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_mB8CF8753768B9A7000FF23CFC4C0BFCDE912E92D(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68544
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastRay_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m7515DC90490F489DE06E16C984BA3E59D3D129E7_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:408>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:409>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:411>
+		RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = RaycastQueries_RayCollider_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_mD6611CAFB9CA75F05F2EA1D04908657A8C9A2D46(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CastRay_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m7515DC90490F489DE06E16C984BA3E59D3D129E7_AdjustorThunk (RuntimeObject* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CastRay_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m7515DC90490F489DE06E16C984BA3E59D3D129E7(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68544
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastRay_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_mC3E27CBDF3AC62D205F9897DA22861C5CEBD9677_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:408>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:409>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:411>
+		RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = RaycastQueries_RayCollider_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_m5D28DF815135D9834EEB58F2CD120F24719384CE(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CastRay_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_mC3E27CBDF3AC62D205F9897DA22861C5CEBD9677_AdjustorThunk (RuntimeObject* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CastRay_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_mC3E27CBDF3AC62D205F9897DA22861C5CEBD9677(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68544
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshCollider_CastRay_TisIl2CppFullySharedGenericStruct_m72C508C7FAC08C3A4180E2AD16992EE1EC624938_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_0 = NULL;
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:408>
+		V_1 = __this;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:409>
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = V_1;
+		V_0 = (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)((uintptr_t)L_0);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:411>
+		RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 L_1 = ___0_input;
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_2 = V_0;
+		Il2CppFullySharedGenericStruct* L_3 = ___1_collector;
+		bool L_4;
+		L_4 = ((  bool (*) (RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*, Il2CppFullySharedGenericStruct*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_1, (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_2, L_3, il2cpp_rgctx_method(method->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshCollider_CastRay_TisIl2CppFullySharedGenericStruct_m72C508C7FAC08C3A4180E2AD16992EE1EC624938_AdjustorThunk (RuntimeObject* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, Il2CppFullySharedGenericStruct* ___1_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshCollider_CastRay_TisIl2CppFullySharedGenericStruct_m72C508C7FAC08C3A4180E2AD16992EE1EC624938(_thisAdjusted, ___0_input, ___1_collector, method);
+	return _returnValue;
+}
+// Method Definition Index: 68544
+// Method Definition Index: 68585
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshCollider_GetLeaves_TisIl2CppFullySharedGenericStruct_mCBF15121E2397F29363238F025A4EAEB00EF6CB5_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, Il2CppFullySharedGenericStruct* ___0_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	void* L_9 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	uint32_t V_1 = 0;
+	ChildCollider_tD7324951E4667897FBD59E29A4B3D2AF737F5585 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:904>
+		il2cpp_codegen_initobj((&V_0), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:905>
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_0 = ((CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_StaticFields*)il2cpp_codegen_static_fields_for(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var))->___Default;
+		il2cpp_codegen_runtime_class_init_inline(Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54_il2cpp_TypeInfo_var);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_1 = ((Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54_StaticFields*)il2cpp_codegen_static_fields_for(Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54_il2cpp_TypeInfo_var))->___Default;
+		PolygonCollider_InitNoVertices_mF3BF26F07F9CFBFA942C54CB6C31454F97F4ADC6((&V_0), L_0, L_1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:906>
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&__this->___Mesh);
+		bool L_3;
+		L_3 = Mesh_GetFirstPolygon_m0BEF1A9E278026C52E8A9D5DBB3360D2B4471742(L_2, (&V_1), (&V_0), NULL);
+		if (!L_3)
+		{
+			goto IL_0065;
+		}
+	}
+
+IL_002a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:910>
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_4 = ((RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD_StaticFields*)il2cpp_codegen_static_fields_for(RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD_il2cpp_TypeInfo_var))->___identity;
+		ChildCollider__ctor_mE47B74487EB464635EC7DD428663F5214C6ED066((&V_2), (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)((uintptr_t)(&V_0)), L_4, NULL);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:911>
+		Il2CppFullySharedGenericStruct* L_5 = ___0_collector;
+		uint32_t L_6;
+		L_6 = MeshCollider_get_NumColliderKeyBits_m702C5616D4C050048ADAC8DFD85D7497CB456E6B_inline(__this, NULL);
+		uint32_t L_7 = V_1;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_8;
+		memset((&L_8), 0, sizeof(L_8));
+		ColliderKey__ctor_m7510A7D08E50F26BFD5E238C6EBB74F78475CB1A((&L_8), L_6, L_7, NULL);
+		ConstrainedActionInvoker2< ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56, ChildCollider_tD7324951E4667897FBD59E29A4B3D2AF737F5585* >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 2), L_9, (void*)L_5, L_8, (&V_2));
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:913>
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_10 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&__this->___Mesh);
+		uint32_t L_11 = V_1;
+		bool L_12;
+		L_12 = Mesh_GetNextPolygon_m5D0BF5E0746E2E3BE53CA5C6CCEF38857142C291(L_10, L_11, (&V_1), (&V_0), NULL);
+		if (L_12)
+		{
+			goto IL_002a;
+		}
+	}
+
+IL_0065:
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:916>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MeshCollider_GetLeaves_TisIl2CppFullySharedGenericStruct_mCBF15121E2397F29363238F025A4EAEB00EF6CB5_AdjustorThunk (RuntimeObject* __this, Il2CppFullySharedGenericStruct* ___0_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	MeshCollider_GetLeaves_TisIl2CppFullySharedGenericStruct_mCBF15121E2397F29363238F025A4EAEB00EF6CB5(_thisAdjusted, ___0_collector, method);
+}
+// Method Definition Index: 68585
+// Method Definition Index: 68585
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshCollider_GetLeaves_TisCompositeCompositeLeafCollector_t2D42E4E3038BB5DD1D0D227288B64ABB159A9C8E_m42854FD56C62217A8752D31791868268EFDC8092_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, CompositeCompositeLeafCollector_t2D42E4E3038BB5DD1D0D227288B64ABB159A9C8E* ___0_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	uint32_t V_1 = 0;
+	ChildCollider_tD7324951E4667897FBD59E29A4B3D2AF737F5585 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:904>
+		il2cpp_codegen_initobj((&V_0), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:905>
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_0 = ((CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_StaticFields*)il2cpp_codegen_static_fields_for(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var))->___Default;
+		il2cpp_codegen_runtime_class_init_inline(Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54_il2cpp_TypeInfo_var);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_1 = ((Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54_StaticFields*)il2cpp_codegen_static_fields_for(Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54_il2cpp_TypeInfo_var))->___Default;
+		PolygonCollider_InitNoVertices_mF3BF26F07F9CFBFA942C54CB6C31454F97F4ADC6((&V_0), L_0, L_1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:906>
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&__this->___Mesh);
+		bool L_3;
+		L_3 = Mesh_GetFirstPolygon_m0BEF1A9E278026C52E8A9D5DBB3360D2B4471742(L_2, (&V_1), (&V_0), NULL);
+		if (!L_3)
+		{
+			goto IL_0065;
+		}
+	}
+
+IL_002a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:910>
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_4 = ((RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD_StaticFields*)il2cpp_codegen_static_fields_for(RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD_il2cpp_TypeInfo_var))->___identity;
+		ChildCollider__ctor_mE47B74487EB464635EC7DD428663F5214C6ED066((&V_2), (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)((uintptr_t)(&V_0)), L_4, NULL);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:911>
+		CompositeCompositeLeafCollector_t2D42E4E3038BB5DD1D0D227288B64ABB159A9C8E* L_5 = ___0_collector;
+		uint32_t L_6;
+		L_6 = MeshCollider_get_NumColliderKeyBits_m702C5616D4C050048ADAC8DFD85D7497CB456E6B_inline(__this, NULL);
+		uint32_t L_7 = V_1;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_8;
+		memset((&L_8), 0, sizeof(L_8));
+		ColliderKey__ctor_m7510A7D08E50F26BFD5E238C6EBB74F78475CB1A((&L_8), L_6, L_7, NULL);
+		CompositeCompositeLeafCollector_AddLeaf_m1669E48D18B2423CD5E4A7F4FAB0A0F03A46662F(L_5, L_8, (&V_2), il2cpp_rgctx_method(method->rgctx_data, 2));
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:913>
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_9 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&__this->___Mesh);
+		uint32_t L_10 = V_1;
+		bool L_11;
+		L_11 = Mesh_GetNextPolygon_m5D0BF5E0746E2E3BE53CA5C6CCEF38857142C291(L_9, L_10, (&V_1), (&V_0), NULL);
+		if (L_11)
+		{
+			goto IL_002a;
+		}
+	}
+
+IL_0065:
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:916>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MeshCollider_GetLeaves_TisCompositeCompositeLeafCollector_t2D42E4E3038BB5DD1D0D227288B64ABB159A9C8E_m42854FD56C62217A8752D31791868268EFDC8092_AdjustorThunk (RuntimeObject* __this, CompositeCompositeLeafCollector_t2D42E4E3038BB5DD1D0D227288B64ABB159A9C8E* ___0_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	MeshCollider_GetLeaves_TisCompositeCompositeLeafCollector_t2D42E4E3038BB5DD1D0D227288B64ABB159A9C8E_m42854FD56C62217A8752D31791868268EFDC8092(_thisAdjusted, ___0_collector, method);
+}
+// Method Definition Index: 68585
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshCollider_GetLeaves_TisCompositeTerrainLeafCollector_tEB04C37446ABF4C74C677CB20F5173F36178BCC0_m3CB24B3BF8C1D35DDEB83B1965F72759AF6FDD35_gshared (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, CompositeTerrainLeafCollector_tEB04C37446ABF4C74C677CB20F5173F36178BCC0* ___0_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	uint32_t V_1 = 0;
+	ChildCollider_tD7324951E4667897FBD59E29A4B3D2AF737F5585 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:904>
+		il2cpp_codegen_initobj((&V_0), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:905>
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_0 = ((CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_StaticFields*)il2cpp_codegen_static_fields_for(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var))->___Default;
+		il2cpp_codegen_runtime_class_init_inline(Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54_il2cpp_TypeInfo_var);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_1 = ((Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54_StaticFields*)il2cpp_codegen_static_fields_for(Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54_il2cpp_TypeInfo_var))->___Default;
+		PolygonCollider_InitNoVertices_mF3BF26F07F9CFBFA942C54CB6C31454F97F4ADC6((&V_0), L_0, L_1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:906>
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&__this->___Mesh);
+		bool L_3;
+		L_3 = Mesh_GetFirstPolygon_m0BEF1A9E278026C52E8A9D5DBB3360D2B4471742(L_2, (&V_1), (&V_0), NULL);
+		if (!L_3)
+		{
+			goto IL_0065;
+		}
+	}
+
+IL_002a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:910>
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_4 = ((RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD_StaticFields*)il2cpp_codegen_static_fields_for(RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD_il2cpp_TypeInfo_var))->___identity;
+		ChildCollider__ctor_mE47B74487EB464635EC7DD428663F5214C6ED066((&V_2), (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)((uintptr_t)(&V_0)), L_4, NULL);
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:911>
+		CompositeTerrainLeafCollector_tEB04C37446ABF4C74C677CB20F5173F36178BCC0* L_5 = ___0_collector;
+		uint32_t L_6;
+		L_6 = MeshCollider_get_NumColliderKeyBits_m702C5616D4C050048ADAC8DFD85D7497CB456E6B_inline(__this, NULL);
+		uint32_t L_7 = V_1;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_8;
+		memset((&L_8), 0, sizeof(L_8));
+		ColliderKey__ctor_m7510A7D08E50F26BFD5E238C6EBB74F78475CB1A((&L_8), L_6, L_7, NULL);
+		CompositeTerrainLeafCollector_AddLeaf_mEFA91D275C8F8E5AAF12BE01A13830E9CAA1EC27(L_5, L_8, (&V_2), il2cpp_rgctx_method(method->rgctx_data, 2));
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:913>
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_9 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&__this->___Mesh);
+		uint32_t L_10 = V_1;
+		bool L_11;
+		L_11 = Mesh_GetNextPolygon_m5D0BF5E0746E2E3BE53CA5C6CCEF38857142C291(L_9, L_10, (&V_1), (&V_0), NULL);
+		if (L_11)
+		{
+			goto IL_002a;
+		}
+	}
+
+IL_0065:
+	{
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:916>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MeshCollider_GetLeaves_TisCompositeTerrainLeafCollector_tEB04C37446ABF4C74C677CB20F5173F36178BCC0_m3CB24B3BF8C1D35DDEB83B1965F72759AF6FDD35_AdjustorThunk (RuntimeObject* __this, CompositeTerrainLeafCollector_tEB04C37446ABF4C74C677CB20F5173F36178BCC0* ___0_collector, const RuntimeMethod* method)
+{
+	MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*>(__this + _offset);
+	MeshCollider_GetLeaves_TisCompositeTerrainLeafCollector_tEB04C37446ABF4C74C677CB20F5173F36178BCC0_m3CB24B3BF8C1D35DDEB83B1965F72759AF6FDD35(_thisAdjusted, ___0_collector, method);
+}
 // Method Definition Index: 2902
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t* Array_GetRawSzArrayData_m2F8F5B2A381AEF971F12866D9C0A6C4FBA59F6BB_inline (RuntimeArray* __this, const RuntimeMethod* method) 
 {
@@ -30048,111 +31117,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 107357
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_mDB94662967E66AC074FE137EE4BD9FE82C76C0AB_gshared_inline (const RuntimeMethod* method) 
+// Method Definition Index: 68580
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t MeshCollider_get_NumColliderKeyBits_m702C5616D4C050048ADAC8DFD85D7497CB456E6B_inline (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* __this, const RuntimeMethod* method) 
 {
 	{
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		bool L_0 = ((TypeTraits_1_tF91BA2C79345F433195944D0618AB02D92236B21_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CCanBeNullU3Ek__BackingField;
-		return L_0;
-	}
-}
-// Method Definition Index: 107346
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_m00FCB5EF45C052616B43E1773B7FECC659D28F6E_gshared_inline (const RuntimeMethod* method) 
-{
-	{
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		bool L_0 = ((TypeTraits_1_tF91BA2C79345F433195944D0618AB02D92236B21_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CIsValueTypeU3Ek__BackingField;
-		return L_0;
-	}
-}
-// Method Definition Index: 107357
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_mDDCC371571712BD98B3A2EAA177F5D2E5E97FAD5_gshared_inline (const RuntimeMethod* method) 
-{
-	{
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		bool L_0 = ((TypeTraits_1_t21080F26F6131ECBC06910EE13D1DE330D245551_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CCanBeNullU3Ek__BackingField;
-		return L_0;
-	}
-}
-// Method Definition Index: 107346
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_m1D8B7A9107E1AC42133ADBB9D3E09F84BCC142DF_gshared_inline (const RuntimeMethod* method) 
-{
-	{
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		bool L_0 = ((TypeTraits_1_t21080F26F6131ECBC06910EE13D1DE330D245551_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CIsValueTypeU3Ek__BackingField;
-		return L_0;
-	}
-}
-// Method Definition Index: 107357
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_m79D8FA08631C626F7FCAE35C6AB6D27641CB64A5_gshared_inline (const RuntimeMethod* method) 
-{
-	{
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		bool L_0 = ((TypeTraits_1_tEF2C95ABDED3781386EFBB0AF525325B038C0FC5_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CCanBeNullU3Ek__BackingField;
-		return L_0;
-	}
-}
-// Method Definition Index: 107346
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_mCAB59B476E83A9FC33AEEB292490925EFEC11577_gshared_inline (const RuntimeMethod* method) 
-{
-	{
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		bool L_0 = ((TypeTraits_1_tEF2C95ABDED3781386EFBB0AF525325B038C0FC5_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CIsValueTypeU3Ek__BackingField;
-		return L_0;
-	}
-}
-// Method Definition Index: 107357
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_m686F9F739041D767C3ACA256B3A68D6573B73B61_gshared_inline (const RuntimeMethod* method) 
-{
-	{
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		bool L_0 = ((TypeTraits_1_tA6D1100439FC903C4E5199EE4D277273E18BF039_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CCanBeNullU3Ek__BackingField;
-		return L_0;
-	}
-}
-// Method Definition Index: 107346
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_mCD2F075EE8FA987FED25F36ACC13C6D0F4A32693_gshared_inline (const RuntimeMethod* method) 
-{
-	{
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		bool L_0 = ((TypeTraits_1_tA6D1100439FC903C4E5199EE4D277273E18BF039_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CIsValueTypeU3Ek__BackingField;
-		return L_0;
-	}
-}
-// Method Definition Index: 107357
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_mE0F90826548B0C3102050B135AABD7FCF73A5120_gshared_inline (const RuntimeMethod* method) 
-{
-	{
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		bool L_0 = ((TypeTraits_1_t94405784E845EA464968A7BA6455EE4082C988EF_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CCanBeNullU3Ek__BackingField;
-		return L_0;
-	}
-}
-// Method Definition Index: 107346
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_m11497792427A6500E5BEC1F44B26CED5E4E210BB_gshared_inline (const RuntimeMethod* method) 
-{
-	{
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		bool L_0 = ((TypeTraits_1_t94405784E845EA464968A7BA6455EE4082C988EF_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CIsValueTypeU3Ek__BackingField;
-		return L_0;
-	}
-}
-// Method Definition Index: 107357
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_mB145F76964DE36569385F83F550741253F97BC8B_gshared_inline (const RuntimeMethod* method) 
-{
-	{
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		bool L_0 = ((TypeTraits_1_t14492BDEFA66B94D1A35E842BFAB7898518438E4_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CCanBeNullU3Ek__BackingField;
-		return L_0;
-	}
-}
-// Method Definition Index: 107346
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_m38FEC63D8762D52AF73C146A830156829593F37C_gshared_inline (const RuntimeMethod* method) 
-{
-	{
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		bool L_0 = ((TypeTraits_1_t14492BDEFA66B94D1A35E842BFAB7898518438E4_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CIsValueTypeU3Ek__BackingField;
+		//<source_info:./Library/PackageCache/com.unity.physics@0dfa150f2a43/Unity.Physics/Collision/Colliders/MeshCollider.cs:849>
+		uint32_t L_0 = __this->___U3CNumColliderKeyBitsU3Ek__BackingField;
 		return L_0;
 	}
 }
@@ -30679,6 +31649,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType
 	}
 }
 // Method Definition Index: 107357
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_mE0F90826548B0C3102050B135AABD7FCF73A5120_gshared_inline (const RuntimeMethod* method) 
+{
+	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		bool L_0 = ((TypeTraits_1_t94405784E845EA464968A7BA6455EE4082C988EF_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CCanBeNullU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 107346
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_m11497792427A6500E5BEC1F44B26CED5E4E210BB_gshared_inline (const RuntimeMethod* method) 
+{
+	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		bool L_0 = ((TypeTraits_1_t94405784E845EA464968A7BA6455EE4082C988EF_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CIsValueTypeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 107357
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_mCB1B27C406D615A2CD4A75A47FE61D04C686F9B2_gshared_inline (const RuntimeMethod* method) 
 {
 	{
@@ -30729,6 +31717,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		bool L_0 = ((TypeTraits_1_tFE90E3B2683C0197B0BCDD15879B0B07DC84A24A_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CIsValueTypeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 107357
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_mB145F76964DE36569385F83F550741253F97BC8B_gshared_inline (const RuntimeMethod* method) 
+{
+	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		bool L_0 = ((TypeTraits_1_t14492BDEFA66B94D1A35E842BFAB7898518438E4_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CCanBeNullU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 107346
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_m38FEC63D8762D52AF73C146A830156829593F37C_gshared_inline (const RuntimeMethod* method) 
+{
+	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		bool L_0 = ((TypeTraits_1_t14492BDEFA66B94D1A35E842BFAB7898518438E4_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CIsValueTypeU3Ek__BackingField;
 		return L_0;
 	}
 }
@@ -30787,6 +31793,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType
 	}
 }
 // Method Definition Index: 107357
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_mDB94662967E66AC074FE137EE4BD9FE82C76C0AB_gshared_inline (const RuntimeMethod* method) 
+{
+	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		bool L_0 = ((TypeTraits_1_tF91BA2C79345F433195944D0618AB02D92236B21_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CCanBeNullU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 107346
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_m00FCB5EF45C052616B43E1773B7FECC659D28F6E_gshared_inline (const RuntimeMethod* method) 
+{
+	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		bool L_0 = ((TypeTraits_1_tF91BA2C79345F433195944D0618AB02D92236B21_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CIsValueTypeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 107357
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_mAAD948E1BCC65D96F56C5DAD5F0A83D116272304_gshared_inline (const RuntimeMethod* method) 
 {
 	{
@@ -30801,6 +31825,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		bool L_0 = ((TypeTraits_1_tB01FA3B4A03D597A48820CE7FCC333DCA70FACC9_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CIsValueTypeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 107357
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_CanBeNull_m686F9F739041D767C3ACA256B3A68D6573B73B61_gshared_inline (const RuntimeMethod* method) 
+{
+	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		bool L_0 = ((TypeTraits_1_tA6D1100439FC903C4E5199EE4D277273E18BF039_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CCanBeNullU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 107346
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TypeTraits_1_get_IsValueType_mCD2F075EE8FA987FED25F36ACC13C6D0F4A32693_gshared_inline (const RuntimeMethod* method) 
+{
+	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		bool L_0 = ((TypeTraits_1_tA6D1100439FC903C4E5199EE4D277273E18BF039_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CIsValueTypeU3Ek__BackingField;
 		return L_0;
 	}
 }
