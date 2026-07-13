@@ -1,6 +1,6 @@
 # Flow State Media
 
-This folder is reserved for README and portfolio media.
+This folder is reserved for README and project media.
 
 ## Existing demo
 
