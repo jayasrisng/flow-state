@@ -4,7 +4,7 @@
 
 Flow State is a Unity XR rhythm/music prototype exploring immersive interaction with sound. The current build includes an XR scene scaffold, track switching, Unity Input System integration, and early ECS experimentation.
 
-The project is an early but useful artifact for creative technology and Unity XR roles because it shows a clear direction: turning music interaction into a spatial, embodied experience.
+The project explores how music interaction can become spatial and embodied instead of staying locked to a flat interface.
 
 ## Problem
 
@@ -61,7 +61,7 @@ The related `flow-state-site` repository gives the project a stronger product-fa
 
 ### XR input clarity
 
-Track switching and rhythm input need exact controller-binding documentation. Without it, the project is harder for another developer or recruiter to run.
+Track switching and rhythm input need exact controller-binding documentation. Without it, the project is harder for another developer to run.
 
 ### Scope control
 
@@ -76,7 +76,7 @@ The existing video proves direction, but the repo needs a short GIF and still sc
 - Unity XR project setup and iteration.
 - Ability to prototype immersive music interactions.
 - Awareness of gameplay architecture evolution from simple scripts toward ECS systems.
-- Creative-technologist framing: translating an emotional media concept into runnable interaction.
+- Translating an emotional media concept into runnable interaction.
 
 ## Future work
 
@@ -85,7 +85,3 @@ The existing video proves direction, but the repo needs a short GIF and still sc
 - Expand ECS into beat timing, interaction windows, and reactive feedback.
 - Connect the Unity prototype with the web companion as a complete product demo.
 - Add build notes for target XR devices.
-
-## Hiring relevance
-
-Flow State is strongest for Unity developer, XR prototyper, creative technologist, and interactive-media engineering roles. It shows comfort with Unity XR foundations and the ability to explore experience design through code.
