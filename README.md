@@ -59,7 +59,7 @@ ProjectSettings/                  Unity project configuration
 
 ## Case study
 
-Read the portfolio case study: [docs/case-study.md](docs/case-study.md)
+Read the full case study: [docs/case-study.md](docs/case-study.md)
 
 ## Media
 
@@ -76,10 +76,6 @@ Media capture notes and target assets are tracked in [media/README.md](media/REA
 
 - Add a 10–15 second README GIF of track switching and spatial interaction.
 - Document exact XR controller bindings.
-- Expand ECS systems into beat timing, scoring, and reactive visual feedback.
+- Expand ECS systems into beat timing, interaction windows, and reactive visual feedback.
 - Connect the Unity prototype more tightly with the `flow-state-site` onboarding/product demo.
 - Add a short architecture note explaining MonoBehaviour vs ECS responsibilities.
-
-## Role fit
-
-Flow State is relevant for Unity developer, XR prototyper, creative technologist, and interactive media roles. It demonstrates rapid Unity XR exploration, audio-interaction design, and a path from prototype mechanics toward a more complete immersive experience.
